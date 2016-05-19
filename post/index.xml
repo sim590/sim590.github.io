@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Simon Désaulniers</title>
-    <link>/post/</link>
+    <link>http://sim590.github.io/post/</link>
     <description>Recent content in Posts on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 May 2016 23:59:14 -0400</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://sim590.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello World</title>
-      <link>/post/welcome/</link>
+      <link>http://sim590.github.io/post/welcome/</link>
       <pubDate>Tue, 17 May 2016 23:59:14 -0400</pubDate>
       
-      <guid>/post/welcome/</guid>
+      <guid>http://sim590.github.io/post/welcome/</guid>
       <description>
 
 &lt;h1 id=&#34;so-this-is-how-it-begins:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;So, this is how it begins&lt;/h1&gt;

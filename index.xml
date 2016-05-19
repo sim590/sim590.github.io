@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simon Désaulniers</title>
-    <link>/</link>
+    <link>http://sim590.github.io/</link>
     <description>Recent content on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 May 2016 23:59:14 -0400</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://sim590.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About me</title>
-      <link>/about/</link>
+      <link>http://sim590.github.io/about/</link>
       <pubDate>Tue, 17 May 2016 23:59:14 -0400</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://sim590.github.io/about/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Edited&lt;/strong&gt; on 2016-05-18&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/about.me.jpg&#34; alt=&#34;about me&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://sim590.github.io/img/about.me.jpg&#34; alt=&#34;about me&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hello. My name is Simon Désaulniers. I am a software developper from Québec. My
 first language is &lt;a href=&#34;https://en.wikipedia.org/wiki/Quebec_French&#34;&gt;French&lt;/a&gt; and my second is English. In this blog, I may talk
@@ -28,7 +28,7 @@ the people like &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_software&#34;
 &lt;p&gt;Although this blog may mostly be about technologies and software, which I
 discuss in English for the sake of sharing with the highest number, I do tend to
 speak about matters concerning my surroundings and this is something I discuss
-in french &lt;img src=&#34;/img/quebec.gif&#34; alt=&#34;&#34; /&gt;. So you&amp;rsquo;ll be seeing both languages on the blog
+in french &lt;img src=&#34;http://sim590.github.io/img/quebec.gif&#34; alt=&#34;&#34; /&gt;. So you&amp;rsquo;ll be seeing both languages on the blog
 version.&lt;/p&gt;
 
 &lt;p&gt;Since 2016, I&amp;rsquo;ve been working on a distributed software called
@@ -50,10 +50,10 @@ subject I like to discuss a lot, so you&amp;rsquo;ll be seeing me talk about thi
     
     <item>
       <title>Hello World</title>
-      <link>/post/welcome/</link>
+      <link>http://sim590.github.io/post/welcome/</link>
       <pubDate>Tue, 17 May 2016 23:59:14 -0400</pubDate>
       
-      <guid>/post/welcome/</guid>
+      <guid>http://sim590.github.io/post/welcome/</guid>
       <description>
 
 &lt;h1 id=&#34;so-this-is-how-it-begins:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;So, this is how it begins&lt;/h1&gt;
