@@ -6,8 +6,133 @@
     <description>Recent content on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 May 2016 23:59:14 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jun 2016 00:33:47 -0400</lastBuildDate>
     <atom:link href="http://sim590.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GSOC - Week 1 report</title>
+      <link>http://sim590.github.io/post/gsoc/week1/</link>
+      <pubDate>Fri, 03 Jun 2016 00:33:47 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week1/</guid>
+      <description>
+
+&lt;h2 id=&#34;first-things-first:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;First things first&lt;/h2&gt;
+
+&lt;p&gt;So, the first week of GSOC coding has already passed. I&amp;rsquo;m really thrilled for
+what&amp;rsquo;s coming in the following weeks. Since this is my first post and for better
+introducing, I may as well refer you to the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/&#34;&gt;initial post&lt;/a&gt; I made about the GSOC in which I explain the big lines of my project.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-have-done:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;What I have done&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Queries;
+-&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Summer Of Code</title>
+      <link>http://sim590.github.io/post/gsoc/intro/</link>
+      <pubDate>Fri, 03 Jun 2016 00:02:37 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/intro/</guid>
+      <description>
+
+&lt;p&gt;I am part of the group of students working with the Debian organization. You can
+see my profile on the Debian wiki &lt;a href=&#34;https://wiki.debian.org/SummerOfCode2016/StudentApplications/SimonD%C3%A9saulniers&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;improving-distributed-and-secure-communication-using-free-software:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Improving distributed and secure communication using free software&lt;/h2&gt;
+
+&lt;p&gt;This the title of my project for this summer. It sounds good, but what am I
+going to really do? Well, since I&amp;rsquo;m a student at Université du Québec à
+Montréal, I have had the opportunity to meet with the company
+&lt;a href=&#34;https://savoirfairelinux.com&#34;&gt;Savoir-Faire Linux&lt;/a&gt; in Montreal last year and that&amp;rsquo;s when I found out about
+their exciting project: &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://sim590.github.io/img/ring.svg&#34;/&gt;&lt;/div&gt;
+
+&lt;p&gt;Ring is one of the few projects which bring communication confidentiality and
+freedom in the hands of the users.&lt;/p&gt;
+
+&lt;h2 id=&#34;opendht:34c4da6d4768d05e50db99357a299b5c&#34;&gt;OpenDHT&lt;/h2&gt;
+
+&lt;p&gt;Ring is divided in multiple components as explained here:
+&lt;a href=&#34;https://ring.cx/en/about/technical&#34;&gt;https://ring.cx/en/about/technical&lt;/a&gt;. The component I work on is called
+&lt;a href=&#34;http://opendht.net&#34;&gt;OpenDHT&lt;/a&gt;. This is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_hash_table&#34;&gt;distributed hash table&lt;/a&gt; which enables Ring users to
+communicate in a decentralized network.&lt;/p&gt;
+
+&lt;p&gt;I have already been working on this project for a year now, so you won&amp;rsquo;t see me
+posting reports where I say I have to find my way around in this project. In
+fact, I have contributed to rewriting a major part of the code for better
+maintainability.&lt;/p&gt;
+
+&lt;p&gt;In the begining of last summer, I was able to be part of a research association
+between Savoir-Faire Linux and Université du Québec à Montréal. We have been
+working on adding two major features to OpenDHT.&lt;/p&gt;
+
+&lt;h3 id=&#34;short-introduction-to-distributed-hash-tables:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Short introduction to Distributed Hash Tables&lt;/h3&gt;
+
+&lt;p&gt;OpenDHT is based on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Kademlia&#34;&gt;Kademlia design&lt;/a&gt;. If you know about DHTs, you are
+aware that they define the notion of &lt;strong&gt;distance&lt;/strong&gt; using the XOR metric. This
+makes the tuple &lt;code&gt;(H_n, xor)&lt;/code&gt; a metric space, where &lt;code&gt;H_n&lt;/code&gt; is the space of
+identifier keys of length &lt;code&gt;n&lt;/code&gt;. This way, you can find an identifier be the
+&lt;em&gt;closest&lt;/em&gt; to a target hash than the rest of the nodes in the network.&lt;/p&gt;
+
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://sim590.github.io/img/dht.eight.nodes.png&#34;/&gt;&lt;/div&gt;
+
+&lt;p&gt;In order to find some data that is associated with some hash &lt;code&gt;h&lt;/code&gt;, you have to
+find the nodes in the network for which the distance between their hash
+identifier is minimized. The group of nodes  which are the closest to the target
+hash (OpenDHT allows up to 8 nodes) will hold data for that hash.&lt;/p&gt;
+
+&lt;h3 id=&#34;data-persistence:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Data persistence&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;rsquo;s say you ask a group of 8 nodes to hold some data for a hash and you want
+the data to hold the whole time until its expiration time as come. If the group
+of 8 nodes change because that for some reason those nodes leave or others just
+arrive and have an id that is closer to the target hash than the initial group
+of 8 nodes. The data would then not be found on the new group of 8 nodes. A
+first and simple solution was to periodically count on the initial creator of
+the value to periodically announce the value to the group of 8 nodes. However,
+what if this node leaves? This is one of the main problem that I&amp;rsquo;ve been working
+on solving since 2015. A first version of this was produced on September 2015.
+However, we experienced traffic issues and were forced to redesign the OpenDHT
+network requests engine. We are presently working on adding a Query feature that
+would enable filtering of data on remote nodes, hence substantially lowering the
+overall traffic produced by a response to a &amp;lsquo;get&amp;rsquo; request.&lt;/p&gt;
+
+&lt;h3 id=&#34;indexation:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Indexation&lt;/h3&gt;
+
+&lt;p&gt;During the last year, I have also been working on the design of a solution for
+the use case of indexation in the sense of data base. In a more technical way,
+this is the capability to find data by providing a map where it&amp;rsquo;s key is a
+string field and the mapped value is the value associated to that field, much
+like a form. This could help find data for which you don&amp;rsquo;t know hash, but you
+have specific information about its content. In other words, this would be a
+search engine for OpenDHT. I have already created a working, but still in
+progress, version of this. You can find it on &lt;a href=&#34;http://opendht.net&#34;&gt;http://opendht.net&lt;/a&gt;, on the index
+branch. Now, Nicolas Reynaud (kaldoran) is contributing to this during the GSOC.&lt;/p&gt;
+
+&lt;h2 id=&#34;roadmap:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Roadmap&lt;/h2&gt;
+
+&lt;p&gt;As I explained on my page on the Debian Wiki, I am going to work on:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Developing new functionalities in OpenDHT aiming at reducing overall
+generated traffic.&lt;/li&gt;
+&lt;li&gt;Maintenance and optimization of the OpenDHT code in general.&lt;/li&gt;
+&lt;li&gt;Optimizing data persistence solution over the distributed hash table.&lt;/li&gt;
+&lt;li&gt;Merge (1) in the Ring daemon component in order to benefit from lower traffic
+in Ring.&lt;/li&gt;
+&lt;li&gt;Make OpenDHT use TCP protocol instead of UDP. This is going to reduce code
+complexity and enhance robsutness of the DHT.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For further details, read my reports!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About me</title>
