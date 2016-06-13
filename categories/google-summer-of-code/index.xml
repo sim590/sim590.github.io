@@ -6,8 +6,37 @@
     <description>Recent content in Google Summer Of Code on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jun 2016 13:06:11 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jun 2016 00:22:58 -0400</lastBuildDate>
     <atom:link href="http://sim590.github.io/categories/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week 2 - Report</title>
+      <link>http://sim590.github.io/post/gsoc/week2/</link>
+      <pubDate>Mon, 13 Jun 2016 00:22:58 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week2/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve been reworking the code for the queries I introduced in the &lt;a href=&#34;http://sim590.github.io/post/gsoc/week1/&#34;&gt;first week&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-done:3fe32ddde4fd68dd585d4615f029762b&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I have worked on &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;value pagination&lt;/a&gt; and optimization of accnounce operations;&lt;/li&gt;
+&lt;li&gt;Fixed bugs like &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/72&#34;&gt;#72&lt;/a&gt;, &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/73&#34;&gt;#73&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ve split the &lt;code&gt;Query&lt;/code&gt; into &lt;code&gt;Select&lt;/code&gt; and &lt;code&gt;Where&lt;/code&gt; strcutures. This change was
+explained
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43#issuecomment-222795776&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;what-s-still-work-in-progress:3fe32ddde4fd68dd585d4615f029762b&#34;&gt;What&amp;rsquo;s still work in progress&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Value pagination;&lt;/li&gt;
+&lt;li&gt;Optimizing announce operations;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Week 1 - Report</title>
