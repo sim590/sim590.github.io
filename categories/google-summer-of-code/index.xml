@@ -6,8 +6,57 @@
     <description>Recent content in Google Summer Of Code on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jun 2016 00:02:37 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jun 2016 13:06:11 -0400</lastBuildDate>
     <atom:link href="http://sim590.github.io/categories/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week 1 - Report</title>
+      <link>http://sim590.github.io/post/gsoc/week1/</link>
+      <pubDate>Sat, 11 Jun 2016 13:06:11 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week1/</guid>
+      <description>
+
+&lt;p&gt;I have been working on writing serializable structure for remote filtering of
+values on the distributed hash table &lt;a href=&#34;http://opendht.net&#34;&gt;OpenDHT&lt;/a&gt;. This structure is called
+&lt;code&gt;Query&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-done:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+
+&lt;p&gt;The implementation of the base design with other changes have been made. You can
+see evolution on the matter
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43&#34;&gt;here&lt;/a&gt;;&lt;/p&gt;
+
+&lt;p&gt;Changes allow to create a Query with a SQL-ish statement like the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;Query q(&amp;quot;SELECT * WHERE id=5&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can then use this query like so&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;get(hash, getcb, donecb, filter, &amp;quot;SELECT * WHERE id=5&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I verified the working state of the code with the &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/blob/master/tools/dhtnode.cpp&#34;&gt;dhtnode&lt;/a&gt;. I have also done
+some tests using our python benchmark scripts.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;Value pagination&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Optimization of put operations with query for ids before put, hence avoiding
+potential useless traffic.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;thoughts:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;Thoughts&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;Query&lt;/code&gt; is the key part for optimizing my initial work on data persistence
+on the DHT. It will enhance the DHT on more than one aspects. I have to point
+out it would not have been possible to do that before our major refactoring we
+introduced in
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/releases/tag/0.6.0&#34;&gt;0.6.0&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Google Summer Of Code</title>
