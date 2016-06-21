@@ -6,11 +6,58 @@
     <description>Recent content in Posts on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jun 2016 00:22:58 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jun 2016 21:30:22 -0400</lastBuildDate>
     <atom:link href="http://sim590.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Week 2 - Report</title>
+      <title>Adieu</title>
+      <link>http://sim590.github.io/post/adieu/</link>
+      <pubDate>Sun, 19 Jun 2016 21:30:22 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/adieu/</guid>
+      <description>
+
+&lt;div style=&#34;text-align:center&#34;&gt; &lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pZpTXJap6Fg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt; &lt;/div&gt;
+
+&lt;h2 id=&#34;gsoc:c272c84770b52a12687a5982cbe8e638&#34;&gt;GSOC&lt;/h2&gt;
+
+&lt;p&gt;Comme j&amp;rsquo;ai mentionné dans au &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/&#34;&gt;article antérieur&lt;/a&gt;, je participe au programme &lt;a href=&#34;https://developers.google.com/open-source/gsoc/&#34;&gt;Google Summer Of Code&lt;/a&gt; grâce à l&amp;rsquo;organisation
+&lt;a href=&#34;https://debian.org&#34;&gt;Debian&lt;/a&gt; qui supervise mes travaux contribuant au logiciel libre &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;deux-jours-restants:c272c84770b52a12687a5982cbe8e638&#34;&gt;Deux jours restants&lt;/h2&gt;
+
+&lt;p&gt;Il reste deux jours avant mon départ pour le Cape, en Afrique du sud. C&amp;rsquo;est
+pour assister à l&amp;rsquo;événement &lt;strong&gt;&lt;a href=&#34;https://debconf16.debconf.org/&#34;&gt;debconf&lt;/a&gt;&lt;/strong&gt; (« Debian conference »), organisé par
+Debian que je me rends là.  Cet événement est organisé à chaque année et,
+l&amp;rsquo;année prochaine, c&amp;rsquo;est à Montréal que ça aura lieu ! &lt;img src=&#34;http://sim590.github.io/img/quebec.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;div style=&#34;text-align:center&#34;&gt; &lt;img src=&#34;img/debconf.png&#34;/&gt; &lt;/div&gt;
+
+&lt;p&gt;J&amp;rsquo;ai très hâte de vivre cette expérience qui sera sans doute innoubliable.
+Debian est une organisation pionière du monde du logiciel libre. Je rencontrerai
+des gens très dévoués et partageant avec moi beaucoup d&amp;rsquo;intérêts pour le
+logiciel libre et sa philosophie.&lt;/p&gt;
+
+&lt;h2 id=&#34;l-afrique-du-sud:c272c84770b52a12687a5982cbe8e638&#34;&gt;L&amp;rsquo;Afrique du sud&lt;/h2&gt;
+
+&lt;p&gt;Ce sera la première fois que je prendrai l&amp;rsquo;avion et je ferai une escale à
+Amsterdam, une ville que j&amp;rsquo;aimerais bien visiter un jour. Ahhhh Jacques
+Brel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/cape.town.jpg&#34; alt=&#34;image de Cape Town&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je suis très heureux que le continent d&amp;rsquo;Afrique soit la première destination me
+permettant de sortir du continent d&amp;rsquo;Amérique pour la première fois. J&amp;rsquo;ai bien
+hâte de vivre l&amp;rsquo;ambiance du Cape.&lt;/p&gt;
+
+&lt;h2 id=&#34;les-requins:c272c84770b52a12687a5982cbe8e638&#34;&gt;Les requins&lt;/h2&gt;
+
+&lt;p&gt;Y parrait qu&amp;rsquo;y&amp;rsquo;a des requins au Cape.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[GSOC] Week 2 - Report</title>
       <link>http://sim590.github.io/post/gsoc/week2/</link>
       <pubDate>Mon, 13 Jun 2016 00:22:58 -0400</pubDate>
       
@@ -39,7 +86,7 @@ explained
     </item>
     
     <item>
-      <title>Week 1 - Report</title>
+      <title>[GSOC] Week 1 - Report</title>
       <link>http://sim590.github.io/post/gsoc/week1/</link>
       <pubDate>Sat, 11 Jun 2016 13:06:11 -0400</pubDate>
       
@@ -393,6 +440,26 @@ googleAnalytics = &amp;quot;&amp;quot;
 &lt;p&gt;I&amp;rsquo;m not much of a writer yet and this is my first post.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;THE END&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://sim590.github.io/post/gsoc/week34/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week34/</guid>
+      <description>&lt;!--+++--&gt;
+
+&lt;!--categories = [&#39;Google Summer Of Code&#39;]--&gt;
+
+&lt;!--date = &#34;2016-06-19T20:15:02-04:00&#34;--&gt;
+
+&lt;!--title = &#34;[GSOC] Week 3&amp;4 - Report&#34;--&gt;
+
+&lt;!--description = &#34;&#34;--&gt;
+
+&lt;!--+++--&gt;
 </description>
     </item>
     
