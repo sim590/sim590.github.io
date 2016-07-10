@@ -1,3 +1,44 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>[GSOC] Week 3&amp;4 Report</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.15" />
+        
+
+
+        
+        
+            
+                <meta name="description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="[GSOC] Week 3&amp;4 Report"/>
+<meta name="twitter:description" content="I have finally made a version of the queries code that can viably be integrated into the master branch of OpenDHT. I am awaiting my mentor&rsquo;s approval and/or comments. What&rsquo;s done Queries. The library will provide the additional following functions in its API: void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {}); The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &ldquo;where&rdquo; statement."/>
+
+
+
+        <meta property="og:title" content="[GSOC] Week 3&amp;4 Report" />
+<meta property="og:description" content="I have finally made a version of the queries code that can viably be integrated into the master branch of OpenDHT. I am awaiting my mentor&rsquo;s approval and/or comments. What&rsquo;s done Queries. The library will provide the additional following functions in its API: void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {}); The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &ldquo;where&rdquo; statement." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://sim590.github.io/post/gsoc/week34/" />
+
+
+<meta property="og:updated_time" content="2016-07-10T19:12:18&#43;02:00"/>
 
 
 
@@ -8,4 +49,752 @@
 
 
 
+        
+<meta itemprop="name" content="[GSOC] Week 3&amp;4 Report">
+<meta itemprop="description" content="I have finally made a version of the queries code that can viably be integrated into the master branch of OpenDHT. I am awaiting my mentor&rsquo;s approval and/or comments. What&rsquo;s done Queries. The library will provide the additional following functions in its API: void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {}); The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &ldquo;where&rdquo; statement.">
+
+
+<meta itemprop="dateModified" content="2016-07-10T19:12:18&#43;02:00" />
+<meta itemprop="wordCount" content="264">
+
+
+
+<meta itemprop="keywords" content="Google Summer Of Code," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+
+        
+            
+                
+                    <link rel="stylesheet" href="/css/main.min.css" />
+                
+            
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Simon Désaulniers</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/post/">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://sim590.github.io">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://sim590.github.io">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/post/">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://sim590.github.io/post/gsoc/week34/"><p>[GSOC] Week 3&amp;4 Report</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://sim590.github.io/post/adieu/"><p>Adieu</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://sim590.github.io/post/gsoc/week2/"><p>[GSOC] Week 2 - Report</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://sim590.github.io/post/gsoc/week1/"><p>[GSOC] Week 1 - Report</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://sim590.github.io/post/gsoc/intro/"><p>Google Summer Of Code</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&text=%5bGSOC%5d%20Week%203%264%20Report&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&title=%5bGSOC%5d%20Week%203%264%20Report" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&title=%5bGSOC%5d%20Week%203%264%20Report" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&title=%5bGSOC%5d%20Week%203%264%20Report" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://sim590.github.io/post/gsoc/week34/">[GSOC] Week 3&amp;4 Report</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2016-07-10'>
+            July 10, 2016</time>
+        <span class="author"></span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&text=%5bGSOC%5d%20Week%203%264%20Report&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&title=%5bGSOC%5d%20Week%203%264%20Report" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&title=%5bGSOC%5d%20Week%203%264%20Report" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f&title=%5bGSOC%5d%20Week%203%264%20Report" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fsim590.github.io%2fpost%2fgsoc%2fweek34%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<p>I have finally made a version of the <a href="http://sim590.github.io/post/gsoc/week1/">queries</a> code that can viably be
+integrated into the master branch of OpenDHT. I am awaiting my mentor&rsquo;s
+approval and/or comments.</p>
+
+<h1 id="what-s-done:7ff0723931015fd349765befbfcc3f5d">What&rsquo;s done</h1>
+
+<p><strong>Queries</strong>. The library will provide the additional following functions in its
+API:</p>
+
+<pre><code class="language-cpp">void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) {
+void query(const InfoHash&amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {});
+</code></pre>
+
+<p>The structure <code>Where</code> in the first signature will allow the user to narrow the
+set of values received through the network those that verify the &ldquo;where&rdquo;
+statement. The <code>Where</code> actually encapsulates a statement of the following
+SQL-ish form: <code>SELECT * WHERE &lt;some_field&gt;=&lt;some_field_value&gt;</code>.</p>
+
+<p>Also, the <code>DhtRunner::query</code> function will let the user do something similar to
+what&rsquo;s explained in the last paragraph, but where the returned data is
+encapsulated in <code>FieldValueIndex</code> structure instead of <code>Value</code>. This structure
+has a <code>std::map&lt;Value::Field, FieldValue&gt;</code>. You can think of the
+<code>FieldValueIndex</code> as a subset of fields of a given <code>Value</code>. The <code>Query</code>
+structure then allows you to create both <code>Select</code> and <code>Where</code> &ldquo;statements&rdquo;.</p>
+
+<h1 id="what-s-next:7ff0723931015fd349765befbfcc3f5d">What&rsquo;s next</h1>
+
+<ul>
+<li><strong>Value pagination</strong>. I have begun working on this and I now have a more clear
+idea of the first step to accomplish. I have to redesign the &lsquo;get&rsquo; operation
+callbacks calling process by making a callback execution per <code>SearchNode</code>
+instead of per <code>Search</code> (list of <code>SearchNode</code>). This will let us properly
+write the value pagination code with node concurrency in mind. This will
+therefor make sure we don&rsquo;t request a value from a node if it doesn&rsquo;t stores
+it;</li>
+<li>Optimizing announce operations;</li>
+</ul>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/google-summer-of-code'>Google Summer Of Code</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://sim590.github.io/post/adieu/"
+                class="button big previous">Adieu</a></li>
+    
+
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shortname';
+    var disqus_identifier = 'http:\/\/sim590.github.io\/post\/gsoc\/week34\/';
+    var disqus_title = '[GSOC] Week 3\x264 Report';
+    var disqus_url = 'http:\/\/sim590.github.io\/post\/gsoc\/week34\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/logo.png" alt="" /></a>
+                
+            
+            
+                <header>
+                    <h2>Simon Désaulniers</h2>
+                    <p>There are 10 types of people. Those who understand binary and the others.</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/sim590" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+<li><a href="//bitbucket.com/sim590" target="_blank" title="Bitbucket" class="fa fa-bitbucket"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//vimeo.com/user51921435" target="_blank" title="Vimeo" class="fa fa-vimeo"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/simon-d%c3%a9saulniers-86648097" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:sim.desaulniers@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://sim590.github.io/post/gsoc/week34/">[GSOC] Week 3&amp;4 Report</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-07-10'>
+                                    July 10, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://sim590.github.io/post/adieu/">Adieu</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-06-19'>
+                                    June 19, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://sim590.github.io/post/gsoc/week2/">[GSOC] Week 2 - Report</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-06-13'>
+                                    June 13, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://sim590.github.io/post/gsoc/week1/">[GSOC] Week 1 - Report</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-06-11'>
+                                    June 11, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://sim590.github.io/post/gsoc/intro/">Google Summer Of Code</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-06-03'>
+                                    June 3, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                "/post/"
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/google-summer-of-code/">Google Summer Of Code</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>I like programming and new technologies. I like new ideas intending to bring power to the people like free distributed and secured software.</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/sim590" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+<li><a href="//bitbucket.com/sim590" target="_blank" title="Bitbucket" class="fa fa-bitbucket"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//vimeo.com/user51921435" target="_blank" title="Vimeo" class="fa fa-vimeo"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/simon-d%c3%a9saulniers-86648097" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:sim.desaulniers@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Simon Désaulniers. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+
+        
+            
+                
+                    <script src="/js/main.min.js"></script>
+                
+            
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
 

@@ -6,8 +6,56 @@
     <description>Recent content on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jun 2016 21:30:22 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2016 19:12:18 +0200</lastBuildDate>
     <atom:link href="http://sim590.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[GSOC] Week 3&amp;4 Report</title>
+      <link>http://sim590.github.io/post/gsoc/week34/</link>
+      <pubDate>Sun, 10 Jul 2016 19:12:18 +0200</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week34/</guid>
+      <description>
+
+&lt;p&gt;I have finally made a version of the &lt;a href=&#34;http://sim590.github.io/post/gsoc/week1/&#34;&gt;queries&lt;/a&gt; code that can viably be
+integrated into the master branch of OpenDHT. I am awaiting my mentor&amp;rsquo;s
+approval and/or comments.&lt;/p&gt;
+
+&lt;h1 id=&#34;what-s-done:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s done&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Queries&lt;/strong&gt;. The library will provide the additional following functions in its
+API:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) {
+void query(const InfoHash&amp;amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The structure &lt;code&gt;Where&lt;/code&gt; in the first signature will allow the user to narrow the
+set of values received through the network those that verify the &amp;ldquo;where&amp;rdquo;
+statement. The &lt;code&gt;Where&lt;/code&gt; actually encapsulates a statement of the following
+SQL-ish form: &lt;code&gt;SELECT * WHERE &amp;lt;some_field&amp;gt;=&amp;lt;some_field_value&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, the &lt;code&gt;DhtRunner::query&lt;/code&gt; function will let the user do something similar to
+what&amp;rsquo;s explained in the last paragraph, but where the returned data is
+encapsulated in &lt;code&gt;FieldValueIndex&lt;/code&gt; structure instead of &lt;code&gt;Value&lt;/code&gt;. This structure
+has a &lt;code&gt;std::map&amp;lt;Value::Field, FieldValue&amp;gt;&lt;/code&gt;. You can think of the
+&lt;code&gt;FieldValueIndex&lt;/code&gt; as a subset of fields of a given &lt;code&gt;Value&lt;/code&gt;. The &lt;code&gt;Query&lt;/code&gt;
+structure then allows you to create both &lt;code&gt;Select&lt;/code&gt; and &lt;code&gt;Where&lt;/code&gt; &amp;ldquo;statements&amp;rdquo;.&lt;/p&gt;
+
+&lt;h1 id=&#34;what-s-next:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s next&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Value pagination&lt;/strong&gt;. I have begun working on this and I now have a more clear
+idea of the first step to accomplish. I have to redesign the &amp;lsquo;get&amp;rsquo; operation
+callbacks calling process by making a callback execution per &lt;code&gt;SearchNode&lt;/code&gt;
+instead of per &lt;code&gt;Search&lt;/code&gt; (list of &lt;code&gt;SearchNode&lt;/code&gt;). This will let us properly
+write the value pagination code with node concurrency in mind. This will
+therefor make sure we don&amp;rsquo;t request a value from a node if it doesn&amp;rsquo;t stores
+it;&lt;/li&gt;
+&lt;li&gt;Optimizing announce operations;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Adieu</title>
@@ -69,7 +117,7 @@ hâte de vivre l&amp;rsquo;ambiance du Cape.&lt;/p&gt;
 &lt;h2 id=&#34;what-s-done:3fe32ddde4fd68dd585d4615f029762b&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;I have worked on &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;value pagination&lt;/a&gt; and optimization of accnounce operations;&lt;/li&gt;
+&lt;li&gt;I have worked on &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;value pagination&lt;/a&gt; and optimization of announce operations;&lt;/li&gt;
 &lt;li&gt;Fixed bugs like &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/72&#34;&gt;#72&lt;/a&gt;, &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/73&#34;&gt;#73&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;I&amp;rsquo;ve split the &lt;code&gt;Query&lt;/code&gt; into &lt;code&gt;Select&lt;/code&gt; and &lt;code&gt;Where&lt;/code&gt; strcutures. This change was
 explained
@@ -479,26 +527,6 @@ googleAnalytics = &amp;quot;&amp;quot;
 &lt;p&gt;I&amp;rsquo;m not much of a writer yet and this is my first post.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;THE END&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://sim590.github.io/post/gsoc/week34/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://sim590.github.io/post/gsoc/week34/</guid>
-      <description>&lt;!--+++--&gt;
-
-&lt;!--categories = [&#39;Google Summer Of Code&#39;]--&gt;
-
-&lt;!--date = &#34;2016-06-19T20:15:02-04:00&#34;--&gt;
-
-&lt;!--title = &#34;[GSOC] Week 3&amp;4 - Report&#34;--&gt;
-
-&lt;!--description = &#34;&#34;--&gt;
-
-&lt;!--+++--&gt;
 </description>
     </item>
     
