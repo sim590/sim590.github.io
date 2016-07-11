@@ -6,8 +6,60 @@
     <description>Recent content in Google Summer Of Code on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jul 2016 19:12:18 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2016 20:06:24 +0200</lastBuildDate>
     <atom:link href="http://sim590.github.io/categories/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[GSOC] Week 5&amp;6 Report</title>
+      <link>http://sim590.github.io/post/gsoc/week56/</link>
+      <pubDate>Sun, 10 Jul 2016 20:06:24 +0200</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week56/</guid>
+      <description>
+
+&lt;p&gt;During week 5 and 6, &lt;a href=&#34;http://sim590.github.io/post/adieu/&#34;&gt;I have been to the debian conference 2016&lt;/a&gt;. It was really interesting meeting with a lot of people all so involved in Debian.&lt;/p&gt;
+
+&lt;h2 id=&#34;key-signing-party:095b0383cc280381b58546e6c95a4728&#34;&gt;Key signing party&lt;/h2&gt;
+
+&lt;p&gt;Each year, this is a really important tradition: people gather together and
+exchange GPG public key fingerprint and sign each other&amp;rsquo;s keys. This contributes
+greatly to the growth of the web of trust.&lt;/p&gt;
+
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/responsible_behavior.png&#34;/&gt;&lt;/div&gt;
+
+&lt;p&gt;I did exchange public key fingerprint with others. It was the first opportunity
+become more connected in the PGP web of trust. I think this is something that
+needs to make its way to the less technical people so that everyone can benefit
+from the network privacy features. There is support for some mail clients like
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Mozilla_Thunderbird&#34;&gt;Thunderbird&lt;/a&gt;, but I think there is still work to do there and mostly there is
+work to do about the opinion or point of view people have about encryption ;
+people don&amp;rsquo;t care enough and they don&amp;rsquo;t really know what encryption can do for
+them (digital signature, trust and privacy).&lt;/p&gt;
+
+&lt;h2 id=&#34;ring-now-part-of-debian:095b0383cc280381b58546e6c95a4728&#34;&gt;Ring now part of Debian&lt;/h2&gt;
+
+&lt;p&gt;During the first week at debcamp, Alexandre Viau, an employee at Savoir-Faire
+Linux and a also a Debian developer (DD for short), has packaged &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt; for
+Debian. Users can now install Ring like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ sudo apt-get install ring
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is an important moment as more people are now going to easily try Ring and
+potentially contribute to it.&lt;/p&gt;
+
+&lt;h2 id=&#34;presentating-ring:095b0383cc280381b58546e6c95a4728&#34;&gt;Presentating Ring&lt;/h2&gt;
+
+&lt;p&gt;Alexandre Viau and I have been thinking about presenting Ring at debconf 2016.
+We finally did it.
+&lt;div style=&#34;text-align:center&#34;&gt;
+    &lt;video width=&#34;640&#34; controls&gt;
+      &lt;source src=&#34;http://meetings-archive.debian.net/pub/debian-meetings/2016/debconf16/Decentralized_communications_with_Ring.webm&#34; type=&#34;video/webm&#34;&gt;
+    Your browser does not support the video tag.
+    &lt;/video&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>[GSOC] Week 3&amp;4 Report</title>
@@ -21,7 +73,7 @@
 integrated into the master branch of OpenDHT. I am awaiting my mentor&amp;rsquo;s
 approval and/or comments.&lt;/p&gt;
 
-&lt;h1 id=&#34;what-s-done:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s done&lt;/h1&gt;
+&lt;h2 id=&#34;what-s-done:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Queries&lt;/strong&gt;. The library will provide the additional following functions in its
 API:&lt;/p&gt;
@@ -42,7 +94,7 @@ has a &lt;code&gt;std::map&amp;lt;Value::Field, FieldValue&amp;gt;&lt;/code&gt;.
 &lt;code&gt;FieldValueIndex&lt;/code&gt; as a subset of fields of a given &lt;code&gt;Value&lt;/code&gt;. The &lt;code&gt;Query&lt;/code&gt;
 structure then allows you to create both &lt;code&gt;Select&lt;/code&gt; and &lt;code&gt;Where&lt;/code&gt; &amp;ldquo;statements&amp;rdquo;.&lt;/p&gt;
 
-&lt;h1 id=&#34;what-s-next:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s next&lt;/h1&gt;
+&lt;h2 id=&#34;what-s-next:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Value pagination&lt;/strong&gt;. I have begun working on this and I now have a more clear
