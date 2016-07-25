@@ -10,16 +10,16 @@
     <atom:link href="http://sim590.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>[GSOC] Week 5&amp;6 Report</title>
-      <link>http://sim590.github.io/post/gsoc/week56/</link>
+      <title>[GSOC] Week 5&amp;6&amp;7 Report</title>
+      <link>http://sim590.github.io/post/gsoc/week567/</link>
       <pubDate>Sun, 10 Jul 2016 20:06:24 +0200</pubDate>
       
-      <guid>http://sim590.github.io/post/gsoc/week56/</guid>
+      <guid>http://sim590.github.io/post/gsoc/week567/</guid>
       <description>
 
-&lt;p&gt;During week 5 and 6, &lt;a href=&#34;http://sim590.github.io/post/adieu/&#34;&gt;I have been to the debian conference 2016&lt;/a&gt;. It was really interesting meeting with a lot of people all so involved in Debian.&lt;/p&gt;
+&lt;p&gt;During week 5, 6 and 7, &lt;a href=&#34;http://sim590.github.io/post/adieu/&#34;&gt;I have been to the debian conference 2016&lt;/a&gt;. It was really interesting meeting with a lot of people all so involved in Debian.&lt;/p&gt;
 
-&lt;h2 id=&#34;key-signing-party:095b0383cc280381b58546e6c95a4728&#34;&gt;Key signing party&lt;/h2&gt;
+&lt;h2 id=&#34;key-signing-party:d11083b2598e188a9405c08ee4e2400a&#34;&gt;Key signing party&lt;/h2&gt;
 
 &lt;p&gt;Each year, this is a really important tradition: people gather together and
 exchange GPG public key fingerprint and sign each other&amp;rsquo;s keys. This contributes
@@ -36,7 +36,7 @@ work to do about the opinion or point of view people have about encryption ;
 people don&amp;rsquo;t care enough and they don&amp;rsquo;t really know what encryption can do for
 them (digital signature, trust and privacy).&lt;/p&gt;
 
-&lt;h2 id=&#34;ring-now-part-of-debian:095b0383cc280381b58546e6c95a4728&#34;&gt;Ring now part of Debian&lt;/h2&gt;
+&lt;h2 id=&#34;ring-now-part-of-debian:d11083b2598e188a9405c08ee4e2400a&#34;&gt;Ring now part of Debian&lt;/h2&gt;
 
 &lt;p&gt;During the first week at debcamp, Alexandre Viau, an employee at Savoir-Faire
 Linux and a also a Debian developer (DD for short), has packaged &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt; for
@@ -48,7 +48,7 @@ Debian. Users can now install Ring like so:&lt;/p&gt;
 &lt;p&gt;This is an important moment as more people are now going to easily try Ring and
 potentially contribute to it.&lt;/p&gt;
 
-&lt;h2 id=&#34;presentating-ring:095b0383cc280381b58546e6c95a4728&#34;&gt;Presentating Ring&lt;/h2&gt;
+&lt;h2 id=&#34;presentating-ring:d11083b2598e188a9405c08ee4e2400a&#34;&gt;Presentating Ring&lt;/h2&gt;
 
 &lt;p&gt;Alexandre Viau and I have been thinking about presenting Ring at debconf 2016.
 We finally did it.
