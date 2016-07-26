@@ -6,8 +6,50 @@
     <description>Recent content on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jul 2016 20:06:24 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jul 2016 19:41:44 -0400</lastBuildDate>
     <atom:link href="http://sim590.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[GSOC] Week 8&amp;9 Report</title>
+      <link>http://sim590.github.io/post/gsoc/week89/</link>
+      <pubDate>Mon, 25 Jul 2016 19:41:44 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week89/</guid>
+      <description>
+
+&lt;h2 id=&#34;week-8:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;Week 8&lt;/h2&gt;
+
+&lt;p&gt;This particular week has been tiresome as I did catch a cold ;). I did come back
+from Cape Town where &lt;a href=&#34;http://sim590.github.io/post/gsoc/week567/&#34;&gt;debconf&lt;/a&gt; taking place. My arrival at Montreal was in the
+middle of the week, so this week is not plenty of news&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;what-i-ve-done:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;What I&amp;rsquo;ve done&lt;/h3&gt;
+
+&lt;p&gt;I have synced myself with my coworker Nicolas Reynaud, who&amp;rsquo;s working on building
+the indexation system over the DHT. We have worked together on critical
+algorithms: concurrent maintenance of data in the trie (PHT).&lt;/p&gt;
+
+&lt;h2 id=&#34;week-9:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;Week 9&lt;/h2&gt;
+
+&lt;h3 id=&#34;what-i-ve-done-1:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;What I&amp;rsquo;ve done&lt;/h3&gt;
+
+&lt;p&gt;Since my mentor, who&amp;rsquo;s also the main author of OpenDHT, was gone for presenting
+&lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt; at the &lt;a href=&#34;https://sec2016.rmll.info/&#34;&gt;RMLL&lt;/a&gt;, I&amp;rsquo;ve been attributed tasks that needed attention
+quickly. I&amp;rsquo;ve been working on making OpenDHT run properly when compiled with
+some failing version of Apple&amp;rsquo;s LLVM. I&amp;rsquo;ve had the pleasure of debugging obscure
+runtime errors that you don&amp;rsquo;t get depending on the compiler you use, but I mean
+very obscure.&lt;/p&gt;
+
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwanna-joke.com%2Fwp-content%2Fuploads%2F2013%2F11%2Ffunny-picture-programmers-problems.jpg&amp;f=1&#34;/&gt;&lt;/div&gt;
+
+&lt;p&gt;I have released OpenDHT 0.6.2! This release was meant to fix a critical
+functionality bug that would arise if one of the two routing table (IPv4, IPv6)
+was empty. This was really critical for Ring to have the 0.6.2 version because
+it is not rare that a user connects to some router not giving IPv6 address.&lt;/p&gt;
+
+&lt;p&gt;Finally, I have fixed some minor bugs in my work on the &lt;a href=&#34;http://sim590.github.io/post/gsoc/week34/&#34;&gt;queries&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>[GSOC] Week 5&amp;6&amp;7 Report</title>
