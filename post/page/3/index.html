@@ -34,7 +34,7 @@
 <meta property="og:url" content="http://sim590.github.io/post/" />
 
 
-<meta property="og:updated_time" content="2016-06-03T00:02:37-04:00"/>
+<meta property="og:updated_time" content="2016-06-11T13:06:11-04:00"/>
 
 
 
@@ -186,6 +186,10 @@
 
                 
                     <li>
+                        <a href="http://sim590.github.io/post/gsoc/week10-11-12/"><p>[GSOC] Week 10&amp;11&amp;12 Report</p></a>
+                    </li>
+                
+                    <li>
                         <a href="http://sim590.github.io/post/gsoc/week89/"><p>[GSOC] Week 8&amp;9 Report</p></a>
                     </li>
                 
@@ -201,10 +205,6 @@
                         <a href="http://sim590.github.io/post/adieu/"><p>Adieu</p></a>
                     </li>
                 
-                    <li>
-                        <a href="http://sim590.github.io/post/gsoc/week2/"><p>[GSOC] Week 2 - Report</p></a>
-                    </li>
-                
             </ul>
         </section>
 
@@ -218,6 +218,71 @@
         
             
         
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://sim590.github.io/post/gsoc/week1/">[GSOC] Week 1 - Report</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2016-06-11'>
+            June 11, 2016</time>
+        <span class="author"></span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I have been working on writing serializable structure for remote filtering of values on the distributed hash table OpenDHT. This structure is called Query. What&rsquo;s done The implementation of the base design with other changes have been made. You can see evolution on the matter here; Changes allow to create a Query with a SQL-ish statement like the following Query q(&quot;SELECT * WHERE id=5&quot;); You can then use this query like so get(hash, getcb, donecb, filter, &quot;SELECT * WHERE id=5&quot;); I verified the working state of the code with the dhtnode.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://sim590.github.io/post/gsoc/week1/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/google-summer-of-code'>Google Summer Of Code</a></li>
+    
+</ul>
+
+    </footer>
+</article>
 
         
             <article class="post">
@@ -451,6 +516,20 @@
                     <li>
                         <article>
                             <header>
+                                <h3><a href="http://sim590.github.io/post/gsoc/week10-11-12/">[GSOC] Week 10&amp;11&amp;12 Report</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-08-18'>
+                                    August 18, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="http://sim590.github.io/post/gsoc/week89/">[GSOC] Week 8&amp;9 Report</a></h3>
                                 
                                     
@@ -504,20 +583,6 @@
                         </article>
                     </li>
                 
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="http://sim590.github.io/post/gsoc/week2/">[GSOC] Week 2 - Report</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2016-06-13'>
-                                    June 13, 2016</time>
-                            </header>
-                        </article>
-                    </li>
-                
 
                 
                     <li>
@@ -552,7 +617,7 @@
                         <article>
                             <header>
                                 <a href="/categories/google-summer-of-code/">Google Summer Of Code</a>
-                                <span style="float:right;">6</span>
+                                <span style="float:right;">7</span>
                             </header>
                         </article>
                     </li>

@@ -6,8 +6,54 @@
     <description>Recent content in Google Summer Of Code on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jul 2016 19:41:44 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 18 Aug 2016 11:09:30 -0400</lastBuildDate>
     <atom:link href="http://sim590.github.io/categories/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[GSOC] Week 10&amp;11&amp;12 Report</title>
+      <link>http://sim590.github.io/post/gsoc/week10-11-12/</link>
+      <pubDate>Thu, 18 Aug 2016 11:09:30 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/week10-11-12/</guid>
+      <description>
+
+&lt;h2 id=&#34;week-10-11:1f39715b9a940900a3b1275e427b5289&#34;&gt;Week 10 &amp;amp; 11&lt;/h2&gt;
+
+&lt;p&gt;During these two weeks, I&amp;rsquo;ve worked hard on paginating values on the DHT.&lt;/p&gt;
+
+&lt;h3 id=&#34;value-pagination:1f39715b9a940900a3b1275e427b5289&#34;&gt;Value pagination&lt;/h3&gt;
+
+&lt;p&gt;As explained on my post on data persistence, we&amp;rsquo;ve had network traffic issues.
+The solution we have found for this is to use the &lt;a href=&#34;http://sim590.github.io/post/gsoc/week34/&#34;&gt;queries&lt;/a&gt; (see also
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43&#34;&gt;this&lt;/a&gt;) to filter data on
+the remote peer we&amp;rsquo;re communicating with. The queries let us select fields of a
+value instead of fetching whole values. This way, we can fetch values with
+unique ids. The &lt;strong&gt;pagination&lt;/strong&gt; is the process of first selecting all value ids
+for a given hash, then making a separate &amp;ldquo;get&amp;rdquo; request packet for each of the
+values.&lt;/p&gt;
+
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/sim590/opendht/raw/conception/doc/conception/pagination/seq-diagram.png&#34;/&gt;&lt;/div&gt;
+
+&lt;p&gt;This feature makes the DHT more friendly with UDP. In fact, UDP packets can be
+dropped when of size greater than the UDP &lt;a href=&#34;https://en.wikipedia.org/wiki/Maximum_transmission_unit&#34;&gt;MTU&lt;/a&gt;. Paginating values will help
+this as all UDP packets will now contain only one value.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;#71&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/110&#34;&gt;#110&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/113&#34;&gt;#113&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;week-12:1f39715b9a940900a3b1275e427b5289&#34;&gt;Week 12&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been working on making the &amp;ldquo;put&amp;rdquo; request lighter, again using queries. This
+is a key feature which will make it possible to enable &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persistence:34c4da6d4768d05e50db99357a299b5c&#34;&gt;data persistence&lt;/a&gt;. In
+fact, it enables us to send values to a peer only if it doesn&amp;rsquo;t already have the
+value we&amp;rsquo;re announcing. This will substantially reduce the overall traffic. This
+feature is still being tested. The last thing I have to do is to demonstrate the
+reduction of network traffic.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>[GSOC] Week 8&amp;9 Report</title>
