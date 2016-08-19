@@ -126,6 +126,8 @@ optimize the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persi
 
 &lt;h2 id=&#34;what-s-left-to-be-done:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;What&amp;rsquo;s left to be done&lt;/h2&gt;
 
+&lt;h3 id=&#34;data-persistence:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Data persistence&lt;/h3&gt;
+
 &lt;p&gt;The only thing left before achieving the totality of my work is to rigorously
 test the data persistence behavior to demonstrate the network traffic reduction.
 To do so we use our &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/tree/master/python/tools&#34;&gt;benchmark python module&lt;/a&gt;. We are able to analyse traffic
@@ -138,6 +140,12 @@ and produce plots like this one:&lt;/p&gt;
 
 &lt;p&gt;This particular plot was drawn before the enhancements. We are confident to
 improve the results using my work produced during the GSOC.&lt;/p&gt;
+
+&lt;h3 id=&#34;tcp:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;TCP&lt;/h3&gt;
+
+&lt;p&gt;In the middle of the GSOC, we soon realized that passing from UDP to TCP would
+be ask too much efforts in too short lapse of time. Also, it is not yet cleared
+if we should really do that.&lt;/p&gt;
 </description>
     </item>
     
