@@ -6,8 +6,140 @@
     <description>Recent content in Posts on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2016 11:09:30 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 19 Aug 2016 12:04:13 -0400</lastBuildDate>
     <atom:link href="http://sim590.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[GSOC] Final report</title>
+      <link>http://sim590.github.io/post/gsoc/final/</link>
+      <pubDate>Fri, 19 Aug 2016 12:04:13 -0400</pubDate>
+      
+      <guid>http://sim590.github.io/post/gsoc/final/</guid>
+      <description>
+
+&lt;div style=&#34;float:right&#34;&gt;
+    &lt;img width=&#34;250&#34; src=&#34;http://sim590.github.io/img/gsoc.png&#34;/&gt;&lt;br&gt;
+        &lt;div style=&#34;text-align:center&#34;&gt;
+            &lt;img width=&#34;150&#34; src=&#34;http://sim590.github.io/img/debianlogo.svg&#34;/&gt;&lt;br&gt;&lt;br&gt;
+            &lt;img width=&#34;250&#34; src=&#34;http://sim590.github.io/img/ring.svg&#34;/&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Google Summer of Code is now over. It has been a great experience and I&amp;rsquo;m
+very glad I&amp;rsquo;ve been able to make it. I&amp;rsquo;ve had the pleasure to contribute to a
+project showing very good promise for the future of communication: &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt;. The
+words &amp;ldquo;privacy&amp;rdquo; and &amp;ldquo;freedom&amp;rdquo; in terms of technologies are being more and more
+present in the mind of people. All sorts of projects wanting to achieve these
+goals are coming to life each days like decentralized web networks (&lt;a href=&#34;https://zeronet.io/&#34;&gt;ZeroNet&lt;/a&gt;
+for e.g.), blockchain based applications, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;debian:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Debian&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve had the great opportunity to go to the Debian Conference 2016. I&amp;rsquo;ve been
+introduced to the debian community and debian developpers (&amp;ldquo;dd&amp;rdquo; in short :p). I
+was lucky to meet with great people like the president of the FSF, John Sulivan.
+You can have a look at my Debian conference report &lt;a href=&#34;http://sim590.github.io/post/gsoc/week567/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to read my debian reports,  you can do so by browsing the &amp;ldquo;Google
+Summer Of Code&amp;rdquo; category on this blog.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-have-done:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;What I have done&lt;/h2&gt;
+
+&lt;p&gt;Ring is now in &lt;a href=&#34;https://packages.qa.debian.org/r/ring.html&#34;&gt;official debian
+repositories&lt;/a&gt; since June 30th. This
+is a good news for the GNU/Linux community. I&amp;rsquo;m proud to say that I&amp;rsquo;ve been able
+to contribute to debian by working on &lt;a href=&#34;http://opendht.net&#34;&gt;OpenDHT&lt;/a&gt; and developing new
+functionalities to reduce network traffic. The goal behind this was to finally
+optimize the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persistence:34c4da6d4768d05e50db99357a299b5c&#34;&gt;data persistence&lt;/a&gt; traffic consumption on the DHT.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github repository&lt;/strong&gt;: &lt;a href=&#34;https://github.com/savoirfairelinux/opendht&#34;&gt;https://github.com/savoirfairelinux/opendht&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;queries:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Queries&lt;/h3&gt;
+
+&lt;p&gt;Issues:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43&#34;&gt;#43&lt;/a&gt;: DHT queries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pull requests:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/79&#34;&gt;#79&lt;/a&gt;: [DHT] Queries: remote values filtering&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/93&#34;&gt;93&lt;/a&gt;: dht: return consistent query from local storage&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/106&#34;&gt;#106&lt;/a&gt;: [dht] rework get timings after queries in master&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;value-pagination:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Value pagination&lt;/h3&gt;
+
+&lt;p&gt;Issues:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;#71&lt;/a&gt;: [DHT] value pagination&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pull requests:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/110&#34;&gt;#110&lt;/a&gt;: dht: Value pagination using queries&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/113&#34;&gt;#113&lt;/a&gt;: dht: value pagination fix&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;indexation-feat-nicolas-reynaud:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Indexation (feat. Nicolas Reynaud)&lt;/h3&gt;
+
+&lt;p&gt;Pull requests:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/77&#34;&gt;#77&lt;/a&gt;: pht: fix invalid comparison, inexact match lookup&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/78&#34;&gt;#78&lt;/a&gt;: [PHT] Key consistency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;general-maintenance-of-opendht:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;General maintenance of OpenDHT&lt;/h3&gt;
+
+&lt;p&gt;Issues:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/72&#34;&gt;#72&lt;/a&gt;: Packaging issue for Python bindings with CMake: $DESTDIR not honored&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/75&#34;&gt;#75&lt;/a&gt;: Different libraries built with Autotools and CMake&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/87&#34;&gt;#87&lt;/a&gt;: OpenDHT does not build on armel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/92&#34;&gt;#92&lt;/a&gt;: [DhtScanner] doesn&amp;rsquo;t compile on LLVM 7.0.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/99&#34;&gt;#99&lt;/a&gt;: 0.6.2 filenames in 0.6.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pull requests:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/73&#34;&gt;#73&lt;/a&gt;: dht: consider IPv4 or IPv6 disconnected on operation done&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/74&#34;&gt;#74&lt;/a&gt;: [packaging] support python installation with make DESTDIR=$DIR&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/84&#34;&gt;#84&lt;/a&gt;: [dhtnode] user experience&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/94&#34;&gt;#94&lt;/a&gt;: dht: make main store a vector&lt;unique_ptr&lt;Storage&gt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/95&#34;&gt;#94&lt;/a&gt;: autotools: versionning consistent with CMake&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/103&#34;&gt;#103&lt;/a&gt;: dht: fix sendListen loop bug&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/107&#34;&gt;#106&lt;/a&gt;: dht: more accurate name for requested nodes count&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/108&#34;&gt;#108&lt;/a&gt;: dht: unify bootstrapSearch and refill method using node cache&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;view-by-commits:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;View by commits&lt;/h3&gt;
+
+&lt;p&gt;You can have a look at my work by commits just by clicking this link:
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/commits/master?author=sim590&#34;&gt;https://github.com/savoirfairelinux/opendht/commits/master?author=sim590&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-left-to-be-done:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;What&amp;rsquo;s left to be done&lt;/h2&gt;
+
+&lt;p&gt;The only thing left before achieving the totality of my work is to rigorously
+test the data persistence behavior to demonstrate the network traffic reduction.
+To do so we use our &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/tree/master/python/tools&#34;&gt;benchmark python module&lt;/a&gt;. We are able to analyse traffic
+and produce plots like this one:&lt;/p&gt;
+
+&lt;div style=&#34;text-align:center&#34;&gt;
+&lt;img src=&#34;http://sim590.github.io/img/gsoc/traffic.plot.png&#34;/&gt;&lt;br&gt;
+&lt;b&gt;Plot:&lt;/b&gt; 32 nodes, 1600 values with normal condition test.
+&lt;/div&gt;
+
+&lt;p&gt;This particular plot was drawn before the enhancements. We are confident to
+improve the results using my work produced during the GSOC.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>[GSOC] Week 10&amp;11&amp;12 Report</title>
