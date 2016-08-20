@@ -19,10 +19,10 @@
 
 &lt;div style=&#34;float:right&#34;&gt;
     &lt;img width=&#34;250&#34; src=&#34;http://sim590.github.io/img/gsoc.png&#34;/&gt;&lt;br&gt;
-        &lt;div style=&#34;text-align:center&#34;&gt;
-            &lt;img width=&#34;150&#34; src=&#34;http://sim590.github.io/img/debianlogo.svg&#34;/&gt;&lt;br&gt;&lt;br&gt;
-            &lt;img width=&#34;250&#34; src=&#34;http://sim590.github.io/img/ring.svg&#34;/&gt;
-        &lt;/div&gt;
+    &lt;div style=&#34;text-align:center&#34;&gt;
+        &lt;img width=&#34;150&#34; src=&#34;http://sim590.github.io/img/debianlogo.svg&#34;/&gt;&lt;br&gt;&lt;br&gt;
+        &lt;img width=&#34;250&#34; src=&#34;http://sim590.github.io/img/ring.svg&#34;/&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The Google Summer of Code is now over. It has been a great experience and I&amp;rsquo;m
@@ -144,8 +144,8 @@ improve the results using my work produced during the GSOC.&lt;/p&gt;
 &lt;h3 id=&#34;tcp:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;TCP&lt;/h3&gt;
 
 &lt;p&gt;In the middle of the GSOC, we soon realized that passing from UDP to TCP would
-be ask too much efforts in too short lapse of time. Also, it is not yet cleared
-if we should really do that.&lt;/p&gt;
+ask too much efforts in too short lapse of time. Also, it is not yet clear if we
+should really do that.&lt;/p&gt;
 </description>
     </item>
     
