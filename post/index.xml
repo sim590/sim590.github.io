@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Simon Désaulniers</title>
-    <link>http://sim590.github.io/post/</link>
+    <link>http://sim590.github.io/post/index.xml</link>
     <description>Recent content in Posts on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -33,7 +33,7 @@ present in the mind of people. All sorts of projects wanting to achieve these
 goals are coming to life each days like decentralized web networks (&lt;a href=&#34;https://zeronet.io/&#34;&gt;ZeroNet&lt;/a&gt;
 for e.g.), blockchain based applications, etc.&lt;/p&gt;
 
-&lt;h2 id=&#34;debian:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Debian&lt;/h2&gt;
+&lt;h2 id=&#34;debian&#34;&gt;Debian&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;ve had the great opportunity to go to the Debian Conference 2016. I&amp;rsquo;ve been
 introduced to the debian community and debian developpers (&amp;ldquo;dd&amp;rdquo; in short :p). I
@@ -43,7 +43,7 @@ Sullivan.  You can have a look at my Debian conference report &lt;a href=&#34;ht
 &lt;p&gt;If you want to read my debian reports,  you can do so by browsing the &amp;ldquo;Google
 Summer Of Code&amp;rdquo; category on this blog.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-i-have-done:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;What I have done&lt;/h2&gt;
+&lt;h2 id=&#34;what-i-have-done&#34;&gt;What I have done&lt;/h2&gt;
 
 &lt;p&gt;Ring is now in &lt;a href=&#34;https://packages.qa.debian.org/r/ring.html&#34;&gt;official debian
 repositories&lt;/a&gt; since June 30th. This
@@ -54,7 +54,7 @@ optimize the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persi
 
 &lt;p&gt;&lt;strong&gt;Github repository&lt;/strong&gt;: &lt;a href=&#34;https://github.com/savoirfairelinux/opendht&#34;&gt;https://github.com/savoirfairelinux/opendht&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;queries:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Queries&lt;/h3&gt;
+&lt;h3 id=&#34;queries&#34;&gt;Queries&lt;/h3&gt;
 
 &lt;p&gt;Issues:&lt;/p&gt;
 
@@ -70,7 +70,7 @@ optimize the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persi
 &lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/106&#34;&gt;#106&lt;/a&gt;: [dht] rework get timings after queries in master&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;value-pagination:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Value pagination&lt;/h3&gt;
+&lt;h3 id=&#34;value-pagination&#34;&gt;Value pagination&lt;/h3&gt;
 
 &lt;p&gt;Issues:&lt;/p&gt;
 
@@ -85,7 +85,7 @@ optimize the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persi
 &lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/113&#34;&gt;#113&lt;/a&gt;: dht: value pagination fix&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;indexation-feat-nicolas-reynaud:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Indexation (feat. Nicolas Reynaud)&lt;/h3&gt;
+&lt;h3 id=&#34;indexation-feat-nicolas-reynaud&#34;&gt;Indexation (feat. Nicolas Reynaud)&lt;/h3&gt;
 
 &lt;p&gt;Pull requests:&lt;/p&gt;
 
@@ -94,7 +94,7 @@ optimize the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persi
 &lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/78&#34;&gt;#78&lt;/a&gt;: [PHT] Key consistency&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;general-maintenance-of-opendht:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;General maintenance of OpenDHT&lt;/h3&gt;
+&lt;h3 id=&#34;general-maintenance-of-opendht&#34;&gt;General maintenance of OpenDHT&lt;/h3&gt;
 
 &lt;p&gt;Issues:&lt;/p&gt;
 
@@ -119,14 +119,14 @@ optimize the &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persi
 &lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/108&#34;&gt;#108&lt;/a&gt;: dht: unify bootstrapSearch and refill method using node cache&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;view-by-commits:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;View by commits&lt;/h3&gt;
+&lt;h3 id=&#34;view-by-commits&#34;&gt;View by commits&lt;/h3&gt;
 
 &lt;p&gt;You can have a look at my work by commits just by clicking this link:
 &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/commits/master?author=sim590&#34;&gt;https://github.com/savoirfairelinux/opendht/commits/master?author=sim590&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;what-s-left-to-be-done:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;What&amp;rsquo;s left to be done&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-left-to-be-done&#34;&gt;What&amp;rsquo;s left to be done&lt;/h2&gt;
 
-&lt;h3 id=&#34;data-persistence:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;Data persistence&lt;/h3&gt;
+&lt;h3 id=&#34;data-persistence&#34;&gt;Data persistence&lt;/h3&gt;
 
 &lt;p&gt;The only thing left before achieving the totality of my work is to rigorously
 test the data persistence behavior to demonstrate the network traffic reduction.
@@ -141,7 +141,7 @@ and produce plots like this one:&lt;/p&gt;
 &lt;p&gt;This particular plot was drawn before the enhancements. We are confident to
 improve the results using my work produced during the GSOC.&lt;/p&gt;
 
-&lt;h3 id=&#34;tcp:875449de3b1c2eeeafe1ad36196b7124&#34;&gt;TCP&lt;/h3&gt;
+&lt;h3 id=&#34;tcp&#34;&gt;TCP&lt;/h3&gt;
 
 &lt;p&gt;In the middle of the GSOC, we soon realized that passing from UDP to TCP would
 ask too much efforts in too short lapse of time. Also, it is not yet clear if we
@@ -157,11 +157,11 @@ should really do that.&lt;/p&gt;
       <guid>http://sim590.github.io/post/gsoc/week10-11-12/</guid>
       <description>
 
-&lt;h2 id=&#34;week-10-11:1f39715b9a940900a3b1275e427b5289&#34;&gt;Week 10 &amp;amp; 11&lt;/h2&gt;
+&lt;h2 id=&#34;week-10-11&#34;&gt;Week 10 &amp;amp; 11&lt;/h2&gt;
 
 &lt;p&gt;During these two weeks, I&amp;rsquo;ve worked hard on paginating values on the DHT.&lt;/p&gt;
 
-&lt;h3 id=&#34;value-pagination:1f39715b9a940900a3b1275e427b5289&#34;&gt;Value pagination&lt;/h3&gt;
+&lt;h3 id=&#34;value-pagination&#34;&gt;Value pagination&lt;/h3&gt;
 
 &lt;p&gt;As explained on my post on data persistence, we&amp;rsquo;ve had network traffic issues.
 The solution we have found for this is to use the &lt;a href=&#34;http://sim590.github.io/post/gsoc/week34/&#34;&gt;queries&lt;/a&gt; (see also
@@ -184,7 +184,7 @@ this as all UDP packets will now contain only one value.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/113&#34;&gt;#113&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;week-12:1f39715b9a940900a3b1275e427b5289&#34;&gt;Week 12&lt;/h2&gt;
+&lt;h2 id=&#34;week-12&#34;&gt;Week 12&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been working on making the &amp;ldquo;put&amp;rdquo; request lighter, again using queries. This
 is a key feature which will make it possible to enable &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/#data-persistence:34c4da6d4768d05e50db99357a299b5c&#34;&gt;data persistence&lt;/a&gt;. In
@@ -203,21 +203,21 @@ reduction of network traffic.&lt;/p&gt;
       <guid>http://sim590.github.io/post/gsoc/week89/</guid>
       <description>
 
-&lt;h2 id=&#34;week-8:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;Week 8&lt;/h2&gt;
+&lt;h2 id=&#34;week-8&#34;&gt;Week 8&lt;/h2&gt;
 
 &lt;p&gt;This particular week has been tiresome as I did catch a cold ;). I did come back
 from Cape Town where &lt;a href=&#34;http://sim590.github.io/post/gsoc/week567/&#34;&gt;debconf&lt;/a&gt; taking place. My arrival at Montreal was in the
 middle of the week, so this week is not plenty of news&amp;hellip;&lt;/p&gt;
 
-&lt;h3 id=&#34;what-i-ve-done:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;What I&amp;rsquo;ve done&lt;/h3&gt;
+&lt;h3 id=&#34;what-i-ve-done&#34;&gt;What I&amp;rsquo;ve done&lt;/h3&gt;
 
 &lt;p&gt;I have synced myself with my coworker Nicolas Reynaud, who&amp;rsquo;s working on building
 the indexation system over the DHT. We have worked together on critical
 algorithms: concurrent maintenance of data in the trie (PHT).&lt;/p&gt;
 
-&lt;h2 id=&#34;week-9:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;Week 9&lt;/h2&gt;
+&lt;h2 id=&#34;week-9&#34;&gt;Week 9&lt;/h2&gt;
 
-&lt;h3 id=&#34;what-i-ve-done-1:25ce5886c5ea1bf7ae6670267c09b4f7&#34;&gt;What I&amp;rsquo;ve done&lt;/h3&gt;
+&lt;h3 id=&#34;what-i-ve-done-1&#34;&gt;What I&amp;rsquo;ve done&lt;/h3&gt;
 
 &lt;p&gt;Since my mentor, who&amp;rsquo;s also the main author of OpenDHT, was gone for presenting
 &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt; at the &lt;a href=&#34;https://sec2016.rmll.info/&#34;&gt;RMLL&lt;/a&gt;, I&amp;rsquo;ve been attributed tasks that needed attention
@@ -247,7 +247,7 @@ it is not rare that a user connects to some router not giving IPv6 address.&lt;/
 
 &lt;p&gt;During week 5, 6 and 7, &lt;a href=&#34;http://sim590.github.io/post/adieu/&#34;&gt;I have been to the debian conference 2016&lt;/a&gt;. It was really interesting meeting with a lot of people all so involved in Debian.&lt;/p&gt;
 
-&lt;h2 id=&#34;key-signing-party:d11083b2598e188a9405c08ee4e2400a&#34;&gt;Key signing party&lt;/h2&gt;
+&lt;h2 id=&#34;key-signing-party&#34;&gt;Key signing party&lt;/h2&gt;
 
 &lt;p&gt;Each year, this is a really important tradition: people gather together and
 exchange GPG public key fingerprint and sign each other&amp;rsquo;s keys. This contributes
@@ -264,7 +264,7 @@ work to do about the opinion or point of view people have about encryption ;
 people don&amp;rsquo;t care enough and they don&amp;rsquo;t really know what encryption can do for
 them (digital signature, trust and privacy).&lt;/p&gt;
 
-&lt;h2 id=&#34;ring-now-part-of-debian:d11083b2598e188a9405c08ee4e2400a&#34;&gt;Ring now part of Debian&lt;/h2&gt;
+&lt;h2 id=&#34;ring-now-part-of-debian&#34;&gt;Ring now part of Debian&lt;/h2&gt;
 
 &lt;p&gt;During the first week at debcamp, Alexandre Viau, an employee at Savoir-Faire
 Linux and a also a Debian developer (DD for short), has packaged &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt; for
@@ -276,7 +276,7 @@ Debian. Users can now install Ring like so:&lt;/p&gt;
 &lt;p&gt;This is an important moment as more people are now going to easily try Ring and
 potentially contribute to it.&lt;/p&gt;
 
-&lt;h2 id=&#34;presentating-ring:d11083b2598e188a9405c08ee4e2400a&#34;&gt;Presentating Ring&lt;/h2&gt;
+&lt;h2 id=&#34;presentating-ring&#34;&gt;Presentating Ring&lt;/h2&gt;
 
 &lt;p&gt;Alexandre Viau and I have been thinking about presenting Ring at debconf 2016.
 We finally did it.
@@ -301,7 +301,7 @@ We finally did it.
 integrated into the master branch of OpenDHT. I am awaiting my mentor&amp;rsquo;s
 approval and/or comments.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-s-done:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-done&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Queries&lt;/strong&gt;. The library will provide the additional following functions in its
 API:&lt;/p&gt;
@@ -322,7 +322,7 @@ has a &lt;code&gt;std::map&amp;lt;Value::Field, FieldValue&amp;gt;&lt;/code&gt;.
 &lt;code&gt;FieldValueIndex&lt;/code&gt; as a subset of fields of a given &lt;code&gt;Value&lt;/code&gt;. The &lt;code&gt;Query&lt;/code&gt;
 structure then allows you to create both &lt;code&gt;Select&lt;/code&gt; and &lt;code&gt;Where&lt;/code&gt; &amp;ldquo;statements&amp;rdquo;.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-s-next:7ff0723931015fd349765befbfcc3f5d&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-next&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Value pagination&lt;/strong&gt;. I have begun working on this and I now have a more clear
@@ -347,12 +347,12 @@ it;&lt;/li&gt;
 
 &lt;div style=&#34;text-align:center&#34;&gt; &lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pZpTXJap6Fg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt; &lt;/div&gt;
 
-&lt;h2 id=&#34;gsoc:c272c84770b52a12687a5982cbe8e638&#34;&gt;GSOC&lt;/h2&gt;
+&lt;h2 id=&#34;gsoc&#34;&gt;GSOC&lt;/h2&gt;
 
 &lt;p&gt;Comme j&amp;rsquo;ai mentionné dans au &lt;a href=&#34;http://sim590.github.io/post/gsoc/intro/&#34;&gt;article antérieur&lt;/a&gt;, je participe au programme &lt;a href=&#34;https://developers.google.com/open-source/gsoc/&#34;&gt;Google Summer Of Code&lt;/a&gt; grâce à l&amp;rsquo;organisation
 &lt;a href=&#34;https://debian.org&#34;&gt;Debian&lt;/a&gt; qui supervise mes travaux contribuant au logiciel libre &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;deux-jours-restants:c272c84770b52a12687a5982cbe8e638&#34;&gt;Deux jours restants&lt;/h2&gt;
+&lt;h2 id=&#34;deux-jours-restants&#34;&gt;Deux jours restants&lt;/h2&gt;
 
 &lt;p&gt;Il reste deux jours avant mon départ pour le Cape, en Afrique du sud. C&amp;rsquo;est
 pour assister à l&amp;rsquo;événement &lt;strong&gt;&lt;a href=&#34;https://debconf16.debconf.org/&#34;&gt;debconf&lt;/a&gt;&lt;/strong&gt; (« Debian conference »), organisé par
@@ -366,7 +366,7 @@ Debian est une organisation pionière du monde du logiciel libre. Je rencontrera
 des gens très dévoués et partageant avec moi beaucoup d&amp;rsquo;intérêts pour le
 logiciel libre et sa philosophie.&lt;/p&gt;
 
-&lt;h2 id=&#34;l-afrique-du-sud:c272c84770b52a12687a5982cbe8e638&#34;&gt;L&amp;rsquo;Afrique du sud&lt;/h2&gt;
+&lt;h2 id=&#34;l-afrique-du-sud&#34;&gt;L&amp;rsquo;Afrique du sud&lt;/h2&gt;
 
 &lt;p&gt;Ce sera la première fois que je prendrai l&amp;rsquo;avion et je ferai une escale à
 Amsterdam, une ville que j&amp;rsquo;aimerais bien visiter un jour. Ahhhh Jacques
@@ -378,7 +378,7 @@ Brel.&lt;/p&gt;
 permettant de sortir du continent d&amp;rsquo;Amérique pour la première fois. J&amp;rsquo;ai bien
 hâte de vivre l&amp;rsquo;ambiance du Cape.&lt;/p&gt;
 
-&lt;h2 id=&#34;les-requins:c272c84770b52a12687a5982cbe8e638&#34;&gt;Les requins&lt;/h2&gt;
+&lt;h2 id=&#34;les-requins&#34;&gt;Les requins&lt;/h2&gt;
 
 &lt;p&gt;Y parrait qu&amp;rsquo;y&amp;rsquo;a des requins au Cape.&lt;/p&gt;
 </description>
@@ -394,7 +394,7 @@ hâte de vivre l&amp;rsquo;ambiance du Cape.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been reworking the code for the queries I introduced in the &lt;a href=&#34;http://sim590.github.io/post/gsoc/week1/&#34;&gt;first week&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-s-done:3fe32ddde4fd68dd585d4615f029762b&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-done&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;I have worked on &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;value pagination&lt;/a&gt; and optimization of announce operations;&lt;/li&gt;
@@ -404,7 +404,7 @@ explained
 &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43#issuecomment-222795776&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;what-s-still-work-in-progress:3fe32ddde4fd68dd585d4615f029762b&#34;&gt;What&amp;rsquo;s still work in progress&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-still-work-in-progress&#34;&gt;What&amp;rsquo;s still work in progress&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Value pagination;&lt;/li&gt;
@@ -425,7 +425,7 @@ explained
 values on the distributed hash table &lt;a href=&#34;http://opendht.net&#34;&gt;OpenDHT&lt;/a&gt;. This structure is called
 &lt;code&gt;Query&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-s-done:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-done&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
 
 &lt;p&gt;The implementation of the base design with other changes have been made. You can
 see evolution on the matter
@@ -444,7 +444,7 @@ see evolution on the matter
 &lt;p&gt;I verified the working state of the code with the &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/blob/master/tools/dhtnode.cpp&#34;&gt;dhtnode&lt;/a&gt;. I have also done
 some tests using our python benchmark scripts.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-s-next:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-next&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;Value pagination&lt;/a&gt;;&lt;/li&gt;
@@ -452,7 +452,7 @@ some tests using our python benchmark scripts.&lt;/p&gt;
 potential useless traffic.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;thoughts:d554dde27ecc4b58f50be1ae68f8125f&#34;&gt;Thoughts&lt;/h2&gt;
+&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
 
 &lt;p&gt;The &lt;code&gt;Query&lt;/code&gt; is the key part for optimizing my initial work on data persistence
 on the DHT. It will enhance the DHT on more than one aspects. I have to point
@@ -473,7 +473,7 @@ introduced in
 &lt;p&gt;I am part of the group of students working with the Debian organization. You can
 see my profile on the Debian wiki &lt;a href=&#34;https://wiki.debian.org/SummerOfCode2016/StudentApplications/SimonD%C3%A9saulniers&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;improving-distributed-and-secure-communication-using-free-software:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Improving distributed and secure communication using free software&lt;/h2&gt;
+&lt;h2 id=&#34;improving-distributed-and-secure-communication-using-free-software&#34;&gt;Improving distributed and secure communication using free software&lt;/h2&gt;
 
 &lt;p&gt;This the title of my project for this summer. It sounds good, but what am I
 going to really do? Well, since I&amp;rsquo;m a student at Université du Québec à
@@ -486,7 +486,7 @@ their exciting project: &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt;.&
 &lt;p&gt;Ring is one of the few projects which bring communication confidentiality and
 freedom in the hands of the users.&lt;/p&gt;
 
-&lt;h2 id=&#34;opendht:34c4da6d4768d05e50db99357a299b5c&#34;&gt;OpenDHT&lt;/h2&gt;
+&lt;h2 id=&#34;opendht&#34;&gt;OpenDHT&lt;/h2&gt;
 
 &lt;p&gt;Ring is divided in multiple components as explained here:
 &lt;a href=&#34;https://ring.cx/en/about/technical&#34;&gt;https://ring.cx/en/about/technical&lt;/a&gt;. The component I work on is called
@@ -502,7 +502,7 @@ maintainability.&lt;/p&gt;
 between Savoir-Faire Linux and Université du Québec à Montréal. We have been
 working on adding two major features to OpenDHT.&lt;/p&gt;
 
-&lt;h3 id=&#34;short-introduction-to-distributed-hash-tables:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Short introduction to Distributed Hash Tables&lt;/h3&gt;
+&lt;h3 id=&#34;short-introduction-to-distributed-hash-tables&#34;&gt;Short introduction to Distributed Hash Tables&lt;/h3&gt;
 
 &lt;p&gt;OpenDHT is based on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Kademlia&#34;&gt;Kademlia design&lt;/a&gt;. If you know about DHTs, you are
 aware that they define the notion of &lt;strong&gt;distance&lt;/strong&gt; using the XOR metric. This
@@ -518,7 +518,7 @@ identifier and the target hash &lt;code&gt;h&lt;/code&gt; is minimized. The grou
 the closest to the target hash (OpenDHT allows up to 8 nodes) will hold data for
 that hash.&lt;/p&gt;
 
-&lt;h3 id=&#34;data-persistence:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Data persistence&lt;/h3&gt;
+&lt;h3 id=&#34;data-persistence&#34;&gt;Data persistence&lt;/h3&gt;
 
 &lt;p&gt;Let&amp;rsquo;s say you ask a group of 8 nodes to hold some data for a hash and you want
 the data to hold the whole time until its expiration time as come. If the group
@@ -534,7 +534,7 @@ requests engine. We are presently working on adding a Query feature that would
 enable filtering of data on remote nodes, hence substantially lowering the
 overall traffic produced by a response to a &amp;lsquo;get&amp;rsquo; request.&lt;/p&gt;
 
-&lt;h3 id=&#34;indexation:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Indexation&lt;/h3&gt;
+&lt;h3 id=&#34;indexation&#34;&gt;Indexation&lt;/h3&gt;
 
 &lt;p&gt;During the last year, I have also been working on the design of a solution for
 the use case of indexation. In a more technical way, this is the capability to
@@ -546,7 +546,7 @@ OpenDHT. I have already created a working, but still in progress, version of
 this. You can find it on &lt;a href=&#34;http://opendht.net&#34;&gt;http://opendht.net&lt;/a&gt;, on the index branch. Now, Nicolas
 Reynaud (kaldoran) is contributing to this during the GSOC.&lt;/p&gt;
 
-&lt;h2 id=&#34;roadmap:34c4da6d4768d05e50db99357a299b5c&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
 
 &lt;p&gt;As I explained on my page on the Debian Wiki, I am going to work on:&lt;/p&gt;
 
@@ -573,7 +573,7 @@ complexity and enhance robsutness of the DHT.&lt;/li&gt;
       <guid>http://sim590.github.io/post/welcome/</guid>
       <description>
 
-&lt;h1 id=&#34;so-this-is-how-it-begins:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;So, this is how it begins&lt;/h1&gt;
+&lt;h1 id=&#34;so-this-is-how-it-begins&#34;&gt;So, this is how it begins&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been looking for a way to share thoughts about projects I had in mind,
 communicating how I&amp;rsquo;ve lived some experiences, or simply write down about
@@ -582,7 +582,7 @@ soon realised it wasn&amp;rsquo;t fit for what I wanted. I didn&amp;rsquo;t want
 time thinking about how I should deploy or update my blog. I just wanted a quick
 and simple way to write a blog.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Hugo&lt;/h2&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
 
 &lt;p&gt;I first saw &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;jekyll&lt;/a&gt;, and I saw how easy it was to setup
 and maintain. I thought: &amp;ldquo;This is just the thing I wanted!&amp;rdquo; But then, I found
@@ -618,7 +618,7 @@ what bought me after all since it had all the features jekyll could offer me,
 plus I couldn&amp;rsquo;t worry about time efficiency when generating my site between two
 consecutive writes.&lt;/p&gt;
 
-&lt;h3 id=&#34;project-tree:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Project tree&lt;/h3&gt;
+&lt;h3 id=&#34;project-tree&#34;&gt;Project tree&lt;/h3&gt;
 
 &lt;p&gt;The typical project tree looks something like this:&lt;/p&gt;
 
@@ -640,7 +640,7 @@ consecutive writes.&lt;/p&gt;
 &lt;p&gt;All of the html, css and javascript final files that the final website is
 composed of are going to be generated by the Hugo engine.&lt;/p&gt;
 
-&lt;h3 id=&#34;config:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Config&lt;/h3&gt;
+&lt;h3 id=&#34;config&#34;&gt;Config&lt;/h3&gt;
 
 &lt;p&gt;You have to configure your &lt;code&gt;config.toml&lt;/code&gt; file for letting Hugo generate your
 website. Here&amp;rsquo;s my config file so far:&lt;/p&gt;
@@ -763,7 +763,7 @@ googleAnalytics = &amp;quot;&amp;quot;
     email           = &amp;quot;sim.desaulniers@gmail.com&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;exhausted:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Exhausted&lt;/h2&gt;
+&lt;h2 id=&#34;exhausted&#34;&gt;Exhausted&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m not much of a writer yet and this is my first post.&lt;/p&gt;
 
