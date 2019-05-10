@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://sim590.github.io/post/gsoc/final/</loc>
@@ -62,6 +63,12 @@
   </url>
   
   <url>
+    <loc>http://sim590.github.io/categories/google-summer-of-code/</loc>
+    <lastmod>2016-08-19T12:04:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://sim590.github.io/post/</loc>
     <lastmod>2016-08-19T12:04:13-04:00</lastmod>
     <priority>0</priority>
@@ -74,8 +81,7 @@
   </url>
   
   <url>
-    <loc>http://sim590.github.io/categories/google-summer-of-code/</loc>
-    <lastmod>2016-08-19T12:04:13-04:00</lastmod>
+    <loc>http://sim590.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
