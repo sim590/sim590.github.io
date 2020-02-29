@@ -26,6 +26,10 @@
   </url>
   
   <url>
+    <loc>http://sim590.github.io/eo/pri/</loc>
+  </url>
+  
+  <url>
     <loc>http://sim590.github.io/eo/series/</loc>
     <xhtml:link
                 rel="alternate"
