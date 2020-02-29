@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://sim590.github.io/eo/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://sim590.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sim590.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="http://sim590.github.io/eo/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://sim590.github.io/eo/kontaktu-min/</loc>
+  </url>
+  
+  <url>
+    <loc>http://sim590.github.io/eo/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://sim590.github.io/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sim590.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="http://sim590.github.io/eo/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://sim590.github.io/eo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://sim590.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sim590.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="http://sim590.github.io/eo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://sim590.github.io/eo/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://sim590.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sim590.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="http://sim590.github.io/eo/tags/"
+                />
+  </url>
+  
+</urlset>
