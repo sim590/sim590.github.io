@@ -14,103 +14,12 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 02 Mar 2020 04:06:13 -0500</lastBuildDate>
     
         <atom:link href="http://sim590.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
-      
-      <item>
-        <title>Algorithmique</title>
-        <link>http://sim590.github.io/fr/categories/algorithmique/</link>
-        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>http://sim590.github.io/fr/categories/algorithmique/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Haskell</title>
-        <link>http://sim590.github.io/fr/categories/haskell/</link>
-        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>http://sim590.github.io/fr/categories/haskell/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Mémoïsation</title>
-        <link>http://sim590.github.io/fr/categories/m%C3%A9mo%C3%AFsation/</link>
-        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>http://sim590.github.io/fr/categories/m%C3%A9mo%C3%AFsation/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Programmation</title>
-        <link>http://sim590.github.io/fr/categories/programmation/</link>
-        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>http://sim590.github.io/fr/categories/programmation/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Programmation dynamique</title>
-        <link>http://sim590.github.io/fr/categories/programmation-dynamique/</link>
-        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>http://sim590.github.io/fr/categories/programmation-dynamique/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
       
 
     
