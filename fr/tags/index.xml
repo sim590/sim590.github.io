@@ -14,12 +14,67 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 02 Mar 2020 04:06:13 -0500</lastBuildDate>
     
         <atom:link href="http://sim590.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Data.Array</title>
+        <link>http://sim590.github.io/fr/tags/data.array/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/fr/tags/data.array/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>nombre triangulaire</title>
+        <link>http://sim590.github.io/fr/tags/nombre-triangulaire/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/fr/tags/nombre-triangulaire/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Séquence de Collatz</title>
+        <link>http://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
 
     

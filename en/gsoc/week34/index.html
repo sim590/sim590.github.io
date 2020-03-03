@@ -1219,7 +1219,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.63.0" />
+<meta name="generator" content="Hugo 0.65.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1522,7 +1522,7 @@
   
   <li >
     
-      <a href="http://sim590.github.io/en/gsoc/" class="capitalize">Gsocs</a>
+      <a href="http://sim590.github.io/en/gsoc/" class="capitalize">Google Summer of Code</a>
     
   </li>
   
@@ -1569,8 +1569,8 @@ API:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">void</span> <span class="nf">get</span><span class="p">(</span><span class="n">InfoHash</span> <span class="n">id</span><span class="p">,</span> <span class="n">GetCallbackSimple</span> <span class="n">cb</span><span class="p">,</span> <span class="n">DoneCallback</span> <span class="n">donecb</span><span class="o">=</span><span class="p">{</span><span class="p">}</span><span class="p">,</span> <span class="n">Value</span><span class="o">:</span><span class="o">:</span><span class="n">Filter</span> <span class="n">f</span> <span class="o">=</span> <span class="n">Value</span><span class="o">:</span><span class="o">:</span><span class="n">AllFilter</span><span class="p">(</span><span class="p">)</span><span class="p">,</span> <span class="n">Where</span> <span class="n">w</span> <span class="o">=</span> <span class="p">{</span><span class="p">}</span><span class="p">)</span> <span class="p">{</span>
-<span class="kt">void</span> <span class="nf">query</span><span class="p">(</span><span class="k">const</span> <span class="n">InfoHash</span><span class="o">&amp;</span> <span class="n">hash</span><span class="p">,</span> <span class="n">QueryCallback</span> <span class="n">cb</span><span class="p">,</span> <span class="n">DoneCallback</span> <span class="n">done_cb</span> <span class="o">=</span> <span class="p">{</span><span class="p">}</span><span class="p">,</span> <span class="n">Query</span> <span class="n">q</span> <span class="o">=</span> <span class="p">{</span><span class="p">}</span><span class="p">)</span><span class="p">;</span>
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">void</span> <span class="nf">get</span><span class="p">(</span><span class="n">InfoHash</span> <span class="n">id</span><span class="p">,</span> <span class="n">GetCallbackSimple</span> <span class="n">cb</span><span class="p">,</span> <span class="n">DoneCallback</span> <span class="n">donecb</span><span class="o">=</span><span class="p">{},</span> <span class="n">Value</span><span class="o">::</span><span class="n">Filter</span> <span class="n">f</span> <span class="o">=</span> <span class="n">Value</span><span class="o">::</span><span class="n">AllFilter</span><span class="p">(),</span> <span class="n">Where</span> <span class="n">w</span> <span class="o">=</span> <span class="p">{})</span> <span class="p">{</span>
+<span class="kt">void</span> <span class="nf">query</span><span class="p">(</span><span class="k">const</span> <span class="n">InfoHash</span><span class="o">&amp;</span> <span class="n">hash</span><span class="p">,</span> <span class="n">QueryCallback</span> <span class="n">cb</span><span class="p">,</span> <span class="n">DoneCallback</span> <span class="n">done_cb</span> <span class="o">=</span> <span class="p">{},</span> <span class="n">Query</span> <span class="n">q</span> <span class="o">=</span> <span class="p">{});</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>The structure <code>Where</code> in the first signature will allow the user to narrow the
