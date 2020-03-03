@@ -6,43 +6,20 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Simon Désaulniers</title>
-    <link>http://sim590.github.io/fr/</link>
-    <description>Recent content on Simon Désaulniers</description>
+    <title>Programmation on Simon Désaulniers</title>
+    <link>http://sim590.github.io/fr/categories/programmation/</link>
+    <description>Recent content in Programmation on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 03:00:12 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 04:06:13 -0500</lastBuildDate>
     
-        <atom:link href="http://sim590.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sim590.github.io/fr/categories/programmation/index.xml" rel="self" type="application/rss+xml" />
     
     
     
-      
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
 
       
       <item>
@@ -96,25 +73,6 @@ Dans cet article, je commence par explorer deux exemples triviaux de programmati
               <category>Programmation dynamique</category>
             
           
-        
-        
-      </item>
-      
-      <item>
-        <title>Adieu</title>
-        <link>http://sim590.github.io/fr/adieu/</link>
-        <pubDate>Sun, 19 Jun 2016 21:30:22 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        <atom:modified>Sun, 19 Jun 2016 21:30:22 -0400</atom:modified>
-        <guid>http://sim590.github.io/fr/adieu/</guid>
-        <description>GSOC Comme j&amp;rsquo;ai mentionné dans au article antérieur, je participe au programme Google Summer Of Code grâce à l&amp;rsquo;organisation Debian qui supervise mes travaux contribuant au logiciel libre Ring.
-Deux jours restants Il reste deux jours avant mon départ pour le Cape, en Afrique du sud. C&amp;rsquo;est pour assister à l&#39;événement debconf (« Debian conference »), organisé par Debian, que je me rends là. Cet événement est organisé à chaque année et, l&amp;rsquo;année prochaine, c&amp;rsquo;est à Montréal que ça aura lieu !</description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
         
         
       </item>
