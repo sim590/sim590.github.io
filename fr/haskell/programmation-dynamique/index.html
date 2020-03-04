@@ -1546,7 +1546,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Rédigé le">📅&nbsp;02/03/2020 </time>  &middot; <span class="single__info" title="Temps de lecture"> ☕ 7 min de lecture </span>
+  <time class="single__info" title="Rédigé le">📅&nbsp;02/03/2020 </time>  &middot; <span class="single__info" title="Temps de lecture"> ☕ 11 min de lecture </span>
   <span class="single__info">
     
   </span>
@@ -1573,7 +1573,12 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <!-- TODO Attendre la réponse de Zzo à propos des disfonctionnements
+      <!-- TODO Tenter de débugger l'affichage math. Soit:
+* Trouver comment faire fonctionner l'environnement {cases} dans katex
+* ou bien trouver comment retirer le espaces blancs dans l'affichage *inline*
+  avec mathjax.
+-->
+<!-- TODO Attendre la réponse de Zzo à propos des dysfonctionnements
 mathjax/katex.
 https://github.com/zzossig/hugo-theme-zzo/issues/114#issuecomment-594090324
 -->
@@ -1584,18 +1589,19 @@ avantages d&rsquo;expressivité de haut niveau et de lisibilité qu&rsquo;on ne 
 autrement.</p>
 <p>Dans cet article, je commence par explorer deux exemples triviaux de
 programmation dynamique. Ensuite, je passe sur un problème tout aussi
-accessible, mais dont l'écriture</p>
+accessible, mais dont l&rsquo;achèvement optimal demandera l&rsquo;utilisation d&rsquo;une
+structure <code>Data.Array</code> plutôt que la liste conventionnelle.</p>
 <h2 id="évaluation-paresseuse">Évaluation paresseuse</h2>
-<p>La particularité principale est qu&rsquo;Haskell est un <a href="https://fr.wikipedia.org/wiki/%C3%89valuation_paresseuse">langage paresseux</a>,
-c&rsquo;est-à-dire que l'évaluation d&rsquo;une expression ou d&rsquo;une valeur est fait de
-manière paresseuse. Plus précisément, on peut formuler ce concept par <em>la
-propriété d&rsquo;un langage à garantir l'évaluation de la valeur d&rsquo;une expression
+<p>La particularité principale d&rsquo;Haskell est qu&rsquo;il s&rsquo;agit d&rsquo;un <a href="https://fr.wikipedia.org/wiki/%C3%89valuation_paresseuse">langage
+paresseux</a>, c&rsquo;est-à-dire que l'évaluation d&rsquo;une expression ou d&rsquo;une valeur est
+faite de manière paresseuse. Plus précisément, on peut formuler ce concept par
+<em>la propriété d&rsquo;un langage à garantir l'évaluation de la valeur d&rsquo;une expression
 donnée que si celle-ci est bien nécessaire à un calcul subséquent.</em> Par exemple,
-considérons l&rsquo;expression <code>repeat 0</code>. Cette expression correspond à une liste
-de taille virtuellement infinie. Cependant, <code>head (repeat 0)</code> correspond à une
-valeur de taille finie, en l&rsquo;occurence <code>0</code>. Comme Haskell est paresseux, il
-n'évalue <code>repeat 0</code> « complètement » que si c&rsquo;est ce qui lui est demandé. Or, en
-passant <code>repeat 0</code> en argument à <code>head</code>, on indique à Haskell qu&rsquo;on n&rsquo;est
+considérons l&rsquo;expression <code>repeat 0</code>. Cette expression correspond à une liste de
+taille virtuellement infinie. Cependant, <code>head (repeat 0)</code> correspond à une
+valeur de taille finie, en l&rsquo;occurence <code>0</code>. Comme Haskell est paresseux, il ne
+tente d'évaluer <code>repeat 0</code> « complètement » que si c&rsquo;est ce qui lui est demandé.
+Or, en passant <code>repeat 0</code> en argument à <code>head</code>, on indique à Haskell qu&rsquo;on n&rsquo;est
 intéressé que par le premier élément, alors la liste <code>repeat 0</code> ne sera jamais
 générée au complet, mais seul le premier élément sera calculé.</p>
 <h2 id="diviser-pour-régner-et-calculs-en-double">Diviser pour régner et calculs en double</h2>
@@ -1615,9 +1621,17 @@ optimales à des sous-problèmes.</p>
 </blockquote>
 <p>En d&rsquo;autres termes, pour que le principe s&rsquo;applique, il est nécessaire que la
 combinaison des solutions aux sous-problèmes soit optimale, lorsque les
-solutions aux sous-problèmes sont elles-mêmes otpimales.</p>
+solutions aux sous-problèmes sont elles-mêmes optimales.</p>
 <h2 id="suite-de-fibonacci">Suite de Fibonacci</h2>
-<p>Considérons le problème de déterminer le $n^{\text{ème}}$ terme de la <a href="https://fr.wikipedia.org/wiki/Suite_de_Fibonacci">suite de
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Considérons le problème de déterminer le $n^{\text{ème}}$ terme de la <a href="https://fr.wikipedia.org/wiki/Suite_de_Fibonacci">suite de
 Fibonacci</a>. La récurrence très connue, définie sur les entiers naturels,
 est la suivante:</p>
 <p>$$
@@ -1635,13 +1649,9 @@ $$</p>
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
-
-<span class="nf">fib</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">fib</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">fib</span> <span class="mi">0</span> <span class="ow">=</span> <span class="mi">0</span>
 <span class="nf">fib</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
 <span class="nf">fib</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">fib</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
@@ -1650,10 +1660,11 @@ $$</p>
 </div><p>Cet algorithme est cependant non optimal puisqu&rsquo;il est facile de voir que
 celui-ci effectue plusieurs calculs en double. Par exemple, pour $f(5)$ on doit
 calculer $f(3)$ et $f(4) = f(2) + f(3)$. On voit bien qu&rsquo;au moment de calculer
-$f(4)$, il serait pertinent de récupérer la valeur déjà calculée $f(3)$ et donc
-ne pas la calculer encore. Malheureusement, l&rsquo;algorithme décrit plus haut ne
+$f(4)$, il serait pertinent de récupérer la valeur déjà calculée $f(3)$ afin
+d'éviter de la recalculer. Malheureusement, l&rsquo;algorithme décrit plus haut ne
 fait pas cela. Il vaut la peine de noter que plus la valeur de $n$ est élevée,
-plus le nombre de redondance augmente, ce qui gonfle ainsi le problème.</p>
+plus le nombre de redondance augmente, ce qui gonfle ainsi la gravité du
+problème.</p>
 <h3 id="fibonacci-optimisation">Fibonacci: optimisation</h3>
 <p>La programmation dynamique nous permet de régler ce problème. Par exemple, on
 pourrait écrire la chose suivante:</p>
@@ -1664,13 +1675,9 @@ pourrait écrire la chose suivante:</p>
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
-
-<span class="nf">mfib</span> <span class="ow">::</span> <span class="kt">Int</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">mfib</span> <span class="ow">::</span> <span class="kt">Int</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">mfib</span> <span class="ow">=</span> <span class="p">(</span><span class="n">map</span> <span class="n">fib</span> <span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="p">]</span> <span class="o">!!</span><span class="p">)</span> <span class="c1">-- (ii)</span>
   <span class="kr">where</span> <span class="n">fib</span> <span class="mi">0</span> <span class="ow">=</span> <span class="mi">0</span>
         <span class="n">fib</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
@@ -1679,11 +1686,10 @@ pourrait écrire la chose suivante:</p>
 </div>
 </div><p>Le changement apporté au code plus haut devrait être analysé en plusieurs
 parties. Premièrement, on retrouve la définition de <code>fib</code> qui ressemble pas mal
-à la premièrement écriture. Cependant, on remarque que la définition du cas
-général $(i)$ ne fait plus directement appel à <code>fib</code>, mais à <code>mfib</code>.
-Deuxièmement, on remarque que la définition principale de <code>mfib</code> $(ii)$ fait un
-appel à <code>fib</code>. On a donc deux fonctions s&rsquo;appellant en chaîne, ce qui ferme la
-boucle:</p>
+à la première écriture. Cependant, on remarque que la définition du cas général
+$(i)$ ne fait plus directement appel à <code>fib</code>, mais à <code>mfib</code>.  Deuxièmement, on
+remarque que la définition principale de <code>mfib</code> $(ii)$ fait un appel à <code>fib</code>. On
+a donc deux fonctions s&rsquo;appellant en chaîne, ce qui ferme la boucle d&rsquo;appels:</p>
 <p>$$\texttt{fib} \rightarrow \texttt{mfib} \rightarrow \texttt{fib} \rightarrow \dots$$</p>
 <p>Ainsi, le tout correspond à une fonction récurisve convergeant vers les cas de
 base tout comme c'était le cas dans <a href="#suite-de-fibonacci">la première approche</a>. Ceci dit, l&rsquo;entrelacement entre <code>mfib</code> et <code>fib</code> forme
@@ -1697,8 +1703,10 @@ défini comme l&rsquo;accès <code>(!!)</code> au $n^{\text{ème}}$ élément de
 <pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">map</span> <span class="n">fib</span> <span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="p">]</span> <span class="c1">-- (ii)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Cette liste correspond bien sûr à la liste suivante:</p>
-<p>$$(\texttt{fib 0}, \texttt{fib 1}, \texttt{fib 2}, \dots)$$</p>
+</div><p>Cette liste correspond bien sûr à la liste abstraite suivante:</p>
+<div align=center>
+  <code align=center>[fib 0, fib 1, fib 2, ...]</code>
+</div><br>
 <p>Notons premièrement que la liste <code>map fib [0..]</code> est une expression
 correspondant à une liste infinie. Mais comme Haskell est un <a href="#évaluation-paresseuse">langage
 paresseux</a>, seuls les éléments
@@ -1707,8 +1715,8 @@ nécessaires au calcul demandé par l&rsquo;appel initial de <code>mfib</code> s
 Premièrement, l&rsquo;accès au $5^\text{ème}$ élément de la liste sera demandé, ce qui
 engendrera l&rsquo;appel à <code>fib 5</code> qui en retour correspond à <code>mfib 3</code> et <code>mfib 4</code>.
 L&rsquo;expression partielle correspondant au calcul demandé initialement est donc
-<code>mfib 3 + mfib 4</code>. Or, <code>mfib 3</code> est le $3^\text{ème}$ élément de la liste $(ii)$
-et <em>idem</em> pour <code>mfib 4</code>.</p>
+<code>mfib 3 + mfib 4</code>. Or, <code>mfib 3</code> est le $3^\text{ème}$ élément de la liste
+$(ii)$. On déduit une chose similaire pour <code>mfib 4</code>.</p>
 <p>On pourrait croire un instant qu&rsquo;Haskell pourrait calculer <code>mfib 3</code> une fois, le
 stocker dans le tableau et que, le moment venu, <code>mfib 4</code> provoque le même
 calcul, mais il s&rsquo;avère qu&rsquo;Haskell partage la liste $(ii)$ entre les différents
@@ -1722,24 +1730,28 @@ une expression remplissant la même fonction en une ligne:</p>
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
-
-<span class="nf">fibs</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">fibs</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
 <span class="nf">fibs</span> <span class="ow">=</span> <span class="mi">0</span> <span class="kt">:</span> <span class="mi">1</span> <span class="kt">:</span> <span class="n">zipWith</span> <span class="p">(</span><span class="o">+</span><span class="p">)</span> <span class="n">fibs</span> <span class="p">(</span><span class="n">tail</span> <span class="n">fibs</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Cett expression correspond bien sûr à la liste de tous les nombres de Fibonacci.
 Il suffit maintenant d&rsquo;accéder à l'élément qu&rsquo;on souhaite, par exemple le
 $5^\text{ème}$, avec <code>fibs !! 5</code>. Ici encore, on emploie une approche de
-programmation dynamique puisque la liste est progressivement construire en
+programmation dynamique puisque la liste est progressivement construite en
 réutilisant les deux derniers éléments de la liste pour les additionner afin de
 former le prochain élément <em>ad infinitum</em>.</p>
 <h2 id="nombres-triangulaires">Nombres triangulaires</h2>
-<p>Considérons maintenant le problème de générer les <a href="https://fr.wikipedia.org/wiki/Nombre_triangulaire">nombres
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Considérons maintenant le problème de générer les <a href="https://fr.wikipedia.org/wiki/Nombre_triangulaire">nombres
 triangulaires</a>. On sait que $t_n$, le $n^{\text{ème}}$ nombre
 triangulaire, est donné par l&rsquo;expression suivante:</p>
 <p>$$ t_n = \sum_{i=1}^n i = 1 + 2 + \dots + n$$</p>
@@ -1754,7 +1766,7 @@ triangulaire, est donné par l&rsquo;expression suivante:</p>
 <span class="nf">triangs</span> <span class="ow">=</span> <span class="p">[</span><span class="n">sum</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="p">]</span> <span class="o">|</span> <span class="n">n</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="p">]]</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Cependant, cette première approche est clairement affreuse. On refait clairement
+</div><p>Cependant, cette première approche est absolument affreuse. On refait clairement
 plusieurs fois les mêmes calculs. On pourrait aussi tirer avantage du fait que
 $t_n$ trouve l&rsquo;expression équivalente suivante:</p>
 <p>$$ t_n = \frac{n(n+1)}{2} $$</p>
@@ -1781,12 +1793,12 @@ solution pour Fibonacci, on peut écrire:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs&#39;&#39;</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span>
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs&#39;&#39;</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
 <span class="nf">triangs&#39;&#39;</span> <span class="ow">=</span> <span class="mi">1</span> <span class="kt">:</span> <span class="n">zipWith</span> <span class="p">(</span><span class="o">+</span><span class="p">)</span> <span class="n">triangs&#39;&#39;</span> <span class="p">[</span><span class="mi">2</span><span class="o">..</span><span class="p">]</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Ici, on créé encore une fois une liste qui se joint à une seconde liste, la
-liste <code>[2..]</code>, infinie, par l&rsquo;addition des éléments de chaque liste deux à deux.
+liste infinie <code>[2..]</code>, par l&rsquo;addition des éléments de chaque liste deux à deux.
 On peut développer l&rsquo;expression comme suit:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1795,25 +1807,192 @@ On peut développer l&rsquo;expression comme suit:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">1 : zipWith (+) [1,...] [2,3,4...]         -&gt; [1, 3, ...]
-1 : 3 : zipWith (+) [3,...] [3,4,5...]     -&gt; [1, 3, 6, ...]
-1 : 3 : 6 : zipWith (+) [6,...] [4,5,6...] -&gt; [1, 3, 6, 10, ...]
+<pre class="chroma"><code class="language-plain" data-lang="plain">1 : zipWith (+) [1,...] [2,3,4...]         correspond à [1, 3, ...]
+1 : 3 : zipWith (+) [3,...] [3,4,5...]     correspond à [1, 3, 6, ...]
+1 : 3 : 6 : zipWith (+) [6,...] [4,5,6...] correspond à [1, 3, 6, 10, ...]
 </code></pre></td></tr></table>
 </div>
 </div><p>Évidemment, une méthode plus intuitive (mais plus verbeuse) est aussi possible.</p>
 <h2 id="séquences-de-collatz">Séquences de Collatz</h2>
-<p>À venir&hellip;</p>
-<!-- TODO : Définition du problème des séquences de Collatz -->
-<!-- TODO : Solution évidente force-brute. -->
-<!-- TODO : Constat évident: l'approche force brute engendre des calculs en
-            double. Donner un exemple de séquence (activer l'affichage math).
--->
-<!-- TODO : Approche dynamique: tableau (Array). Array mieux que [] (comme dans
-            l'article jusqu'ici) car accès O(1) plutôt que (n) -->
-<!-- TODO : Mentionner la propriété de paresse d'Haskell qui permet de définir le
-            tableau partiellement, sans ambiguïté.
--->
-<!-- vim: set sts=2 ts=2 sw=2 tw=80 et :-->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
+<span class="kr">import</span> <span class="nn">Data.Array</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Bien que ce prochain problème n&rsquo;est pas d&rsquo;un ordre différent de difficulté, nous
+allons prendre une avenue qui diffère légèrement afin de garantir encore un
+rendement optimal.</p>
+<p>Une séquence de Collatz est une séquence de nombres générée suivant un nombre en
+entrée, appelons cet élément « racine ». Soit $g: \mathbb{N} \longrightarrow
+\mathbb{N}$ définie comme:</p>
+<p>$$
+g(m) =
+\begin{cases}
+\frac{m}{2} &amp; \text{si}\ m\ \text{est pair}\\<br />
+\\ % Nécessaire car autrement, l'équation n&rsquo;arrive pas à se dessiner (trop serré)
+3n + 1      &amp; \text{sinon}
+\end{cases}
+$$</p>
+<p>Une séquence de Collatz, pour une racine $r$, est définie comme la suite</p>
+<p>$$(g(r), (g \circ g)(r), (g \circ g \circ g)(r), \dots, 1).$$</p>
+<p>où $\circ$ représente la composition de fonction.</p>
+<h3 id="problème">Problème</h3>
+<p>Pour $n \in \mathbb{N}$, on souhaite déterminer la taille de la plus longue
+séquence de Collatz pour tout $1 \le r \le n$.</p>
+<p>Une approche naïve pourrait ressembler à la suivante. Définissons premièrement
+une fonction calculant la prochaine valeur de la séquence. Appelons la <code>step</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">step</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<span class="nf">step</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
+<span class="nf">step</span> <span class="n">m</span>
+  <span class="o">|</span> <span class="n">even</span> <span class="n">m</span>    <span class="ow">=</span> <span class="n">m</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
+  <span class="o">|</span> <span class="n">otherwise</span> <span class="ow">=</span> <span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Remarquons que le cas où $m$ est impair n&rsquo;est plus $3m+1$, mais maintenant
+$\frac{(3m+1)}{2}$. Ceci est possible sans perte de généralité puisque si $m$
+est impair, alors $m=2k+1$ pour $k\in\mathbb{N}$. Ainsi,</p>
+<p>$$ 3m+1 = 3(2k+1)+1 = 2(3k +2) \quad \text{est pair}. $$</p>
+<p>Ce faisant, le traitement où l&rsquo;argument de <code>step</code> est pair peut tout de suite
+s&rsquo;appliquer sur l&rsquo;image de $3m+1$. On sauve ainsi une étape à chaque nombre
+impair rencontré.</p>
+<p>Ensuite, l&rsquo;algorithme bête pour déterminer la longueur d&rsquo;une séquence de Collatz
+avec pour racine <code>m</code> pourrait ressembler au suivant.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">dumbSeq</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Int</span>
+<span class="nf">dumbSeq</span> <span class="n">m</span> <span class="ow">=</span> <span class="p">(</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">$</span> <span class="n">length</span> <span class="o">$</span> <span class="n">takeWhile</span> <span class="p">(</span><span class="o">/=</span><span class="mi">1</span><span class="p">)</span> <span class="o">$</span> <span class="n">iterate</span> <span class="n">step</span> <span class="n">m</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>La lecture est assez directe. On itère sur les appels successifs de <code>step</code> avec
+comme premier argument <code>m</code> jusqu'à ce qu&rsquo;on tombe sur <code>1</code>. Ici, <code>iterate</code> créé
+la liste de tous les résultats d&rsquo;applicaiton de <code>step</code>. On n&rsquo;a donc qu'à prendre
+la taille de cette liste et additionner 1 (pour compter le nombre 1). Afin de
+calculer la valeur maximale pour $1 \le r \le \text{n}$, on peut alors calculer
+comme suit:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">maxDumb</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<span class="nf">maxDumb</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">0</span>
+<span class="nf">maxDumb</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">snd</span> <span class="o">$</span> <span class="n">maximum</span> <span class="o">$</span> <span class="n">map</span> <span class="p">(</span><span class="nf">\</span> <span class="n">m</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="n">dumbSeq</span> <span class="n">m</span><span class="p">,</span> <span class="n">m</span><span class="p">))</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="p">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Ici, on créé une liste de paires ordonnées $(g^i(m), m)$. On trouve le maximum
+de cette liste en comparant le premier élément de chaque paire ordonnée (le
+comportement par défaut de <code>compare</code> tel que défini pour l&rsquo;instance
+<code>(,) a</code> de la classe <code>Ord</code>).</p>
+<p>Clairement, pour $n$ suffisamment grand, le problème peut devenir couteux en
+temps. On remarque bien sûr que certaines séquences se croisent. Par exemple:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-plain" data-lang="plain">r = 3 =&gt; g(3) = g(5) = g(8) = g(4) = g(2) = 1
+r = 4 =&gt;                      g(4) = g(2) = 1
+</code></pre></td></tr></table>
+</div>
+</div><p>Ce faisant, si on avait à calculer la longueur de la séquence pour $g(3)$ avant
+$g(4)$, alors le calcul à l&rsquo;itération $r=4$ serait gratuit si nous employions
+une approche de programmation dynamique.</p>
+<p>Supposons qu&rsquo;on soit intéressé à trouver la réponse pour $n$ très grand. Il
+serait d&rsquo;abord nécessaire de fixer une taille maximale pour l&rsquo;antémémoire
+utilisée pour stocker les valeurs déjà calculées. Disons que $10^6$ est
+raisonnable:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">bigN</span> <span class="ow">::</span> <span class="kt">Natural</span>
+<span class="nf">bigN</span> <span class="ow">=</span> <span class="mi">10</span> <span class="o">^</span> <span class="p">(</span><span class="mi">6</span> <span class="ow">::</span> <span class="kt">Natural</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Ensuite, nous définissons la structure <code>seqArray</code>  servant d&rsquo;antémémoire ainsi que la
+routine de comptage des itérations <code>seq'</code> à travers <code>step</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">seq&#39;</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<span class="nf">seq&#39;</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
+<span class="nf">seq&#39;</span> <span class="n">i</span> <span class="ow">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">next</span>
+  <span class="kr">where</span> <span class="n">i&#39;</span> <span class="ow">=</span> <span class="n">step</span> <span class="n">i</span>
+        <span class="n">next</span> <span class="o">|</span> <span class="n">i&#39;</span> <span class="o">&gt;</span> <span class="n">bigN</span> <span class="ow">=</span> <span class="n">seq&#39;</span> <span class="n">i&#39;</span>
+             <span class="o">|</span> <span class="n">otherwise</span> <span class="ow">=</span> <span class="n">seqArray</span> <span class="o">!</span> <span class="n">i&#39;</span>
+
+<span class="nf">seqArray</span> <span class="ow">::</span> <span class="kt">Array</span> <span class="kt">Natural</span> <span class="kt">Natural</span>
+<span class="nf">seqArray</span> <span class="ow">=</span> <span class="n">listArray</span> <span class="n">bounds&#39;</span> <span class="p">[</span> <span class="n">seq&#39;</span> <span class="n">i</span> <span class="o">|</span> <span class="n">i</span> <span class="ow">&lt;-</span> <span class="n">range</span> <span class="n">bounds&#39;</span><span class="p">]</span>
+  <span class="kr">where</span> <span class="n">bounds&#39;</span> <span class="ow">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">bigN</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Nous avons grandement avantage ici à utiliser un tableau permettant un accès
+$\mathcal{O}(1)$ pour chaque valeur. Bien que c'était autant le cas pour les
+deux problèmes précédents, nous n&rsquo;avons pas introduit l&rsquo;utilisation de
+<code>Data.Array</code> jusqu&rsquo;ici afin de simplifier les choses.</p>
+<h3 id="fonctionnement">Fonctionnement</h3>
+<p>Comme précédemment, remarquons la liaison entre <code>seq'</code> et <code>seqArray</code>. On voit
+bien que <code>seq'</code> est défini en fonction de <code>seqArray</code> et vice versa. D&rsquo;un côté,
+on peut le voir comme le fait que <code>seq'</code> utilise les valeurs inscrites dans le
+tableau afin de faire ses calculs. De l&rsquo;autre côté, on peut interpréter que
+<code>seqArray</code> n&rsquo;est défini que pour les valeurs que <code>seq'</code> prend. Il y a là une
+<em>différence majeur</em> avec l'écriture dans un langage impératif comme ceux
+s&rsquo;apparentant au langage C, par exemple.</p>
+<p><em>Il n&rsquo;y a aucune exigence à l&rsquo;endroit du programmeur à déterminer les indices
+admissibles pour indexation dans le tableau.</em> <strong>La paresse d&rsquo;Haskell s&rsquo;occupe de
+tout</strong>.</p>
+<h3 id="séquence-de-longueur-maximale-maximale">Séquence de longueur maximale maximale</h3>
+<p>Finalement, la fonction suivante évalue la longueur de la séquence maximale
+pour une racine $1 \le r \le \texttt{n}$.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">maxSeq</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<span class="nf">maxSeq</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">0</span>
+<span class="nf">maxSeq</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">l</span>
+  <span class="kr">where</span> <span class="p">(</span><span class="kr">_</span><span class="p">,</span> <span class="n">l</span><span class="p">)</span> <span class="ow">=</span> <span class="n">maximum</span> <span class="o">$</span> <span class="n">map</span> <span class="n">swap</span> <span class="o">$</span> <span class="n">genericTake</span> <span class="n">n</span> <span class="o">$</span> <span class="n">assocs</span> <span class="n">seqArray</span>
+</code></pre></td></tr></table>
+</div>
+</div><!-- vim: set sts=2 ts=2 sw=2 tw=80 et :-->
 
     </article>
     
@@ -2386,7 +2565,13 @@ document.addEventListener('DOMContentLoaded', function () {
       </ul>
     </li>
     <li><a href="#nombres-triangulaires">Nombres triangulaires</a></li>
-    <li><a href="#séquences-de-collatz">Séquences de Collatz</a></li>
+    <li><a href="#séquences-de-collatz">Séquences de Collatz</a>
+      <ul>
+        <li><a href="#problème">Problème</a></li>
+        <li><a href="#fonctionnement">Fonctionnement</a></li>
+        <li><a href="#séquence-de-longueur-maximale-maximale">Séquence de longueur maximale maximale</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
