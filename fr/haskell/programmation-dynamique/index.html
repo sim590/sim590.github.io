@@ -1573,15 +1573,9 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <!-- TODO Tenter de débugger l'affichage math. Soit:
-* Trouver comment faire fonctionner l'environnement {cases} dans katex
-* ou bien trouver comment retirer le espaces blancs dans l'affichage *inline*
-  avec mathjax.
--->
-<!-- TODO Attendre la réponse de Zzo à propos des dysfonctionnements
-mathjax/katex.
-https://github.com/zzossig/hugo-theme-zzo/issues/114#issuecomment-594090324
--->
+      <script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 <p>L&rsquo;approche de programmation dynamique est souvent associée au remplissage d&rsquo;un
 tableau à deux dimensions et à l'écriture explicite de ce procédé sous forme
 itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques
@@ -1631,9 +1625,9 @@ solutions aux sous-problèmes sont elles-mêmes optimales.</p>
 <pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Considérons le problème de déterminer le $n^{\text{ème}}$ terme de la <a href="https://fr.wikipedia.org/wiki/Suite_de_Fibonacci">suite de
-Fibonacci</a>. La récurrence très connue, définie sur les entiers naturels,
-est la suivante:</p>
+</div><p>Considérons le problème de déterminer le \(n^{\text{ème}}\) terme de la <a href="https://fr.wikipedia.org/wiki/Suite_de_Fibonacci">suite
+de Fibonacci</a>. La récurrence très connue, définie sur les entiers
+naturels, est la suivante:</p>
 <p>$$
 f(n) =
 \begin{cases}
@@ -1658,13 +1652,13 @@ $$</p>
 </code></pre></td></tr></table>
 </div>
 </div><p>Cet algorithme est cependant non optimal puisqu&rsquo;il est facile de voir que
-celui-ci effectue plusieurs calculs en double. Par exemple, pour $f(5)$ on doit
-calculer $f(3)$ et $f(4) = f(2) + f(3)$. On voit bien qu&rsquo;au moment de calculer
-$f(4)$, il serait pertinent de récupérer la valeur déjà calculée $f(3)$ afin
-d'éviter de la recalculer. Malheureusement, l&rsquo;algorithme décrit plus haut ne
-fait pas cela. Il vaut la peine de noter que plus la valeur de $n$ est élevée,
-plus le nombre de redondance augmente, ce qui gonfle ainsi la gravité du
-problème.</p>
+celui-ci effectue plusieurs calculs en double. Par exemple, pour \(f(5)\) on
+doit calculer \(f(3)\) et \(f(4) = f(2) + f(3)\). On voit bien qu&rsquo;au moment
+de calculer \(f(4)\), il serait pertinent de récupérer la valeur déjà calculée
+\(f(3)\) afin d'éviter de la recalculer. Malheureusement, l&rsquo;algorithme décrit
+plus haut ne fait pas cela. Il vaut la peine de noter que plus la valeur de
+\(n\) est élevée, plus le nombre de redondance augmente, ce qui gonfle ainsi
+la gravité du problème.</p>
 <h3 id="fibonacci-optimisation">Fibonacci: optimisation</h3>
 <p>La programmation dynamique nous permet de régler ce problème. Par exemple, on
 pourrait écrire la chose suivante:</p>
@@ -1687,14 +1681,15 @@ pourrait écrire la chose suivante:</p>
 </div><p>Le changement apporté au code plus haut devrait être analysé en plusieurs
 parties. Premièrement, on retrouve la définition de <code>fib</code> qui ressemble pas mal
 à la première écriture. Cependant, on remarque que la définition du cas général
-$(i)$ ne fait plus directement appel à <code>fib</code>, mais à <code>mfib</code>.  Deuxièmement, on
-remarque que la définition principale de <code>mfib</code> $(ii)$ fait un appel à <code>fib</code>. On
-a donc deux fonctions s&rsquo;appellant en chaîne, ce qui ferme la boucle d&rsquo;appels:</p>
+\((i)\) ne fait plus directement appel à <code>fib</code>, mais à <code>mfib</code>. Deuxièmement,
+on remarque que la définition principale de <code>mfib</code> \((ii)\) fait un appel à
+<code>fib</code>. On a donc deux fonctions s&rsquo;appellant en chaîne, ce qui ferme la boucle
+d&rsquo;appels:</p>
 <p>$$\texttt{fib} \rightarrow \texttt{mfib} \rightarrow \texttt{fib} \rightarrow \dots$$</p>
 <p>Ainsi, le tout correspond à une fonction récurisve convergeant vers les cas de
 base tout comme c'était le cas dans <a href="#suite-de-fibonacci">la première approche</a>. Ceci dit, l&rsquo;entrelacement entre <code>mfib</code> et <code>fib</code> forme
 justement la différence majeur entre les deux approches. En effet, <code>mfib</code> est
-défini comme l&rsquo;accès <code>(!!)</code> au $n^{\text{ème}}$ élément de la liste</p>
+défini comme l&rsquo;accès <code>(!!)</code> au \(n^{\text{ème}}\) élément de la liste</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1712,20 +1707,20 @@ correspondant à une liste infinie. Mais comme Haskell est un <a href="#évaluat
 paresseux</a>, seuls les éléments
 nécessaires au calcul demandé par l&rsquo;appel initial de <code>mfib</code> seront calculés.</p>
 <p>Regardons de plus près ce qui se passe avec un exemple sur <code>mfib 5</code>.
-Premièrement, l&rsquo;accès au $5^\text{ème}$ élément de la liste sera demandé, ce qui
-engendrera l&rsquo;appel à <code>fib 5</code> qui en retour correspond à <code>mfib 3</code> et <code>mfib 4</code>.
-L&rsquo;expression partielle correspondant au calcul demandé initialement est donc
-<code>mfib 3 + mfib 4</code>. Or, <code>mfib 3</code> est le $3^\text{ème}$ élément de la liste
-$(ii)$. On déduit une chose similaire pour <code>mfib 4</code>.</p>
+Premièrement, l&rsquo;accès au \(5^\text{ème}\) élément de la liste sera demandé, ce
+qui engendrera l&rsquo;appel à <code>fib 5</code> qui en retour correspond à <code>mfib 3</code> et <code>mfib 4</code>. L&rsquo;expression partielle correspondant au calcul demandé initialement est
+donc <code>mfib 3 + mfib 4</code>. Or, <code>mfib 3</code> est le \(3^\text{ème}\) élément de la
+liste \((ii)\). On déduit une chose similaire pour <code>mfib 4</code>.</p>
 <p>On pourrait croire un instant qu&rsquo;Haskell pourrait calculer <code>mfib 3</code> une fois, le
 stocker dans le tableau et que, le moment venu, <code>mfib 4</code> provoque le même
-calcul, mais il s&rsquo;avère qu&rsquo;Haskell partage la liste $(ii)$ entre les différents
-appels de <code>fib</code>. Ainsi, le premier fil d&rsquo;exécution permettant de calculer <code>fib 3</code>
-provoquera l&rsquo;inscription de cette valeur dans la liste afin que les appels
-subséquents n&rsquo;aient qu'à réutiliser la valeur dans la liste. Il s&rsquo;agit là de la
-forme la plus évidente et intuitive de l'écriture de cet algorithme sous une
-approche de programmation dynamique. Autrement, il est possible aussi d'écrire
-une expression remplissant la même fonction en une ligne:</p>
+calcul, mais il s&rsquo;avère qu&rsquo;Haskell partage la liste \((ii)\) entre les
+différents appels de <code>fib</code>. Ainsi, le premier fil d&rsquo;exécution permettant de
+calculer <code>fib 3</code> provoquera l&rsquo;inscription de cette valeur dans la liste afin que
+les appels subséquents n&rsquo;aient qu'à réutiliser la valeur dans la liste. Il
+s&rsquo;agit là de la forme la plus évidente et intuitive de l'écriture de cet
+algorithme sous une approche de programmation dynamique. Autrement, il est
+possible aussi d'écrire une expression remplissant la même fonction en une
+ligne:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1738,7 +1733,7 @@ une expression remplissant la même fonction en une ligne:</p>
 </div>
 </div><p>Cett expression correspond bien sûr à la liste de tous les nombres de Fibonacci.
 Il suffit maintenant d&rsquo;accéder à l'élément qu&rsquo;on souhaite, par exemple le
-$5^\text{ème}$, avec <code>fibs !! 5</code>. Ici encore, on emploie une approche de
+\(5^\text{ème}\), avec <code>fibs !! 5</code>. Ici encore, on emploie une approche de
 programmation dynamique puisque la liste est progressivement construite en
 réutilisant les deux derniers éléments de la liste pour les additionner afin de
 former le prochain élément <em>ad infinitum</em>.</p>
@@ -1752,8 +1747,8 @@ former le prochain élément <em>ad infinitum</em>.</p>
 </code></pre></td></tr></table>
 </div>
 </div><p>Considérons maintenant le problème de générer les <a href="https://fr.wikipedia.org/wiki/Nombre_triangulaire">nombres
-triangulaires</a>. On sait que $t_n$, le $n^{\text{ème}}$ nombre
-triangulaire, est donné par l&rsquo;expression suivante:</p>
+triangulaires</a>. On sait que \(t_n\), le \(n^{\text{ème}}\)
+nombre triangulaire, est donné par l&rsquo;expression suivante:</p>
 <p>$$ t_n = \sum_{i=1}^n i = 1 + 2 + \dots + n$$</p>
 <p>Une première approche vient rapidement en tête:</p>
 <div class="highlight"><div class="chroma">
@@ -1768,7 +1763,7 @@ triangulaire, est donné par l&rsquo;expression suivante:</p>
 </div>
 </div><p>Cependant, cette première approche est absolument affreuse. On refait clairement
 plusieurs fois les mêmes calculs. On pourrait aussi tirer avantage du fait que
-$t_n$ trouve l&rsquo;expression équivalente suivante:</p>
+\(t_n\) trouve l&rsquo;expression équivalente suivante:</p>
 <p>$$ t_n = \frac{n(n+1)}{2} $$</p>
 <p>Ainsi, on pourrait alors écrire:</p>
 <div class="highlight"><div class="chroma">
@@ -1838,12 +1833,12 @@ g(m) =
 3n + 1      &amp; \text{sinon}
 \end{cases}
 $$</p>
-<p>Une séquence de Collatz, pour une racine $r$, est définie comme la suite</p>
+<p>Une séquence de Collatz, pour une racine \(r\), est définie comme la suite</p>
 <p>$$(g(r), (g \circ g)(r), (g \circ g \circ g)(r), \dots, 1).$$</p>
-<p>où $\circ$ représente la composition de fonction.</p>
+<p>où \(\circ\) représente la composition de fonction.</p>
 <h3 id="problème">Problème</h3>
-<p>Pour $n \in \mathbb{N}$, on souhaite déterminer la taille de la plus longue
-séquence de Collatz pour tout $1 \le r \le n$.</p>
+<p>Pour \(n \in \mathbb{N}\), on souhaite déterminer la taille de la plus longue
+séquence de Collatz pour tout \(1 \le r \le n\).</p>
 <p>Une approche naïve pourrait ressembler à la suivante. Définissons premièrement
 une fonction calculant la prochaine valeur de la séquence. Appelons la <code>step</code>:</p>
 <div class="highlight"><div class="chroma">
@@ -1862,12 +1857,13 @@ une fonction calculant la prochaine valeur de la séquence. Appelons la <code>st
   <span class="o">|</span> <span class="n">otherwise</span> <span class="ow">=</span> <span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Remarquons que le cas où $m$ est impair n&rsquo;est plus $3m+1$, mais maintenant
-$\frac{(3m+1)}{2}$. Ceci est possible sans perte de généralité puisque si $m$
-est impair, alors $m=2k+1$ pour $k\in\mathbb{N}$. Ainsi,</p>
+</div><p>Remarquons que le cas où \(m\) est impair n&rsquo;est plus \(3m+1\), mais
+maintenant \(\frac{(3m+1)}{2}\). Ceci est possible sans perte de généralité
+puisque si \(m\) est impair, alors \(m=2k+1\) pour \(k\in\mathbb{N}\).
+Ainsi,</p>
 <p>$$ 3m+1 = 3(2k+1)+1 = 2(3k +2) \quad \text{est pair}. $$</p>
 <p>Ce faisant, le traitement où l&rsquo;argument de <code>step</code> est pair peut tout de suite
-s&rsquo;appliquer sur l&rsquo;image de $3m+1$. On sauve ainsi une étape à chaque nombre
+s&rsquo;appliquer sur l&rsquo;image de \(3m+1\). On sauve ainsi une étape à chaque nombre
 impair rencontré.</p>
 <p>Ensuite, l&rsquo;algorithme bête pour déterminer la longueur d&rsquo;une séquence de Collatz
 avec pour racine <code>m</code> pourrait ressembler au suivant.</p>
@@ -1885,8 +1881,8 @@ avec pour racine <code>m</code> pourrait ressembler au suivant.</p>
 comme premier argument <code>m</code> jusqu'à ce qu&rsquo;on tombe sur <code>1</code>. Ici, <code>iterate</code> créé
 la liste de tous les résultats d&rsquo;applicaiton de <code>step</code>. On n&rsquo;a donc qu'à prendre
 la taille de cette liste et additionner 1 (pour compter le nombre 1). Afin de
-calculer la valeur maximale pour $1 \le r \le \text{n}$, on peut alors calculer
-comme suit:</p>
+calculer la valeur maximale pour \(1 \le r \le \text{n}\), on peut alors
+calculer comme suit:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1899,11 +1895,11 @@ comme suit:</p>
 <span class="nf">maxDumb</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">snd</span> <span class="o">$</span> <span class="n">maximum</span> <span class="o">$</span> <span class="n">map</span> <span class="p">(</span><span class="nf">\</span> <span class="n">m</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="n">dumbSeq</span> <span class="n">m</span><span class="p">,</span> <span class="n">m</span><span class="p">))</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="p">]</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Ici, on créé une liste de paires ordonnées $(g^i(m), m)$. On trouve le maximum
-de cette liste en comparant le premier élément de chaque paire ordonnée (le
-comportement par défaut de <code>compare</code> tel que défini pour l&rsquo;instance
-<code>(,) a</code> de la classe <code>Ord</code>).</p>
-<p>Clairement, pour $n$ suffisamment grand, le problème peut devenir couteux en
+</div><p>Ici, on créé une liste de paires ordonnées \((g^i(m), m)\). On trouve le
+maximum de cette liste en comparant le premier élément de chaque paire ordonnée
+(le comportement par défaut de <code>compare</code> tel que défini pour l&rsquo;instance <code>(,) a</code>
+de la classe <code>Ord</code>).</p>
+<p>Clairement, pour \(n\) suffisamment grand, le problème peut devenir couteux en
 temps. On remarque bien sûr que certaines séquences se croisent. Par exemple:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1915,12 +1911,12 @@ temps. On remarque bien sûr que certaines séquences se croisent. Par exemple:<
 r = 4 =&gt;                      g(4) = g(2) = 1
 </code></pre></td></tr></table>
 </div>
-</div><p>Ce faisant, si on avait à calculer la longueur de la séquence pour $g(3)$ avant
-$g(4)$, alors le calcul à l&rsquo;itération $r=4$ serait gratuit si nous employions
-une approche de programmation dynamique.</p>
-<p>Supposons qu&rsquo;on soit intéressé à trouver la réponse pour $n$ très grand. Il
+</div><p>Ce faisant, si on avait à calculer la longueur de la séquence pour \(g(3)\)
+avant \(g(4)\), alors le calcul à l&rsquo;itération \(r=4\) serait gratuit si nous
+employions une approche de programmation dynamique.</p>
+<p>Supposons qu&rsquo;on soit intéressé à trouver la réponse pour \(n\) très grand. Il
 serait d&rsquo;abord nécessaire de fixer une taille maximale pour l&rsquo;antémémoire
-utilisée pour stocker les valeurs déjà calculées. Disons que $10^6$ est
+utilisée pour stocker les valeurs déjà calculées. Disons que \(10^6\) est
 raisonnable:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1961,7 +1957,7 @@ routine de comptage des itérations <code>seq'</code> à travers <code>step</cod
 </code></pre></td></tr></table>
 </div>
 </div><p>Nous avons grandement avantage ici à utiliser un tableau permettant un accès
-$\mathcal{O}(1)$ pour chaque valeur. Bien que c'était autant le cas pour les
+\(\mathcal{O}(1)\) pour chaque valeur. Bien que c'était autant le cas pour les
 deux problèmes précédents, nous n&rsquo;avons pas introduit l&rsquo;utilisation de
 <code>Data.Array</code> jusqu&rsquo;ici afin de simplifier les choses.</p>
 <h3 id="fonctionnement">Fonctionnement</h3>
@@ -1977,7 +1973,7 @@ admissibles pour indexation dans le tableau.</em> <strong>La paresse d&rsquo;Has
 tout</strong>.</p>
 <h3 id="séquence-de-taille-maximale">Séquence de taille maximale</h3>
 <p>Finalement, la fonction suivante évalue la taille maximale d&rsquo;une séquence pour
-une racine $1 \le r \le \texttt{n}$.</p>
+une racine \(1 \le r \le \texttt{n}\).</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -2666,36 +2662,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$']],
-        processEscapes: true,
-        processEnvironments: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        TeX: {
-          equationNumbers: { autoNumber: "AMS" },
-          extensions: ["AMSmath.js", "AMSsymbols.js"]
-        }
-      }
-    });
-    MathJax.Hub.Queue(function () {
-      
-      
-      
-      var all = MathJax.Hub.getAllJax(), i;
-      for (i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-    });
-
-    MathJax.Hub.Config({
-      
-      TeX: { equationNumbers: { autoNumber: "AMS" } }
-    });
-  </script>
-
 
 
 
@@ -3055,7 +3021,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     
-    var lib = JSON.parse("[\"mathjax\"]");
+    var lib = JSON.parse("null");
 
     if (lib && lib.includes('mermaid')) {
       
