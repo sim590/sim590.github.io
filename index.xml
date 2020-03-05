@@ -1,127 +1,125 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Simon Désaulniers</title>
     <link>http://sim590.github.io/</link>
     <description>Recent content on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 19 Aug 2016 12:04:13 -0400</lastBuildDate>
+    <language>fr</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 29 Feb 2020 03:00:12 -0500</lastBuildDate>
     
-	<atom:link href="http://sim590.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sim590.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>[GSOC] Final report</title>
-      <link>http://sim590.github.io/post/gsoc/final/</link>
-      <pubDate>Fri, 19 Aug 2016 12:04:13 -0400</pubDate>
+    
       
-      <guid>http://sim590.github.io/post/gsoc/final/</guid>
-      <description>The Google Summer of Code is now over. It has been a great experience and I&amp;rsquo;m very glad I&amp;rsquo;ve been able to make it. I&amp;rsquo;ve had the pleasure to contribute to a project showing very good promise for the future of communication: Ring. The words &amp;ldquo;privacy&amp;rdquo; and &amp;ldquo;freedom&amp;rdquo; in terms of technologies are being more and more present in the mind of people. All sorts of projects wanting to achieve these goals are coming to life each days like decentralized web networks (ZeroNet for e.</description>
-    </item>
-    
-    <item>
-      <title>[GSOC] Week 10&amp;11&amp;12 Report</title>
-      <link>http://sim590.github.io/post/gsoc/week10-11-12/</link>
-      <pubDate>Thu, 18 Aug 2016 11:09:30 -0400</pubDate>
       
-      <guid>http://sim590.github.io/post/gsoc/week10-11-12/</guid>
-      <description>Week 10 &amp;amp; 11 During these two weeks, I&amp;rsquo;ve worked hard on paginating values on the DHT.
-Value pagination As explained on my post on data persistence, we&amp;rsquo;ve had network traffic issues. The solution we have found for this is to use the queries (see also this) to filter data on the remote peer we&amp;rsquo;re communicating with. The queries let us select fields of a value instead of fetching whole values.</description>
-    </item>
-    
-    <item>
-      <title>[GSOC] Week 8&amp;9 Report</title>
-      <link>http://sim590.github.io/post/gsoc/week89/</link>
-      <pubDate>Mon, 25 Jul 2016 19:41:44 -0400</pubDate>
       
-      <guid>http://sim590.github.io/post/gsoc/week89/</guid>
-      <description>Week 8 This particular week has been tiresome as I did catch a cold ;). I did come back from Cape Town where debconf taking place. My arrival at Montreal was in the middle of the week, so this week is not plenty of news&amp;hellip;
-What I&amp;rsquo;ve done I have synced myself with my coworker Nicolas Reynaud, who&amp;rsquo;s working on building the indexation system over the DHT. We have worked together on critical algorithms: concurrent maintenance of data in the trie (PHT).</description>
-    </item>
-    
-    <item>
-      <title>[GSOC] Week 5&amp;6&amp;7 Report</title>
-      <link>http://sim590.github.io/post/gsoc/week567/</link>
-      <pubDate>Sun, 10 Jul 2016 20:06:24 +0200</pubDate>
+        
       
-      <guid>http://sim590.github.io/post/gsoc/week567/</guid>
-      <description>During week 5, 6 and 7, I have been to the debian conference 2016. It was really interesting meeting with a lot of people all so involved in Debian.
-Key signing party Each year, this is a really important tradition: people gather together and exchange GPG public key fingerprint and sign each other&amp;rsquo;s keys. This contributes greatly to the growth of the web of trust.
- I did exchange public key fingerprint with others.</description>
-    </item>
-    
-    <item>
-      <title>[GSOC] Week 3&amp;4 Report</title>
-      <link>http://sim590.github.io/post/gsoc/week34/</link>
-      <pubDate>Sun, 10 Jul 2016 19:12:18 +0200</pubDate>
+        
       
-      <guid>http://sim590.github.io/post/gsoc/week34/</guid>
-      <description>I have finally made a version of the queries code that can viably be integrated into the master branch of OpenDHT. I am awaiting my mentor&amp;rsquo;s approval and/or comments.
-What&amp;rsquo;s done Queries. The library will provide the additional following functions in its API:
-void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp;amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {});  The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &amp;ldquo;where&amp;rdquo; statement.</description>
-    </item>
-    
-    <item>
-      <title>Adieu</title>
-      <link>http://sim590.github.io/post/adieu/</link>
-      <pubDate>Sun, 19 Jun 2016 21:30:22 -0400</pubDate>
+        
       
-      <guid>http://sim590.github.io/post/adieu/</guid>
-      <description>GSOC Comme j&amp;rsquo;ai mentionné dans au article antérieur, je participe au programme Google Summer Of Code grâce à l&amp;rsquo;organisation Debian qui supervise mes travaux contribuant au logiciel libre Ring.
-Deux jours restants Il reste deux jours avant mon départ pour le Cape, en Afrique du sud. C&amp;rsquo;est pour assister à l&amp;rsquo;événement debconf (« Debian conference »), organisé par Debian, que je me rends là. Cet événement est organisé à chaque année et, l&amp;rsquo;année prochaine, c&amp;rsquo;est à Montréal que ça aura lieu !</description>
-    </item>
-    
-    <item>
-      <title>[GSOC] Week 2 - Report</title>
-      <link>http://sim590.github.io/post/gsoc/week2/</link>
-      <pubDate>Mon, 13 Jun 2016 00:22:58 -0400</pubDate>
+        
       
-      <guid>http://sim590.github.io/post/gsoc/week2/</guid>
-      <description> I&amp;rsquo;ve been reworking the code for the queries I introduced in the first week.
-What&amp;rsquo;s done  I have worked on value pagination and optimization of announce operations; Fixed bugs like #72, #73; I&amp;rsquo;ve split the Query into Select and Where strcutures. This change was explained here.  What&amp;rsquo;s still work in progress  Value pagination; Optimizing announce operations;  </description>
-    </item>
-    
-    <item>
-      <title>[GSOC] Week 1 - Report</title>
-      <link>http://sim590.github.io/post/gsoc/week1/</link>
-      <pubDate>Sat, 11 Jun 2016 13:06:11 -0400</pubDate>
+        
       
-      <guid>http://sim590.github.io/post/gsoc/week1/</guid>
-      <description>I have been working on writing serializable structure for remote filtering of values on the distributed hash table OpenDHT. This structure is called Query.
-What&amp;rsquo;s done The implementation of the base design with other changes have been made. You can see evolution on the matter here;
-Changes allow to create a Query with a SQL-ish statement like the following
-Query q(&amp;quot;SELECT * WHERE id=5&amp;quot;);  You can then use this query like so</description>
-    </item>
-    
-    <item>
-      <title>Google Summer Of Code</title>
-      <link>http://sim590.github.io/post/gsoc/intro/</link>
-      <pubDate>Fri, 03 Jun 2016 00:02:37 -0400</pubDate>
+        
       
-      <guid>http://sim590.github.io/post/gsoc/intro/</guid>
-      <description>I am part of the group of students working with the Debian organization. You can see my profile on the Debian wiki here.
-Improving distributed and secure communication using free software This the title of my project for this summer. It sounds good, but what am I going to really do? Well, since I&amp;rsquo;m a student at Université du Québec à Montréal, I have had the opportunity to meet with the company Savoir-Faire Linux in Montreal last year and that&amp;rsquo;s when I found out about their exciting project: Ring.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>http://sim590.github.io/about/</link>
-      <pubDate>Tue, 17 May 2016 23:59:14 -0400</pubDate>
+        
       
-      <guid>http://sim590.github.io/about/</guid>
-      <description>Edited on 2019-05-10
-Hello. My name is Simon Désaulniers. I am a software developper from Québec. My first language is French and my second is English. In this blog, I may talk about anything I want. I like programming and new technologies. I am a former gamer and now more of a casual one. I like new ideas intending to bring power to the people like free, distributed and secured software.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://sim590.github.io/post/welcome/</link>
-      <pubDate>Tue, 17 May 2016 23:59:14 -0400</pubDate>
+        
       
-      <guid>http://sim590.github.io/post/welcome/</guid>
-      <description>So, this is how it begins I&amp;rsquo;ve been looking for a way to share thoughts about projects I had in mind, communicating how I&amp;rsquo;ve lived some experiences, or simply write down about anything. I first thought about wordpress since I&amp;rsquo;ve already used it, but I soon realised it wasn&amp;rsquo;t fit for what I wanted. I didn&amp;rsquo;t want to spend too much time thinking about how I should deploy or update my blog.</description>
-    </item>
+        
+      
+        
+      
+
+      
+      <item>
+        <title>Haskell: programmation dynamique</title>
+        <link>http://sim590.github.io/haskell/programmation-dynamique/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Mon, 02 Mar 2020 04:06:13 -0500</atom:modified>
+        <guid>http://sim590.github.io/haskell/programmation-dynamique/</guid>
+        <description>L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un tableau à deux dimensions et à l&#39;écriture explicite de ce procédé sous forme itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas autrement.
+Dans cet article, je commence par explorer deux exemples triviaux de programmation dynamique. Ensuite, je passe sur un problème tout aussi accessible, mais dont l&amp;rsquo;achèvement optimal demandera l&amp;rsquo;utilisation d&amp;rsquo;une structure Data.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="http://sim590.github.ioimages/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Séquence de Collatz</category>
+            
+          
+            
+              <category>Data.Array</category>
+            
+          
+            
+              <category>nombre triangulaire</category>
+            
+          
+        
+        
+          
+            
+              <category>Algorithmique</category>
+            
+          
+            
+              <category>Haskell</category>
+            
+          
+            
+              <category>Mémoïsation</category>
+            
+          
+            
+              <category>Programmation</category>
+            
+          
+            
+              <category>Programmation dynamique</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Adieu</title>
+        <link>http://sim590.github.io/adieu/</link>
+        <pubDate>Sun, 19 Jun 2016 21:30:22 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sun, 19 Jun 2016 21:30:22 -0400</atom:modified>
+        <guid>http://sim590.github.io/adieu/</guid>
+        <description>GSOC Comme j&amp;rsquo;ai mentionné dans au article antérieur, je participe au programme Google Summer Of Code grâce à l&amp;rsquo;organisation Debian qui supervise mes travaux contribuant au logiciel libre Ring.
+Deux jours restants Il reste deux jours avant mon départ pour le Cape, en Afrique du sud. C&amp;rsquo;est pour assister à l&#39;événement debconf (« Debian conference »), organisé par Debian, que je me rends là. Cet événement est organisé à chaque année et, l&amp;rsquo;année prochaine, c&amp;rsquo;est à Montréal que ça aura lieu !</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>

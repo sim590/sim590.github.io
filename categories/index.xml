@@ -1,24 +1,118 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on Simon Désaulniers</title>
     <link>http://sim590.github.io/categories/</link>
     <description>Recent content in Categories on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 19 Aug 2016 12:04:13 -0400</lastBuildDate>
+    <language>fr</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 02 Mar 2020 04:06:13 -0500</lastBuildDate>
     
-	<atom:link href="http://sim590.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sim590.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Google Summer Of Code</title>
-      <link>http://sim590.github.io/categories/google-summer-of-code/</link>
-      <pubDate>Fri, 19 Aug 2016 12:04:13 -0400</pubDate>
+    
+
       
-      <guid>http://sim590.github.io/categories/google-summer-of-code/</guid>
-      <description></description>
-    </item>
+      <item>
+        <title>Algorithmique</title>
+        <link>http://sim590.github.io/categories/algorithmique/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/categories/algorithmique/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Haskell</title>
+        <link>http://sim590.github.io/categories/haskell/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/categories/haskell/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Mémoïsation</title>
+        <link>http://sim590.github.io/categories/m%C3%A9mo%C3%AFsation/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/categories/m%C3%A9mo%C3%AFsation/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Programmation</title>
+        <link>http://sim590.github.io/categories/programmation/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/categories/programmation/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Programmation dynamique</title>
+        <link>http://sim590.github.io/categories/programmation-dynamique/</link>
+        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>http://sim590.github.io/categories/programmation-dynamique/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>
