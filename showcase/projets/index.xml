@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Projets on Simon Désaulniers</title>
-    <link>https://sim590.github.io/showcase/projets/</link>
+    <link>http://sim590.github.io/showcase/projets/</link>
     <description>Recent content in Projets on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
@@ -15,7 +15,7 @@
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     
-        <atom:link href="https://sim590.github.io/showcase/projets/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sim590.github.io/showcase/projets/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -23,11 +23,11 @@
       
       <item>
         <title>amh</title>
-        <link>https://sim590.github.io/showcase/projets/amh/</link>
+        <link>http://sim590.github.io/showcase/projets/amh/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/showcase/projets/amh/</guid>
+        <guid>http://sim590.github.io/showcase/projets/amh/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -41,11 +41,11 @@
       
       <item>
         <title>dotfiles</title>
-        <link>https://sim590.github.io/showcase/projets/dotfiles/</link>
+        <link>http://sim590.github.io/showcase/projets/dotfiles/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/showcase/projets/dotfiles/</guid>
+        <guid>http://sim590.github.io/showcase/projets/dotfiles/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -59,11 +59,11 @@
       
       <item>
         <title>dpaste</title>
-        <link>https://sim590.github.io/showcase/projets/dpaste/</link>
+        <link>http://sim590.github.io/showcase/projets/dpaste/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/showcase/projets/dpaste/</guid>
+        <guid>http://sim590.github.io/showcase/projets/dpaste/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -77,11 +77,11 @@
       
       <item>
         <title>polyenum</title>
-        <link>https://sim590.github.io/showcase/projets/polyenum/</link>
+        <link>http://sim590.github.io/showcase/projets/polyenum/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/showcase/projets/polyenum/</guid>
+        <guid>http://sim590.github.io/showcase/projets/polyenum/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -95,11 +95,11 @@
       
       <item>
         <title>yauml</title>
-        <link>https://sim590.github.io/showcase/projets/yauml/</link>
+        <link>http://sim590.github.io/showcase/projets/yauml/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/showcase/projets/yauml/</guid>
+        <guid>http://sim590.github.io/showcase/projets/yauml/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

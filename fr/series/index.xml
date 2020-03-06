@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Series on Simon Désaulniers</title>
-    <link>http://sim590.github.io/fr/series/</link>
+    <link>https://sim590.github.io/fr/series/</link>
     <description>Recent content in Series on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
@@ -15,7 +15,7 @@
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     
-        <atom:link href="http://sim590.github.io/fr/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sim590.github.io/fr/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     

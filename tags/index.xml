@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Simon Désaulniers</title>
-    <link>https://sim590.github.io/tags/</link>
+    <link>http://sim590.github.io/tags/</link>
     <description>Recent content in Tags on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
@@ -16,7 +16,7 @@
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 02 Mar 2020 04:06:13 -0500</lastBuildDate>
     
-        <atom:link href="https://sim590.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sim590.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Data.Array</title>
-        <link>https://sim590.github.io/tags/data.array/</link>
+        <link>http://sim590.github.io/tags/data.array/</link>
         <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/tags/data.array/</guid>
+        <guid>http://sim590.github.io/tags/data.array/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -42,11 +42,11 @@
       
       <item>
         <title>nombre triangulaire</title>
-        <link>https://sim590.github.io/tags/nombre-triangulaire/</link>
+        <link>http://sim590.github.io/tags/nombre-triangulaire/</link>
         <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/tags/nombre-triangulaire/</guid>
+        <guid>http://sim590.github.io/tags/nombre-triangulaire/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -60,11 +60,11 @@
       
       <item>
         <title>Séquence de Collatz</title>
-        <link>https://sim590.github.io/tags/s%C3%A9quence-de-collatz/</link>
+        <link>http://sim590.github.io/tags/s%C3%A9quence-de-collatz/</link>
         <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/tags/s%C3%A9quence-de-collatz/</guid>
+        <guid>http://sim590.github.io/tags/s%C3%A9quence-de-collatz/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

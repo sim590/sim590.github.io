@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sim590.github.io/showcase/projets/amh/</loc>
+    <loc>https://sim590.github.io/fr/showcase/projets/amh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -12,12 +12,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/projets/amh/"
+                href="https://sim590.github.io/fr/showcase/projets/amh/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/curriculum-vitae/cv/</loc>
+    <loc>https://sim590.github.io/fr/showcase/curriculum-vitae/cv/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,12 +26,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/curriculum-vitae/cv/"
+                href="https://sim590.github.io/fr/showcase/curriculum-vitae/cv/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/projets/dotfiles/</loc>
+    <loc>https://sim590.github.io/fr/showcase/projets/dotfiles/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,12 +40,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/projets/dotfiles/"
+                href="https://sim590.github.io/fr/showcase/projets/dotfiles/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/projets/dpaste/</loc>
+    <loc>https://sim590.github.io/fr/showcase/projets/dpaste/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,12 +54,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/projets/dpaste/"
+                href="https://sim590.github.io/fr/showcase/projets/dpaste/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/projets/polyenum/</loc>
+    <loc>https://sim590.github.io/fr/showcase/projets/polyenum/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -68,12 +68,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/projets/polyenum/"
+                href="https://sim590.github.io/fr/showcase/projets/polyenum/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/projets/yauml/</loc>
+    <loc>https://sim590.github.io/fr/showcase/projets/yauml/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -82,12 +82,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/projets/yauml/"
+                href="https://sim590.github.io/fr/showcase/projets/yauml/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/curriculum-vitae/m%C3%A9moire/</loc>
+    <loc>https://sim590.github.io/fr/showcase/curriculum-vitae/m%C3%A9moire/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -96,27 +96,27 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/curriculum-vitae/m%C3%A9moire/"
+                href="https://sim590.github.io/fr/showcase/curriculum-vitae/m%C3%A9moire/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/publication/article/</loc>
+    <loc>https://sim590.github.io/fr/publication/article/</loc>
     <lastmod>2020-03-04T15:40:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/publication/</loc>
+    <loc>https://sim590.github.io/fr/publication/</loc>
     <lastmod>2020-03-04T15:40:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/categories/algorithmique/</loc>
+    <loc>https://sim590.github.io/fr/categories/algorithmique/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/categories/</loc>
+    <loc>https://sim590.github.io/fr/categories/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -131,57 +131,57 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/categories/"
+                href="https://sim590.github.io/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/tags/data.array/</loc>
+    <loc>https://sim590.github.io/fr/tags/data.array/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/categories/haskell/</loc>
+    <loc>https://sim590.github.io/fr/categories/haskell/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/haskell/</loc>
+    <loc>https://sim590.github.io/fr/haskell/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/haskell/programmation-dynamique/</loc>
+    <loc>https://sim590.github.io/fr/haskell/programmation-dynamique/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/categories/m%C3%A9mo%C3%AFsation/</loc>
+    <loc>https://sim590.github.io/fr/categories/m%C3%A9mo%C3%AFsation/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/tags/nombre-triangulaire/</loc>
+    <loc>https://sim590.github.io/fr/tags/nombre-triangulaire/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/categories/programmation/</loc>
+    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/categories/programmation-dynamique/</loc>
+    <loc>https://sim590.github.io/fr/categories/programmation-dynamique/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/tags/s%C3%A9quence-de-collatz/</loc>
+    <loc>https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/tags/</loc>
+    <loc>https://sim590.github.io/fr/tags/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -196,12 +196,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/tags/"
+                href="https://sim590.github.io/fr/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/</loc>
+    <loc>https://sim590.github.io/fr/</loc>
     <lastmod>2020-02-29T03:00:12-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -216,22 +216,22 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/"
+                href="https://sim590.github.io/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/a-propos/</loc>
+    <loc>https://sim590.github.io/fr/a-propos/</loc>
     <lastmod>2020-02-29T03:00:12-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/resume/</loc>
+    <loc>https://sim590.github.io/fr/resume/</loc>
     <lastmod>2020-02-28T10:36:33-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/archive/</loc>
+    <loc>https://sim590.github.io/fr/archive/</loc>
     <lastmod>2020-02-28T00:50:16-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -241,26 +241,26 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/archive/"
+                href="https://sim590.github.io/fr/archive/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/publication/article/fully-distributed-indexing-over-a-distributed-hash-table/</loc>
+    <loc>https://sim590.github.io/fr/publication/article/fully-distributed-indexing-over-a-distributed-hash-table/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/adieu/</loc>
+    <loc>https://sim590.github.io/fr/adieu/</loc>
     <lastmod>2016-06-19T21:30:22-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/contactez-moi/</loc>
+    <loc>https://sim590.github.io/fr/contactez-moi/</loc>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/curriculum-vitae/</loc>
+    <loc>https://sim590.github.io/fr/showcase/curriculum-vitae/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -269,12 +269,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/curriculum-vitae/"
+                href="https://sim590.github.io/fr/showcase/curriculum-vitae/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/</loc>
+    <loc>https://sim590.github.io/fr/showcase/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -283,12 +283,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/"
+                href="https://sim590.github.io/fr/showcase/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/showcase/projets/</loc>
+    <loc>https://sim590.github.io/fr/showcase/projets/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -297,12 +297,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/showcase/projets/"
+                href="https://sim590.github.io/fr/showcase/projets/"
                 />
   </url>
   
   <url>
-    <loc>https://sim590.github.io/series/</loc>
+    <loc>https://sim590.github.io/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -316,7 +316,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://sim590.github.io/series/"
+                href="https://sim590.github.io/fr/series/"
                 />
   </url>
   
