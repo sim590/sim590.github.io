@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Curriculum Vitæ on Simon Désaulniers</title>
-    <link>http://sim590.github.io/showcase/curriculum-vitae/</link>
+    <link>https://sim590.github.io/showcase/curriculum-vitae/</link>
     <description>Recent content in Curriculum Vitæ on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
@@ -15,7 +15,7 @@
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     
-        <atom:link href="http://sim590.github.io/showcase/curriculum-vitae/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sim590.github.io/showcase/curriculum-vitae/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -23,11 +23,11 @@
       
       <item>
         <title>Curriculum Vitæ</title>
-        <link>http://sim590.github.io/showcase/curriculum-vitae/cv/</link>
+        <link>https://sim590.github.io/showcase/curriculum-vitae/cv/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>http://sim590.github.io/showcase/curriculum-vitae/cv/</guid>
+        <guid>https://sim590.github.io/showcase/curriculum-vitae/cv/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -41,11 +41,11 @@
       
       <item>
         <title>Mémoire (UQÀM)</title>
-        <link>http://sim590.github.io/showcase/curriculum-vitae/m%C3%A9moire/</link>
+        <link>https://sim590.github.io/showcase/curriculum-vitae/m%C3%A9moire/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>http://sim590.github.io/showcase/curriculum-vitae/m%C3%A9moire/</guid>
+        <guid>https://sim590.github.io/showcase/curriculum-vitae/m%C3%A9moire/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

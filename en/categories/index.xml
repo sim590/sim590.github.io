@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on Simon Désaulniers</title>
-    <link>http://sim590.github.io/en/categories/</link>
+    <link>https://sim590.github.io/en/categories/</link>
     <description>Recent content in Categories on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     
-        <atom:link href="http://sim590.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sim590.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     

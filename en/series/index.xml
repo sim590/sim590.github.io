@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Series on Simon Désaulniers</title>
-    <link>http://sim590.github.io/en/series/</link>
+    <link>https://sim590.github.io/en/series/</link>
     <description>Recent content in Series on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 19 Aug 2016 12:04:13 -0400</lastBuildDate>
     
-        <atom:link href="http://sim590.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sim590.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Google Summer Of Code</title>
-        <link>http://sim590.github.io/en/series/google-summer-of-code/</link>
+        <link>https://sim590.github.io/en/series/google-summer-of-code/</link>
         <pubDate>Fri, 19 Aug 2016 12:04:13 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>http://sim590.github.io/en/series/google-summer-of-code/</guid>
+        <guid>https://sim590.github.io/en/series/google-summer-of-code/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

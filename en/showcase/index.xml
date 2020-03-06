@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Mon bagage on Simon Désaulniers</title>
-    <link>http://sim590.github.io/en/showcase/</link>
+    <link>https://sim590.github.io/en/showcase/</link>
     <description>Recent content in Mon bagage on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     
-        <atom:link href="http://sim590.github.io/en/showcase/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sim590.github.io/en/showcase/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -23,11 +23,11 @@
       
       <item>
         <title>Curriculum Vitae</title>
-        <link>http://sim590.github.io/en/showcase/curriculum-vitae/</link>
+        <link>https://sim590.github.io/en/showcase/curriculum-vitae/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>http://sim590.github.io/en/showcase/curriculum-vitae/</guid>
+        <guid>https://sim590.github.io/en/showcase/curriculum-vitae/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -41,11 +41,11 @@
       
       <item>
         <title>Projets</title>
-        <link>http://sim590.github.io/en/showcase/projets/</link>
+        <link>https://sim590.github.io/en/showcase/projets/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>http://sim590.github.io/en/showcase/projets/</guid>
+        <guid>https://sim590.github.io/en/showcase/projets/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

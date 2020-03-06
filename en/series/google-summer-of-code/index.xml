@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Google Summer Of Code on Simon Désaulniers</title>
-    <link>http://sim590.github.io/en/series/google-summer-of-code/</link>
+    <link>https://sim590.github.io/en/series/google-summer-of-code/</link>
     <description>Recent content in Google Summer Of Code on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 19 Aug 2016 12:04:13 -0400</lastBuildDate>
     
-        <atom:link href="http://sim590.github.io/en/series/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sim590.github.io/en/series/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>[GSOC] Final report</title>
-        <link>http://sim590.github.io/en/gsoc/final/</link>
+        <link>https://sim590.github.io/en/gsoc/final/</link>
         <pubDate>Fri, 19 Aug 2016 12:04:13 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 19 Aug 2016 12:04:13 -0400</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/final/</guid>
+        <guid>https://sim590.github.io/en/gsoc/final/</guid>
         <description>The Google Summer of Code is now over. It has been a great experience and I&amp;rsquo;m very glad I&amp;rsquo;ve been able to make it. I&amp;rsquo;ve had the pleasure to contribute to a project showing very good promise for the future of communication: Ring. The words &amp;ldquo;privacy&amp;rdquo; and &amp;ldquo;freedom&amp;rdquo; in terms of technologies are being more and more present in the mind of people. All sorts of projects wanting to achieve these goals are coming to life each days like decentralized web networks (ZeroNet for e.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -48,11 +48,11 @@
       
       <item>
         <title>[GSOC] Week 10&amp;11&amp;12 Report</title>
-        <link>http://sim590.github.io/en/gsoc/week10-11-12/</link>
+        <link>https://sim590.github.io/en/gsoc/week10-11-12/</link>
         <pubDate>Thu, 18 Aug 2016 11:09:30 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Thu, 18 Aug 2016 11:09:30 -0400</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/week10-11-12/</guid>
+        <guid>https://sim590.github.io/en/gsoc/week10-11-12/</guid>
         <description>Week 10 &amp;amp; 11 During these two weeks, I&amp;rsquo;ve worked hard on paginating values on the DHT.
 Value pagination As explained on my post on data persistence, we&amp;rsquo;ve had network traffic issues. The solution we have found for this is to use the queries (see also this) to filter data on the remote peer we&amp;rsquo;re communicating with. The queries let us select fields of a value instead of fetching whole values.</description>
         
@@ -73,11 +73,11 @@ Value pagination As explained on my post on data persistence, we&amp;rsquo;ve ha
       
       <item>
         <title>[GSOC] Week 8&amp;9 Report</title>
-        <link>http://sim590.github.io/en/gsoc/week89/</link>
+        <link>https://sim590.github.io/en/gsoc/week89/</link>
         <pubDate>Mon, 25 Jul 2016 19:41:44 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 25 Jul 2016 19:41:44 -0400</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/week89/</guid>
+        <guid>https://sim590.github.io/en/gsoc/week89/</guid>
         <description>Week 8 This particular week has been tiresome as I did catch a cold ;). I did come back from Cape Town where debconf taking place. My arrival at Montreal was in the middle of the week, so this week is not plenty of news&amp;hellip;
 What I&amp;rsquo;ve done I have synced myself with my coworker Nicolas Reynaud, who&amp;rsquo;s working on building the indexation system over the DHT. We have worked together on critical algorithms: concurrent maintenance of data in the trie (PHT).</description>
         
@@ -98,11 +98,11 @@ What I&amp;rsquo;ve done I have synced myself with my coworker Nicolas Reynaud, 
       
       <item>
         <title>[GSOC] Week 5&amp;6&amp;7 Report</title>
-        <link>http://sim590.github.io/en/gsoc/week567/</link>
+        <link>https://sim590.github.io/en/gsoc/week567/</link>
         <pubDate>Sun, 10 Jul 2016 20:06:24 +0200</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sun, 10 Jul 2016 20:06:24 +0200</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/week567/</guid>
+        <guid>https://sim590.github.io/en/gsoc/week567/</guid>
         <description>During week 5, 6 and 7, I have been to the debian conference 2016. It was really interesting meeting with a lot of people all so involved in Debian.
 Key signing party Each year, this is a really important tradition: people gather together and exchange GPG public key fingerprint and sign each other&amp;rsquo;s keys. This contributes greatly to the growth of the web of trust.
  I did exchange public key fingerprint with others.</description>
@@ -124,11 +124,11 @@ Key signing party Each year, this is a really important tradition: people gather
       
       <item>
         <title>[GSOC] Week 3&amp;4 Report</title>
-        <link>http://sim590.github.io/en/gsoc/week34/</link>
+        <link>https://sim590.github.io/en/gsoc/week34/</link>
         <pubDate>Sun, 10 Jul 2016 19:12:18 +0200</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sun, 10 Jul 2016 19:12:18 +0200</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/week34/</guid>
+        <guid>https://sim590.github.io/en/gsoc/week34/</guid>
         <description>I have finally made a version of the queries code that can viably be integrated into the master branch of OpenDHT. I am awaiting my mentor&amp;rsquo;s approval and/or comments.
 What&amp;rsquo;s done Queries. The library will provide the additional following functions in its API:
 1 2  void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp;amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {});   The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &amp;ldquo;where&amp;rdquo; statement.</description>
@@ -150,11 +150,11 @@ What&amp;rsquo;s done Queries. The library will provide the additional following
       
       <item>
         <title>[GSOC] Week 2 - Report</title>
-        <link>http://sim590.github.io/en/gsoc/week2/</link>
+        <link>https://sim590.github.io/en/gsoc/week2/</link>
         <pubDate>Mon, 13 Jun 2016 00:22:58 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 13 Jun 2016 00:22:58 -0400</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/week2/</guid>
+        <guid>https://sim590.github.io/en/gsoc/week2/</guid>
         <description>I&amp;rsquo;ve been reworking the code for the queries I introduced in the first week.
 What&amp;rsquo;s done  I have worked on value pagination and optimization of announce operations; Fixed bugs like #72, #73; I&amp;rsquo;ve split the Query into Select and Where strcutures. This change was explained here.  What&amp;rsquo;s still work in progress  Value pagination; Optimizing announce operations;  </description>
         
@@ -175,11 +175,11 @@ What&amp;rsquo;s done  I have worked on value pagination and optimization of ann
       
       <item>
         <title>[GSOC] Week 1 - Report</title>
-        <link>http://sim590.github.io/en/gsoc/week1/</link>
+        <link>https://sim590.github.io/en/gsoc/week1/</link>
         <pubDate>Sat, 11 Jun 2016 13:06:11 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 11 Jun 2016 13:06:11 -0400</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/week1/</guid>
+        <guid>https://sim590.github.io/en/gsoc/week1/</guid>
         <description>I have been working on writing serializable structure for remote filtering of values on the distributed hash table OpenDHT. This structure is called Query.
 What&amp;rsquo;s done The implementation of the base design with other changes have been made. You can see evolution on the matter here;
 Changes allow to create a Query with a SQL-ish statement like the following
@@ -202,11 +202,11 @@ Changes allow to create a Query with a SQL-ish statement like the following
       
       <item>
         <title>Google Summer Of Code</title>
-        <link>http://sim590.github.io/en/gsoc/intro/</link>
+        <link>https://sim590.github.io/en/gsoc/intro/</link>
         <pubDate>Fri, 03 Jun 2016 00:02:37 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 03 Jun 2016 00:02:37 -0400</atom:modified>
-        <guid>http://sim590.github.io/en/gsoc/intro/</guid>
+        <guid>https://sim590.github.io/en/gsoc/intro/</guid>
         <description>I am part of the group of students working with the Debian organization. You can see my profile on the Debian wiki here.
 Improving distributed and secure communication using free software This the title of my project for this summer. It sounds good, but what am I going to really do? Well, since I&amp;rsquo;m a student at Université du Québec à Montréal, I have had the opportunity to meet with the company Savoir-Faire Linux in Montreal last year and that&amp;rsquo;s when I found out about their exciting project: Ring.</description>
         
