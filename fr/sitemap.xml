@@ -101,23 +101,8 @@
   </url>
   
   <url>
-    <loc>https://sim590.github.io/fr/publication/article/</loc>
-    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/publication/</loc>
-    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/categories/algorithmique/</loc>
-    <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2020-03-02T04:06:13-05:00</lastmod>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -133,6 +118,106 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/chiffrement/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/chiffrement-de-bout-en-bout/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/cybers%C3%A9curit%C3%A9/comment-bien-assurer-la-confidentialit%C3%A9-du-clavardage/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/communication/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/confidentialit%C3%A9/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/cryptographie/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/cybers%C3%A9curit%C3%A9/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/cybers%C3%A9curit%C3%A9/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/protocole/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/protocole-de-communication/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/signal/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/vie-priv%C3%A9e/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/whatsapp/</loc>
+    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/publication/article/</loc>
+    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/publication/</loc>
+    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/algorithmique/</loc>
+    <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   
   <url>
@@ -178,26 +263,6 @@
   <url>
     <loc>https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/tags/"
-                />
   </url>
   
   <url>

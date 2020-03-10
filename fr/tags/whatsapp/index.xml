@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>WhatsApp on Simon Désaulniers</title>
+    <link>https://sim590.github.io/fr/tags/whatsapp/</link>
+    <description>Recent content in WhatsApp on Simon Désaulniers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 -0400</lastBuildDate>
+    
+        <atom:link href="https://sim590.github.io/fr/tags/whatsapp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Comment bien assurer la vie privée du clavardage ?</title>
+        <link>https://sim590.github.io/fr/cybers%C3%A9curit%C3%A9/comment-bien-assurer-la-confidentialit%C3%A9-du-clavardage/</link>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Mon, 09 Mar 2020 00:00:00 -0400</atom:modified>
+        <guid>https://sim590.github.io/fr/cybers%C3%A9curit%C3%A9/comment-bien-assurer-la-confidentialit%C3%A9-du-clavardage/</guid>
+        <description>Lorsqu&amp;rsquo;on utilise les différents outils de communications habituels de nos jours, il est commun de supposer la garantie de sa vie privée. L&amp;rsquo;utilisateur moyen ne se pose aucune question lorsqu&amp;rsquo;il se connecte à des services comme Facebook, Twitter ou Skype. Ou encore, on se rassure tout de suite à l&amp;rsquo;idée de voir des symboles de &amp;ldquo;sécurité&amp;rdquo; comme le suivant.
+Tous les services susmentionnés sont effectivement munis de protections, mais contre et pour qui?</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/chiffrement-de-bout-en-bout.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Chiffrement</category>
+            
+          
+            
+              <category>Chiffrement de bout en bout</category>
+            
+          
+            
+              <category>Confidentialité</category>
+            
+          
+            
+              <category>Signal</category>
+            
+          
+            
+              <category>WhatsApp</category>
+            
+          
+            
+              <category>Protocole</category>
+            
+          
+            
+              <category>Protocole de communication</category>
+            
+          
+            
+              <category>Communication</category>
+            
+          
+        
+        
+          
+            
+              <category>Cybersécurité</category>
+            
+          
+            
+              <category>Cryptographie</category>
+            
+          
+            
+              <category>Vie privée</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
