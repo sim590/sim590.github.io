@@ -101,6 +101,36 @@
   </url>
   
   <url>
+    <loc>https://sim590.github.io/en/publication/article/</loc>
+    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/publication/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/publication/article/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/en/publication/</loc>
+    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/publication/"
+                />
+  </url>
+  
+  <url>
     <loc>https://sim590.github.io/en/about/</loc>
     <lastmod>2020-02-29T03:25:14-05:00</lastmod>
   </url>
@@ -137,6 +167,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://sim590.github.io/en/archive/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/en/publication/article/fully-distributed-indexing-over-a-distributed-hash-table/</loc>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/publication/article/fully-distributed-indexing-over-a-distributed-hash-table/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/publication/article/fully-distributed-indexing-over-a-distributed-hash-table/"
                 />
   </url>
   
