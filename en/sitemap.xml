@@ -306,6 +306,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/showcase/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://sim590.github.io/en/showcase/"
                 />

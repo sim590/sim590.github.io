@@ -3,6 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sim590.github.io/eo/showcase/projektoj/amh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/projektoj/dotfiles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/projektoj/dpaste/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/vivprotokolo/vivprotokolo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/projektoj/polyenum/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/projektoj/yauml/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/vivprotokolo/m%C3%A9moire/</loc>
+  </url>
+  
+  <url>
     <loc>https://sim590.github.io/eo/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -26,7 +54,30 @@
   </url>
   
   <url>
+    <loc>https://sim590.github.io/eo/showcase/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/showcase/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/showcase/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/showcase/"
+                />
+  </url>
+  
+  <url>
     <loc>https://sim590.github.io/eo/pri/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/projektoj/</loc>
   </url>
   
   <url>
@@ -84,6 +135,10 @@
                 hreflang="eo"
                 href="https://sim590.github.io/eo/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/showcase/vivprotokolo/</loc>
   </url>
   
 </urlset>
