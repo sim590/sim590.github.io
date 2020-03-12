@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Simon Désaulniers</title>
-    <link>https://sim590.github.io/eo/</link>
-    <description>Recent content on Simon Désaulniers</description>
+    <title>Eldonoj on Simon Désaulniers</title>
+    <link>https://sim590.github.io/eo/publication/</link>
+    <description>Recent content in Eldonoj on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>eo</language>
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
@@ -16,34 +16,29 @@
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 04 Mar 2020 15:40:23 +0000</lastBuildDate>
     
-        <atom:link href="https://sim590.github.io/eo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sim590.github.io/eo/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     
-      
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
 
+      
+      <item>
+        <title>Artikolo</title>
+        <link>https://sim590.github.io/eo/publication/artikolo/</link>
+        <pubDate>Wed, 04 Mar 2020 15:40:23 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Wed, 04 Mar 2020 15:40:23 +0000</atom:modified>
+        <guid>https://sim590.github.io/eo/publication/artikolo/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
 
     

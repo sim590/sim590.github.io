@@ -125,6 +125,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://sim590.github.io/en/publication/"
                 />

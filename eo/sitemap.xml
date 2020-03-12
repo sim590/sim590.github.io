@@ -31,6 +31,56 @@
   </url>
   
   <url>
+    <loc>https://sim590.github.io/eo/publication/artikolo/</loc>
+    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/publication/</loc>
+    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/</loc>
+    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/eo/publication/artikolo/fully-distributed-indexing-over-a-distributed-hash-table/</loc>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sim590.github.io/eo/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -96,25 +146,6 @@
                 rel="alternate"
                 hreflang="eo"
                 href="https://sim590.github.io/eo/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/eo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/"
                 />
   </url>
   
