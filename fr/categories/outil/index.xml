@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Outil on Simon Désaulniers</title>
+    <link>https://sim590.github.io/fr/categories/outil/</link>
+    <description>Recent content in Outil on Simon Désaulniers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 22 Mar 2020 11:11:56 -0400</lastBuildDate>
+    
+        <atom:link href="https://sim590.github.io/fr/categories/outil/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Vim peut tout faire</title>
+        <link>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</link>
+        <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sun, 22 Mar 2020 11:11:56 -0400</atom:modified>
+        <guid>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</guid>
+        <description>Vim est un éditeur de texte et clairement le meilleur qui soit. Je ne dis pas ça sans peser mes mots. Ceci dit, il ne faut pas lui prêter une identité qu&amp;rsquo;il n&amp;rsquo;a pas. Vim n&amp;rsquo;est pas un environnement de développement intégré (EDI ou IDE en anglais) complet. Cependant, plusieurs aspects à son utilisation font sa grande force pour fournir un EDI complet à son usager:
+ un langage de touches permettant aux doigts de faire tout le travail d&#39;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/vim/vim-peut-tout-faire/vim-all-the-things" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Vim</category>
+            
+          
+            
+              <category>hjkl</category>
+            
+          
+            
+              <category>greffon</category>
+            
+          
+        
+        
+          
+            
+              <category>Techno</category>
+            
+          
+            
+              <category>Outil</category>
+            
+          
+            
+              <category>Éditeur de texte</category>
+            
+          
+            
+              <category>Programmation</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

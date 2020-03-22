@@ -14,13 +14,85 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2020 11:11:56 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Outil</title>
+        <link>https://sim590.github.io/fr/categories/outil/</link>
+        <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/outil/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Programmation</title>
+        <link>https://sim590.github.io/fr/categories/programmation/</link>
+        <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/programmation/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Techno</title>
+        <link>https://sim590.github.io/fr/categories/techno/</link>
+        <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/techno/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Éditeur de texte</title>
+        <link>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</link>
+        <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Cryptographie</title>
@@ -119,24 +191,6 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/categories/m%C3%A9mo%C3%AFsation/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Programmation</title>
-        <link>https://sim590.github.io/fr/categories/programmation/</link>
-        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/categories/programmation/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
