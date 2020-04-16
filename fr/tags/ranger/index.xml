@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>ranger on Simon Désaulniers</title>
+    <link>https://sim590.github.io/fr/tags/ranger/</link>
+    <description>Recent content in ranger on Simon Désaulniers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Apr 2020 00:42:27 -0400</lastBuildDate>
+    
+        <atom:link href="https://sim590.github.io/fr/tags/ranger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>fzf: comment optimiser son utilisation de la ligne de commande</title>
+        <link>https://sim590.github.io/fr/outils/fzf/</link>
+        <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sat, 11 Apr 2020 00:42:27 -0400</atom:modified>
+        <guid>https://sim590.github.io/fr/outils/fzf/</guid>
+        <description>fzf est un programme filtrant le flux de son entrée standard par mots clefs fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type fuzzy (d&amp;rsquo;où le nom fzf pour fuzzy finder), c&amp;rsquo;est-à-dire que les termes fournis au programme sont décomposés en sous-mots afin de permettre des recherches approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:
+1 2 3  toto titi tutu   Si l&amp;rsquo;utilisateur fournissait le terme tt, toutes les lignes seraient sélectionnées, puisque les sous-mots t et t se trouvent tous deux dans toutes les lignes.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/fzf/fzf-logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+            
+              <category>Productivité</category>
+            
+          
+            
+              <category>Vim</category>
+            
+          
+            
+              <category>zsh</category>
+            
+          
+            
+              <category>ranger</category>
+            
+          
+            
+              <category>pass</category>
+            
+          
+        
+        
+          
+            
+              <category>Techno</category>
+            
+          
+            
+              <category>Outil</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

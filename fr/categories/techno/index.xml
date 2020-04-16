@@ -14,13 +14,68 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 22 Mar 2020 11:11:56 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 00:42:27 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/categories/techno/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>fzf: comment optimiser son utilisation de la ligne de commande</title>
+        <link>https://sim590.github.io/fr/outils/fzf/</link>
+        <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sat, 11 Apr 2020 00:42:27 -0400</atom:modified>
+        <guid>https://sim590.github.io/fr/outils/fzf/</guid>
+        <description>fzf est un programme filtrant le flux de son entrée standard par mots clefs fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type fuzzy (d&amp;rsquo;où le nom fzf pour fuzzy finder), c&amp;rsquo;est-à-dire que les termes fournis au programme sont décomposés en sous-mots afin de permettre des recherches approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:
+1 2 3  toto titi tutu   Si l&amp;rsquo;utilisateur fournissait le terme tt, toutes les lignes seraient sélectionnées, puisque les sous-mots t et t se trouvent tous deux dans toutes les lignes.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/fzf/fzf-logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+            
+              <category>Productivité</category>
+            
+          
+            
+              <category>Vim</category>
+            
+          
+            
+              <category>zsh</category>
+            
+          
+            
+              <category>ranger</category>
+            
+          
+            
+              <category>pass</category>
+            
+          
+        
+        
+          
+            
+              <category>Techno</category>
+            
+          
+            
+              <category>Outil</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Vim peut tout faire</title>

@@ -52,7 +52,7 @@
   
   <url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -71,28 +71,38 @@
   </url>
   
   <url>
-    <loc>https://sim590.github.io/fr/tags/greffon/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/hjkl/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+    <loc>https://sim590.github.io/fr/outils/fzf/</loc>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://sim590.github.io/fr/categories/outil/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+    <loc>https://sim590.github.io/fr/outils/</loc>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/pass/</loc>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/productivit%C3%A9/</loc>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/ranger/</loc>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -112,11 +122,31 @@
   
   <url>
     <loc>https://sim590.github.io/fr/categories/techno/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://sim590.github.io/fr/tags/vim/</loc>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/zsh/</loc>
+    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/greffon/</loc>
+    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/hjkl/</loc>
+    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
   </url>
   
@@ -361,6 +391,10 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/showcase/curriculum-vitae/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/gnu/linux/</loc>
   </url>
   
   <url>
