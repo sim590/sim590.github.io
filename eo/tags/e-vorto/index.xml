@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>E-vorto on Simon Désaulniers</title>
+    <link>https://sim590.github.io/eo/tags/e-vorto/</link>
+    <description>Recent content in E-vorto on Simon Désaulniers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>eo</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 18 Apr 2020 11:19:48 -0400</lastBuildDate>
+    
+        <atom:link href="https://sim590.github.io/eo/tags/e-vorto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Uzado de E-vortoj kiel priskribo</title>
+        <link>https://sim590.github.io/eo/gramatiko/uzado-de-evortoj-kiel-priskribo/</link>
+        <pubDate>Sat, 18 Apr 2020 11:19:48 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sat, 18 Apr 2020 11:19:48 -0400</atom:modified>
+        <guid>https://sim590.github.io/eo/gramatiko/uzado-de-evortoj-kiel-priskribo/</guid>
+        <description>Freŝdate, mi komencis pli ofte rimarki iun uztipon de E-vortoj en variaj specoj de komunikado, ĉu estu retfilmaj, ĉu estu tekstaj. La uzo ĉiam ŝajnis erara laŭ mi. Do mi ĉiam estis surprizita kaj konfuza.
+Unue mi difinu la fakvorton «E-vorto». Laŭ la PMEG, «vorton kun la finaĵo E oni nomas E-vorto. E-vortoj montras manierojn, lokojn, tempojn, kvantojn k.s.» (PMEG, versio 14, paĝo 51).
+Do, kio estas tiu tipo de uzado de la E-vortoj kiujn mi ne tute komprenas.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>E-vorto</category>
+            
+          
+            
+              <category>Lernado</category>
+            
+          
+        
+        
+          
+            
+              <category>Pensoj</category>
+            
+          
+            
+              <category>Rakontoj</category>
+            
+          
+            
+              <category>Gramatiko</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
