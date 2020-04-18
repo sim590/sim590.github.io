@@ -1861,7 +1861,12 @@ instruction comme celle-ci:</p>
 <span class="o">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="ssh-et-les-adresses-local">ssh et les adresses &ldquo;*.local&rdquo;</h3>
+</div><p><strong>N.B</strong>: Il est spécifié sur la page de documentation de Fzf que l&rsquo;IPA est
+instable et change de version en version. En particulier, cela concerne la
+fonction <code>_fzf_complete</code>. Par exemple, la version du paquet Debian que j&rsquo;utilise
+est telle que la fonction <code>_fzf_complete</code> ne reconnaît pas l&rsquo;argument
+dédié <code>--</code>. Il faut donc simplement le retirer.</p>
+<h3 id="ssh-et-les-adresses-local">ssh et les adresses &ldquo;*.local&rdquo;</h3>
 <p>Comme mentionné plus tôt, la complétion par les scripts de <code>fzf</code> pour <code>ssh</code> ne
 fournissent pas les noms d&rsquo;hôtes dans le réseau local, ce qui pourrait s&rsquo;avérer
 souvent utile. Afin de remédier à cela, il suffit d&rsquo;inclure le bout de code
