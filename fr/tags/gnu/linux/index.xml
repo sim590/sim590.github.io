@@ -28,8 +28,8 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 11 Apr 2020 00:42:27 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/outils/fzf/</guid>
-        <description>fzf est un programme filtrant le flux de son entrée standard par mots clefs fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type fuzzy (d&amp;rsquo;où le nom fzf pour fuzzy finder), c&amp;rsquo;est-à-dire que les termes fournis au programme sont décomposés en sous-mots afin de permettre des recherches approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:
-1 2 3  toto titi tutu   Si l&amp;rsquo;utilisateur fournissait le terme tt, toutes les lignes seraient sélectionnées, puisque les sous-mots t et t se trouvent tous deux dans toutes les lignes.</description>
+        <description>N.B: Les configurations que j&amp;rsquo;ai listées dans cet article ont été téléversées et sont disponibles pour consultation dans mon dépôt de fichiers de configurations.
+fzf est un programme filtrant le flux de son entrée standard par mots clefs fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type fuzzy (d&amp;rsquo;où le nom fzf pour fuzzy finder), c&amp;rsquo;est-à-dire que les termes fournis au programme sont décomposés en sous-mots afin de permettre des recherches approximatives par l&amp;rsquo;utilisateur.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
