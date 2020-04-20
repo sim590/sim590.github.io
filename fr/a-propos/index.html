@@ -2,7 +2,7 @@
 <html lang="fr" dir="fr">
 
 <head prefix="og: http://ogp.me/ns#">
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>À propos de moi – Simon Désaulniers</title>
@@ -529,12 +529,20 @@
           }
         }
 
-        var utterances = document.querySelector('iframe');
+        var utterances = document.getElementById('utterances');
         if (utterances) {
-          utterances.contentWindow.postMessage({
+          utterances.querySelector('iframe').contentWindow.postMessage({
             type: 'set-theme',
             theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
           }, 'https://utteranc.es');
+        }
+
+        var twitterCards = document.querySelectorAll('.twitter-timeline');
+        if (twitterCards) {
+          window.postMessage({
+            type: 'set-twitter-theme',
+            theme: selectedThemeVariant === 'light' || selectedThemeVariant === 'solarized' ? 'light' : 'dark',
+          });
         }
       });
     }) : null;
@@ -1196,7 +1204,8 @@
 
     
 <meta name="description" content="Simon Désaulniers" />
-<meta name="keywords" content="">
+
+
 <meta name="created" content="2020-02-29T03:00:12-0500">
 <meta name="modified" content="2020-02-29T03:00:12-0500">
 <meta property="article:published_time" content="2020-02-29T03:00:12-0500">
@@ -1281,6 +1290,11 @@
     </script>
     <div id="container">
         
+
+
+
+
+
         <div class="wrapper" data-type="about" data-kind="page">
             <nav class="navbar" role="navigation" aria-label="main navigation" data-dir="fr">
   <div class="navbar__brand">
@@ -1738,7 +1752,12 @@ soient exploités.</p>
 </footer>
         </div>
         
-<div class="wrapper__right hide" dir="ltr">
+
+
+
+
+
+<div class="wrapper__right hide" data-pad="false" dir="ltr">
   <script>document.querySelector('.wrapper__right').classList.remove('hide')</script>
   
 </div>

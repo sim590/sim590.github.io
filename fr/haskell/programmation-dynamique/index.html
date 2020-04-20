@@ -2,7 +2,7 @@
 <html lang="fr" dir="fr">
 
 <head prefix="og: http://ogp.me/ns#">
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Haskell: programmation dynamique – Simon Désaulniers</title>
@@ -529,12 +529,20 @@
           }
         }
 
-        var utterances = document.querySelector('iframe');
+        var utterances = document.getElementById('utterances');
         if (utterances) {
-          utterances.contentWindow.postMessage({
+          utterances.querySelector('iframe').contentWindow.postMessage({
             type: 'set-theme',
             theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
           }, 'https://utteranc.es');
+        }
+
+        var twitterCards = document.querySelectorAll('.twitter-timeline');
+        if (twitterCards) {
+          window.postMessage({
+            type: 'set-twitter-theme',
+            theme: selectedThemeVariant === 'light' || selectedThemeVariant === 'solarized' ? 'light' : 'dark',
+          });
         }
       });
     }) : null;
@@ -1196,7 +1204,10 @@
 
     
 <meta name="description" content="Simon Désaulniers" />
-<meta name="keywords" content="">
+
+
+<meta name="keywords" content="Séquence de Collatz,Data.Array,nombre triangulaire">
+
 <meta name="created" content="2020-03-02T04:06:13-0500">
 <meta name="modified" content="2020-03-02T04:06:13-0500">
 <meta property="article:published_time" content="2020-03-02T04:06:13-0500">
@@ -1282,6 +1293,11 @@
     </script>
     <div id="container">
         
+
+
+
+
+
         <div class="wrapper" data-type="haskell" data-kind="page">
             <nav class="navbar" role="navigation" aria-label="main navigation" data-dir="fr">
   <div class="navbar__brand">
@@ -1566,30 +1582,27 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Rédigé le">📅&nbsp;02/03/2020 </time>  &middot; <span class="single__info" title="Temps de lecture"> ☕ 11 min de lecture </span>
+  <time class="single__info" title="Rédigé le">📅&nbsp;02/03/2020 </time>
+  
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Temps de lecture"> ☕&nbsp;11&nbsp;min de lecture </span>
+  
   <span class="single__info">
     
   </span>
 </div>
       
-<div class="single__tags caption">
-
+<ul class="single__tags caption">
   
-    🏷️
-  
+  🏷️
   
 
-  
-  
-    <li><a href="https://sim590.github.io/fr/tags/data.array/" class="single__tag" title="Data.Array">#Data.Array</a></li>
-  
+  <li><a href="https://sim590.github.io/fr/tags/data.array/" class="single__tag" title="Data.Array">#Data.Array</a></li>
 
-  
-  
-    <li><a href="https://sim590.github.io/fr/tags/nombre-triangulaire/" class="single__tag" title="nombre triangulaire">#nombre triangulaire</a></li>
-  
+  <li><a href="https://sim590.github.io/fr/tags/nombre-triangulaire/" class="single__tag" title="nombre triangulaire">#nombre triangulaire</a></li>
 
-</div>
+  <li><a href="https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/" class="single__tag" title="Séquence de Collatz">#Séquence de Collatz</a></li>
+
+</ul>
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
@@ -3421,7 +3434,12 @@ document.addEventListener('DOMContentLoaded', function () {
 </footer>
         </div>
         
-<div class="wrapper__right hide" dir="ltr">
+
+
+
+
+
+<div class="wrapper__right hide" data-pad="true" dir="ltr">
   <script>document.querySelector('.wrapper__right').classList.remove('hide')</script>
   
 </div>

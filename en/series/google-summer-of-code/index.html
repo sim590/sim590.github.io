@@ -2,7 +2,7 @@
 <html lang="en" dir="en">
 
 <head prefix="og: http://ogp.me/ns#">
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Google Summer Of Code – Simon Désaulniers</title>
@@ -529,12 +529,20 @@
           }
         }
 
-        var utterances = document.querySelector('iframe');
+        var utterances = document.getElementById('utterances');
         if (utterances) {
-          utterances.contentWindow.postMessage({
+          utterances.querySelector('iframe').contentWindow.postMessage({
             type: 'set-theme',
             theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
           }, 'https://utteranc.es');
+        }
+
+        var twitterCards = document.querySelectorAll('.twitter-timeline');
+        if (twitterCards) {
+          window.postMessage({
+            type: 'set-twitter-theme',
+            theme: selectedThemeVariant === 'light' || selectedThemeVariant === 'solarized' ? 'light' : 'dark',
+          });
         }
       });
     }) : null;
@@ -1198,7 +1206,8 @@
 <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://sim590.github.io/en/series/google-summer-of-code/index.xml">
 
 <meta name="description" content="Simon Désaulniers" />
-<meta name="keywords" content="">
+
+
 <meta name="created" content="2016-08-19T12:04:13-0400">
 <meta name="modified" content="2016-08-19T12:04:13-0400">
 <meta property="article:published_time" content="2016-08-19T12:04:13-0400">
@@ -1281,6 +1290,11 @@
     </script>
     <div id="container">
         
+
+
+
+
+
         <div class="wrapper" data-type="series" data-kind="taxonomy">
             <nav class="navbar" role="navigation" aria-label="main navigation" data-dir="en">
   <div class="navbar__brand">
@@ -1575,7 +1589,12 @@
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/final/'> [GSOC] Final report</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Aug 19, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 3 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 19, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;3&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1602,7 +1621,12 @@
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/week10-11-12/'> [GSOC] Week 10&amp;11&amp;12 Report</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Aug 18, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 2 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 18, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1629,7 +1653,12 @@
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/week89/'> [GSOC] Week 8&amp;9 Report</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Jul 25, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 2 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Jul 25, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1656,7 +1685,12 @@
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/week567/'> [GSOC] Week 5&amp;6&amp;7 Report</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Jul 10, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 2 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Jul 10, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1683,7 +1717,12 @@
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/week34/'> [GSOC] Week 3&amp;4 Report</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Jul 10, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 2 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Jul 10, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1712,7 +1751,12 @@ What&rsquo;s done Queries. The library will provide the additional following fun
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/week2/'> [GSOC] Week 2 - Report</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Jun 13, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 1 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Jun 13, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1740,7 +1784,12 @@ What&rsquo;s done  I have worked on value pagination and optimization of announc
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/week1/'> [GSOC] Week 1 - Report</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Jun 11, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 1 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Jun 11, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1770,7 +1819,12 @@ Changes allow to create a Query with a SQL-ish statement like the following
     <div class="summary-classic__content">
       <header>
         <h5 class="title h5"><a href='https://sim590.github.io/en/gsoc/intro/'> Google Summer Of Code</a> </h5>
-        <h6 class="subtitle caption"><time title="Written At" dir="ltr">📅 Jun 3, 2016 </time>  <span title="Reading Time" dir="ltr"> &middot; ☕ 4 min read </span></h6>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Jun 3, 2016 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;4&nbsp;min read </span>
+          
+        </h6>
       </header>
       <div>
         <div class="summary-classic__text p2">
@@ -1896,73 +1950,79 @@ Improving distributed and secure communication using free software This the titl
 </main>
 
 <script>
-  
-  var sidebarPosition = JSON.parse("\"right\"");
-  
-  var enableSidebar = JSON.parse("true");
+    
+    var sidebarPosition = JSON.parse("\"right\"");
+    
+    var enableSidebar = JSON.parse("true");
 
-  var listMainElem = document.querySelector('.list__main');
-  var listSideElem = document.querySelector('.list__sidebar');
+    var listMainElem = document.querySelector('.list__main');
+    var listSideElem = document.querySelector('.list__sidebar');
 
-  var gridSmall = 'l';
-  var gridBig = 'mr';
-  var gridFull = 'lmr'
+    var gridSmall = 'l';
+    var gridBig = 'mr';
+    var gridFull = 'lmr'
 
-  if (sidebarPosition === "right") {
-      gridSmall = 'r';
-      gridBig = 'lm'
-  }
+    if (sidebarPosition === "right") {
+        gridSmall = 'r';
+        gridBig = 'lm'
+    }
 
-  enquire.register("screen and (max-width: 769px)", {
-    match: function () {
-      if (enableSidebar) {
-        listMainElem.classList.remove(gridBig);
-        listMainElem.classList.add(gridFull);
-        listSideElem.classList.remove(gridSmall);
-        listSideElem.classList.add('hide');
-      } else {
-        if (listMainElem && !listMainElem.classList.contains(gridFull)) {
-          listMainElem.classList.remove(gridBig);
-          listMainElem.classList.add(gridFull);
-        }
+    enquire.register("screen and (max-width: 769px)", {
+        match: function () {
+            if (enableSidebar) {
+                listMainElem.classList.remove(gridBig);
+                listMainElem.classList.add(gridFull);
+                listSideElem.classList.remove(gridSmall);
+                listSideElem.classList.add('hide');
+            } else {
+                if (listMainElem && !listMainElem.classList.contains(gridFull)) {
+                    listMainElem.classList.remove(gridBig);
+                    listMainElem.classList.add(gridFull);
+                }
 
-        if (listSideElem && !listSideElem.classList.contains('hide')) {
-          listSideElem.classList.add('hide');
-        }
-      }
-    },
-    unmatch: function () {
-      if (enableSidebar) {
-        listMainElem.classList.remove(gridFull);
-        listMainElem.classList.add(gridBig);
-        listSideElem.classList.add(gridSmall);
-        listSideElem.classList.remove('hide');
-      } else {
-        if (listMainElem && !listMainElem.classList.contains(gridFull)) {
-          listMainElem.classList.remove(gridBig);
-          listMainElem.classList.add(gridFull);
-        }
+                if (listSideElem && !listSideElem.classList.contains('hide')) {
+                    listSideElem.classList.add('hide');
+                }
+            }
 
-        if (listSideElem && !listSideElem.classList.contains('hide')) {
-          listSideElem.classList.add('hide');
-        }
-      }
-      
-      var navCollapseBtn = document.querySelector('.navbar__burger');
-      var navCollapse = document.getElementsByClassName('navbarm__collapse')[0];
-      if (navCollapse) {
-        navCollapse.setAttribute('data-open', false);
-        navCollapse.style.maxHeight = 0;
-        navCollapseBtn.classList.remove('is-active');
-      }
-      document.getElementsByClassName('navbar__menu')[0].classList.remove('is-active');
-      document.getElementsByClassName('mobile-search')[0].classList.add('hide');
-    },
-    setup: function () { },
-    deferSetup: true,
-    destroy: function () { },
-  });
+        },
+        unmatch: function () {
+            if (enableSidebar) {
+                listMainElem.classList.remove(gridFull);
+                listMainElem.classList.add(gridBig);
+                listSideElem.classList.add(gridSmall);
+                listSideElem.classList.remove('hide');
+            } else {
+                if (listMainElem && !listMainElem.classList.contains(gridFull)) {
+                    listMainElem.classList.remove(gridBig);
+                    listMainElem.classList.add(gridFull);
+                }
+
+                if (listSideElem && !listSideElem.classList.contains('hide')) {
+                    listSideElem.classList.add('hide');
+                }
+            }
+
+            var navCollapseBtn = document.querySelector('.navbar__burger');
+            var navCollapse = document.getElementsByClassName('navbarm__collapse')[0];
+            if (navCollapse) {
+                navCollapse.setAttribute('data-open', false);
+                navCollapse.style.maxHeight = 0;
+                navCollapseBtn.classList.remove('is-active');
+            }
+            if (document.getElementsByClassName('navbar__menu')[0]) {
+                document.getElementsByClassName('navbar__menu')[0].classList.remove('is-active');
+            }
+            if (document.getElementsByClassName('mobile-search')[0]) {
+                document.getElementsByClassName('mobile-search')[0].classList.add('hide');
+            }
+        },
+        setup: function () { },
+        deferSetup: true,
+        destroy: function () { },
+    });
 </script>
+
 
 
             
@@ -2135,7 +2195,12 @@ Improving distributed and secure communication using free software This the titl
 </footer>
         </div>
         
-<div class="wrapper__right hide" dir="ltr">
+
+
+
+
+
+<div class="wrapper__right hide" data-pad="false" dir="ltr">
   <script>document.querySelector('.wrapper__right').classList.remove('hide')</script>
   
 </div>
