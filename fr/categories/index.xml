@@ -14,7 +14,7 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 11 Apr 2020 00:42:27 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 20:36:40 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,12 @@
 
       
       <item>
-        <title>Outil</title>
-        <link>https://sim590.github.io/fr/categories/outil/</link>
-        <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
+        <title>Debian</title>
+        <link>https://sim590.github.io/fr/categories/debian/</link>
+        <pubDate>Sat, 09 May 2020 20:36:40 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/fr/categories/outil/</guid>
+        <guid>https://sim590.github.io/fr/categories/debian/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -43,10 +43,28 @@
       <item>
         <title>Techno</title>
         <link>https://sim590.github.io/fr/categories/techno/</link>
-        <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
+        <pubDate>Sat, 09 May 2020 20:36:40 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/categories/techno/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Outil</title>
+        <link>https://sim590.github.io/fr/categories/outil/</link>
+        <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/outil/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

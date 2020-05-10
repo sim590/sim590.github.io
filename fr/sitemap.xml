@@ -51,8 +51,18 @@
   </url>
   
   <url>
+    <loc>https://sim590.github.io/fr/tags/aptitude/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/branche-debian/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -68,6 +78,51 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/debian/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/debian/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/debian/passer-%C3%A0-testing/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/paquet-debian/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/techno/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
   </url>
   
   <url>
@@ -97,31 +152,6 @@
   
   <url>
     <loc>https://sim590.github.io/fr/tags/ranger/</loc>
-    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/categories/techno/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
   </url>
   

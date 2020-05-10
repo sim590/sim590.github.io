@@ -14,13 +14,59 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 11 Apr 2020 00:42:27 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 20:36:40 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/categories/techno/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Debian: passer à «testing»</title>
+        <link>https://sim590.github.io/fr/debian/passer-%C3%A0-testing/</link>
+        <pubDate>Sat, 09 May 2020 20:36:40 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sat, 09 May 2020 20:36:40 -0400</atom:modified>
+        <guid>https://sim590.github.io/fr/debian/passer-%C3%A0-testing/</guid>
+        <description>Debian est une des distributions de GNU/Linux les plus communes et robuste grâce à son système de publication de version structuré et méticuleux. Les versions passent par différents stades de développement appelés «branches». On peut voir ces branches comme des «version» de Debian qui ne sont pas figées dans le temps contrairement aux publications de Debian comme. Par exemple, Buster est le nom de la dernière version publiée par Debian à ce jour et la branche correspondant à Debian est appelée stable.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+            
+              <category>Aptitude</category>
+            
+          
+            
+              <category>Paquet Debian</category>
+            
+          
+            
+              <category>Branche Debian</category>
+            
+          
+        
+        
+          
+            
+              <category>Debian</category>
+            
+          
+            
+              <category>Techno</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>fzf: comment optimiser son utilisation de la ligne de commande</title>
