@@ -1257,7 +1257,7 @@
     "datePublished": "2020-05-09T20:36:40-04:00",
     "dateModified": "2020-05-09T20:36:40-04:00",
     "url" : "https://sim590.github.io/fr/debian/passer-%C3%A0-testing/",
-    "description": "Debian est une des distributions de GNU/Linux les plus communes et robuste grâce à son système de publication de version structuré et méticuleux. Les versions passent par …",
+    "description": "Debian est une des distributions de GNU/Linux les plus communes et robustes grâce à son système de publication de version structuré et méticuleux. Les versions passent …",
     "keywords": ["GNU/Linux","Aptitude","Paquet Debian","Branche Debian"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1608,31 +1608,31 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>Debian est une des distributions de GNU/Linux les plus communes et robuste grâce
-à son système de publication de version structuré et méticuleux. Les versions
-passent par différents stades de développement appelés «branches». On peut voir
-ces branches comme des «version» de Debian qui ne sont pas figées dans le temps
-contrairement aux publications de Debian comme. Par exemple, Buster est le nom
-de la dernière version publiée par Debian à ce jour et la branche correspondant
-à Debian est appelée <code>stable</code>. Par défaut, il s&rsquo;agit de la branche avec laquelle
-Debian s&rsquo;installe. Comme le système de paquetage inclue d&rsquo;abord les paquets dans
-la branche <code>unstable</code>, puis <code>testing</code> et finalement <code>stable</code>, les versions
-prennent certains de temps à aboutir. Ce faisant, ceci garantie une stabilité
-aux utilisateurs (d&rsquo;où le nom de la branche). Ceci dit, certains utilisateurs
-plus avancés ayant le désir d&rsquo;un système plus à jour peuvent configurer leur
-système afin que celui-ci passe à <code>testing</code>. Ce processus est très commun parmi
-les utilisateurs avancés et comporte pratiquement très peu d&rsquo;inconvénients. Pour
-plus d&rsquo;information par rapport aux branches, voyez les différents liens
-ci-après:</p>
+      <p>Debian est une des distributions de GNU/Linux les plus communes et robustes
+grâce à son système de publication de version structuré et méticuleux. Les
+versions passent par différents stades de développement appelés «branches». On
+peut voir ces branches comme des «versions» de Debian qui ne sont pas figées
+dans le temps contrairement aux publications de Debian. Par exemple, Buster est
+le nom de la dernière version publiée par Debian à ce jour et la branche
+correspondant à Debian est appelée <code>stable</code>. Par défaut, il s&rsquo;agit de la branche
+avec laquelle Debian s&rsquo;installe. Comme le système de paquetage inclut d&rsquo;abord
+les paquets dans la branche <code>unstable</code>, puis <code>testing</code> et finalement <code>stable</code>,
+les versions prennent un certains temps à aboutir. Ce faisant, ceci garantie une
+stabilité aux utilisateurs (d&rsquo;où le nom de la branche). Ceci dit, certains
+utilisateurs plus avancés ayant le désir d&rsquo;un système plus à jour peuvent
+configurer leur système afin que celui-ci passe à <code>testing</code>. Ce processus est
+très commun parmi les utilisateurs avancés et comporte pratiquement très peu
+d&rsquo;inconvénients. Pour plus d&rsquo;information par rapport aux branches, voyez les
+différents liens ci-après:</p>
 <p><a href="https://www.debian.org/releases/">https://www.debian.org/releases/</a></p>
 <p><a href="https://www.debian.org/doc/manuals/debian-faq/debian-faq.fr.pdf">https://www.debian.org/doc/manuals/debian-faq/debian-faq.fr.pdf</a> (PDF)</p>
 <p>Personnellement, je vois <code>testing</code> comme un bon compromis entre la fine pointe
 et la robustesse du logiciel. Dans ce qui suit, je vous montre comment passer à
-<code>testing</code> ainsi que comment adéquatement configurer <code>apt</code> afin de garantir un
-fin contrôle sur la source des paquets que vous téléchargez des branches
-<code>testing</code>, <code>unstable</code> et <code>experimental</code>.</p>
+<code>testing</code> ainsi que comment adéquatement configurer <code>apt</code> pour garantir un fin
+contrôle sur la source des paquets que vous téléchargez des branches <code>testing</code>,
+<code>unstable</code> et <code>experimental</code>.</p>
 <p><strong>N.B</strong>: Je fais l&rsquo;hypothèse que le lecteur se trouve sur Debian dans la branche
-<code>stable</code> et que les fichiers de configurations qui se trouvent sur votre système
+<code>stable</code> et que les fichiers de configuration qui se trouvent sur votre système
 sont par défaut.</p>
 <p><strong>N.B no. 2</strong>: Le lecteur doit être avisé que les étapes de mise à jour que nous
 effectuerons ne sont pas réversibles. Une fois passé à <code>testing</code>, on ne revient
@@ -1642,9 +1642,9 @@ réinstaller sans avoir à copier les données de votre répertoire utilisateur.
 Ceci dit, il est toujours pertinent de faire une sauvegarde, le cas échéant.
 Bien sûr, ce n&rsquo;est pas nécessaire pour simplement passer à <code>testing</code>.</p>
 <h2 id="etcaptsourceslistd">/etc/apt/sources.list.d</h2>
-<p>Passer à une version subséquente de Debian consiste en installant les versions
+<p>Passer à une version subséquente de Debian consiste à installer les versions
 plus à jour des paquets du système. Pour ce faire, on doit donc configurer la
-source où on prendra ces paquets. Pour ce faire, déplacez (ou supprimez) le
+source où on prendra ces paquets. Il faut donc déplacer (ou supprimer) le
 fichier de configuration actuel là où il ne sera pas effectif.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1668,7 +1668,7 @@ existe.</p>
 <pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p /etc/apt/sources.list.d
 </code></pre></td></tr></table>
 </div>
-</div><p>Maintenant, il suffit de créer le fichier <code>/etc/apt/sources.list.d/testing.list</code>
+</div><p>Ensuite, il suffit de créer le fichier <code>/etc/apt/sources.list.d/testing.list</code>
 contenant les sources de la branche <code>testing</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1695,7 +1695,7 @@ liste des sources à jour:</p>
 <pre class="chroma"><code class="language-sh" data-lang="sh">apt update
 </code></pre></td></tr></table>
 </div>
-</div><p>Maintenant, on peut mettre à jour les paquets comme tel:</p>
+</div><p>Ensuite, on peut mettre à jour les paquets comme tel:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1705,7 +1705,8 @@ liste des sources à jour:</p>
 </code></pre></td></tr></table>
 </div>
 </div><p>Finalement, pour permettre à <code>apt</code> de mettre à jour certains paquets impliquant
-la suppression d&rsquo;autres paquets, on doit faire:</p>
+la suppression d&rsquo;autres paquets ou l&rsquo;installation de nouveaux paquets (ce que
+upgrade ne fait pas par défaut), on doit faire:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1738,14 +1739,15 @@ faire à vos propres risques et périls.</p>
 <pre class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ experimental main contrib non-free
 </code></pre></td></tr></table>
 </div>
-</div><p>Très bien, mais ce n&rsquo;est pas tout! Ici, il est primordial d&rsquo;apparier cette
-configuration à un triplet de fichiers qui dictera l&rsquo;ordre de priorité des
-sources. En effet, tel que configuré jusqu&rsquo;ici, toutes les sources seraient en
-concurrence et la version pour tous les paquets serait installée, c&rsquo;est-à-dire
-que tous  les paquets (ou presque) passeraient à la version <code>experimental</code> ou
-<code>unstable</code> suivant une mise à jour avec <code>apt update &amp;&amp; apt upgrade</code> et ce n&rsquo;est
-pas ce qu&rsquo;on veut! Afin de palier à ce problème, on assure premièrement la
-création du répertoire des préférences:</p>
+</div><p><em>Très bien, mais ce n&rsquo;est pas tout!</em></p>
+<p>Ici, il est primordial d&rsquo;apparier cette configuration à un triplet de fichiers
+qui dictera l&rsquo;ordre de priorité des sources. En effet, tel que configuré
+jusqu&rsquo;ici, toutes les sources seraient en concurrence et la version la plus à
+jour pour tous les paquets serait installée, c&rsquo;est-à-dire que tous les paquets
+(ou presque) passeraient à la version <code>experimental</code> ou <code>unstable</code> suivant une
+mise à jour avec <code>apt update &amp;&amp; apt upgrade</code> et ce n&rsquo;est pas ce qu&rsquo;on veut! Afin
+de palier à ce problème, on assure premièrement la création du répertoire des
+préférences:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1802,12 +1804,12 @@ Pin-Priority: 700
 </div>
 </div></li>
 </ul>
-<p>Le champ <code>Package</code>, <code>Pin</code> et <code>Pin-Priority</code> indiquent respectivement les
+<p>Les champs <code>Package</code>, <code>Pin</code> et <code>Pin-Priority</code> indiquent respectivement les
 paquets, la branche de ceux-ci et l&rsquo;indice de priorité. Plus le nombre est élevé
 et plus la branche a priorité. Ce faisant, le lecteur comprend bien que
 <code>testing</code> est configuré comme la branche principale. Les autres branches sont
 accessibles, mais ne seront utilisées que si les paquets installés ne sont pas
-disponibles dans la/les branche(s) avec plus grande priorité.</p>
+disponibles dans la/les branche(s) avec la plus grande priorité.</p>
 <p>Afin que les changements soient effectifs, il est nécessaire de rouler</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
