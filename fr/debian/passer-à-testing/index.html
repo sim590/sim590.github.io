@@ -1654,7 +1654,18 @@ fichier de configuration actuel là où il ne sera pas effectif.</p>
 <pre class="chroma"><code class="language-sh" data-lang="sh">rm /etc/apt/sources.list
 </code></pre></td></tr></table>
 </div>
-</div><p>Si le fichier précédent ne se trouvait pas à cet endroit au premier abord, vous
+</div><hr />
+<div align=center>
+<b>### Mise en garde ###</b>
+</div>
+<p>Je fais l&rsquo;hypothèse que les fichiers de configuration sont par défaut, c.-à-d.
+que vous n&rsquo;avez pas de fichier ajoutés autre comme par exemple certains fichiers
+créés après l&rsquo;exécution d&rsquo;instructions d&rsquo;installation pour des logiciels
+externes aux serveurs Debian (pour Google Chrome par exemple). Ce faisant, si
+certains fichiers de ce genre sont présents où que vous avez des sources
+supplémentaires nécessaire pour votre système, veillez à les préserver.</p>
+<hr />
+<p>Si le fichier précédent ne se trouvait pas à cet endroit au premier abord, vous
 avez possiblement une configuration divisée en plusieurs fichiers de la forme
 <code>/etc/apt/sources.list.d/*.list</code>. Si c&rsquo;est le cas, veilliez à les retirer (ou
 déplacer hors de <code>/etc/apt/sources.list.d/</code>).</p>
