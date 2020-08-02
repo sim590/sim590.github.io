@@ -1617,22 +1617,22 @@
 </script>
 <p>Je regarde les maisons et condos depuis un certain temps déjà, histoire de
 sentir un peu ce que l&rsquo;achat implique pour un emprunteur. J&rsquo;ai pris la peine de
-rechercher différentes informations comme les conditions et les options pour un
-assurance hypothèque, les frais associés à l&rsquo;habitation (frais de condo, taxe
-scolaire, etc.) ainsi que les taux d&rsquo;intérêt associé à un prêt. J&rsquo;ai donc voulu
-mettre tout cela en commun afin d&rsquo;avoir un aperçu de mes paiements par mois
-ainsi que ce que cela engendre sur une période plus longue comme 5, 10 ou même
-25 ans. J&rsquo;ai ainsi eu l&rsquo;occasion de faire certains calculs qui seront utiles à
-plusieurs pour comprendre comment les paiements hypothécaires sont calculés. En
-particulier, je veux exposer trois calculs clefs dans la prévision des avantages
-et inconvénients d&rsquo;acheter une propriété versus louer un logement:</p>
+rechercher différentes informations comme les conditions et les options pour une
+assurance hypothèque, les frais associés à l&rsquo;habitation (charge de copropriété,
+taxe scolaire, etc.) ainsi que les taux d&rsquo;intérêt associé à un prêt. J&rsquo;ai donc
+voulu mettre tout cela en commun afin d&rsquo;avoir un aperçu de mes paiements par
+mois ainsi que ce que cela engendre sur une période plus longue comme 5, 10 ou
+même 25 ans. J&rsquo;ai ainsi eu l&rsquo;occasion de faire certains calculs qui seront
+utiles à plusieurs pour comprendre comment les paiements hypothécaires sont
+calculés. En particulier, je veux exposer trois calculs clefs dans la prévision
+des avantages et inconvénients d&rsquo;acheter une propriété versus louer un logement:</p>
 <ul>
 <li>le paiement bancaire régulier (hypothèque et intérêt);</li>
 <li>l&rsquo;hypothèque payée sur \(n\) années;</li>
 <li>et l&rsquo;intérêt sur le prêt payé sur \(n\) années.</li>
 </ul>
 <h2 id="paiements-bancaires">Paiements bancaires</h2>
-<p>Admettons qu&rsquo;on ait un prêt hypothécaire octoyé par une banque. Ce prêt
+<p>Admettons qu&rsquo;on ait un prêt hypothécaire octroyé par une banque. Ce prêt
 s&rsquo;appelle «hypothèque». Celui-ci a une valeur qui varie dans le temps puisqu&rsquo;on
 fait des paiements mensuels afin de le réduire. Notons \(H_k\) l&rsquo;hypothèque
 courant après la \(k^{e}\) année, c.-à-d. ce qui reste à payer après \(k\)
@@ -1687,7 +1687,7 @@ H_0 = P \left(
 $$</p>
 <p>Notons maintenant l&rsquo;expression \(\frac{1}{i+1}\) par \(r\).  La série qui se
 trouve entre parenthèse est bien connue, il s&rsquo;agit de la série géométrique. Il
-facile démontrer qu&rsquo;elle équivaut à l&rsquo;expression suivante:</p>
+est facile à démontrer qu&rsquo;elle équivaut à l&rsquo;expression suivante:</p>
 <p>$$
 \frac{r - r^{n+1}}{1 - r}
 $$</p>
@@ -1792,7 +1792,7 @@ x_3, x_4\) et \(x_5\):</p>
 <li>les coefficients de chacun des termes du polynôme respecte une certaine
 symétrie. D&rsquo;abord, \(1\), ensuite \(1 &mdash; 1\), puis \(1 &mdash; 2 &mdash; 1\),
 \(1 &mdash; 3 &mdash; 3 &mdash; 1\) et enfin \(1 &mdash; 4 &mdash; 6 &mdash; 4 &mdash; 1\). La suite
-des coefficient constitue donc un palindrome, c.-à-d. qu&rsquo;on peut la lire de
+des coefficients constitue donc un palindrome, c.-à-d. qu&rsquo;on peut la lire de
 gauche à droite ou de droite à gauche et elle est la même.</li>
 </ul>
 <p>Généraliser le premier point est rapide, il s&rsquo;agit d&rsquo;une simple boucle, mais
@@ -1829,11 +1829,11 @@ x_5 = (P - iH_0)\left(
 \right)
 $$</p>
 <p>où \(P - iH_0\) est la factorisation de \(P\) et \(iH_0\) tous deux
-multipliés au même polynôme. Par conséquent, on a plus succinctement:</p>
+multipliés au même polynôme. Par conséquent, on a de façon plus succincte:</p>
 <p>$$
 x_5 = (P - iH_0)\sum_{k=0}^{4} {4 \choose k}i^{k}
 $$</p>
-<p>Plus généralement, on a écrira donc:</p>
+<p>Plus généralement, on écrira donc:</p>
 <p>$$
 x_n = (P - iH_0)\sum_{k=0}^{n-1} {n-1 \choose k}i^{k}
 $$</p>
@@ -1884,7 +1884,7 @@ $$</p>
 <p>$$
 (10244.43 - 0.02\cdot 200000) \frac{(0.02+1)^25 - 1}{0.02} = 200010.96
 $$</p>
-<p>L&rsquo;écart de 11$ ici s&rsquo;explique par les chiffres que j&rsquo;ai arrondi pour l&rsquo;écriture.
+<p>L&rsquo;écart de 11$ ici s&rsquo;explique par les chiffres que j&rsquo;ai arrondis pour l&rsquo;écriture.
 En gardant une plus grande précision sur le nombre de chiffres après la virgule,
 on arriverait évidemment à \(H_0 = 200000\). Faites le test!</p>
 <p>Maintenant qu&rsquo;on a l&rsquo;hypothèque payé, on aimerait aussi avoir la somme d&rsquo;intérêt
@@ -1923,16 +1923,16 @@ $$</p>
 <p>le lecteur est invité à calculer la somme d&rsquo;intérêt payée après 5 ans,
 c&rsquo;est-à-dire calculer \(Y_5\).</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Ces calculs sont déterminants dans l&rsquo;examination de l&rsquo;avantage à acheter une
+<p>Ces calculs sont déterminants dans l&rsquo;examen de l&rsquo;avantage à acheter une
 propriété. Cependant, ces chiffres ne sont pas suffisants puisqu&rsquo;il faut aussi
 considérer les frais qui s&rsquo;ajoutent à l&rsquo;habitation comme j&rsquo;ai mentionné plus
 haut dans l&rsquo;article. Bien sûr d&rsquo;autres facteurs jouent comme la mise de fond
-initiale disponible, les frais ponctuels à l&rsquo;achat (notaire, taxe de bievenue,
+initiale disponible, les frais ponctuels à l&rsquo;achat (notaire, taxe de bienvenue,
 etc.), le coût d&rsquo;un courtier lors de la vente de la propriété ainsi que
 l&rsquo;augmentation potentielle moyenne de la valeur de la propriété. En effet, afin
 de calculer l&rsquo;avantage d&rsquo;un achat, il est primordial de calculer les frais de
 vente puisqu&rsquo;une habitation constitue un actif considérable qui pèse dans la
-balance. Certains scénarios peuvent présenter des profits de plusiuers milliers
+balance. Certains scénarios peuvent présenter des profits de plusieurs milliers
 de dollars lors d&rsquo;une vente qu&rsquo;après 5 ans de possession. Par ailleurs,
 l&rsquo;acquisition d&rsquo;une propriété amène aussi la capacité de louer le lieu
 d&rsquo;habitation, ce qui offre en soi une dimension de flexibilité.</p>
