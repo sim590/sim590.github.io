@@ -1584,7 +1584,7 @@
 <div class="single__infos">
   <time class="single__info" title="Rédigé le">📅&nbsp;31/07/2020 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Temps de lecture"> ☕&nbsp;11&nbsp;min de lecture </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Temps de lecture"> ☕&nbsp;12&nbsp;min de lecture </span>
   
   <span class="single__info">
     
@@ -1707,7 +1707,20 @@ $$</p>
 <p>Et voilà! On a maintenant une formule exacte du paiement bancaire à effectuer à
 la banque à chaque année si on souhaite régler le paiement de notre hypothèque
 \(H_0\) après \(n\) années suivant le taux d&rsquo;intérêt \(i\).</p>
-<p><strong>Exemple!</strong></p>
+<h3 id="paiement-par-mois">Paiement par mois</h3>
+<p>Cependant, <em>la réalité est un peu différente</em>. On calcule normalement l&rsquo;intérêt
+chaque mois. Ce faisant, pour déterminer le paiement mensuel, on devrait plutôt
+faire le même calcul, mais pour \(m\) le nombre de mois sur lequel le prêt
+sera remboursé. Par contre, il faudra ajuster le taux d&rsquo;intérêt en proportion à
+ce nouveau calcul. On pourrait donc obtenir la formule suivante:</p>
+<hr />
+<p>$$
+P = H_0\frac{1 - r}{r - r^{m+1}},\quad\text{avec } r = \frac{12}{i+12}
+$$</p>
+<hr />
+<p>Puisque le taux d&rsquo;intérêt est normalement donné sur l&rsquo;année, on divise celui-ci
+par 12.</p>
+<h3 id="exemple">Exemple</h3>
 <p>Si on a un hypothèque de 200000 dollars avec un taux d&rsquo;intérêt de 2% par années
 et qu&rsquo;on souhaite régler le paiement de la dette en 25 ans, alors on aura un
 paiement régulier par année à faire de:</p>
@@ -1717,7 +1730,6 @@ P &amp;= 200000\frac{1 - (1.02)^{-1}}{(1.02)^{-1} - (1.02)^{-26}}\\<br />
 &amp;= 10244.43
 \end{align}
 $$</p>
-<p>Si on rapporte ça sur 12 mois, on aura donc un paiement mensuel de 853.70.</p>
 <p>Voilà qui est bien! Ceci dit, connaître le paiement bancaire ne donne pas la
 totalité de l&rsquo;information intéressante. En effet, soit \(y_k\) l&rsquo;intérêt à
 payer et \(x_k\) le montant de prêt hypothécaire payé, tous deux
@@ -1738,7 +1750,7 @@ particulièrement, les sommes payées après \(n\) années sont d&rsquo;un grand
 bancaire régulier à faire par année pour régler sa dette après \(n\) années.
 Qu&rsquo;en est-il de la somme d&rsquo;hypothèque payée après \(n\) années? Bien sûr, si
 on effectue notre paiement sur 25 ans et qu&rsquo;on s&rsquo;interroge à connaître
-\(\sum_{k=1}^25 x_k\), il est clair que cela est équivalent à le montant de
+\(\sum_{k=1}^{25} x_k\), il est clair que cela est équivalent à le montant de
 prêt hypothécaire final \(H_0\) puisqu&rsquo;on a réglé \(P\) de sorte qu&rsquo;on ait
 tout payé après 25 ans. Mais, si on s&rsquo;intéressait plutôt à le montant de prêt
 hypothécaire payée après 5 ans pour un paiement qui s&rsquo;effectue sur 25 ans?</p>
@@ -1867,20 +1879,24 @@ x_1 = (P - iH_0)(i+1)^{1-1} = P - iH_0 = 10244.43 - 0.02 \cdot 200000 = 6244.43
 $$</p>
 <p>Ce faisant, rapporté sur 12 mois, on trouvera un paiement d&rsquo;hypothèque de
 520.37. Pour comparaison, le paiement bancaire mensuel est de 853.70.</p>
-<p><strong>Remarque</strong>: dans le calcul de l&rsquo;exemple, le lecteur devrait remarquer qu&rsquo;à
+<p><strong>Remarque</strong>: Comme mentionné <a href="#paiement-par-mois">plus haut</a>, pour
+faire un calcul mensuel, on doit ajuster le calcul pour \(P\) en utilisant
+plutôt \(m\) le nombre de mois et un taux d&rsquo;intérêt mensuel. Ce faisant, le
+calcul mensuel ci-haut est simplement pour fournir un ordre de comparaison.</p>
+<p><strong>Remarque</strong>: Dans le calcul de l&rsquo;exemple, le lecteur devrait remarquer qu&rsquo;à
 droite de la seconde égalité, l&rsquo;expression de \(x_1\) était ramenée à sa plus
 simple forme, c.-à-d. tel que décrite au départ plus haut dans le document comme
 \(P - iH_0\). Cette étape a explicitement été laissé afin qu&rsquo;on remarque le
 bon fonctionnement de la formule, du moins pour le cas \(n=1\).</p>
 <p>Voilà qui est bien. Cependant, je dois rappeler au lecteur que cette expression
-ne nous fournit que la valeur de le montant de prêt hypothécaire à payer la
+ne nous fournit que la valeur du montant de prêt hypothécaire à payer la
 \(n^{e}\) année. Il serait intéressant d&rsquo;obtenir la somme d&rsquo;hypothèque payée
 au bout de \(n\) années. Notons cette somme au bout de \(k\) années
 \(X_n\). Cela correspond donc à l&rsquo;expression suivante:</p>
 <p>$$
 X_n = \sum_{k=1}^n x_k = (P - iH_0) \sum_{k=1}^n (i+1)^{k-1}
 $$</p>
-<p>Cette expression se résoud à finalement à:</p>
+<p>Cette expression se résoud finalement à:</p>
 <hr />
 <p>$$
 X_n = (P - iH_0) \frac{(i+1)^n - 1}{i}
@@ -1934,7 +1950,7 @@ c&rsquo;est-à-dire calculer \(Y_5\).</p>
 propriété. Cependant, ces chiffres ne sont pas suffisants puisqu&rsquo;il faut aussi
 considérer les frais qui s&rsquo;ajoutent à l&rsquo;habitation comme j&rsquo;ai mentionné plus
 haut dans l&rsquo;article. Bien sûr d&rsquo;autres facteurs jouent comme la mise de fond
-initiale disponible, les frais ponctuels à l&rsquo;achat (notaire, taxe de bienvenue,
+initiale disponible, les frais ponctuels à l&rsquo;achat (notaire, taxe de Bienvenue,
 etc.), le coût d&rsquo;un courtier lors de la vente de la propriété ainsi que
 l&rsquo;augmentation potentielle moyenne de la valeur de la propriété. En effet, afin
 de calculer l&rsquo;avantage d&rsquo;un achat, il est primordial de calculer les frais de
@@ -2527,7 +2543,12 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#paiements-bancaires">Paiements bancaires</a></li>
+    <li><a href="#paiements-bancaires">Paiements bancaires</a>
+      <ul>
+        <li><a href="#paiement-par-mois">Paiement par mois</a></li>
+        <li><a href="#exemple">Exemple</a></li>
+      </ul>
+    </li>
     <li><a href="#portion-dhypothèque-du-paiement-bancaire">Portion d&rsquo;hypothèque du paiement bancaire</a></li>
     <li><a href="#portion-dintérêt-du-paiement-bancaire">Portion d&rsquo;intérêt du paiement bancaire</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
