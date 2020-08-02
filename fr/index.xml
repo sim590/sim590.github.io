@@ -14,7 +14,7 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 29 Feb 2020 03:00:12 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 21:18:20 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
     
@@ -44,6 +44,60 @@
         
       
 
+      
+      <item>
+        <title>Calculs hypothécaires</title>
+        <link>https://sim590.github.io/fr/maths/calculs-hypothecaires/</link>
+        <pubDate>Fri, 31 Jul 2020 21:18:20 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Fri, 31 Jul 2020 21:18:20 -0400</atom:modified>
+        <guid>https://sim590.github.io/fr/maths/calculs-hypothecaires/</guid>
+        <description>Je regarde les maisons et condos depuis un certain temps déjà, histoire de sentir un peu ce que l&amp;rsquo;achat implique pour un emprunteur. J&amp;rsquo;ai pris la peine de rechercher différentes informations comme les conditions et les options pour un assurance hypothèque, les frais associés à l&amp;rsquo;habitation (frais de condo, taxe scolaire, etc.) ainsi que les taux d&amp;rsquo;intérêt associé à un prêt. J&amp;rsquo;ai donc voulu mettre tout cela en commun afin d&amp;rsquo;avoir un aperçu de mes paiements par mois ainsi que ce que cela engendre sur une période plus longue comme 5, 10 ou même 25 ans.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/maths/newton.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Hypothèque</category>
+            
+          
+            
+              <category>Dette</category>
+            
+          
+            
+              <category>Intérêt</category>
+            
+          
+            
+              <category>Paiement bancaire</category>
+            
+          
+            
+              <category>Newton</category>
+            
+          
+            
+              <category>Pascal</category>
+            
+          
+        
+        
+          
+            
+              <category>Mathématiques</category>
+            
+          
+            
+              <category>Finance</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Debian: passer à «testing»</title>
@@ -154,7 +208,7 @@
         <atom:modified>Sun, 22 Mar 2020 11:11:56 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</guid>
         <description>Vim est un éditeur de texte et clairement le meilleur qui soit. Je ne dis pas ça sans peser mes mots. Ceci dit, il ne faut pas lui prêter une identité qu&amp;rsquo;il n&amp;rsquo;a pas. Vim n&amp;rsquo;est pas un environnement de développement intégré (EDI ou IDE en anglais) complet. Cependant, plusieurs aspects à son utilisation font sa grande force pour fournir un EDI complet à son usager:
- un langage de touches permettant aux doigts de faire tout le travail d&#39;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
+ un langage de touches permettant aux doigts de faire tout le travail d&amp;rsquo;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -271,7 +325,7 @@ Tous les services susmentionnés sont effectivement munis de protections, mais c
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 02 Mar 2020 04:06:13 -0500</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/programmation-dynamique/</guid>
-        <description>L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un tableau à deux dimensions et à l&#39;écriture explicite de ce procédé sous forme itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas autrement.
+        <description>L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un tableau à deux dimensions et à l&amp;rsquo;écriture explicite de ce procédé sous forme itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas autrement.
 Dans cet article, je commence par explorer deux exemples triviaux de programmation dynamique. Ensuite, je passe sur un problème tout aussi accessible, mais dont l&amp;rsquo;achèvement optimal demandera l&amp;rsquo;utilisation d&amp;rsquo;une structure Data.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -327,7 +381,7 @@ Dans cet article, je commence par explorer deux exemples triviaux de programmati
         <atom:modified>Sun, 19 Jun 2016 21:30:22 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/adieu/</guid>
         <description>GSOC Comme j&amp;rsquo;ai mentionné dans au article antérieur, je participe au programme Google Summer Of Code grâce à l&amp;rsquo;organisation Debian qui supervise mes travaux contribuant au logiciel libre Ring.
-Deux jours restants Il reste deux jours avant mon départ pour le Cape, en Afrique du sud. C&amp;rsquo;est pour assister à l&#39;événement debconf (« Debian conference »), organisé par Debian, que je me rends là. Cet événement est organisé à chaque année et, l&amp;rsquo;année prochaine, c&amp;rsquo;est à Montréal que ça aura lieu !</description>
+Deux jours restants Il reste deux jours avant mon départ pour le Cape, en Afrique du sud. C&amp;rsquo;est pour assister à l&amp;rsquo;événement debconf (« Debian conference »), organisé par Debian, que je me rends là. Cet événement est organisé à chaque année et, l&amp;rsquo;année prochaine, c&amp;rsquo;est à Montréal que ça aura lieu !</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         

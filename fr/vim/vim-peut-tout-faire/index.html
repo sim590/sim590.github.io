@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="Simon Désaulniers">
   
 
-<meta name="generator" content="Hugo 0.69.0" />
+<meta name="generator" content="Hugo 0.72.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1613,13 +1613,13 @@ IDE en anglais) complet.  Cependant, plusieurs aspects à son utilisation font s
 grande force pour fournir un EDI complet à son usager:</p>
 <ul>
 <li>un <strong>langage de touches</strong> permettant aux doigts de faire tout le travail
-d'édition de texte (couper, effacer, coller, réordonner, formater, etc.). En
+d&rsquo;édition de texte (couper, effacer, coller, réordonner, formater, etc.). En
 effet, dans une boîte de texte régulière (comme ce qu&rsquo;on trouve dans les EDIs
 populaires) la modification de texte, et non la simple écriture, n&rsquo;est pas
 chose facile. Elle demande souvent l&rsquo;utilisation de la souris, donc la perte
 de la position des mains déjà en place pour écrire. De plus, cette approche
 est normalement très lente. Avec Vim, les doigts font le travail. La meilleure
-comparaison pour comprendre le sentiment est justement celle de l'écriture. On
+comparaison pour comprendre le sentiment est justement celle de l&rsquo;écriture. On
 ne pense pas à trouver les touches pour écrire et cela se fait
 automatiquement. Pour la modification de texte avec Vim, c&rsquo;est la même chose.</li>
 <li>un <strong>langage de script</strong> (<em>VimScript</em>) qui lui permet une haute extensibilité;</li>
@@ -1657,7 +1657,7 @@ développeur.</p>
 <li>&hellip;</li>
 </ul>
 <p>Le langage de touche est le celui du mode Normal. C&rsquo;est là que s&rsquo;opère la magie
-des doigts permettant l'édition aisée du texte. Je ne ferai pas un cours complet
+des doigts permettant l&rsquo;édition aisée du texte. Je ne ferai pas un cours complet
 sur ce mode, mais je vous invite à lire plus amplement sur le sujet. Pour ce
 faire, référez-vous à la <a href="#références-additionnelles">liste de références au bas de cet article</a>.</p>
 <p>Ainsi, dans le mode Normal, les touches de l&rsquo;alphabet n&rsquo;insèrent pas simplement
@@ -1684,13 +1684,13 @@ blog. C&rsquo;est en quelque sorte la signature de Vim.</em></p>
 <p>Comme on peut le voir, ces touches remplacent complètement les flèches du
 clavier. Il y a une raison très pertinente pour motiver l&rsquo;utilisation de ces
 touches plutôt que les flèches: les mains restent en place là où elles ont
-besoin d'être afin d&rsquo;utiliser toutes les fonctionnalités de Vim. Voici encore
+besoin d&rsquo;être afin d&rsquo;utiliser toutes les fonctionnalités de Vim. Voici encore
 d&rsquo;autres touches de mouvement utiles:</p>
 <ul>
 <li><code>w</code>: avance le curseur jusqu&rsquo;au début du prochain <em>mot</em>;</li>
-<li><code>e</code>: avance le curseur jusqu'à la fin du prochain mot;</li>
+<li><code>e</code>: avance le curseur jusqu&rsquo;à la fin du prochain mot;</li>
 <li><code>b</code>: recule le curseur jusqu&rsquo;au début du dernier mot;</li>
-<li><code>ge</code>: recule le curseur jusqu'à la fin du dernier mot.</li>
+<li><code>ge</code>: recule le curseur jusqu&rsquo;à la fin du dernier mot.</li>
 </ul>
 <p>Tous ces mouvements ont leur équivalent pour des <em>gros mots</em> (un mot séparé par
 des espaces blancs). Il y a donc les touches <code>W</code>, <code>E</code>, <code>B</code> et <code>gE</code> qui exécutent
@@ -1699,7 +1699,7 @@ les fonctions correspondantes.</p>
 <p>La touche <code>f</code> est une touche capitale. Elle est utilisée conjointement avec <code>;</code>
 et <code>,</code> afin de naviguer sur les différentes occurrences d&rsquo;une même lettre. On
 utilise la touche <code>f</code>, qui attend un argument, afin de trouver la prochaine
-occurrence d&rsquo;une lettre. Dans l&rsquo;exemple ci-haut, <code>f/</code> déplace le curseur jusqu'à
+occurrence d&rsquo;une lettre. Dans l&rsquo;exemple ci-haut, <code>f/</code> déplace le curseur jusqu&rsquo;à
 la prochaine occurrence de <code>/</code> sur la ligne. Et si on souhaitait plutôt aller à
 la seconde ou la troisième occurrence? Eh bien, il suffit de taper la touche <code>;</code>
 et le curseur ira à la prochaine occurence. Cette procédure se répète
@@ -1758,7 +1758,7 @@ ce faire, on écrit <code>:r!seq 10</code>:</p>
 9
 10
 </code></pre><p>Ici <code>:r</code> est un diminutif de <code>:read</code> et permet donc de lire un fichier et
-l'écrire après le curseur. Dans ce cas-ci, on lit la sortie standard de la
+l&rsquo;écrire après le curseur. Dans ce cas-ci, on lit la sortie standard de la
 commande <code>seq 10</code> lancé à l&rsquo;IS. On peut alors mêler les nombres avec <code>shuf</code>
 en écrivant <code>:%!shuf</code>:</p>
 <pre><code>3
@@ -1790,7 +1790,7 @@ vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
 <code>pastebinit</code> ou encore <a href="https://github.com/sim590/dpaste/"><code>dpaste</code></a>, un
 programme que j&rsquo;ai moi-même écrit qui fonctionne sur une table de hachage
 distribuée. Ainsi, afin de partager un fichier sur un presse-papier web, on n&rsquo;a
-qu'à écrire:</p>
+qu&rsquo;à écrire:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1801,7 +1801,7 @@ qu'à écrire:</p>
 </div>
 </div><p>et on obtient alors le PIN (ou l&rsquo;URL dans le cas de <code>pastebinit</code>) à partager à
 quelqu&rsquo;un par notre moyen préféré. Ici, <code>:w</code> est un diminutif de <code>:write</code> qui
-permet d'écrire le tampon mémoire dans un fichier. En l&rsquo;occurrence, il s&rsquo;agit de
+permet d&rsquo;écrire le tampon mémoire dans un fichier. En l&rsquo;occurrence, il s&rsquo;agit de
 l&rsquo;entrée standard de la commande <code>dpaste</code>. On voudra nécessairement copier le
 PIN (ou l&rsquo;URL) qui sera retourné par le programme. On peut le faire d&rsquo;un coup en
 utilisant les tubes de l&rsquo;IS:</p>
@@ -1833,7 +1833,7 @@ différentes commandes sont intégrées afin de communiquer directement avec GDB
 effective dès, et seulement, lorsque <code>:Termdebug</code> est lancé, <a href="https://github.com/sim590/dotfiles/blob/master/vim/mappings.vim#L87-L123">voir ma
 configuration</a>.</p>
 <h2 id="greffons">Greffons</h2>
-<p>GDB c&rsquo;est bien pour le débogage, mais qu&rsquo;en est-il de l&rsquo;assistance à l'écriture
+<p>GDB c&rsquo;est bien pour le débogage, mais qu&rsquo;en est-il de l&rsquo;assistance à l&rsquo;écriture
 du code. À cet effet, je propose la découverte de différents greffons que je
 décris dans le reste de ce billet de blog. En particulier, je survolerai les
 greffons suivants:</p>
@@ -1878,9 +1878,9 @@ Ultisnips.</p>
 <h3 id="analyseur-syntaxique-et-complétion-de-mots">Analyseur syntaxique et complétion de mots</h3>
 <p>Un analyseur syntaxique est un composant important d&rsquo;un EDI moderne. En effet,
 la vitesse à laquelle les analyseurs syntaxiques permettent de communiquer
-l&rsquo;information sur l&rsquo;exactitude de ce qu'écrit le développeur est un facteur
+l&rsquo;information sur l&rsquo;exactitude de ce qu&rsquo;écrit le développeur est un facteur
 important à considérer. De plus, la complétion des mots est un incontournable
-dans différents langages où il est coutume d'écrire de longs mots pour décrire
+dans différents langages où il est coutume d&rsquo;écrire de longs mots pour décrire
 les variables ou fonctions du programme.</p>
 <p>À la base, Vim prend en charge un outil s&rsquo;apparentant à la complétion de mots.
 Il s&rsquo;agit de <code>ctags</code> (voir <a href="https://github.com/universal-ctags/ctags">ctags-universal</a>). Ceci dit, cette solution est
@@ -1959,7 +1959,7 @@ drapeaux comme <code>-std=c++17</code>.</p>
 <h4 id="hie--languageclient-haskell">HIE / LanguageClient (Haskell)</h4>
 <p>URL: <a href="https://github.com/haskell/haskell-ide-engine">https://github.com/haskell/haskell-ide-engine</a></p>
 <p>Pour les amoureux de Haskell, ce programme est un incontournable. Il rend
-l'écriture beaucoup plus aisée comme c&rsquo;est attendu pour la plupart des langages.</p>
+l&rsquo;écriture beaucoup plus aisée comme c&rsquo;est attendu pour la plupart des langages.</p>
 <p><img src="https://github.com/haskell/haskell-ide-engine/raw/master/logos/HIE_logo_512.png" alt="hie" /></p>
 <p>L&rsquo;utilisateur doit se référer à la page principale du projet afin de trouver
 <strong>toutes</strong> les instructions d&rsquo;installation et de configuration.</p>
@@ -1985,7 +1985,7 @@ Github. En particulier, vous pouvez consulter la liste de mes greffons
 <a href="https://github.com/sim590/dotfiles/blob/master/vimrc#L3-L72">ici</a>.</p>
 <h2 id="en-conclusion">En conclusion</h2>
 <p>La particularité première de Vim est sa conception des différents modes
-d'édition (Normal, Insertion, Visuel, etc.). Ces modes ne s&rsquo;arrêtent vraiment
+d&rsquo;édition (Normal, Insertion, Visuel, etc.). Ces modes ne s&rsquo;arrêtent vraiment
 pas à la parcelle que j&rsquo;ai exposée dans cet article. Ils sont vastes. Il y a
 beaucoup à découvrir. Ce faisant, il n&rsquo;est pas si simple de dire qu&rsquo;on pourrait
 aussi bien utiliser un greffon pour Visual Studio afin d&rsquo;intégrer Vim car dans
@@ -2011,7 +2011,7 @@ système).</li>
 livre web sur VimScript. Cela donne beaucoup d&rsquo;informations pertinentes sur la
 structure de Vim et de VimScript.</li>
 <li>Des viédos tutoriel sur Vim sont disponible sur YouTube à profusion. Il n&rsquo;y a
-qu'à chercher un peu.</li>
+qu&rsquo;à chercher un peu.</li>
 <li>Si vous êtes plus du genre à jouer, <a href="https://vim-adventures.com/">Vim Adventures</a> est une très
 bonne option pour débuter.</li>
 </ul>

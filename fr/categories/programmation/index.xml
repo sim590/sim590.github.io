@@ -30,7 +30,7 @@
         <atom:modified>Sun, 22 Mar 2020 11:11:56 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</guid>
         <description>Vim est un éditeur de texte et clairement le meilleur qui soit. Je ne dis pas ça sans peser mes mots. Ceci dit, il ne faut pas lui prêter une identité qu&amp;rsquo;il n&amp;rsquo;a pas. Vim n&amp;rsquo;est pas un environnement de développement intégré (EDI ou IDE en anglais) complet. Cependant, plusieurs aspects à son utilisation font sa grande force pour fournir un EDI complet à son usager:
- un langage de touches permettant aux doigts de faire tout le travail d&#39;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
+ un langage de touches permettant aux doigts de faire tout le travail d&amp;rsquo;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -80,7 +80,7 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 02 Mar 2020 04:06:13 -0500</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/programmation-dynamique/</guid>
-        <description>L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un tableau à deux dimensions et à l&#39;écriture explicite de ce procédé sous forme itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas autrement.
+        <description>L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un tableau à deux dimensions et à l&amp;rsquo;écriture explicite de ce procédé sous forme itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas autrement.
 Dans cet article, je commence par explorer deux exemples triviaux de programmation dynamique. Ensuite, je passe sur un problème tout aussi accessible, mais dont l&amp;rsquo;achèvement optimal demandera l&amp;rsquo;utilisation d&amp;rsquo;une structure Data.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

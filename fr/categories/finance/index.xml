@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Finance on Simon Désaulniers</title>
+    <link>https://sim590.github.io/fr/categories/finance/</link>
+    <description>Recent content in Finance on Simon Désaulniers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 31 Jul 2020 21:18:20 -0400</lastBuildDate>
+    
+        <atom:link href="https://sim590.github.io/fr/categories/finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Calculs hypothécaires</title>
+        <link>https://sim590.github.io/fr/maths/calculs-hypothecaires/</link>
+        <pubDate>Fri, 31 Jul 2020 21:18:20 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Fri, 31 Jul 2020 21:18:20 -0400</atom:modified>
+        <guid>https://sim590.github.io/fr/maths/calculs-hypothecaires/</guid>
+        <description>Je regarde les maisons et condos depuis un certain temps déjà, histoire de sentir un peu ce que l&amp;rsquo;achat implique pour un emprunteur. J&amp;rsquo;ai pris la peine de rechercher différentes informations comme les conditions et les options pour un assurance hypothèque, les frais associés à l&amp;rsquo;habitation (frais de condo, taxe scolaire, etc.) ainsi que les taux d&amp;rsquo;intérêt associé à un prêt. J&amp;rsquo;ai donc voulu mettre tout cela en commun afin d&amp;rsquo;avoir un aperçu de mes paiements par mois ainsi que ce que cela engendre sur une période plus longue comme 5, 10 ou même 25 ans.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/maths/newton.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Hypothèque</category>
+            
+          
+            
+              <category>Dette</category>
+            
+          
+            
+              <category>Intérêt</category>
+            
+          
+            
+              <category>Paiement bancaire</category>
+            
+          
+            
+              <category>Newton</category>
+            
+          
+            
+              <category>Pascal</category>
+            
+          
+        
+        
+          
+            
+              <category>Mathématiques</category>
+            
+          
+            
+              <category>Finance</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

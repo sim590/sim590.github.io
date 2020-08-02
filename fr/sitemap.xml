@@ -51,18 +51,13 @@
   </url>
   
   <url>
-    <loc>https://sim590.github.io/fr/tags/aptitude/</loc>
-    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/branche-debian/</loc>
-    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+    <loc>https://sim590.github.io/fr/maths/calculs-hypothecaires/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -78,6 +73,101 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/dette/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/finance/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/hypoth%C3%A8que/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/int%C3%A9r%C3%AAt/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/maths/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/math%C3%A9matiques/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/newton/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/paiement-bancaire/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/pascal/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/aptitude/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/branche-debian/</loc>
+    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
   </url>
   
   <url>
@@ -98,26 +188,6 @@
   <url>
     <loc>https://sim590.github.io/fr/tags/paquet-debian/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/tags/"
-                />
   </url>
   
   <url>
@@ -338,26 +408,6 @@
   <url>
     <loc>https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/</loc>
-    <lastmod>2020-02-29T03:00:12-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/"
-                />
   </url>
   
   <url>
