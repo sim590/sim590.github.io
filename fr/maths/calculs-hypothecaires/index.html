@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.72.0" />
+<meta name="generator" content="Hugo 0.74.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1596,19 +1596,19 @@
   🏷️
   
 
-  <li><a href="https://sim590.github.io/fr/tags/dette/" class="single__tag" title="Dette">#Dette</a></li>
-
   <li><a href="https://sim590.github.io/fr/tags/hypoth%C3%A8que/" class="single__tag" title="Hypothèque">#Hypothèque</a></li>
+
+  <li><a href="https://sim590.github.io/fr/tags/pr%C3%AAt/" class="single__tag" title="Prêt">#Prêt</a></li>
+
+  <li><a href="https://sim590.github.io/fr/tags/dette/" class="single__tag" title="Dette">#Dette</a></li>
 
   <li><a href="https://sim590.github.io/fr/tags/int%C3%A9r%C3%AAt/" class="single__tag" title="Intérêt">#Intérêt</a></li>
 
-  <li><a href="https://sim590.github.io/fr/tags/newton/" class="single__tag" title="Newton">#Newton</a></li>
-
   <li><a href="https://sim590.github.io/fr/tags/paiement-bancaire/" class="single__tag" title="Paiement bancaire">#Paiement bancaire</a></li>
 
-  <li><a href="https://sim590.github.io/fr/tags/pascal/" class="single__tag" title="Pascal">#Pascal</a></li>
+  <li><a href="https://sim590.github.io/fr/tags/newton/" class="single__tag" title="Newton">#Newton</a></li>
 
-  <li><a href="https://sim590.github.io/fr/tags/pr%C3%AAt/" class="single__tag" title="Prêt">#Prêt</a></li>
+  <li><a href="https://sim590.github.io/fr/tags/pascal/" class="single__tag" title="Pascal">#Pascal</a></li>
 
 </ul>
     </div>
@@ -1642,7 +1642,8 @@ reste à payer après \(k\) années de paiement. Le montant du prêt sera donc
 noté \(H_0\).  Notons maintenant \(P\) le paiement bancaire à faire par
 année pour arriver à payer notre prêt au fil des années. Il faut bien sûr
 considérer aussi finalement l&rsquo;intérêt sur le prêt. Notons-le pourcentage associé
-à l&rsquo;intérêt par année \(i\). De cela, si on souhaitait payer notre prêt en une
+à l&rsquo;intérêt par année \(i\). Bien entendu, \(i\) a comme domaine de valeurs
+l&rsquo;intervalle \([0,1]\). De cela, si on souhaitait payer notre prêt en une
 seule année, on pourrait alors écrire:</p>
 <p>$$
 H_0 + iH_0 = P
@@ -1658,19 +1659,27 @@ document. Or, si on souhaitait payer en deux ans, on aurait alors:</p>
 <p>$$
 (H_0(i+1) - P)(i+1) - P = 0
 $$</p>
-<p>Bien sûr! Puisque la seconde année, le montant de prêt hypothécaire restant
-était \(H_0(i+1) - P\). On voit bien que cette quantité a été multipliée par
-\((i+1)\), comme c&rsquo;était le cas pour \(H_0\) la première année. Notez bien
-qu&rsquo;ici, \(P\) ne vaut pas la même quantité que dans le scénario où on paie
-tout en une année. Bien sûr, le montant est un peu plus gros que la moitié de
-l&rsquo;ancien montant pour \(P\). Bref, si on continuait le procédé jusqu&rsquo;à \(n\)
-années, on aurait alors:</p>
+<p>Bien sûr! Puisque la seconde année, la <strong>somme restante à payer</strong>, c&rsquo;est-à-dire
+le montant hypothécaire en plus des intérêts sur la première année avec le tout
+retranché du premier paiement, était \(S_0 = H_0(i+1) - P\). Dans l&rsquo;expression
+ci-haut, on voit bien que cette quantité a été multipliée par \((i+1)\), comme
+c&rsquo;était le cas pour \(H_0\) la première année. En fait, on retrouve la même
+forme que pour la première année si on substitute \(S_0\) dans l&rsquo;équation:</p>
+<p>$$
+S_0(i+1) - P = 0,\quad\text{avec}\ S_0 = H_0(i+1) - P
+$$</p>
+<p>Notez bien qu&rsquo;ici, \(P\) ne vaut pas la même quantité que dans le scénario où
+on paie tout en une année.  Bien sûr, le montant est un peu plus gros que la
+moitié de l&rsquo;ancien montant pour \(P\). Bref, si on continuait le procédé
+jusqu&rsquo;à \(n\) années, on aurait alors:</p>
 <p>$$
 (&hellip;(H_0(i+1) - P)(i+1) - P &hellip;)(i+1) - P = 0
 $$</p>
 <p>où \(H_0\) (ou \(P, i\)) apparaîtrait \(n\) fois dans l&rsquo;expression.
-Reprenons l&rsquo;expression de départ et réordonnançons le tout comme:</p>
+Reprenons l&rsquo;expression de départ et réordonnançons le tout:</p>
 <p>$$
+H_0(i+1) - P = 0
+\implies
 H_0 = \frac{P}{(i+1)}
 $$</p>
 <p>Faisons maintenant la même chose avec la seconde expression:</p>
@@ -1867,12 +1876,12 @@ $$</p>
 <p>$$
 x_m = (P - \iota{}H_0)\sum_{k=0}^{m-1} {m-1 \choose k}\iota{}^{k}
 $$</p>
-<p>Or, l&rsquo;expression \(\sum_{k=0}^{n-1} {n-1 \choose k}\iota{}^{k}\) est très connue! Il
+<p>Or, l&rsquo;expression \(\sum_{k=0}^{m-1} {m-1 \choose k}\iota{}^{k}\) est très connue! Il
 s&rsquo;agit d&rsquo;un <a href="https://fr.wikipedia.org/wiki/Formule_du_bin%C3%B4me_de_Newton">binôme de Newton</a> qui correspond à l&rsquo;expression
-\((\iota{}+1)^{n-1}\). Ce faisant, on peut réécrire \(x_m\) comme suit:</p>
+\((\iota{}+1)^{m-1}\). Ce faisant, on peut réécrire \(x_m\) comme suit:</p>
 <hr />
 <p>$$
-x_m = (P - \iota{}H_0)(\iota{}+1)^{n-1}
+x_m = (P - \iota{}H_0)(\iota{}+1)^{m-1}
 $$</p>
 <hr />
 <h3 id="exemple-1">Exemple</h3>
