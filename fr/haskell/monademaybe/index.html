@@ -2173,11 +2173,11 @@ un message d&rsquo;erreur. Finalement, on retourne le résultat.</p>
 </code></pre></td></tr></table>
 </div>
 </div><p>Cette dernière instruction parcourt la liste <code>mcontacts</code> de type <code>[Maybe (Nom, NumeroDeTelephone)]</code>. Il s&rsquo;agit du retour d&rsquo;exécution pour chaque nom. Par
-contre, <code>takeWhileM (return . isJust)</code> stoppe l&rsquo;itération dès qu&rsquo;une des valeurs
-dans la liste est <code>Nothing</code> (c.-à-d. que <code>isJust</code> retourne FAUX). Ce faisant, on
-ne va pas plus loin dans la liste dès qu&rsquo;on rencontre un résultat <code>Nothing</code>.
-De plus, comme Haskell est <a href="https://fr.wikipedia.org/wiki/%C3%89valuation_paresseuse">paresseux</a>, les itérations de <code>forM</code> plus haut ne
-seront pas exécutées pour tous les éléments suivant le premier où on a rencontré
+contre, <code>takeWhile isJust</code> stoppe l&rsquo;itération dès qu&rsquo;une des valeurs dans la
+liste est <code>Nothing</code> (c.-à-d. que <code>isJust</code> retourne FAUX). Ce faisant, on ne va
+pas plus loin dans la liste dès qu&rsquo;on rencontre un résultat <code>Nothing</code>.  De plus,
+comme Haskell est <a href="https://fr.wikipedia.org/wiki/%C3%89valuation_paresseuse">paresseux</a>, les itérations de <code>forM</code> plus haut ne seront
+pas exécutées pour tous les éléments suivant le premier où on a rencontré
 <code>Nothing</code>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
