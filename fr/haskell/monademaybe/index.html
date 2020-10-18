@@ -2169,7 +2169,7 @@ un message d&rsquo;erreur. Finalement, on retourne le résultat.</p>
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">takeWhileM</span> <span class="p">(</span><span class="n">return</span> <span class="o">.</span> <span class="n">isJust</span><span class="p">)</span> <span class="n">mcontacts</span>
+<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">takeWhile</span> <span class="n">isJust</span> <span class="n">mcontacts</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Cette dernière instruction parcourt la liste <code>mcontacts</code> de type <code>[Maybe (Nom, NumeroDeTelephone)]</code>. Il s&rsquo;agit du retour d&rsquo;exécution pour chaque nom. Par
