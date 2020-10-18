@@ -30,7 +30,7 @@
         <atom:modified>Fri, 16 Oct 2020 01:17:31 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/monademaybe/</guid>
         <description>Dans cet article, je souhaite introduire le programmeur à la monade Maybe. Je compte le faire en utilisant le langage Haskell puisqu&amp;rsquo;il s&amp;rsquo;agit du langage fonctionnel que je maîtrise le mieux et que je le considère très expressif et accessible. Afin de démontrer les bénéfices de la monade et des concepts d&amp;rsquo;Haskell, je vais comparer ceux-ci aux méthodes usuelles du langage C++.
-En une phrase, la monade Maybe peut-être vue comme un design pattern de gestion des cas d&amp;rsquo;erreur ou d&amp;rsquo;exception.</description>
+En une phrase, la monade Maybe peut être vue comme un design pattern de gestion des cas d&amp;rsquo;erreur ou d&amp;rsquo;exception.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         

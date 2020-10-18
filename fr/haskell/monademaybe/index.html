@@ -1613,10 +1613,10 @@ compte le faire en utilisant le langage Haskell puisqu&rsquo;il s&rsquo;agit du 
 fonctionnel que je maîtrise le mieux et que je le considère très expressif et
 accessible. Afin de démontrer les bénéfices de la monade et des concepts
 d&rsquo;Haskell, je vais comparer ceux-ci aux méthodes usuelles du langage C++.</p>
-<p>En une phrase, la monade <code>Maybe</code> peut-être vue comme un <em>design pattern</em> de
+<p>En une phrase, la monade <code>Maybe</code> peut être vue comme un <em>design pattern</em> de
 gestion des cas d&rsquo;erreur ou d&rsquo;exception. Je vais donc utiliser un exemple fictif
-et crédule, mais simple, qui permet de capturer l&rsquo;idée générale. Disons qu&rsquo;on a
-une liste de contacts pour lesquels on souhaite exécuter un traitement.
+et peu réaliste, mais simple, qui permet de capturer l&rsquo;idée générale. Disons
+qu&rsquo;on a une liste de contacts pour lesquels on souhaite exécuter un traitement.
 Cependant, on décide que, dans la région du programme où on implémente le code
 associé à cette liste de contact, une opération qui échoue sur un contact
 devrait arrêter le fil d&rsquo;exécution du programme.</p>
@@ -1723,7 +1723,7 @@ la non-présence d&rsquo;un nom dans la liste de contacts.</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
+                <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
 <span class="nf">retrouverNumero</span> <span class="n">nom0</span> <span class="ow">=</span> <span class="n">snd</span> <span class="o">&lt;$&gt;</span> <span class="n">find</span> <span class="p">(</span><span class="nf">\</span> <span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="kr">_</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="n">nom</span> <span class="o">==</span> <span class="n">nom0</span><span class="p">)</span> <span class="n">numeros</span>
 </code></pre></td></tr></table>
 </div>
@@ -1759,7 +1759,7 @@ le code plus haut comme suit:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
+                <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
 <span class="nf">retrouverNumero</span> <span class="n">nom0</span> <span class="ow">=</span> <span class="n">parcourir</span> <span class="n">numeros</span>
   <span class="kr">where</span>
     <span class="n">parcourir</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="kt">Nothing</span>     <span class="c1">-- on ne retrouve pas le nom</span>
@@ -1813,7 +1813,7 @@ structure <code>Contact</code> après avoir retrouvé le numéro du contact. En 
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Encore une fois, on doit gérer le cas où le numéro n&rsquo;est pas retrouver. Ceci se
+</div><p>Encore une fois, on doit gérer le cas où le numéro n&rsquo;est pas retrouvé. Ceci se
 traduit par la vérification à savoir si <code>retrouverNumero</code> a retourné
 <code>std::end(numeros)</code> ou non. On gère donc ici explicitement ce cas. En Haskell,
 pas du tout!! On peut simplement demander à la monade Maybe de le faire pour
@@ -1828,7 +1828,7 @@ nous:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                  <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
+                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
 <span class="nf">retrouverContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="kr">do</span>
   <span class="n">numero</span> <span class="ow">&lt;-</span> <span class="n">retrouverNumero</span> <span class="n">nom</span>
   <span class="n">return</span> <span class="o">$</span> <span class="kt">Contact</span> <span class="n">nom</span> <span class="n">numero</span>
@@ -1907,7 +1907,7 @@ suivante:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                  <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
+                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
 <span class="nf">retrouverContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="n">retrouverNumero</span> <span class="n">nom</span> <span class="o">&gt;&gt;=</span> <span class="n">creerContact</span>
   <span class="kr">where</span>
     <span class="n">creerContact</span> <span class="ow">::</span> <span class="kt">NumeroDeTelephone</span> <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
@@ -2104,9 +2104,9 @@ caractères vide, alors on écrirait possiblement:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">void</span> <span class="nf">numeros_a_vide</span><span class="p">()</span> <span class="p">{</span>
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">void</span> <span class="nf">numeros_a_vide</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;&amp;</span> <span class="n">noms</span><span class="p">)</span> <span class="p">{</span>
     <span class="kt">bool</span> <span class="n">succes</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
-    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span><span class="o">&amp;</span> <span class="nl">nom</span> <span class="p">:</span> <span class="p">{</span><span class="s">&#34;Jean&#34;</span><span class="p">,</span> <span class="s">&#34;Roger&#34;</span><span class="p">,</span> <span class="s">&#34;Sophie&#34;</span><span class="p">,</span> <span class="s">&#34;Maurice&#34;</span><span class="p">,</span> <span class="s">&#34;Charles&#34;</span><span class="p">})</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span><span class="o">&amp;</span> <span class="nl">nom</span> <span class="p">:</span> <span class="n">noms</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">if</span> <span class="p">(</span><span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
             <span class="n">succes</span> <span class="o">=</span> <span class="n">traiterContact</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="s">&#34;&#34;</span><span class="p">);</span>
             <span class="k">if</span> <span class="p">(</span><span class="n">not</span> <span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
@@ -2140,7 +2140,7 @@ sur traduisant la gestion d&rsquo;erreur. En Haskell ?</p>
     <span class="n">when</span> <span class="p">(</span><span class="n">isNothing</span> <span class="n">mc</span><span class="p">)</span> <span class="o">$</span>
       <span class="n">putStrLn</span> <span class="s">&#34;Erreur!! Un contact est introuvable..&#34;</span>
     <span class="n">return</span> <span class="n">mc</span>
-  <span class="n">return</span> <span class="o">.</span> <span class="n">catMaybes</span> <span class="o">=&lt;&lt;</span> <span class="n">takeWhileM</span> <span class="p">(</span><span class="n">return</span> <span class="o">.</span> <span class="n">isJust</span><span class="p">)</span> <span class="n">mcontacts</span>
+  <span class="n">return</span> <span class="o">.</span> <span class="n">catMaybes</span> <span class="o">$</span> <span class="n">takeWhile</span> <span class="n">isJust</span> <span class="n">mcontacts</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Et bien, on ne fait qu&rsquo;exécuter <code>traiterContact</code> pour tous les noms dans la
@@ -2195,9 +2195,9 @@ retrouver les valeurs en dehors du type <code>Maybe</code>.</p>
 paradigme principal qui n&rsquo;est pas partagé avec Haskell est le paradigme
 impératif. Ces deux méthodes de penser la programmation ont mené à des
 évolutions conceptuelles différentes. Le paradigme fonctionnel a plusieurs
-bonnes contributions en matière de bonnes pratiques à partager les autres. On
-voit depuis quelques temps les concepts fonctionnels faire leur chemin jusque
-dans les langage n&rsquo;étant à la base pas fonctionnels. On peut penser à toutes les
+bonnes contributions en matière de bonnes pratiques à partager avec les autres.
+On voit depuis quelques temps les concepts fonctionnels faire leur chemin jusque
+dans les langages n&rsquo;étant à la base pas fonctionnels. On peut penser à toutes les
 fonctions standards comme <code>map</code>, <code>filter</code>, <code>fold</code>, etc. Les monades sont une
 abstraction puissante et sont essentielle dans le paradigme fonctionnel afin de
 traduire le séquençage d&rsquo;états de manière réellement utilisable. La monade
