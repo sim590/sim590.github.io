@@ -14,13 +14,85 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 31 Jul 2020 21:18:20 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2020 01:17:31 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Gestion d&#39;erreurs</title>
+        <link>https://sim590.github.io/fr/tags/gestion-derreurs/</link>
+        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/gestion-derreurs/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Générécité</title>
+        <link>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</link>
+        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Maybe</title>
+        <link>https://sim590.github.io/fr/tags/maybe/</link>
+        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/maybe/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Monad</title>
+        <link>https://sim590.github.io/fr/tags/monad/</link>
+        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/monad/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Dette</title>

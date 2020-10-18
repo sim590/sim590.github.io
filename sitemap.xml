@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://sim590.github.io/fr/sitemap.xml</loc>
-		
-	   	<lastmod>2020-07-31T21:18:20-04:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://sim590.github.io/eo/sitemap.xml</loc>
-		
-	   	<lastmod>2020-04-18T11:19:48-04:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://sim590.github.io/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-03-04T15:40:23+00:00</lastmod>
-		
-	</sitemap>
-	
+  
+  <sitemap>
+    <loc>https://sim590.github.io/fr/sitemap.xml</loc>
+    
+      <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://sim590.github.io/eo/sitemap.xml</loc>
+    
+      <lastmod>2020-04-18T11:19:48-04:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://sim590.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2020-03-04T15:40:23+00:00</lastmod>
+    
+  </sitemap>
+  
 </sitemapindex>

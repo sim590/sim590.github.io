@@ -51,13 +51,8 @@
   </url>
   
   <url>
-    <loc>https://sim590.github.io/fr/maths/calculs-hypothecaires/</loc>
-    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -73,6 +68,96 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/haskell/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/haskell/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/haskell/monademaybe/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/maybe/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/monad/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/monade/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/maths/calculs-hypothecaires/</loc>
+    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
   </url>
   
   <url>
@@ -123,46 +208,6 @@
   <url>
     <loc>https://sim590.github.io/fr/tags/pr%C3%AAt/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/</loc>
-    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/tags/"
-                />
   </url>
   
   <url>
@@ -247,11 +292,6 @@
   
   <url>
     <loc>https://sim590.github.io/fr/tags/hjkl/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
   </url>
   
@@ -377,16 +417,6 @@
   
   <url>
     <loc>https://sim590.github.io/fr/tags/data.array/</loc>
-    <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/categories/haskell/</loc>
-    <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/haskell/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
   </url>
   

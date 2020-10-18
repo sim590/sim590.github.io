@@ -14,13 +14,67 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 31 Jul 2020 21:18:20 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2020 01:17:31 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Haskell</title>
+        <link>https://sim590.github.io/fr/categories/haskell/</link>
+        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/haskell/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Monade</title>
+        <link>https://sim590.github.io/fr/categories/monade/</link>
+        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/monade/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Programmation</title>
+        <link>https://sim590.github.io/fr/categories/programmation/</link>
+        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/programmation/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Finance</title>
@@ -113,24 +167,6 @@
       </item>
       
       <item>
-        <title>Programmation</title>
-        <link>https://sim590.github.io/fr/categories/programmation/</link>
-        <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/categories/programmation/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Éditeur de texte</title>
         <link>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</link>
         <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
@@ -209,24 +245,6 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/categories/algorithmique/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Haskell</title>
-        <link>https://sim590.github.io/fr/categories/haskell/</link>
-        <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/categories/haskell/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
