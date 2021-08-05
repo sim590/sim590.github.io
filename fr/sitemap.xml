@@ -52,7 +52,7 @@
   
   <url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -71,22 +71,87 @@
   </url>
   
   <url>
+    <loc>https://sim590.github.io/fr/tags/composition/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/haskell/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/haskell/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/monade/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/tags/transformateur/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/haskell/transformateurs/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
     <lastmod>2020-10-16T01:17:31-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/categories/haskell/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/haskell/</loc>
     <lastmod>2020-10-16T01:17:31-04:00</lastmod>
   </url>
   
@@ -108,51 +173,6 @@
   <url>
     <loc>https://sim590.github.io/fr/categories/monade/</loc>
     <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/tags/"
-                />
   </url>
   
   <url>
@@ -448,6 +468,11 @@
   <url>
     <loc>https://sim590.github.io/fr/a-propos/</loc>
     <lastmod>2020-02-29T03:00:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sim590.github.io/fr/resume/</loc>
+    <lastmod>2020-02-28T10:36:33-05:00</lastmod>
   </url>
   
   <url>
