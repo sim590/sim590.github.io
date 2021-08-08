@@ -30,7 +30,7 @@
         <atom:modified>Fri, 23 Jul 2021 04:03:00 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/transformateurs/</guid>
         <description>Dès lors qu&amp;rsquo;on découvre les monades et leur utilité, on ne peut faire autrement que de les étudier davantage et trouver les occasions pour les utiliser. Après tout, ils sont des concepts clefs dans l&amp;rsquo;utilisation sérieuse d&amp;rsquo;un langage fonctionnel comme Haskell. Par exemple, on ne peut pas faire d&amp;rsquo;opérations d&amp;rsquo;entrée/sortie si on ne fonctionne pas dans la monade IO.
-Une limitation importante prend forme très rapidement sous nos yeux: il est devient difficile d&amp;rsquo;utiliser plusieurs monades ensembles car on doit forcément les développer pour passer d&amp;rsquo;une monade à l&amp;rsquo;autre.</description>
+Une limitation importante prend forme très rapidement sous nos yeux: il devient difficile d&amp;rsquo;utiliser plusieurs monades ensembles car on doit forcément les développer pour passer d&amp;rsquo;une monade à l&amp;rsquo;autre.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         

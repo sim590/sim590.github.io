@@ -1614,12 +1614,12 @@ que de les étudier davantage et trouver les occasions pour les utiliser. Après
 tout, ils sont des concepts clefs dans l&rsquo;utilisation sérieuse d&rsquo;un langage
 fonctionnel comme Haskell. Par exemple, on ne peut pas faire d&rsquo;opérations
 d&rsquo;entrée/sortie si on ne fonctionne pas dans la monade <code>IO</code>.</p>
-<p>Une limitation importante prend forme très rapidement sous nos yeux: il est
-devient difficile d&rsquo;utiliser plusieurs monades ensembles car on doit forcément
-les développer pour passer d&rsquo;une monade à l&rsquo;autre. Ce faisant, on doit choisir
-entre les propriétés d&rsquo;une monade ou l&rsquo;autre et on ne peut donc pas bénéficier
-des différents monades en même temps. Les transformateurs de monades visent
-justement régler ce problème de manière à fournir une écriture finale
+<p>Une limitation importante prend forme très rapidement sous nos yeux: il devient
+difficile d&rsquo;utiliser plusieurs monades ensembles car on doit forcément les
+développer pour passer d&rsquo;une monade à l&rsquo;autre. Ce faisant, on doit choisir entre
+les propriétés d&rsquo;une monade ou l&rsquo;autre et on ne peut donc pas bénéficier des
+différents monades en même temps. Les transformateurs de monades visent
+justement à régler ce problème de manière à fournir une écriture finale
 satisfaisante autant au niveau sémantique que pour l&rsquo;organisation logique du
 code.</p>
 <h2 id="cas-typique-de-maybe">Cas typique de Maybe</h2>
@@ -1639,10 +1639,10 @@ code.</p>
 </code></pre></td></tr></table>
 </div>
 </div><p>Ici, on récupère un mot de passe simplement en lisant la ligne à l&rsquo;entrée
-standard. Et si la fonction devait pouvoir retourner un résultat d&rsquo;erreur si le
-mot de passe ne répond pas à un certain critère? Par exemple, on pourrait
-demander que le mot de passe soit entre 6 et 8 caractères. Dans un premier
-temps, on pourrait imaginer pouvoir écrire la chose suivante:</p>
+standard. Qu&rsquo;arrive-t-il si la fonction devait pouvoir retourner un résultat
+d&rsquo;erreur lorsque le mot de passe ne répond pas à un certain critère? Par
+exemple, on pourrait demander que le mot de passe soit entre 6 et 8 caractères.
+Dans un premier temps, on pourrait imaginer pouvoir écrire la chose suivante:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1733,7 +1733,7 @@ monade <code>Maybe</code> en plus des propriétés de la monade <code>IO</code>.
 <h2 id="cas-typique-de-state">Cas typique de State</h2>
 <p>Supposons qu&rsquo;on veuille écrire une fonction faisant la génération d&rsquo;un nombre
 dans un intervalle tout en assurant que l&rsquo;intervalle n&rsquo;ait pas une taille plus
-élevé qu&rsquo;un certain maximum. On pourrait imaginer pouvoir écrire la chose
+élevée qu&rsquo;un certain maximum. On pourrait imaginer pouvoir écrire la chose
 suivante:</p>
 <!-- TODO: ajouter  les "imports" -->
 <div class="highlight"><div class="chroma">
@@ -1918,7 +1918,7 @@ donc de développer la monade au niveau de l&rsquo;appelant.</p>
 </div>
 </div><p>Dans ce cas-ci, <code>runMaybeT (decodeFile theFilePath)</code> a le type précis <code>IO (Maybe String)</code>. Le lecteur devrait remarquer maintenant qu&rsquo;en spécifiant le type de
 retour <code>MaybeT IO String</code> sur la fonction <code>decodeFile</code>, on a orchestré
-l&rsquo;exécution de <code>Maybe</code> par dessus de la monade <code>IO</code>. En général, les
+l&rsquo;exécution de <code>Maybe</code> par dessus la monade <code>IO</code>. En général, les
 transformateurs permettent de créer des <em>piles de monades</em>. Ces piles sont
 ensuite développées du haut vers le bas. Par exemple, le type suivant:</p>
 <div class="highlight"><div class="chroma">
@@ -1946,7 +1946,7 @@ suivant:</p>
 </div>
 </div><p>(voir les définitions respectives pour <code>runReaderT</code> et <code>runStateT</code>).</p>
 <h3 id="maybet">MaybeT</h3>
-<p>Ramenons la définition de <code>MaybeT</code>:</p>
+<p>Rappelons la définition de <code>MaybeT</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1992,10 +1992,10 @@ regardons la définition de l&rsquo;instance de la classe de type <code>Monad</c
       <span class="kt">Nothing</span> <span class="ow">-&gt;</span> <span class="n">return</span> <span class="kt">Nothing</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>On voit que dans la monade <code>MaybeT</code> la monade <code>m</code> s&rsquo;exécute en premier en
+</div><p>On voit que dans la monade <code>MaybeT</code>, la monade <code>m</code> s&rsquo;exécute en premier en
 prenant <code>mbta</code> et en le passant dans le bloc <code>do</code> pour le développer comme <code>ma</code>,
 une variable de type <code>Maybe a</code>. Ce faisant, à ce point-ci, l&rsquo;effet de la monade
-<code>m</code> a déjà eu lieu. En suite, le reste de l&rsquo;exécution du bloc <code>do</code> consiste en
+<code>m</code> a déjà eu lieu. Ensuite, le reste de l&rsquo;exécution du bloc <code>do</code> consiste en
 l&rsquo;effet contribué par la monade <code>MaybeT</code> dans la pile de monades:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2119,13 +2119,13 @@ contexte d&rsquo;exécution. Pour notre exemple initialisé plus haut, on a donc
   <span class="n">lift</span> <span class="o">$</span> <span class="n">generateRandomNumberInInterval</span> <span class="n">a</span> <span class="n">x</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>C&rsquo;est exactement ce qu&rsquo;on souhait faire plus haut, à la différence près que les
+</div><p>C&rsquo;est exactement ce qu&rsquo;on souhaite faire plus haut, à la différence près que les
 instructions (fautives) <code>return</code> ont été remplacées par <code>lift</code>. On bénéficie
 donc ici des effets des deux monades en simultané, c.-à-d. que le fil
 d&rsquo;exécution est régit par les effets de <code>Maybe</code> via les instructions <code>guard</code> et
 finalement <code>lift</code> permet de récupérer la valeur <code>x</code>. De plus, l&rsquo;état <code>s</code>
 retourné par le premier appel de <code>generateRandomNumberInInterval</code> est fournit en
-entrée au second appel. En d,autres termes, l&rsquo;état <code>s</code> est partagé.</p>
+entrée au second appel. En d&rsquo;autres termes, l&rsquo;état <code>s</code> est partagé.</p>
 <h3 id="classes-de-types">Classes de types</h3>
 <p>La bibliothèques <a href="https://hackage.haskell.org/package/mtl-2.2.2/">MTL</a> fournit certaines classes de type permettant
 d&rsquo;alléger l&rsquo;écriture des piles de monades dans les signatures en remplaçant les
@@ -2282,7 +2282,7 @@ simplement <code>StateT s m</code>.</p>
 besoin se fait vite ressentir de combler le manque de composition des monades
 lorsqu&rsquo;on développe en Haskell. Les transformateurs permettent de combler ce
 manque de façon à rendre l&rsquo;écriture du code plus puissante. Les classes de type
-de la bibliothèque MTL viennent compléter avec une touche de générécité ce qui
+de la bibliothèque MTL viennent compléter avec une touche de généricité ce qui
 augmente considérablement les capacités des transformateurs. En somme, les
 transformateurs sont un incontournable de la programmation en Haskell.</p>
 <!-- vim: set ft=pandoc.markdown.html.haskell sts=2 ts=2 sw=2 tw=80 et :-->
