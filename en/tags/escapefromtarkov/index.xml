@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>EscapeFromTarkov on Simon Désaulniers</title>
+    <link>https://sim590.github.io/en/tags/escapefromtarkov/</link>
+    <description>Recent content in EscapeFromTarkov on Simon Désaulniers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 12 Feb 2022 09:57:51 -0500</lastBuildDate>
+    
+        <atom:link href="https://sim590.github.io/en/tags/escapefromtarkov/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Escape From Tarkov: Yes! GNU/Linux runs it!</title>
+        <link>https://sim590.github.io/en/gaming-on-linux/tarkov/</link>
+        <pubDate>Sat, 12 Feb 2022 09:57:51 -0500</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sat, 12 Feb 2022 09:57:51 -0500</atom:modified>
+        <guid>https://sim590.github.io/en/gaming-on-linux/tarkov/</guid>
+        <description>Escape From Tarkov is hyper-realistic first person shooter game including survival, weapon personalization, looting and questing mechanics. It is a well-known game which has been available to play since 2016. However this game has stayed in Beta state since then, it is perfectly correct to call this game full featured.
+Yes, the title says that GNU/Linux runs EFT (Escape From Tarkov), but does that mean that BSG (BattleStateGames), the game studio, has made a fully supported Linux port?</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/Escape-from-Tarkov-header.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>EFT</category>
+            
+          
+            
+              <category>EscapeFromTarkov</category>
+            
+          
+            
+              <category>Tarkov</category>
+            
+          
+            
+              <category>GNU/Linux</category>
+            
+          
+            
+              <category>Proton</category>
+            
+          
+            
+              <category>Wine</category>
+            
+          
+        
+        
+          
+            
+              <category>Gaming</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -36,6 +36,84 @@
                 href="https://sim590.github.io/en/showcase/curriculum-vitae/m%C3%A9moire/"
                 />
   </url><url>
+    <loc>https://sim590.github.io/en/categories/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://sim590.github.io/en/tags/eft/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/en/gaming-on-linux/tarkov/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/en/tags/escapefromtarkov/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/en/categories/gaming/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/en/gaming-on-linux/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/en/tags/proton/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/en/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/"
+                />
+  </url><url>
+    <loc>https://sim590.github.io/en/tags/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://sim590.github.io/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://sim590.github.io/en/tags/tarkov/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/en/tags/wine/</loc>
+    <lastmod>2022-02-12T09:57:51-05:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/en/publication/article/</loc>
     <lastmod>2020-03-04T15:40:23+00:00</lastmod>
     <xhtml:link
@@ -65,24 +143,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://sim590.github.io/en/publication/"
-                />
-  </url><url>
-    <loc>https://sim590.github.io/en/</loc>
-    <lastmod>2020-03-04T15:40:23+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/"
                 />
   </url><url>
     <loc>https://sim590.github.io/en/about/</loc>
@@ -165,23 +225,6 @@
     <loc>https://sim590.github.io/en/welcome/</loc>
     <lastmod>2016-05-17T23:59:14-04:00</lastmod>
   </url><url>
-    <loc>https://sim590.github.io/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/categories/"
-                />
-  </url><url>
     <loc>https://sim590.github.io/en/contact/</loc>
   </url><url>
     <loc>https://sim590.github.io/en/showcase/curriculum-vitae/</loc>
@@ -196,7 +239,17 @@
                 href="https://sim590.github.io/en/showcase/curriculum-vitae/"
                 />
   </url><url>
-    <loc>https://sim590.github.io/en/gaming-on-linux/</loc>
+    <loc>https://sim590.github.io/en/tags/gnu/linux/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/gnu/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/gnu/linux/"
+                />
   </url><url>
     <loc>https://sim590.github.io/en/showcase/</loc>
     <xhtml:link
@@ -216,22 +269,5 @@
                 />
   </url><url>
     <loc>https://sim590.github.io/en/showcase/projects/</loc>
-  </url><url>
-    <loc>https://sim590.github.io/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://sim590.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://sim590.github.io/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sim590.github.io/en/tags/"
-                />
   </url>
 </urlset>

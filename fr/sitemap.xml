@@ -348,6 +348,16 @@
                 />
   </url><url>
     <loc>https://sim590.github.io/fr/tags/gnu/linux/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sim590.github.io/en/tags/gnu/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://sim590.github.io/fr/tags/gnu/linux/"
+                />
   </url><url>
     <loc>https://sim590.github.io/fr/showcase/</loc>
     <xhtml:link
