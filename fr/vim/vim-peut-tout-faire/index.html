@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="Simon Désaulniers">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.92.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1737,17 +1737,17 @@ utilité, mais ce n&rsquo;est bien sûr pas dans la modification de texte.</p>
 simplement</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-vim" data-lang="vim"><span class="p">:</span>%<span class="p">!</span><span class="nx">sort</span><span class="err">
+<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="p">:</span>%<span class="p">!</span><span class="nx">sort</span><span class="err">
 </span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, c&rsquo;est le programme <code>sort</code> de l&rsquo;IS qui est appelé directement avec en entrée
 toutes les lignes du fichier (<code>%</code> est un intervalle et signifie tout le fichier)
 et <code>!</code> signifie un appel à l&rsquo;IS. Définissons un exemple en appelant <code>seq</code>. Pour
 ce faire, on écrit <code>:r!seq 10</code>:</p>
-<pre><code>1
+<pre tabindex="0"><code>1
 2
 3
 4
@@ -1761,7 +1761,7 @@ ce faire, on écrit <code>:r!seq 10</code>:</p>
 l&rsquo;écrire après le curseur. Dans ce cas-ci, on lit la sortie standard de la
 commande <code>seq 10</code> lancé à l&rsquo;IS. On peut alors mêler les nombres avec <code>shuf</code>
 en écrivant <code>:%!shuf</code>:</p>
-<pre><code>3
+<pre tabindex="0"><code>3
 10
 7
 6
@@ -1777,13 +1777,13 @@ départ ordonnée.</p>
 <p>Un autre programme très connu de l&rsquo;IS est <code>grep</code>. Eh bien, on peut aisément
 l&rsquo;utiliser pour affecter le tampon mémoire courant de la même manière que dans
 l&rsquo;exemple précédent. Disons qu&rsquo;on ait le tampon mémoire suivant:</p>
-<pre><code>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+<pre tabindex="0"><code>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.
 </code></pre><p>et qu&rsquo;on ne veuille garder que les lignes contenant le sous-mot <code>du</code>, alors on
 peut simplement écrire <code>%!grep '\&lt;\S*du\S*\&gt;'</code> pour obtenir:</p>
-<pre><code>tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+<pre tabindex="0"><code>tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
 </code></pre><p>Personnellement, l&rsquo;exemple que je préfère est celui du presse-papier web (ou
 <em>pastebin</em>). Plusieurs outils en ligne de commande (IS) existent comme
@@ -1793,10 +1793,10 @@ distribuée. Ainsi, afin de partager un fichier sur un presse-papier web, on n&r
 qu&rsquo;à écrire:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-vim" data-lang="vim"><span class="p">:</span><span class="nx">w</span> <span class="p">!</span><span class="nx">dpaste</span><span class="err">
+<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="p">:</span><span class="nx">w</span> <span class="p">!</span><span class="nx">dpaste</span><span class="err">
 </span></code></pre></td></tr></table>
 </div>
 </div><p>et on obtient alors le PIN (ou l&rsquo;URL dans le cas de <code>pastebinit</code>) à partager à
@@ -1807,10 +1807,10 @@ PIN (ou l&rsquo;URL) qui sera retourné par le programme. On peut le faire d&rsq
 utilisant les tubes de l&rsquo;IS:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-vim" data-lang="vim"><span class="p">:</span><span class="nx">w</span> <span class="p">!</span><span class="nx">dpaste</span> <span class="p">|</span> <span class="nx">xsel</span> <span class="p">-</span><span class="nx">b</span><span class="err">
+<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="p">:</span><span class="nx">w</span> <span class="p">!</span><span class="nx">dpaste</span> <span class="p">|</span> <span class="nx">xsel</span> <span class="p">-</span><span class="nx">b</span><span class="err">
 </span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, <code>xsel</code> est un programme lisant son entrée standard et redirigeant celle-ci
@@ -1849,22 +1849,22 @@ anglais) dans le tampon mémoire en fonction du type de fichier qu&rsquo;on ouvr
 exemple, dans un fichier de type <code>cpp</code>, on peut transformer le texte suivant:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="n">main</span>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="n">main</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>en le bout de code ci-après:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
 
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
@@ -1891,7 +1891,7 @@ par l&rsquo;option <code>'tags'</code>. Par exemple, si on un projet avec une st
 celui-ci:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1902,7 +1902,7 @@ celui-ci:</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">.
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">.
 ├── Makefile
 ├── README
 └── src
@@ -1916,10 +1916,10 @@ celui-ci:</p>
 </div><p>On peut configurer le tout en appelant <code>ctags</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">$ ctags -R src/
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">$ ctags -R src/
 </code></pre></td></tr></table>
 </div>
 </div><p>Ceci génère le fichier <code>tags</code>. Ainsi, on indique finalement à Vim la présence du
@@ -1968,10 +1968,10 @@ comme suggéré sur leur page, il était suffisant de rouler la commande suivant
 partir de la racine du dépôt:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">$ bash cabal-hie-install hie-8.6.5
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">$ bash cabal-hie-install hie-8.6.5
 </code></pre></td></tr></table>
 </div>
 </div><p>Une fois que c&rsquo;est complété, il est obligatoire d&rsquo;ajouter le greffon pour Vim en
@@ -2295,7 +2295,7 @@ bonne option pour débuter.</li>
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="Simon Désaulniers">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.92.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1652,10 +1652,10 @@ solutions aux sous-problèmes sont elles-mêmes optimales.</p>
 <h2 id="suite-de-fibonacci">Suite de Fibonacci</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Considérons le problème de déterminer le \(n^{\text{ème}}\) terme de la <a href="https://fr.wikipedia.org/wiki/Suite_de_Fibonacci">suite
@@ -1664,21 +1664,21 @@ naturels, est la suivante:</p>
 <p>$$
 f(n) =
 \begin{cases}
-0               &amp; \text{si}\ n=0\\<br />
-1               &amp; \text{si}\ n=1\\<br />
+0               &amp; \text{si}\ n=0\\
+1               &amp; \text{si}\ n=1\\
 f(n-1) + f(n-2) &amp; \text{sinon}
 \end{cases}
 $$</p>
 <p>L&rsquo;écriture de cette fonction, suivant cette relation, est évidente:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">fib</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">fib</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">fib</span> <span class="mi">0</span> <span class="ow">=</span> <span class="mi">0</span>
 <span class="nf">fib</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
 <span class="nf">fib</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">fib</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
@@ -1697,14 +1697,14 @@ la gravité du problème.</p>
 pourrait écrire la chose suivante:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">mfib</span> <span class="ow">::</span> <span class="kt">Int</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">mfib</span> <span class="ow">::</span> <span class="kt">Int</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">mfib</span> <span class="ow">=</span> <span class="p">(</span><span class="n">map</span> <span class="n">fib</span> <span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="p">]</span> <span class="o">!!</span><span class="p">)</span> <span class="c1">-- (ii)</span>
   <span class="kr">where</span> <span class="n">fib</span> <span class="mi">0</span> <span class="ow">=</span> <span class="mi">0</span>
         <span class="n">fib</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
@@ -1725,10 +1725,10 @@ justement la différence majeur entre les deux approches. En effet, <code>mfib</
 défini comme l&rsquo;accès <code>(!!)</code> au \(n^{\text{ème}}\) élément de la liste</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">map</span> <span class="n">fib</span> <span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="p">]</span> <span class="c1">-- (ii)</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">map</span> <span class="n">fib</span> <span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="p">]</span> <span class="c1">-- (ii)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Cette liste correspond bien sûr à la liste abstraite suivante:</p>
@@ -1756,11 +1756,11 @@ possible aussi d&rsquo;écrire une expression remplissant la même fonction en u
 ligne:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">fibs</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">fibs</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
 <span class="nf">fibs</span> <span class="ow">=</span> <span class="mi">0</span> <span class="kt">:</span> <span class="mi">1</span> <span class="kt">:</span> <span class="n">zipWith</span> <span class="p">(</span><span class="o">+</span><span class="p">)</span> <span class="n">fibs</span> <span class="p">(</span><span class="n">tail</span> <span class="n">fibs</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -1773,10 +1773,10 @@ former le prochain élément <em>ad infinitum</em>.</p>
 <h2 id="nombres-triangulaires">Nombres triangulaires</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Considérons maintenant le problème de générer les <a href="https://fr.wikipedia.org/wiki/Nombre_triangulaire">nombres
@@ -1786,11 +1786,11 @@ nombre triangulaire, est donné par l&rsquo;expression suivante:</p>
 <p>Une première approche vient rapidement en tête:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
 <span class="nf">triangs</span> <span class="ow">=</span> <span class="p">[</span><span class="n">sum</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="p">]</span> <span class="o">|</span> <span class="n">n</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="p">]]</span>
 </code></pre></td></tr></table>
 </div>
@@ -1801,11 +1801,11 @@ plusieurs fois les mêmes calculs. On pourrait aussi tirer avantage du fait que
 <p>Ainsi, on pourrait alors écrire:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs&#39;</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs&#39;</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
 <span class="nf">triangs&#39;</span> <span class="ow">=</span> <span class="p">[</span><span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span> <span class="o">|</span> <span class="n">n</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="p">]]</span>
 </code></pre></td></tr></table>
 </div>
@@ -1817,11 +1817,11 @@ mieux en utilisant la programmation dynamique. De façon similaire à la derniè
 solution pour Fibonacci, on peut écrire:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs&#39;&#39;</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">triangs&#39;&#39;</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Natural</span><span class="p">]</span>
 <span class="nf">triangs&#39;&#39;</span> <span class="ow">=</span> <span class="mi">1</span> <span class="kt">:</span> <span class="n">zipWith</span> <span class="p">(</span><span class="o">+</span><span class="p">)</span> <span class="n">triangs&#39;&#39;</span> <span class="p">[</span><span class="mi">2</span><span class="o">..</span><span class="p">]</span>
 </code></pre></td></tr></table>
 </div>
@@ -1830,12 +1830,12 @@ liste infinie <code>[2..]</code>, par l&rsquo;addition des éléments de chaque 
 On peut développer l&rsquo;expression comme suit:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">1 : zipWith (+) [1,...] [2,3,4...]         correspond à [1, 3, ...]
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">1 : zipWith (+) [1,...] [2,3,4...]         correspond à [1, 3, ...]
 1 : 3 : zipWith (+) [3,...] [3,4,5...]     correspond à [1, 3, 6, ...]
 1 : 3 : 6 : zipWith (+) [6,...] [4,5,6...] correspond à [1, 3, 6, 10, ...]
 </code></pre></td></tr></table>
@@ -1844,11 +1844,11 @@ On peut développer l&rsquo;expression comme suit:</p>
 <h2 id="séquences-de-collatz">Séquences de Collatz</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">import</span> <span class="nn">Numeric.Natural</span>
 <span class="kr">import</span> <span class="nn">Data.Array</span>
 </code></pre></td></tr></table>
 </div>
@@ -1861,7 +1861,7 @@ entrée, appelons cet élément « racine ». Soit \(g: \mathbb{N} \longrightarr
 <p>$$
 g(m) =
 \begin{cases}
-\frac{m}{2} &amp; \text{si}\ m\ \text{est pair}\\<br />
+\frac{m}{2} &amp; \text{si}\ m\ \text{est pair}\\
 \\ % Nécessaire car autrement, l&rsquo;équation n&rsquo;arrive pas à se dessiner (trop serré)
 3m + 1      &amp; \text{sinon}
 \end{cases}
@@ -1876,14 +1876,14 @@ séquence de Collatz pour tout \(1 \le r \le n\).</p>
 une fonction calculant la prochaine valeur de la séquence. Appelons la <code>step</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">step</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">step</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">step</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
 <span class="nf">step</span> <span class="n">m</span>
   <span class="o">|</span> <span class="n">even</span> <span class="n">m</span>    <span class="ow">=</span> <span class="n">m</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
@@ -1902,11 +1902,11 @@ impair rencontré.</p>
 avec pour racine <code>m</code> pourrait ressembler au suivant.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">dumbSeq</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Int</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">dumbSeq</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Int</span>
 <span class="nf">dumbSeq</span> <span class="n">m</span> <span class="ow">=</span> <span class="p">(</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">$</span> <span class="n">length</span> <span class="o">$</span> <span class="n">takeWhile</span> <span class="p">(</span><span class="o">/=</span><span class="mi">1</span><span class="p">)</span> <span class="o">$</span> <span class="n">iterate</span> <span class="n">step</span> <span class="n">m</span>
 </code></pre></td></tr></table>
 </div>
@@ -1918,12 +1918,12 @@ calculer la valeur maximale pour \(1 \le r \le \text{n}\), on peut alors
 calculer comme suit:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">maxDumb</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">maxDumb</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">maxDumb</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">0</span>
 <span class="nf">maxDumb</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">snd</span> <span class="o">$</span> <span class="n">maximum</span> <span class="o">$</span> <span class="n">map</span> <span class="p">(</span><span class="nf">\</span> <span class="n">m</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="n">dumbSeq</span> <span class="n">m</span><span class="p">,</span> <span class="n">m</span><span class="p">))</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="p">]</span>
 </code></pre></td></tr></table>
@@ -1936,11 +1936,11 @@ de la classe <code>Ord</code>).</p>
 temps. On remarque bien sûr que certaines séquences se croisent. Par exemple:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">r = 3 =&gt; g(3) = g(5) = g(8) = g(4) = g(2) = 1
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">r = 3 =&gt; g(3) = g(5) = g(8) = g(4) = g(2) = 1
 r = 4 =&gt;                      g(4) = g(2) = 1
 </code></pre></td></tr></table>
 </div>
@@ -1953,11 +1953,11 @@ utilisée pour stocker les valeurs déjà calculées. Disons que \(10^6\) est
 raisonnable:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">bigN</span> <span class="ow">::</span> <span class="kt">Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">bigN</span> <span class="ow">::</span> <span class="kt">Natural</span>
 <span class="nf">bigN</span> <span class="ow">=</span> <span class="mi">10</span> <span class="o">^</span> <span class="p">(</span><span class="mi">6</span> <span class="ow">::</span> <span class="kt">Natural</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -1965,7 +1965,7 @@ raisonnable:</p>
 routine de comptage des itérations <code>seq'</code> à travers <code>step</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1977,7 +1977,7 @@ routine de comptage des itérations <code>seq'</code> à travers <code>step</cod
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">seq&#39;</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">seq&#39;</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">seq&#39;</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">1</span>
 <span class="nf">seq&#39;</span> <span class="n">i</span> <span class="ow">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">next</span>
   <span class="kr">where</span> <span class="n">i&#39;</span> <span class="ow">=</span> <span class="n">step</span> <span class="n">i</span>
@@ -2009,13 +2009,13 @@ tout</strong>.</p>
 une racine \(1 \le r \le \texttt{n}\).</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">maxSeq</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">maxSeq</span> <span class="ow">::</span> <span class="kt">Natural</span> <span class="ow">-&gt;</span> <span class="kt">Natural</span>
 <span class="nf">maxSeq</span> <span class="mi">1</span> <span class="ow">=</span> <span class="mi">0</span>
 <span class="nf">maxSeq</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">l</span>
   <span class="kr">where</span> <span class="p">(</span><span class="kr">_</span><span class="p">,</span> <span class="n">l</span><span class="p">)</span> <span class="ow">=</span> <span class="n">maximum</span> <span class="o">$</span> <span class="n">map</span> <span class="n">swap</span> <span class="o">$</span> <span class="n">genericTake</span> <span class="n">n</span> <span class="o">$</span> <span class="n">assocs</span> <span class="n">seqArray</span>
@@ -2308,7 +2308,7 @@ une racine \(1 \le r \le \texttt{n}\).</p>
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

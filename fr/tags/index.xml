@@ -14,67 +14,13 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 23 Jul 2021 04:03:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2020 01:17:31 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
-      
-      <item>
-        <title>Composition</title>
-        <link>https://sim590.github.io/fr/tags/composition/</link>
-        <pubDate>Fri, 23 Jul 2021 04:03:00 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/tags/composition/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Monade</title>
-        <link>https://sim590.github.io/fr/tags/monade/</link>
-        <pubDate>Fri, 23 Jul 2021 04:03:00 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/tags/monade/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Transformateur</title>
-        <link>https://sim590.github.io/fr/tags/transformateur/</link>
-        <pubDate>Fri, 23 Jul 2021 04:03:00 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/tags/transformateur/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
       
       <item>
         <title>Gestion d&#39;erreurs</title>
@@ -457,7 +403,7 @@
       <item>
         <title>Chiffrement</title>
         <link>https://sim590.github.io/fr/tags/chiffrement/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/chiffrement/</guid>
@@ -475,7 +421,7 @@
       <item>
         <title>Chiffrement de bout en bout</title>
         <link>https://sim590.github.io/fr/tags/chiffrement-de-bout-en-bout/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/chiffrement-de-bout-en-bout/</guid>
@@ -493,7 +439,7 @@
       <item>
         <title>Communication</title>
         <link>https://sim590.github.io/fr/tags/communication/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/communication/</guid>
@@ -511,7 +457,7 @@
       <item>
         <title>Confidentialité</title>
         <link>https://sim590.github.io/fr/tags/confidentialit%C3%A9/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/confidentialit%C3%A9/</guid>
@@ -529,7 +475,7 @@
       <item>
         <title>Protocole</title>
         <link>https://sim590.github.io/fr/tags/protocole/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/protocole/</guid>
@@ -547,7 +493,7 @@
       <item>
         <title>Protocole de communication</title>
         <link>https://sim590.github.io/fr/tags/protocole-de-communication/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/protocole-de-communication/</guid>
@@ -565,7 +511,7 @@
       <item>
         <title>Signal</title>
         <link>https://sim590.github.io/fr/tags/signal/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/signal/</guid>
@@ -583,7 +529,7 @@
       <item>
         <title>WhatsApp</title>
         <link>https://sim590.github.io/fr/tags/whatsapp/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/whatsapp/</guid>

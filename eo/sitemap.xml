@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sim590.github.io/eo/showcase/projektoj/amh/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/projektoj/dotfiles/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/projektoj/dpaste/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/vivprotokolo/vivprotokolo/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/projektoj/polyenum/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/projektoj/yauml/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/vivprotokolo/m%C3%A9moire/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/categories/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
     <xhtml:link
@@ -48,39 +33,25 @@
                 hreflang="eo"
                 href="https://sim590.github.io/eo/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/tags/e-vorto/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/categories/gramatiko/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/gramatiko/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/tags/lernado/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/categories/pensoj/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/categories/rakontoj/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
     <xhtml:link
@@ -98,9 +69,7 @@
                 hreflang="eo"
                 href="https://sim590.github.io/eo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/tags/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
     <xhtml:link
@@ -118,19 +87,13 @@
                 hreflang="eo"
                 href="https://sim590.github.io/eo/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/gramatiko/uzado-de-evortoj-kiel-priskribo/</loc>
     <lastmod>2020-04-18T11:19:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/publication/artikolo/</loc>
     <lastmod>2020-03-04T15:40:23+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/publication/</loc>
     <lastmod>2020-03-04T15:40:23+00:00</lastmod>
     <xhtml:link
@@ -148,22 +111,14 @@
                 hreflang="eo"
                 href="https://sim590.github.io/eo/publication/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/publication/artikolo/fully-distributed-indexing-over-a-distributed-hash-table/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/arkivo/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/kontaktu-min/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/</loc>
     <xhtml:link
                 rel="alternate"
@@ -180,17 +135,11 @@
                 hreflang="eo"
                 href="https://sim590.github.io/eo/showcase/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/pri/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/projektoj/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -207,10 +156,7 @@
                 hreflang="eo"
                 href="https://sim590.github.io/eo/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/eo/showcase/vivprotokolo/</loc>
   </url>
-  
 </urlset>

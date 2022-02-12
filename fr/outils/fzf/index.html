@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="Simon Désaulniers">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.92.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1619,12 +1619,12 @@ programme sont décomposés en sous-mots afin de permettre des recherches
 approximatives par l&rsquo;utilisateur. Par exemple, prenons l&rsquo;entrée suivante:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">toto
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">toto
 titi
 tutu
 </code></pre></td></tr></table>
@@ -1644,10 +1644,10 @@ configurations</a>.</em></p>
 l&rsquo;utilise comme suit:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">find . <span class="p">|</span> fzf
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">find . <span class="p">|</span> fzf
 </code></pre></td></tr></table>
 </div>
 </div><p>Ceci donne donc toute la liste des fichiers dans le répertoire courant (et tous
@@ -1679,10 +1679,10 @@ standard.</p>
 de texte préféré:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">vim <span class="k">$(</span>fzf<span class="k">)</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">vim <span class="k">$(</span>fzf<span class="k">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="/images/fzf/fzf-vim-memoire.gif" alt="vim-fzf" /></p>
@@ -1692,10 +1692,10 @@ possible de simplement appeler <code>fzf</code> tout court sans l&rsquo;aide de 
 obtenir le même résultat.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">fzf
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">fzf
 </code></pre></td></tr></table>
 </div>
 </div><p>En particulier, le comportement par défaut peut être réglé par la variable
@@ -1703,10 +1703,10 @@ d&rsquo;environnement <code>FZF_DEFAULT_COMMAND</code>. Personnellement, j&rsquo
 configuration:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">FZF_DEFAULT_COMMAND</span><span class="o">=</span><span class="s2">&#34;find .&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">FZF_DEFAULT_COMMAND</span><span class="o">=</span><span class="s2">&#34;find .&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Peu importe l&rsquo;outil d&rsquo;interface système (IS) que vous utilisez, il suffit
@@ -1717,13 +1717,13 @@ fichier séparé (nommé <code>~/.fzf_env</code>) qui est chargé par le fichier
 à l&rsquo;aide de l&rsquo;instruction <code>source</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">source</span> ~/.fzf_env          <span class="c1"># Contient le contenu listé précédemment.</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">source</span> ~/.fzf_env          <span class="c1"># Contient le contenu listé précédemment.</span>
 
 <span class="nb">export</span> FZF_DEFAULT_COMMAND <span class="c1"># Nécessaire afin de bien exposer la variable après</span>
                            <span class="c1"># l&#39;avoir configuré dans ~/.fzf_env</span>
@@ -1736,10 +1736,10 @@ permet donc de sélectionner plusieurs choix. Entre autres, pour sélectionner
 plusieurs fichiers à ouvrir dans Vim, on peut écrire:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">vim <span class="k">$(</span>fzf -m<span class="k">)</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">vim <span class="k">$(</span>fzf -m<span class="k">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img src="/images/fzf/fzf-vim-multi.gif" alt="fzf-vim-multi" /></p>
@@ -1759,10 +1759,10 @@ complétés à la ligne de commande et les choix ajoutés à celle-ci. Par exmep
 si on souhaite se déplacer avec <code>cd</code> dans un répertoire très profond, on écrit:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> **
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> **
 </code></pre></td></tr></table>
 </div>
 </div><p>suivi de la touche <code>TAB</code> et <code>fzf</code> se lance et permet de choisir le répertoire.
@@ -1770,10 +1770,10 @@ Une fois sélectionné, la ligne de commande de l&rsquo;utilisateur sera changé
 <code>cd</code> suivi de son choix. Par exemple:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> un/très/long/chemin/vers/le/répertoire/que/je/cherchais
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> un/très/long/chemin/vers/le/répertoire/que/je/cherchais
 </code></pre></td></tr></table>
 </div>
 </div><p>Ce mode d&rsquo;exécution permet donc de facilement modifier la ligne de commande
@@ -1802,10 +1802,10 @@ l&rsquo;utilisateur puisse tuer tous les processus d&rsquo;un trait.</p>
 ligne de commande suivante:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">kill</span> <span class="m">17292</span> <span class="m">17279</span> <span class="m">27346</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">kill</span> <span class="m">17292</span> <span class="m">17279</span> <span class="m">27346</span>
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="touches-raccourcis-pour-lis">Touches raccourcis pour l&rsquo;IS</h3>
@@ -1821,10 +1821,10 @@ répertoire une fois la touche ENTRÉE appuyée. Afin d&rsquo;obtenir cette bell
 d&rsquo;affichage, l&rsquo;utilisateur doit spécifier la commande à utiliser:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">export</span> <span class="nv">FZF_ALT_C_OPTS</span><span class="o">=</span><span class="s2">&#34;--preview &#39;tree -C {} | head -200&#39;&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">export</span> <span class="nv">FZF_ALT_C_OPTS</span><span class="o">=</span><span class="s2">&#34;--preview &#39;tree -C {} | head -200&#39;&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="ctrlr">CTRL+R</h4>
@@ -1848,7 +1848,7 @@ remplacement pour cela et change complètement l&rsquo;expérience.</p>
 instruction comme celle-ci:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1859,7 +1859,7 @@ instruction comme celle-ci:</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">_fzf_complete_toto<span class="o">()</span> <span class="o">{</span>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh">_fzf_complete_toto<span class="o">()</span> <span class="o">{</span>
   _fzf_complete <span class="s1">&#39;&#39;</span> -- <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
     <span class="nb">echo</span> tutu
     <span class="nb">echo</span> titi
@@ -1882,7 +1882,7 @@ souvent utile. Afin de remédier à cela, il suffit d&rsquo;inclure le bout de c
 suivant dans sa configuration:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1895,7 +1895,7 @@ suivant dans sa configuration:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="c1"># Dans le fichier: ~/.zshrc</span>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="c1"># Dans le fichier: ~/.zshrc</span>
 _fzf_complete_ssh<span class="o">()</span> <span class="o">{</span>
   _fzf_complete +m -- <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
     setopt localoptions nonomatch
@@ -1912,10 +1912,10 @@ _fzf_complete_ssh<span class="o">()</span> <span class="o">{</span>
 dernière ligne ajoutée permettant de lister les noms d&rsquo;hôte.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">command</span> avahi-browse -atlr <span class="p">|</span> grep -o <span class="s1">&#39;\&lt;\S\+\.local&#39;</span> <span class="p">|</span> sort -u
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">command</span> avahi-browse -atlr <span class="p">|</span> grep -o <span class="s1">&#39;\&lt;\S\+\.local&#39;</span> <span class="p">|</span> sort -u
 </code></pre></td></tr></table>
 </div>
 </div><p>Ainsi, les noms d&rsquo;hôtes présents dans le réseau local s&rsquo;afficheront.</p>
@@ -1939,7 +1939,7 @@ noms de paquets avec <code>TAB</code> et les touches pour monter et descendre le
 inspiré du bout de code trouvé <a href="https://github.com/krickelkrakel/fzf-apt">ici</a>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1979,7 +1979,7 @@ inspiré du bout de code trouvé <a href="https://github.com/krickelkrakel/fzf-a
 </span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">list_aptitude_packages<span class="o">()</span> <span class="o">{</span>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh">list_aptitude_packages<span class="o">()</span> <span class="o">{</span>
     <span class="k">if</span>   <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt install&#39;</span>* <span class="o">]]</span> <span class="se">\
 </span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt show&#39;</span>*    <span class="o">]]</span> <span class="se">\
 </span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt search&#39;</span>*  <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
@@ -2036,7 +2036,7 @@ même fonction peut être utilisée pour Bash, <a href="https://github.com/juneg
 documentation</a>).</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2044,7 +2044,7 @@ documentation</a>).</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh">_fzf_complete_pass<span class="o">()</span> <span class="o">{</span>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh">_fzf_complete_pass<span class="o">()</span> <span class="o">{</span>
   <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
   _fzf_complete <span class="s1">&#39;&#39;</span> <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
     <span class="nb">command</span> find ~/.password-store/ -name <span class="s2">&#34;*.gpg&#34;</span> <span class="p">|</span> sed -r <span class="s1">&#39;s,(.*)\.password-store/(.*)\.gpg,\2,&#39;</span>
@@ -2062,10 +2062,10 @@ complétée. Par exemple, en sélectionnant le premier élément, on obtiendrait
 ligne de commande résultante:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">pass personnel/access-point/tp-link
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">pass personnel/access-point/tp-link
 </code></pre></td></tr></table>
 </div>
 </div><p>Ceci est très utile lorsqu&rsquo;on ne se souvient plus exactement du nom du fichier
@@ -2401,7 +2401,7 @@ temps de jouer avec et de l&rsquo;adopter.</p>
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sim590.github.io/fr/showcase/projets/amh/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/curriculum-vitae/cv/</loc>
     <xhtml:link
                 rel="alternate"
@@ -18,25 +15,15 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/showcase/curriculum-vitae/cv/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/projets/dotfiles/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/projets/dpaste/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/projets/polyenum/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/projets/yauml/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/curriculum-vitae/m%C3%A9moire/</loc>
     <xhtml:link
                 rel="alternate"
@@ -48,11 +35,9 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/showcase/curriculum-vitae/m%C3%A9moire/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -68,36 +53,36 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/composition/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/haskell/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/haskell/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/monade/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/haskell/monademaybe/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/maybe/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/monad/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/categories/monade/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/programmation/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -113,11 +98,9 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -133,269 +116,139 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/transformateur/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/haskell/transformateurs/</loc>
-    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/haskell/monademaybe/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/maybe/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/tags/monad/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/categories/monade/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/maths/calculs-hypothecaires/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/dette/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/finance/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/hypoth%C3%A8que/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/int%C3%A9r%C3%AAt/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/maths/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/math%C3%A9matiques/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/newton/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/paiement-bancaire/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/pascal/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/pr%C3%AAt/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/aptitude/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/branche-debian/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/debian/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/debian/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/debian/passer-%C3%A0-testing/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/paquet-debian/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/techno/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/outils/fzf/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/outil/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/outils/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/pass/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/productivit%C3%A9/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/ranger/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/vim/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/zsh/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/greffon/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/hjkl/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/vim/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/chiffrement/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/chiffrement-de-bout-en-bout/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/cybers%C3%A9curit%C3%A9/comment-bien-assurer-la-confidentialit%C3%A9-du-clavardage/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/communication/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/confidentialit%C3%A9/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/cryptographie/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/cybers%C3%A9curit%C3%A9/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/cybers%C3%A9curit%C3%A9/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/protocole/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/protocole-de-communication/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/signal/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/vie-priv%C3%A9e/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/whatsapp/</loc>
-    <lastmod>2020-03-09T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/publication/article/</loc>
     <lastmod>2020-03-04T15:40:23+00:00</lastmod>
     <xhtml:link
@@ -408,9 +261,7 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/publication/article/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/publication/</loc>
     <lastmod>2020-03-04T15:40:23+00:00</lastmod>
     <xhtml:link
@@ -428,54 +279,31 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/publication/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/algorithmique/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/data.array/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/haskell/programmation-dynamique/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/m%C3%A9mo%C3%AFsation/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/nombre-triangulaire/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/categories/programmation-dynamique/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</loc>
     <lastmod>2020-03-02T04:06:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/a-propos/</loc>
     <lastmod>2020-02-29T03:00:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sim590.github.io/fr/resume/</loc>
-    <lastmod>2020-02-28T10:36:33-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/archive/</loc>
     <lastmod>2020-02-28T00:50:16-05:00</lastmod>
     <xhtml:link
@@ -488,9 +316,7 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/archive/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/publication/article/fully-distributed-indexing-over-a-distributed-hash-table/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -503,18 +329,12 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/publication/article/fully-distributed-indexing-over-a-distributed-hash-table/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/adieu/</loc>
     <lastmod>2016-06-19T21:30:22-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/contactez-moi/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/curriculum-vitae/</loc>
     <xhtml:link
                 rel="alternate"
@@ -526,13 +346,9 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/showcase/curriculum-vitae/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/gnu/linux/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/</loc>
     <xhtml:link
                 rel="alternate"
@@ -549,13 +365,9 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/showcase/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/showcase/projets/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sim590.github.io/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -573,5 +385,4 @@
                 href="https://sim590.github.io/fr/series/"
                 />
   </url>
-  
 </urlset>

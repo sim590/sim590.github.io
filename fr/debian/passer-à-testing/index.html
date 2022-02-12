@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.92.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1648,10 +1648,10 @@ source où on prendra ces paquets. Il faut donc déplacer (ou supprimer) le
 fichier de configuration actuel là où il ne sera pas effectif.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">rm /etc/apt/sources.list
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">rm /etc/apt/sources.list
 </code></pre></td></tr></table>
 </div>
 </div><hr />
@@ -1673,21 +1673,21 @@ déplacer hors de <code>/etc/apt/sources.list.d/</code>).</p>
 existe.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p /etc/apt/sources.list.d
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">mkdir -p /etc/apt/sources.list.d
 </code></pre></td></tr></table>
 </div>
 </div><p>Ensuite, il suffit de créer le fichier <code>/etc/apt/sources.list.d/testing.list</code>
 contenant les sources de la branche <code>testing</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ testing main contrib non-free
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ testing main contrib non-free
 deb-src http://ftp.ca.debian.org/debian/ testing main contrib non-free
 </code></pre></td></tr></table>
 </div>
@@ -1700,19 +1700,19 @@ mal de l&rsquo;inclure.</p>
 liste des sources à jour:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">apt update
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt update
 </code></pre></td></tr></table>
 </div>
 </div><p>Ensuite, on peut mettre à jour les paquets comme tel:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">apt upgrade
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt upgrade
 </code></pre></td></tr></table>
 </div>
 </div><p>Finalement, pour permettre à <code>apt</code> de mettre à jour certains paquets impliquant
@@ -1720,10 +1720,10 @@ la suppression d&rsquo;autres paquets ou l&rsquo;installation de nouveaux paquet
 upgrade ne fait pas par défaut), on doit faire:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">apt dist-upgrade
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt dist-upgrade
 </code></pre></td></tr></table>
 </div>
 </div><p>Et voilà ! Vous êtes maintenant sur <code>testing</code>.</p>
@@ -1735,19 +1735,19 @@ faire à vos propres risques et périls.</p>
 <p>Premièrement, on crée les fichiers <code>/etc/apt/sources.list.d/unstable.list</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ unstable main contrib non-free
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ unstable main contrib non-free
 </code></pre></td></tr></table>
 </div>
 </div><p>et <code>/etc/apt/sources.list.d/experimental.list</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ experimental main contrib non-free
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ experimental main contrib non-free
 </code></pre></td></tr></table>
 </div>
 </div><p><em>Très bien, mais ce n&rsquo;est pas tout!</em></p>
@@ -1761,10 +1761,10 @@ de palier à ce problème, on assure premièrement la création du répertoire d
 préférences:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">mkdir -p /etc/apt/preferences.d
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">mkdir -p /etc/apt/preferences.d
 </code></pre></td></tr></table>
 </div>
 </div><p>Maintenant, les 3 fichiers ci-après doivent être créés:</p>
@@ -1773,12 +1773,12 @@ préférences:</p>
 <p><code>/etc/apt/preferences.d/testing</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">Package: *
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">Package: *
 Pin: release a=testing
 Pin-Priority: 900
 </code></pre></td></tr></table>
@@ -1788,12 +1788,12 @@ Pin-Priority: 900
 <p><code>/etc/apt/preferences.d/unstable</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">Package: *
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">Package: *
 Pin: release a=unstable
 Pin-Priority: 800
 </code></pre></td></tr></table>
@@ -1803,12 +1803,12 @@ Pin-Priority: 800
 <p><code>/etc/apt/preferences.d/experimental</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-plain" data-lang="plain">Package: *
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">Package: *
 Pin: release a=experimental
 Pin-Priority: 700
 </code></pre></td></tr></table>
@@ -1824,10 +1824,10 @@ disponibles dans la/les branche(s) avec la plus grande priorité.</p>
 <p>Afin que les changements soient effectifs, il est nécessaire de rouler</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">apt update
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt update
 </code></pre></td></tr></table>
 </div>
 </div><p>Le tout permet donc finalement d&rsquo;installer des paquets depuis <code>unstable</code>
@@ -1835,10 +1835,10 @@ simplement en passant l&rsquo;option <code>-t</code> à <code>apt</code>. Par ex
 version de <code>vim</code> depuis <code>unstable</code>, il suffit d&rsquo;exécuter:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">apt install -t unstable vim
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt install -t unstable vim
 </code></pre></td></tr></table>
 </div>
 </div><!-- vim: set sts=2 ts=2 sw=2 tw=80 et :-->
@@ -2136,7 +2136,7 @@ version de <code>vim</code> depuis <code>unstable</code>, il suffit d&rsquo;exé
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
