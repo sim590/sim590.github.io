@@ -76,7 +76,7 @@
         <atom:modified>Sat, 11 Apr 2020 00:42:27 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/outils/fzf/</guid>
         <description>fzf est un programme filtrant le flux de son entrée standard par mots clefs fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type fuzzy (d&amp;rsquo;où le nom fzf pour fuzzy finder), c&amp;rsquo;est-à-dire que les termes fournis au programme sont décomposés en sous-mots afin de permettre des recherches approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:
-1 2 3  toto titi tutu   Si l&amp;rsquo;utilisateur fournissait le terme tt, toutes les lignes seraient sélectionnées, puisque les sous-mots t et t se trouvent tous deux dans toutes les lignes.</description>
+1 2 3 toto titi tutu Si l&amp;rsquo;utilisateur fournissait le terme tt, toutes les lignes seraient sélectionnées, puisque les sous-mots t et t se trouvent tous deux dans toutes les lignes.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -131,7 +131,7 @@
         <atom:modified>Sun, 22 Mar 2020 11:11:56 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</guid>
         <description>Vim est un éditeur de texte et clairement le meilleur qui soit. Je ne dis pas ça sans peser mes mots. Ceci dit, il ne faut pas lui prêter une identité qu&amp;rsquo;il n&amp;rsquo;a pas. Vim n&amp;rsquo;est pas un environnement de développement intégré (EDI ou IDE en anglais) complet. Cependant, plusieurs aspects à son utilisation font sa grande force pour fournir un EDI complet à son usager:
- un langage de touches permettant aux doigts de faire tout le travail d&amp;rsquo;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
+un langage de touches permettant aux doigts de faire tout le travail d&amp;rsquo;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         

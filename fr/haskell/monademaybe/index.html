@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.102.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1649,20 +1649,20 @@ devrait arrêter le fil d&rsquo;exécution du programme.</p>
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">struct</span> <span class="nc">Contact</span> <span class="p">{</span>
-  <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nom</span> <span class="p">{};</span>
-  <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">numero</span> <span class="p">{};</span>
-<span class="p">};</span>
-
-<span class="k">using</span> <span class="n">PaireNomNum</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span><span class="p">;</span>
-
-<span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;&gt;</span> <span class="n">numeros</span> <span class="p">{</span>
-  <span class="p">{</span><span class="s">&#34;Jean&#34;</span><span class="p">,</span>     <span class="s">&#34;5143482387&#34;</span><span class="p">}</span>
-<span class="p">,</span> <span class="p">{</span><span class="s">&#34;Michaël&#34;</span><span class="p">,</span>  <span class="s">&#34;5143522489&#34;</span><span class="p">}</span>
-<span class="p">,</span> <span class="p">{</span><span class="s">&#34;Roger&#34;</span><span class="p">,</span>    <span class="s">&#34;5143732279&#34;</span><span class="p">}</span>
-<span class="p">,</span> <span class="p">{</span><span class="s">&#34;Charles&#34;</span><span class="p">,</span>  <span class="s">&#34;5143783211&#34;</span><span class="p">}</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">Contact</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">nom</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">  <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">numero</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="n">PaireNomNum</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;&gt;</span> <span class="n">numeros</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span><span class="s">&#34;Jean&#34;</span><span class="p">,</span>     <span class="s">&#34;5143482387&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="p">{</span><span class="s">&#34;Michaël&#34;</span><span class="p">,</span>  <span class="s">&#34;5143522489&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="p">{</span><span class="s">&#34;Roger&#34;</span><span class="p">,</span>    <span class="s">&#34;5143732279&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">,</span> <span class="p">{</span><span class="s">&#34;Charles&#34;</span><span class="p">,</span>  <span class="s">&#34;5143783211&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Les définitions ci-haut peuvent être réécrites en Haskell comme suit:</p>
 <div class="highlight"><div class="chroma">
@@ -1683,21 +1683,21 @@ devrait arrêter le fil d&rsquo;exécution du programme.</p>
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">type</span> <span class="kt">Nom</span>               <span class="ow">=</span> <span class="kt">String</span>
-<span class="kr">type</span> <span class="kt">NumeroDeTelephone</span> <span class="ow">=</span> <span class="kt">String</span>
-
-<span class="kr">data</span> <span class="kt">Contact</span> <span class="ow">=</span> <span class="kt">Contact</span> <span class="p">{</span> <span class="n">nomContact</span>    <span class="ow">::</span> <span class="kt">Nom</span>
-                       <span class="p">,</span> <span class="n">numeroContact</span> <span class="ow">::</span> <span class="kt">NumeroDeTelephone</span>
-                       <span class="p">}</span>
-                       <span class="kr">deriving</span> <span class="kt">Show</span>
-
-<span class="nf">numeros</span> <span class="ow">::</span> <span class="p">[(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)]</span>
-<span class="nf">numeros</span> <span class="ow">=</span> <span class="p">[</span> <span class="p">(</span><span class="s">&#34;Jean&#34;</span><span class="p">,</span>     <span class="s">&#34;5143482387&#34;</span><span class="p">)</span>
-          <span class="p">,</span> <span class="p">(</span><span class="s">&#34;Michaël&#34;</span><span class="p">,</span>  <span class="s">&#34;5143522489&#34;</span><span class="p">)</span>
-          <span class="p">,</span> <span class="p">(</span><span class="s">&#34;Roger&#34;</span><span class="p">,</span>    <span class="s">&#34;5143732279&#34;</span><span class="p">)</span>
-          <span class="p">,</span> <span class="p">(</span><span class="s">&#34;Charles&#34;</span><span class="p">,</span>  <span class="s">&#34;5143783211&#34;</span><span class="p">)</span>
-          <span class="p">]</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="kr">type</span> <span class="kt">Nom</span>               <span class="ow">=</span> <span class="kt">String</span>
+</span></span><span class="line"><span class="cl"><span class="kr">type</span> <span class="kt">NumeroDeTelephone</span> <span class="ow">=</span> <span class="kt">String</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">data</span> <span class="kt">Contact</span> <span class="ow">=</span> <span class="kt">Contact</span> <span class="p">{</span> <span class="n">nomContact</span>    <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">                       <span class="p">,</span> <span class="n">numeroContact</span> <span class="ow">::</span> <span class="kt">NumeroDeTelephone</span>
+</span></span><span class="line"><span class="cl">                       <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                       <span class="kr">deriving</span> <span class="kt">Show</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">numeros</span> <span class="ow">::</span> <span class="p">[(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="nf">numeros</span> <span class="ow">=</span> <span class="p">[</span> <span class="p">(</span><span class="s">&#34;Jean&#34;</span><span class="p">,</span>     <span class="s">&#34;5143482387&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">,</span> <span class="p">(</span><span class="s">&#34;Michaël&#34;</span><span class="p">,</span>  <span class="s">&#34;5143522489&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">,</span> <span class="p">(</span><span class="s">&#34;Roger&#34;</span><span class="p">,</span>    <span class="s">&#34;5143732279&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">,</span> <span class="p">(</span><span class="s">&#34;Charles&#34;</span><span class="p">,</span>  <span class="s">&#34;5143783211&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">]</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>On va utiliser ces définitions tout au long de cet article.</p>
 <h2 id="contexte">Contexte</h2>
@@ -1715,13 +1715,13 @@ s&rsquo;agit là d&rsquo;un cas d&rsquo;erreur. En C++, on pourrait écrire:</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">PaireNomNum</span><span class="o">&gt;::</span><span class="n">iterator</span>
-<span class="n">retrouverNumero</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="n">std</span><span class="o">::</span><span class="n">find_if</span><span class="p">(</span><span class="n">numeros</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">numeros</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="p">[</span><span class="n">nom</span><span class="p">](</span><span class="k">const</span> <span class="k">auto</span><span class="o">&amp;</span> <span class="n">nomnum</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="n">nomnum</span><span class="p">.</span><span class="n">first</span> <span class="o">==</span> <span class="n">nom</span><span class="p">;</span>
-    <span class="p">});</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">PaireNomNum</span><span class="o">&gt;::</span><span class="n">iterator</span>
+</span></span><span class="line"><span class="cl"><span class="n">retrouverNumero</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">std</span><span class="o">::</span><span class="n">find_if</span><span class="p">(</span><span class="n">numeros</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">numeros</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="p">[</span><span class="n">nom</span><span class="p">](</span><span class="k">const</span> <span class="k">auto</span><span class="o">&amp;</span> <span class="n">nomnum</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">nomnum</span><span class="p">.</span><span class="n">first</span> <span class="o">==</span> <span class="n">nom</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, on remarque que le retour de la valeur <code>std::end(numeros)</code> se traduit par
 la non-présence d&rsquo;un nom dans la liste de contacts.</p>
@@ -1733,10 +1733,10 @@ la non-présence d&rsquo;un nom dans la liste de contacts.</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
-<span class="nf">retrouverNumero</span> <span class="n">nom0</span> <span class="ow">=</span> <span class="n">snd</span> <span class="o">&lt;$&gt;</span> <span class="n">find</span> <span class="p">(</span><span class="nf">\</span> <span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="kr">_</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="n">nom</span> <span class="o">==</span> <span class="n">nom0</span><span class="p">)</span> <span class="n">numeros</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">retrouverNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">                <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
+</span></span><span class="line"><span class="cl"><span class="nf">retrouverNumero</span> <span class="n">nom0</span> <span class="ow">=</span> <span class="n">snd</span> <span class="o">&lt;$&gt;</span> <span class="n">find</span> <span class="p">(</span><span class="nf">\</span> <span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="kr">_</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="n">nom</span> <span class="o">==</span> <span class="n">nom0</span><span class="p">)</span> <span class="n">numeros</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, <code>find :: Traversable t =&gt; (a -&gt; Bool) -&gt; t a -&gt; Maybe a</code> retrouve un
 élément depuis un type «traversable» (comme une liste) en utilisant le prédicat
@@ -1749,10 +1749,10 @@ prend la signature concrète suivante:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell">   <span class="p">((</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span>
-<span class="ow">-&gt;</span> <span class="p">[(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)]</span>
-<span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="p">(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl">   <span class="p">((</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="ow">-&gt;</span> <span class="p">[(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="p">(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Notre fonction <code>retrouverNumero</code> parcourt donc la liste des numéros en cherchant
 la paire dont le premier élément correspond. Sans <code>find</code>, on pourrait réécrire
@@ -1769,15 +1769,15 @@ le code plus haut comme suit:</p>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
-<span class="nf">retrouverNumero</span> <span class="n">nom0</span> <span class="ow">=</span> <span class="n">parcourir</span> <span class="n">numeros</span>
-  <span class="kr">where</span>
-    <span class="n">parcourir</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="kt">Nothing</span>     <span class="c1">-- on ne retrouve pas le nom</span>
-    <span class="n">parcourir</span> <span class="p">((</span><span class="n">nom</span><span class="p">,</span> <span class="n">num</span><span class="p">)</span> <span class="kt">:</span> <span class="n">resteDesNumeros</span><span class="p">)</span>
-      <span class="o">|</span> <span class="n">nom0</span> <span class="o">==</span> <span class="n">nom</span> <span class="ow">=</span> <span class="kt">Just</span> <span class="n">num</span> <span class="c1">-- on a retrouvé le nom</span>
-      <span class="o">|</span> <span class="n">otherwise</span>   <span class="ow">=</span> <span class="n">parcourir</span> <span class="n">resteDesNumeros</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">retrouverNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">                <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">NumeroDeTelephone</span>
+</span></span><span class="line"><span class="cl"><span class="nf">retrouverNumero</span> <span class="n">nom0</span> <span class="ow">=</span> <span class="n">parcourir</span> <span class="n">numeros</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">where</span>
+</span></span><span class="line"><span class="cl">    <span class="n">parcourir</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="kt">Nothing</span>     <span class="c1">-- on ne retrouve pas le nom</span>
+</span></span><span class="line"><span class="cl">    <span class="n">parcourir</span> <span class="p">((</span><span class="n">nom</span><span class="p">,</span> <span class="n">num</span><span class="p">)</span> <span class="kt">:</span> <span class="n">resteDesNumeros</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="o">|</span> <span class="n">nom0</span> <span class="o">==</span> <span class="n">nom</span> <span class="ow">=</span> <span class="kt">Just</span> <span class="n">num</span> <span class="c1">-- on a retrouvé le nom</span>
+</span></span><span class="line"><span class="cl">      <span class="o">|</span> <span class="n">otherwise</span>   <span class="ow">=</span> <span class="n">parcourir</span> <span class="n">resteDesNumeros</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, quand on ne retrouve pas le nom, on renvoie <code>Nothing</code>. Sinon, si on le
 retrouve, on renvoie <code>Just num</code>, ce qui est simplement le numéro enveloppé par
@@ -1789,9 +1789,9 @@ le constructeur <code>Just</code>.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">data</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="ow">=</span> <span class="kt">Just</span> <span class="n">a</span>
-             <span class="o">|</span> <span class="kt">Nothing</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="kr">data</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="ow">=</span> <span class="kt">Just</span> <span class="n">a</span>
+</span></span><span class="line"><span class="cl">             <span class="o">|</span> <span class="kt">Nothing</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>On voit donc qu&rsquo;un type <code>Maybe</code> est un type de données qui admet deux états: un
 premier admissible comportant une donnée abstraite de type <code>a</code> et un second
@@ -1815,14 +1815,14 @@ structure <code>Contact</code> après avoir retrouvé le numéro du contact. En 
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kt">Contact</span><span class="o">*</span>
-<span class="nf">retrouverContact</span><span class="p">(</span><span class="n">const</span> <span class="n">std</span><span class="ow">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">auto</span> <span class="n">nomnum</span> <span class="ow">=</span> <span class="n">retrouverNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
-    <span class="kr">if</span> <span class="p">(</span><span class="n">nomnum</span> <span class="o">!=</span> <span class="n">std</span><span class="ow">::</span><span class="n">end</span><span class="p">(</span><span class="n">numeros</span><span class="p">))</span> <span class="p">{</span>
-        <span class="n">return</span> <span class="n">new</span> <span class="kt">Contact</span> <span class="p">{</span><span class="n">nom</span><span class="p">,</span> <span class="n">nomnum</span><span class="ow">-&gt;</span><span class="n">second</span><span class="p">};</span>
-    <span class="p">}</span> <span class="kr">else</span> <span class="n">return</span> <span class="n">nullptr</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="kt">Contact</span><span class="o">*</span>
+</span></span><span class="line"><span class="cl"><span class="nf">retrouverContact</span><span class="p">(</span><span class="n">const</span> <span class="n">std</span><span class="ow">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">auto</span> <span class="n">nomnum</span> <span class="ow">=</span> <span class="n">retrouverNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="p">(</span><span class="n">nomnum</span> <span class="o">!=</span> <span class="n">std</span><span class="ow">::</span><span class="n">end</span><span class="p">(</span><span class="n">numeros</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">return</span> <span class="n">new</span> <span class="kt">Contact</span> <span class="p">{</span><span class="n">nom</span><span class="p">,</span> <span class="n">nomnum</span><span class="ow">-&gt;</span><span class="n">second</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="kr">else</span> <span class="n">return</span> <span class="n">nullptr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Encore une fois, on doit gérer le cas où le numéro n&rsquo;est pas retrouvé. Ceci se
 traduit par la vérification à savoir si <code>retrouverNumero</code> a retourné
@@ -1838,12 +1838,12 @@ nous:</p>
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
-<span class="nf">retrouverContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="kr">do</span>
-  <span class="n">numero</span> <span class="ow">&lt;-</span> <span class="n">retrouverNumero</span> <span class="n">nom</span>
-  <span class="n">return</span> <span class="o">$</span> <span class="kt">Contact</span> <span class="n">nom</span> <span class="n">numero</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">retrouverContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
+</span></span><span class="line"><span class="cl"><span class="nf">retrouverContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">  <span class="n">numero</span> <span class="ow">&lt;-</span> <span class="n">retrouverNumero</span> <span class="n">nom</span>
+</span></span><span class="line"><span class="cl">  <span class="n">return</span> <span class="o">$</span> <span class="kt">Contact</span> <span class="n">nom</span> <span class="n">numero</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>En effet, ce bout de code est complètement équivalent au bout de code C++,
 c&rsquo;est-à-dire que nous retrouvons un numéro associé au nom et si on ne le
@@ -1859,9 +1859,9 @@ Maybe</em>.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">class</span> <span class="kt">Applicative</span> <span class="n">m</span> <span class="ow">=&gt;</span> <span class="kt">Monad</span> <span class="n">m</span> <span class="kr">where</span>
-  <span class="p">(</span><span class="o">&gt;&gt;=</span><span class="p">)</span> <span class="ow">::</span> <span class="n">m</span> <span class="n">a</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="ow">-&gt;</span> <span class="n">m</span> <span class="n">b</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="n">m</span> <span class="n">b</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="kr">class</span> <span class="kt">Applicative</span> <span class="n">m</span> <span class="ow">=&gt;</span> <span class="kt">Monad</span> <span class="n">m</span> <span class="kr">where</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="o">&gt;&gt;=</span><span class="p">)</span> <span class="ow">::</span> <span class="n">m</span> <span class="n">a</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="ow">-&gt;</span> <span class="n">m</span> <span class="n">b</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="n">m</span> <span class="n">b</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Une monade traduit l&rsquo;enchaînement d&rsquo;exécution de fonctions. L&rsquo;opérateur <code>&gt;&gt;=</code>
 est nommé <em>bind</em> en anglais, ce qui revient au concept d&rsquo;enchaînement ou de
@@ -1879,10 +1879,10 @@ premier état est <code>m a</code>. L&rsquo;opérateur <code>&gt;&gt;=</code> se
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="p">(</span><span class="o">&gt;&gt;=</span><span class="p">)</span> <span class="ow">::</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span>
-<span class="kt">Nothing</span> <span class="o">&gt;&gt;=</span> <span class="kr">_</span> <span class="ow">=</span> <span class="kt">Nothing</span>
-<span class="kt">Just</span> <span class="n">x</span>  <span class="o">&gt;&gt;=</span> <span class="n">f</span> <span class="ow">=</span> <span class="n">f</span> <span class="n">x</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="p">(</span><span class="o">&gt;&gt;=</span><span class="p">)</span> <span class="ow">::</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl"><span class="kt">Nothing</span> <span class="o">&gt;&gt;=</span> <span class="kr">_</span> <span class="ow">=</span> <span class="kt">Nothing</span>
+</span></span><span class="line"><span class="cl"><span class="kt">Just</span> <span class="n">x</span>  <span class="o">&gt;&gt;=</span> <span class="n">f</span> <span class="ow">=</span> <span class="n">f</span> <span class="n">x</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ceci veut donc dire que si le premier état correspondait à l&rsquo;état d&rsquo;erreur
 <code>Nothing</code>, alors la fonction de transition d&rsquo;état <code>a -&gt; Maybe b</code> ne sera jamais
@@ -1900,10 +1900,10 @@ suivante:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="kr">do</span>
-  <span class="n">a</span> <span class="ow">&lt;-</span> <span class="n">ma</span>
-  <span class="n">fa</span> <span class="n">a</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="kr">do</span>
+</span></span><span class="line"><span class="cl">  <span class="n">a</span> <span class="ow">&lt;-</span> <span class="n">ma</span>
+</span></span><span class="line"><span class="cl">  <span class="n">fa</span> <span class="n">a</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>correspond exactement à <code>ma &gt;&gt;= fa</code>, ce qui mène au type <code>m b</code> dans la monade
 <code>m</code>. Ce faisant, l&rsquo;exemple de <code>retrouverContact</code> aurait pu être réécrit comme:</p>
@@ -1917,13 +1917,13 @@ suivante:</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">retrouverContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
-<span class="nf">retrouverContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="n">retrouverNumero</span> <span class="n">nom</span> <span class="o">&gt;&gt;=</span> <span class="n">creerContact</span>
-  <span class="kr">where</span>
-    <span class="n">creerContact</span> <span class="ow">::</span> <span class="kt">NumeroDeTelephone</span> <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
-    <span class="n">creerContact</span> <span class="n">numero</span> <span class="ow">=</span> <span class="n">return</span> <span class="o">$</span> <span class="kt">Contact</span> <span class="n">nom</span> <span class="n">numero</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">retrouverContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">                 <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
+</span></span><span class="line"><span class="cl"><span class="nf">retrouverContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="n">retrouverNumero</span> <span class="n">nom</span> <span class="o">&gt;&gt;=</span> <span class="n">creerContact</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">where</span>
+</span></span><span class="line"><span class="cl">    <span class="n">creerContact</span> <span class="ow">::</span> <span class="kt">NumeroDeTelephone</span> <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">Contact</span>
+</span></span><span class="line"><span class="cl">    <span class="n">creerContact</span> <span class="n">numero</span> <span class="ow">=</span> <span class="n">return</span> <span class="o">$</span> <span class="kt">Contact</span> <span class="n">nom</span> <span class="n">numero</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, j&rsquo;ai utilisé un bloc <code>where</code> pour nommer la fonction <code>creerContact</code> et j&rsquo;ai
 aussi apposé la signature de celle-ci afin de fournir un maximum de détails
@@ -1947,16 +1947,16 @@ de téléphone.</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">bool</span> <span class="nf">afficherContact</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">auto</span> <span class="n">contact</span> <span class="o">=</span> <span class="n">retrouverContact</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">contact</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Nom: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">contact</span><span class="o">-&gt;</span><span class="n">nom</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Numero: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">contact</span><span class="o">-&gt;</span><span class="n">numero</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
-    <span class="p">}</span> <span class="k">else</span>
-        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">bool</span> <span class="nf">afficherContact</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">contact</span> <span class="o">=</span> <span class="n">retrouverContact</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">contact</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Nom: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">contact</span><span class="o">-&gt;</span><span class="n">nom</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Numero: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">contact</span><span class="o">-&gt;</span><span class="n">numero</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, on recherche le contact et si on le retrouve, on affiche le contact. On
 écrit explicitement la gestion des deux cas duaux.</p>
@@ -1972,15 +1972,15 @@ de téléphone.</p>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">bool</span> <span class="nf">changerNumero</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">,</span> <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">numero</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">auto</span> <span class="n">nomnum</span> <span class="o">=</span> <span class="n">retrouverNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">nomnum</span> <span class="o">!=</span> <span class="n">numeros</span><span class="p">.</span><span class="n">end</span><span class="p">())</span> <span class="p">{</span>
-        <span class="n">nomnum</span><span class="o">-&gt;</span><span class="n">second</span> <span class="o">=</span> <span class="n">numero</span><span class="p">;</span>
-        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
-    <span class="p">}</span> <span class="k">else</span>
-        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">bool</span> <span class="nf">changerNumero</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">,</span> <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">numero</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">nomnum</span> <span class="o">=</span> <span class="n">retrouverNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">nomnum</span> <span class="o">!=</span> <span class="n">numeros</span><span class="p">.</span><span class="n">end</span><span class="p">())</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nomnum</span><span class="o">-&gt;</span><span class="n">second</span> <span class="o">=</span> <span class="n">numero</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Idem pour le cas où on change le nom: les cas d&rsquo;erreurs sont traités et on
 change le nom si possible.</p>
@@ -1994,12 +1994,12 @@ change le nom si possible.</p>
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">afficherContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
-                <span class="ow">-&gt;</span> <span class="kt">MaybeT</span> <span class="kt">IO</span> <span class="nb">()</span>
-<span class="nf">afficherContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="kr">do</span>
-  <span class="n">contact</span> <span class="ow">&lt;-</span> <span class="kt">MaybeT</span> <span class="o">$</span> <span class="n">pure</span> <span class="o">$</span> <span class="n">retrouverContact</span> <span class="n">nom</span>
-  <span class="n">lift</span> <span class="o">$</span> <span class="n">print</span> <span class="n">contact</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">afficherContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">                <span class="ow">-&gt;</span> <span class="kt">MaybeT</span> <span class="kt">IO</span> <span class="nb">()</span>
+</span></span><span class="line"><span class="cl"><span class="nf">afficherContact</span> <span class="n">nom</span> <span class="ow">=</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">  <span class="n">contact</span> <span class="ow">&lt;-</span> <span class="kt">MaybeT</span> <span class="o">$</span> <span class="n">pure</span> <span class="o">$</span> <span class="n">retrouverContact</span> <span class="n">nom</span>
+</span></span><span class="line"><span class="cl">  <span class="n">lift</span> <span class="o">$</span> <span class="n">print</span> <span class="n">contact</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, on retrouve le contact puis on l&rsquo;affiche à l&rsquo;écran. Il est à noter que nous
 avons passé maintenant du type <code>Maybe</code> à <code>MaybeT IO</code>. Le lecteur peut ignorer ce
@@ -2022,13 +2022,13 @@ afficher le contact.</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">changerNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
-              <span class="ow">-&gt;</span> <span class="kt">NumeroDeTelephone</span>
-              <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="p">(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span>
-<span class="nf">changerNumero</span> <span class="n">nom</span> <span class="n">nouvnum</span> <span class="ow">=</span> <span class="kr">do</span>
-  <span class="n">void</span> <span class="o">$</span> <span class="n">retrouverContact</span> <span class="n">nom</span>
-  <span class="n">return</span> <span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="n">nouvnum</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">changerNumero</span> <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">              <span class="ow">-&gt;</span> <span class="kt">NumeroDeTelephone</span>
+</span></span><span class="line"><span class="cl">              <span class="ow">-&gt;</span> <span class="kt">Maybe</span> <span class="p">(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">changerNumero</span> <span class="n">nom</span> <span class="n">nouvnum</span> <span class="ow">=</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">  <span class="n">void</span> <span class="o">$</span> <span class="n">retrouverContact</span> <span class="n">nom</span>
+</span></span><span class="line"><span class="cl">  <span class="n">return</span> <span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="n">nouvnum</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Quoi qu&rsquo;il en soit, le lecteur peut très bien voir qu&rsquo;aucune instruction en
 rapport à la gestion d&rsquo;erreur n&rsquo;est faite, mais il doit se rappeler aussi que
@@ -2049,17 +2049,17 @@ c&rsquo;est la monade <code>Maybe</code> (et <code>MaybeT IO</code>) qui s&rsquo
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">bool</span> <span class="nf">traiterContact</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">,</span> <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nouv_numero</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">bool</span> <span class="n">succes</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">succes</span> <span class="o">=</span> <span class="n">afficherContact</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">succes</span> <span class="o">=</span> <span class="n">changerNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="n">nouv_numero</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="n">succes</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">bool</span> <span class="nf">traiterContact</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nom</span><span class="p">,</span> <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">nouv_numero</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">bool</span> <span class="n">succes</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">succes</span> <span class="o">=</span> <span class="n">afficherContact</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">succes</span> <span class="o">=</span> <span class="n">changerNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="n">nouv_numero</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">succes</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ici, si on veut empêcher l&rsquo;exécution de la seconde fonction <code>changerNumero</code> dans
 le cas d&rsquo;une erreur rencontrée dans <code>afficherContact</code>, on doit écrire tout ce
@@ -2071,9 +2071,9 @@ aimé pouvoir écrire quelque chose comme:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="n">afficherContact</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
-<span class="n">changerNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="n">nouv_numero</span><span class="p">);</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">afficherContact</span><span class="p">(</span><span class="n">nom</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">changerNumero</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="n">nouv_numero</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>puisque c&rsquo;est bien ce qui importe ici. Or ce n&rsquo;est pas possible si on veut
 encoder le comportement désiré. En Haskell, c&rsquo;est automatique grâce à la monade
@@ -2088,13 +2088,13 @@ encoder le comportement désiré. En Haskell, c&rsquo;est automatique grâce à 
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">traiterContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
-               <span class="ow">-&gt;</span> <span class="kt">NumeroDeTelephone</span>
-               <span class="ow">-&gt;</span> <span class="kt">MaybeT</span> <span class="kt">IO</span> <span class="p">(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span>
-<span class="nf">traiterContact</span> <span class="n">nom</span> <span class="n">nouvnum</span> <span class="ow">=</span> <span class="kr">do</span>
-  <span class="n">afficherContact</span> <span class="n">nom</span>
-  <span class="kt">MaybeT</span> <span class="o">.</span> <span class="n">pure</span> <span class="o">$</span> <span class="n">changerNumero</span> <span class="n">nom</span> <span class="n">nouvnum</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">traiterContact</span> <span class="ow">::</span> <span class="kt">Nom</span>
+</span></span><span class="line"><span class="cl">               <span class="ow">-&gt;</span> <span class="kt">NumeroDeTelephone</span>
+</span></span><span class="line"><span class="cl">               <span class="ow">-&gt;</span> <span class="kt">MaybeT</span> <span class="kt">IO</span> <span class="p">(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">traiterContact</span> <span class="n">nom</span> <span class="n">nouvnum</span> <span class="ow">=</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">  <span class="n">afficherContact</span> <span class="n">nom</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">MaybeT</span> <span class="o">.</span> <span class="n">pure</span> <span class="o">$</span> <span class="n">changerNumero</span> <span class="n">nom</span> <span class="n">nouvnum</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="des-erreurs-en-boucle">Des erreurs en boucle</h2>
 <p>Et si on souhaitait exécuter notre traitement pour une liste de contacts? Par
@@ -2115,18 +2115,18 @@ caractères vide, alors on écrirait possiblement:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">void</span> <span class="nf">numeros_a_vide</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;&amp;</span> <span class="n">noms</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">bool</span> <span class="n">succes</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
-    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span><span class="o">&amp;</span> <span class="nl">nom</span> <span class="p">:</span> <span class="n">noms</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">succes</span> <span class="o">=</span> <span class="n">traiterContact</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="s">&#34;&#34;</span><span class="p">);</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">not</span> <span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
-                <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Erreur!! Un contact est introuvable..&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">numeros_a_vide</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;&amp;</span> <span class="n">noms</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">bool</span> <span class="n">succes</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span><span class="o">&amp;</span> <span class="nl">nom</span> <span class="p">:</span> <span class="n">noms</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">succes</span> <span class="o">=</span> <span class="n">traiterContact</span><span class="p">(</span><span class="n">nom</span><span class="p">,</span> <span class="s">&#34;&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">not</span> <span class="n">succes</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Erreur!! Un contact est introuvable..&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Le lecteur voit tout de suite comment on est forcé d&rsquo;écrire du code redondant
 traduisant la gestion d&rsquo;erreur. En Haskell ?</p>
@@ -2143,16 +2143,16 @@ traduisant la gestion d&rsquo;erreur. En Haskell ?</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">numerosAVide</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Nom</span><span class="p">]</span>
-             <span class="ow">-&gt;</span> <span class="kt">IO</span> <span class="p">[(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)]</span>
-<span class="nf">numerosAVide</span> <span class="n">noms</span> <span class="ow">=</span> <span class="kr">do</span>
-  <span class="n">mcontacts</span> <span class="ow">&lt;-</span> <span class="n">forM</span> <span class="n">noms</span> <span class="o">$</span> <span class="nf">\</span> <span class="n">nom</span> <span class="ow">-&gt;</span> <span class="kr">do</span>
-    <span class="n">mc</span> <span class="ow">&lt;-</span> <span class="n">runMaybeT</span> <span class="o">$</span> <span class="p">(`</span><span class="n">traiterContact</span><span class="p">`</span> <span class="s">&#34;&#34;</span><span class="p">)</span> <span class="n">nom</span>
-    <span class="n">when</span> <span class="p">(</span><span class="n">isNothing</span> <span class="n">mc</span><span class="p">)</span> <span class="o">$</span>
-      <span class="n">putStrLn</span> <span class="s">&#34;Erreur!! Un contact est introuvable..&#34;</span>
-    <span class="n">return</span> <span class="n">mc</span>
-  <span class="n">return</span> <span class="o">.</span> <span class="n">catMaybes</span> <span class="o">$</span> <span class="n">takeWhile</span> <span class="n">isJust</span> <span class="n">mcontacts</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">numerosAVide</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Nom</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">             <span class="ow">-&gt;</span> <span class="kt">IO</span> <span class="p">[(</span><span class="kt">Nom</span><span class="p">,</span> <span class="kt">NumeroDeTelephone</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="nf">numerosAVide</span> <span class="n">noms</span> <span class="ow">=</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">  <span class="n">mcontacts</span> <span class="ow">&lt;-</span> <span class="n">forM</span> <span class="n">noms</span> <span class="o">$</span> <span class="nf">\</span> <span class="n">nom</span> <span class="ow">-&gt;</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">mc</span> <span class="ow">&lt;-</span> <span class="n">runMaybeT</span> <span class="o">$</span> <span class="p">(`</span><span class="n">traiterContact</span><span class="p">`</span> <span class="s">&#34;&#34;</span><span class="p">)</span> <span class="n">nom</span>
+</span></span><span class="line"><span class="cl">    <span class="n">when</span> <span class="p">(</span><span class="n">isNothing</span> <span class="n">mc</span><span class="p">)</span> <span class="o">$</span>
+</span></span><span class="line"><span class="cl">      <span class="n">putStrLn</span> <span class="s">&#34;Erreur!! Un contact est introuvable..&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">return</span> <span class="n">mc</span>
+</span></span><span class="line"><span class="cl">  <span class="n">return</span> <span class="o">.</span> <span class="n">catMaybes</span> <span class="o">$</span> <span class="n">takeWhile</span> <span class="n">isJust</span> <span class="n">mcontacts</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Et bien, on ne fait qu&rsquo;exécuter <code>traiterContact</code> pour tous les noms dans la
 liste <code>noms</code>, on récupère le résultat dans <code>mcontacts</code>. Décortiquons&hellip;</p>
@@ -2165,12 +2165,12 @@ liste <code>noms</code>, on récupère le résultat dans <code>mcontacts</code>.
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">forM</span> <span class="n">noms</span> <span class="o">$</span> <span class="nf">\</span> <span class="n">nom</span> <span class="ow">-&gt;</span> <span class="kr">do</span>
-  <span class="n">mc</span> <span class="ow">&lt;-</span> <span class="n">runMaybeT</span> <span class="o">$</span> <span class="p">(`</span><span class="n">traiterContact</span><span class="p">`</span> <span class="s">&#34;&#34;</span><span class="p">)</span> <span class="n">nom</span>
-  <span class="n">when</span> <span class="p">(</span><span class="n">isNothing</span> <span class="n">mc</span><span class="p">)</span> <span class="o">$</span>
-    <span class="n">putStrLn</span> <span class="s">&#34;Erreur!! Un contact est introuvable..&#34;</span>
-  <span class="n">return</span> <span class="n">mc</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">forM</span> <span class="n">noms</span> <span class="o">$</span> <span class="nf">\</span> <span class="n">nom</span> <span class="ow">-&gt;</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">  <span class="n">mc</span> <span class="ow">&lt;-</span> <span class="n">runMaybeT</span> <span class="o">$</span> <span class="p">(`</span><span class="n">traiterContact</span><span class="p">`</span> <span class="s">&#34;&#34;</span><span class="p">)</span> <span class="n">nom</span>
+</span></span><span class="line"><span class="cl">  <span class="n">when</span> <span class="p">(</span><span class="n">isNothing</span> <span class="n">mc</span><span class="p">)</span> <span class="o">$</span>
+</span></span><span class="line"><span class="cl">    <span class="n">putStrLn</span> <span class="s">&#34;Erreur!! Un contact est introuvable..&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">return</span> <span class="n">mc</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ce bloc effectue un traitement pour chaque nom dans la liste. Il exécute le
 traitement pour le contact et récupère le résultat de type <code>Maybe (Nom, NumeroDeTelephone)</code>. Si le résultat est dans l&rsquo;état <code>Nothing</code>, alors on affiche
@@ -2180,8 +2180,8 @@ un message d&rsquo;erreur. Finalement, on retourne le résultat.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">takeWhile</span> <span class="n">isJust</span> <span class="n">mcontacts</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">takeWhile</span> <span class="n">isJust</span> <span class="n">mcontacts</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Cette dernière instruction parcourt la liste <code>mcontacts</code> de type <code>[Maybe (Nom, NumeroDeTelephone)]</code>. Il s&rsquo;agit du retour d&rsquo;exécution pour chaque nom. Par
 contre, <code>takeWhile isJust</code> stoppe l&rsquo;itération dès qu&rsquo;une des valeurs dans la
@@ -2195,8 +2195,8 @@ pas exécutées pour tous les éléments suivant le premier où on a rencontré
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="nf">return</span> <span class="o">.</span> <span class="n">catMaybes</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">return</span> <span class="o">.</span> <span class="n">catMaybes</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Finalement, on développe tous les résultats de la forme <code>[Just a, Just b, ...]</code>
 en la forme <code>[a, b, ...]</code>. Il s&rsquo;agit d&rsquo;un détail technique nécessaire afin de
@@ -2505,7 +2505,7 @@ incontournables.</p>
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.7bbf2dacea5b173fe9aa699f17efbf82aeddd807831946756705aec0fc91567f.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

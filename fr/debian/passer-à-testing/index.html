@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.102.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1662,8 +1662,8 @@ fichier de configuration actuel là où il ne sera pas effectif.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">rm /etc/apt/sources.list
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">rm /etc/apt/sources.list
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <div align=center>
@@ -1687,8 +1687,8 @@ existe.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">mkdir -p /etc/apt/sources.list.d
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mkdir -p /etc/apt/sources.list.d
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ensuite, il suffit de créer le fichier <code>/etc/apt/sources.list.d/testing.list</code>
 contenant les sources de la branche <code>testing</code>:</p>
@@ -1698,9 +1698,9 @@ contenant les sources de la branche <code>testing</code>:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ testing main contrib non-free
-deb-src http://ftp.ca.debian.org/debian/ testing main contrib non-free
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">deb http://ftp.ca.debian.org/debian/ testing main contrib non-free
+</span></span><span class="line"><span class="cl">deb-src http://ftp.ca.debian.org/debian/ testing main contrib non-free
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Personnellement, j&rsquo;inclus <code>non-free</code> car certains paquets qui s&rsquo;y trouvent
 peuvent être utiles, mais je dois avouer que le dernier paquet que j&rsquo;ai utilisé
@@ -1714,8 +1714,8 @@ liste des sources à jour:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt update
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">apt update
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ensuite, on peut mettre à jour les paquets comme tel:</p>
 <div class="highlight"><div class="chroma">
@@ -1723,8 +1723,8 @@ liste des sources à jour:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt upgrade
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">apt upgrade
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Finalement, pour permettre à <code>apt</code> de mettre à jour certains paquets impliquant
 la suppression d&rsquo;autres paquets ou l&rsquo;installation de nouveaux paquets (ce que
@@ -1734,8 +1734,8 @@ upgrade ne fait pas par défaut), on doit faire:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt dist-upgrade
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">apt dist-upgrade
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Et voilà ! Vous êtes maintenant sur <code>testing</code>.</p>
 <h2 id="à-la-fine-pointe">À la fine pointe!</h2>
@@ -1749,8 +1749,8 @@ faire à vos propres risques et périls.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ unstable main contrib non-free
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">deb http://ftp.ca.debian.org/debian/ unstable main contrib non-free
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>et <code>/etc/apt/sources.list.d/experimental.list</code>:</p>
 <div class="highlight"><div class="chroma">
@@ -1758,8 +1758,8 @@ faire à vos propres risques et périls.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">deb http://ftp.ca.debian.org/debian/ experimental main contrib non-free
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">deb http://ftp.ca.debian.org/debian/ experimental main contrib non-free
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><em>Très bien, mais ce n&rsquo;est pas tout!</em></p>
 <p>Ici, il est primordial d&rsquo;apparier cette configuration à un triplet de fichiers
@@ -1775,8 +1775,8 @@ préférences:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">mkdir -p /etc/apt/preferences.d
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mkdir -p /etc/apt/preferences.d
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Maintenant, les 3 fichiers ci-après doivent être créés:</p>
 <ul>
@@ -1789,10 +1789,10 @@ préférences:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">Package: *
-Pin: release a=testing
-Pin-Priority: 900
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Package: *
+</span></span><span class="line"><span class="cl">Pin: release a=testing
+</span></span><span class="line"><span class="cl">Pin-Priority: 900
+</span></span></code></pre></td></tr></table>
 </div>
 </div></li>
 <li>
@@ -1804,10 +1804,10 @@ Pin-Priority: 900
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">Package: *
-Pin: release a=unstable
-Pin-Priority: 800
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Package: *
+</span></span><span class="line"><span class="cl">Pin: release a=unstable
+</span></span><span class="line"><span class="cl">Pin-Priority: 800
+</span></span></code></pre></td></tr></table>
 </div>
 </div></li>
 <li>
@@ -1819,10 +1819,10 @@ Pin-Priority: 800
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">Package: *
-Pin: release a=experimental
-Pin-Priority: 700
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">Package: *
+</span></span><span class="line"><span class="cl">Pin: release a=experimental
+</span></span><span class="line"><span class="cl">Pin-Priority: 700
+</span></span></code></pre></td></tr></table>
 </div>
 </div></li>
 </ul>
@@ -1838,8 +1838,8 @@ disponibles dans la/les branche(s) avec la plus grande priorité.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt update
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">apt update
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Le tout permet donc finalement d&rsquo;installer des paquets depuis <code>unstable</code>
 simplement en passant l&rsquo;option <code>-t</code> à <code>apt</code>. Par exemple, afin d&rsquo;installer la
@@ -1849,8 +1849,8 @@ version de <code>vim</code> depuis <code>unstable</code>, il suffit d&rsquo;exé
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt install -t unstable vim
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">apt install -t unstable vim
+</span></span></code></pre></td></tr></table>
 </div>
 </div><!-- vim: set sts=2 ts=2 sw=2 tw=80 et :-->
 
@@ -2147,7 +2147,7 @@ version de <code>vim</code> depuis <code>unstable</code>, il suffit d&rsquo;exé
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.7bbf2dacea5b173fe9aa699f17efbf82aeddd807831946756705aec0fc91567f.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

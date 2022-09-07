@@ -54,10 +54,10 @@
                 href="https://sim590.github.io/fr/categories/"
                 />
   </url><url>
-    <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
+    <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
     <lastmod>2020-10-16T01:17:31-04:00</lastmod>
   </url><url>
-    <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
+    <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
     <lastmod>2020-10-16T01:17:31-04:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/categories/haskell/</loc>
@@ -132,10 +132,10 @@
     <loc>https://sim590.github.io/fr/tags/int%C3%A9r%C3%AAt/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
   </url><url>
-    <loc>https://sim590.github.io/fr/maths/</loc>
+    <loc>https://sim590.github.io/fr/categories/math%C3%A9matiques/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
   </url><url>
-    <loc>https://sim590.github.io/fr/categories/math%C3%A9matiques/</loc>
+    <loc>https://sim590.github.io/fr/maths/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/tags/newton/</loc>
@@ -195,6 +195,9 @@
     <loc>https://sim590.github.io/fr/tags/zsh/</loc>
     <lastmod>2020-04-11T00:42:27-04:00</lastmod>
   </url><url>
+    <loc>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</loc>
+    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/greffon/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
   </url><url>
@@ -205,9 +208,6 @@
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/tags/chiffrement/</loc>

@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="Simon Désaulniers">
   
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.102.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1635,10 +1635,10 @@ approximatives par l&rsquo;utilisateur. Par exemple, prenons l&rsquo;entrée sui
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain">toto
-titi
-tutu
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">toto
+</span></span><span class="line"><span class="cl">titi
+</span></span><span class="line"><span class="cl">tutu
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Si l&rsquo;utilisateur fournissait le terme <code>tt</code>, toutes les lignes seraient
 sélectionnées, puisque les sous-mots <code>t</code> et <code>t</code> se trouvent tous deux dans
@@ -1658,8 +1658,8 @@ l&rsquo;utilise comme suit:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">find . <span class="p">|</span> fzf
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">find . <span class="p">|</span> fzf
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ceci donne donc toute la liste des fichiers dans le répertoire courant (et tous
 ceux qui se trouvent sous celui-ci) et <code>fzf</code> démarre en permttant à
@@ -1693,8 +1693,8 @@ de texte préféré:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">vim <span class="k">$(</span>fzf<span class="k">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">vim <span class="k">$(</span>fzf<span class="k">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/images/fzf/fzf-vim-memoire.gif" alt="vim-fzf" /></p>
 <h3 id="filtre-par-défaut">Filtre par défaut</h3>
@@ -1706,8 +1706,8 @@ obtenir le même résultat.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">fzf
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">fzf
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>En particulier, le comportement par défaut peut être réglé par la variable
 d&rsquo;environnement <code>FZF_DEFAULT_COMMAND</code>. Personnellement, j&rsquo;utilise la
@@ -1717,8 +1717,8 @@ configuration:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">FZF_DEFAULT_COMMAND</span><span class="o">=</span><span class="s2">&#34;find .&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">FZF_DEFAULT_COMMAND</span><span class="o">=</span><span class="s2">&#34;find .&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Peu importe l&rsquo;outil d&rsquo;interface système (IS) que vous utilisez, il suffit
 d&rsquo;utiliser l&rsquo;instruction adéquate permettant la configuration de la variable
@@ -1734,11 +1734,11 @@ fichier séparé (nommé <code>~/.fzf_env</code>) qui est chargé par le fichier
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">source</span> ~/.fzf_env          <span class="c1"># Contient le contenu listé précédemment.</span>
-
-<span class="nb">export</span> FZF_DEFAULT_COMMAND <span class="c1"># Nécessaire afin de bien exposer la variable après</span>
-                           <span class="c1"># l&#39;avoir configuré dans ~/.fzf_env</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">source</span> ~/.fzf_env          <span class="c1"># Contient le contenu listé précédemment.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> FZF_DEFAULT_COMMAND <span class="c1"># Nécessaire afin de bien exposer la variable après</span>
+</span></span><span class="line"><span class="cl">                           <span class="c1"># l&#39;avoir configuré dans ~/.fzf_env</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="choix-multiples">Choix multiples</h3>
 <p>Il arrive qu&rsquo;on utilise des programmes permettant de lister plusieurs fichiers
@@ -1750,8 +1750,8 @@ plusieurs fichiers à ouvrir dans Vim, on peut écrire:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">vim <span class="k">$(</span>fzf -m<span class="k">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">vim <span class="k">$(</span>fzf -m<span class="k">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/images/fzf/fzf-vim-multi.gif" alt="fzf-vim-multi" /></p>
 <p>L&rsquo;utilisateur peut alors sélectionner les choix multiples à l&rsquo;aide de la touche
@@ -1773,8 +1773,8 @@ si on souhaite se déplacer avec <code>cd</code> dans un répertoire très profo
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> **
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> **
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>suivi de la touche <code>TAB</code> et <code>fzf</code> se lance et permet de choisir le répertoire.
 Une fois sélectionné, la ligne de commande de l&rsquo;utilisateur sera changée par
@@ -1784,8 +1784,8 @@ Une fois sélectionné, la ligne de commande de l&rsquo;utilisateur sera changé
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> un/très/long/chemin/vers/le/répertoire/que/je/cherchais
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> un/très/long/chemin/vers/le/répertoire/que/je/cherchais
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ce mode d&rsquo;exécution permet donc de facilement modifier la ligne de commande
 avant d&rsquo;exécuter celle-ci au besoin. Dans le cas de <code>cd</code>, seuls les répertoires
@@ -1816,8 +1816,8 @@ ligne de commande suivante:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">kill</span> <span class="m">17292</span> <span class="m">17279</span> <span class="m">27346</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">kill</span> <span class="m">17292</span> <span class="m">17279</span> <span class="m">27346</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="touches-raccourcis-pour-lis">Touches raccourcis pour l&rsquo;IS</h3>
 <h4 id="altc">ALT+C</h4>
@@ -1835,8 +1835,8 @@ d&rsquo;affichage, l&rsquo;utilisateur doit spécifier la commande à utiliser:<
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">export</span> <span class="nv">FZF_ALT_C_OPTS</span><span class="o">=</span><span class="s2">&#34;--preview &#39;tree -C {} | head -200&#39;&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">FZF_ALT_C_OPTS</span><span class="o">=</span><span class="s2">&#34;--preview &#39;tree -C {} | head -200&#39;&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="ctrlr">CTRL+R</h4>
 <p>Comme la version de moi des jours précédants ma découverte de <code>fzf</code>, vous
@@ -1870,16 +1870,16 @@ instruction comme celle-ci:</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh">_fzf_complete_toto<span class="o">()</span> <span class="o">{</span>
-  _fzf_complete <span class="s1">&#39;&#39;</span> -- <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
-    <span class="nb">echo</span> tutu
-    <span class="nb">echo</span> titi
-    <span class="nb">echo</span> tata
-    <span class="c1"># On peut mettre toutes les instructions zsh qu&#39;on veut ici afin de</span>
-    <span class="c1"># bâtir la liste passée à fzf.</span>
-  <span class="o">)</span>
-<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">_fzf_complete_toto<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  _fzf_complete <span class="s1">&#39;&#39;</span> -- <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> tutu
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> titi
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> tata
+</span></span><span class="line"><span class="cl">    <span class="c1"># On peut mettre toutes les instructions zsh qu&#39;on veut ici afin de</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># bâtir la liste passée à fzf.</span>
+</span></span><span class="line"><span class="cl">  <span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>N.B</strong>: Il est spécifié sur la page de documentation de Fzf que l&rsquo;IPA est
 instable et change de version en version. En particulier, cela concerne la
@@ -1906,18 +1906,18 @@ suivant dans sa configuration:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="c1"># Dans le fichier: ~/.zshrc</span>
-_fzf_complete_ssh<span class="o">()</span> <span class="o">{</span>
-  _fzf_complete +m -- <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
-    setopt localoptions nonomatch
-    <span class="nb">command</span> cat &lt;<span class="o">(</span>cat ~/.ssh/config ~/.ssh/config.d/* /etc/ssh/ssh_config 2&gt; /dev/null <span class="p">|</span> <span class="nb">command</span> grep -i <span class="s1">&#39;^\s*host\(name\)\? &#39;</span> <span class="p">|</span> awk <span class="s1">&#39;{for (i = 2; i &lt;= NF; i++) print $1 &#34; &#34; $i}&#39;</span> <span class="p">|</span> <span class="nb">command</span> grep -v <span class="s1">&#39;[*?]&#39;</span><span class="o">)</span> <span class="se">\
-</span><span class="se"></span>        &lt;<span class="o">(</span><span class="nb">command</span> grep -oE <span class="s1">&#39;^[[a-z0-9.,:-]+&#39;</span> ~/.ssh/known_hosts <span class="p">|</span> tr <span class="s1">&#39;,&#39;</span> <span class="s1">&#39;\n&#39;</span> <span class="p">|</span> tr -d <span class="s1">&#39;[&#39;</span> <span class="p">|</span> awk <span class="s1">&#39;{ print $1 &#34; &#34; $1 }&#39;</span><span class="o">)</span> <span class="se">\
-</span><span class="se"></span>        &lt;<span class="o">(</span><span class="nb">command</span> grep -v <span class="s1">&#39;^\s*\(#\|$\)&#39;</span> /etc/hosts <span class="p">|</span> <span class="nb">command</span> grep -Fv <span class="s1">&#39;0.0.0.0&#39;</span><span class="o">)</span> <span class="p">|</span>
-        awk <span class="s1">&#39;{if (length($2) &gt; 0) {print $2}}&#39;</span> <span class="p">|</span> sort -u
-    <span class="nb">command</span> avahi-browse -atlr <span class="p">|</span> grep -o <span class="s1">&#39;\&lt;\S\+\.local&#39;</span> <span class="p">|</span> sort -u
-  <span class="o">)</span>
-<span class="o">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="c1"># Dans le fichier: ~/.zshrc</span>
+</span></span><span class="line"><span class="cl">_fzf_complete_ssh<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  _fzf_complete +m -- <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
+</span></span><span class="line"><span class="cl">    setopt localoptions nonomatch
+</span></span><span class="line"><span class="cl">    <span class="nb">command</span> cat &lt;<span class="o">(</span>cat ~/.ssh/config ~/.ssh/config.d/* /etc/ssh/ssh_config 2&gt; /dev/null <span class="p">|</span> <span class="nb">command</span> grep -i <span class="s1">&#39;^\s*host\(name\)\? &#39;</span> <span class="p">|</span> awk <span class="s1">&#39;{for (i = 2; i &lt;= NF; i++) print $1 &#34; &#34; $i}&#39;</span> <span class="p">|</span> <span class="nb">command</span> grep -v <span class="s1">&#39;[*?]&#39;</span><span class="o">)</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        &lt;<span class="o">(</span><span class="nb">command</span> grep -oE <span class="s1">&#39;^[[a-z0-9.,:-]+&#39;</span> ~/.ssh/known_hosts <span class="p">|</span> tr <span class="s1">&#39;,&#39;</span> <span class="s1">&#39;\n&#39;</span> <span class="p">|</span> tr -d <span class="s1">&#39;[&#39;</span> <span class="p">|</span> awk <span class="s1">&#39;{ print $1 &#34; &#34; $1 }&#39;</span><span class="o">)</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        &lt;<span class="o">(</span><span class="nb">command</span> grep -v <span class="s1">&#39;^\s*\(#\|$\)&#39;</span> /etc/hosts <span class="p">|</span> <span class="nb">command</span> grep -Fv <span class="s1">&#39;0.0.0.0&#39;</span><span class="o">)</span> <span class="p">|</span>
+</span></span><span class="line"><span class="cl">        awk <span class="s1">&#39;{if (length($2) &gt; 0) {print $2}}&#39;</span> <span class="p">|</span> sort -u
+</span></span><span class="line"><span class="cl">    <span class="nb">command</span> avahi-browse -atlr <span class="p">|</span> grep -o <span class="s1">&#39;\&lt;\S\+\.local&#39;</span> <span class="p">|</span> sort -u
+</span></span><span class="line"><span class="cl">  <span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Il s&rsquo;agit du code exacte repris du script de complétion fourni par <code>fzf</code> avec la
 dernière ligne ajoutée permettant de lister les noms d&rsquo;hôte.</p>
@@ -1926,8 +1926,8 @@ dernière ligne ajoutée permettant de lister les noms d&rsquo;hôte.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">command</span> avahi-browse -atlr <span class="p">|</span> grep -o <span class="s1">&#39;\&lt;\S\+\.local&#39;</span> <span class="p">|</span> sort -u
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="nb">command</span> avahi-browse -atlr <span class="p">|</span> grep -o <span class="s1">&#39;\&lt;\S\+\.local&#39;</span> <span class="p">|</span> sort -u
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ainsi, les noms d&rsquo;hôtes présents dans le réseau local s&rsquo;afficheront.</p>
 <h2 id="aptitude">Aptitude</h2>
@@ -1937,7 +1937,7 @@ exacts à utiliser. Une vue d&rsquo;ensemble interractive de recherche facilite
 énormément ce processus.</p>
 <p><img src="/images/fzf/apt-zsh.png" alt="apt-zsh" /></p>
 <p>Il suffit d&rsquo;écrire <code>apt commande **</code> où <code>commande</code> est une commande valide
-d'<code>apt</code> qui demande des noms de paquets en argument. Par la suite, on tape sur
+d&rsquo;<code>apt</code> qui demande des noms de paquets en argument. Par la suite, on tape sur
 la touche <code>TAB</code> et la magie se lance. La recherche s&rsquo;effectuera sur la liste de
 paquets jointe à leur description correspondante. Pour l&rsquo;instant, la
 configuration prend en charge les commandes <code>install</code>, <code>show</code>, <code>search</code>,
@@ -1987,48 +1987,46 @@ inspiré du bout de code trouvé <a href="https://github.com/krickelkrakel/fzf-a
 </span><span class="lnt">35
 </span><span class="lnt">36
 </span><span class="lnt">37
-</span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh">list_aptitude_packages<span class="o">()</span> <span class="o">{</span>
-    <span class="k">if</span>   <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt install&#39;</span>* <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt show&#39;</span>*    <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt search&#39;</span>*  <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
-    <span class="nb">command</span> apt list --verbose
-    <span class="k">elif</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt remove&#39;</span>*    <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt reinstall&#39;</span>* <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt purge&#39;</span>*     <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-    <span class="nb">command</span> apt list --verbose --installed
-  <span class="k">fi</span>
-<span class="o">}</span>
-
-_fzf_complete_apt<span class="o">()</span> <span class="o">{</span>
-  <span class="nv">IFS</span><span class="o">=</span><span class="s1">&#39; &#39;</span> <span class="nb">read</span> -A ARGS <span class="o">&lt;&lt;&lt;</span> <span class="nv">$@</span>
-  <span class="nv">prg</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">ARGS</span><span class="p">[1]</span><span class="si">}</span><span class="s2">&#34;</span>
-  setopt extendedglob
-  <span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$prg</span><span class="s2">&#34;</span> <span class="o">=</span>~ <span class="s2">&#34;apt&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
-    <span class="k">if</span>   <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt install&#39;</span>*   <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt show&#39;</span>*    <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt search&#39;</span>*  <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt remove&#39;</span>*    <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt reinstall&#39;</span>* <span class="o">]]</span> <span class="se">\
-</span><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt purge&#39;</span>*     <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-      _fzf_complete <span class="s1">&#39;--multi&#39;</span> <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
-        list_aptitude_packages <span class="nv">$ARGS</span> 2&gt;/dev/null <span class="p">|</span> <span class="se">\
-</span><span class="se"></span>        <span class="nb">command</span> tail --lines +2 <span class="p">|</span> <span class="se">\
-</span><span class="se"></span>        <span class="nb">command</span> sed <span class="s1">&#39;/^ *$/d&#39;</span> <span class="p">|</span> <span class="se">\
-</span><span class="se"></span>        <span class="nb">command</span> sed <span class="s1">&#39;N;s/\n */^/;p&#39;</span> <span class="p">|</span> <span class="se">\
-</span><span class="se"></span>        <span class="nb">command</span> column -t -s <span class="s1">&#39;^&#39;</span>
-      <span class="o">)</span>
-    <span class="k">fi</span>
-  <span class="k">fi</span>
-<span class="o">}</span>
-_fzf_complete_apt_post<span class="o">()</span> <span class="o">{</span>
-  cut --delimiter <span class="s1">&#39;/&#39;</span> --fields <span class="m">1</span> <span class="p">|</span> <span class="se">\
-</span><span class="se"></span>  xargs --max-args <span class="m">1</span> --no-run-if-empty <span class="nb">printf</span> <span class="s2">&#34;%q &#34;</span>
-<span class="o">}</span>
-
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">list_aptitude_packages<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span>   <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt install&#39;</span>* <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt show&#39;</span>*    <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt search&#39;</span>*  <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">command</span> apt list --verbose
+</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt remove&#39;</span>*    <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt reinstall&#39;</span>* <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt purge&#39;</span>*     <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">command</span> apt list --verbose --installed
+</span></span><span class="line"><span class="cl">  <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">_fzf_complete_apt<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">IFS</span><span class="o">=</span><span class="s1">&#39; &#39;</span> <span class="nb">read</span> -A ARGS <span class="o">&lt;&lt;&lt;</span> <span class="nv">$@</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">prg</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">ARGS</span><span class="p">[1]</span><span class="si">}</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">  setopt extendedglob
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$prg</span><span class="s2">&#34;</span> <span class="o">=</span>~ <span class="s2">&#34;apt&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span>   <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt install&#39;</span>*   <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt show&#39;</span>*    <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt search&#39;</span>*  <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt remove&#39;</span>*    <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt reinstall&#39;</span>* <span class="o">]]</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>      <span class="o">||</span> <span class="o">[[</span> <span class="nv">$@</span> <span class="o">=</span>~ <span class="s1">&#39;apt purge&#39;</span>*     <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">      _fzf_complete <span class="s1">&#39;--multi&#39;</span> <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
+</span></span><span class="line"><span class="cl">        list_aptitude_packages <span class="nv">$ARGS</span> 2&gt;/dev/null <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        <span class="nb">command</span> tail --lines +2 <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        <span class="nb">command</span> sed <span class="s1">&#39;/^ *$/d&#39;</span> <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        <span class="nb">command</span> sed <span class="s1">&#39;N;s/\n */^/;p&#39;</span> <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>        <span class="nb">command</span> column -t -s <span class="s1">&#39;^&#39;</span>
+</span></span><span class="line"><span class="cl">      <span class="o">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">fi</span>
+</span></span><span class="line"><span class="cl">  <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">_fzf_complete_apt_post<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  cut --delimiter <span class="s1">&#39;/&#39;</span> --fields <span class="m">1</span> <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  xargs --max-args <span class="m">1</span> --no-run-if-empty <span class="nb">printf</span> <span class="s2">&#34;%q &#34;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>Remarque</strong>: Cette configuration ne fonctionne que pour <code>apt</code> et pas pour
 <code>apt-cache</code>, <code>apt-get</code>, etc. Ce n&rsquo;est pas bien grave puisque la commande <code>apt</code>
@@ -2055,13 +2053,13 @@ documentation</a>).</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh">_fzf_complete_pass<span class="o">()</span> <span class="o">{</span>
-  <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
-  _fzf_complete <span class="s1">&#39;&#39;</span> <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
-    <span class="nb">command</span> find ~/.password-store/ -name <span class="s2">&#34;*.gpg&#34;</span> <span class="p">|</span> sed -r <span class="s1">&#39;s,(.*)\.password-store/(.*)\.gpg,\2,&#39;</span>
-  <span class="o">)</span>
-<span class="o">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">_fzf_complete_pass<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">  _fzf_complete <span class="s1">&#39;&#39;</span> <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span> &lt; &lt;<span class="o">(</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">command</span> find ~/.password-store/ -name <span class="s2">&#34;*.gpg&#34;</span> <span class="p">|</span> sed -r <span class="s1">&#39;s,(.*)\.password-store/(.*)\.gpg,\2,&#39;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>N.B</strong>: une erreur s&rsquo;était glissée dans <a href="https://lists.zx2c4.com/pipermail/password-store/2015-September/001750.html">la version originale</a>.
 J&rsquo;ai pris soin de la corriger dans l&rsquo;échantillon de configuration ci-haut.</p>
@@ -2076,8 +2074,8 @@ ligne de commande résultante:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">pass personnel/access-point/tp-link
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">pass personnel/access-point/tp-link
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ceci est très utile lorsqu&rsquo;on ne se souvient plus exactement du nom du fichier
 contenant le mot de passe qu&rsquo;on recherche.</p>
@@ -2412,7 +2410,7 @@ temps de jouer avec et de l&rsquo;adopter.</p>
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.7bbf2dacea5b173fe9aa699f17efbf82aeddd807831946756705aec0fc91567f.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

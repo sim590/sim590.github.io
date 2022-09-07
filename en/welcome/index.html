@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1228,7 +1228,7 @@
     <meta property="twitter:description" content="Welcome to my blog">
   
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.102.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1632,32 +1632,30 @@ pages like the following:</p>
 </span><span class="lnt">19
 </span><span class="lnt">20
 </span><span class="lnt">21
-</span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">+++
-date = &#34;2016-05-17T23:59:14-04:00&#34;
-title = &#34;Hello World&#34;
-description = &#34;Welcome to my blog&#34;
-+++
-
-<span class="gh"># So, this is how it begins
-</span><span class="gh"></span>
-I&#39;ve been looking for a way to share thoughts about projects I had in mind,
-communicating how I&#39;ve lived some experiences, or simply write down about
-anything. I first thought about [wordpress][] since I&#39;ve already used it, but I
-soon realised it wasn&#39;t fit for what I wanted. I didn&#39;t want to spend too much
-time thinking about how I should deploy or update my blog. I just wanted a quick
-and simple way to write a blog.
-
-<span class="gu">## Hugo
-</span><span class="gu"></span>
-I first saw [<span class="nt">jekyll</span>](<span class="na">http://jekyllrb.com/</span>), and I saw how easy it was to setup
-and maintain. I thought: &#34;This is just the thing I wanted!&#34; But then, I found
-<span class="gs">**Hugo**</span>. Like jekyll, Hugo is a static site generator where you write your
-pages like the following:
-
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">date = &#34;2016-05-17T23:59:14-04:00&#34;
+</span></span><span class="line"><span class="cl">title = &#34;Hello World&#34;
+</span></span><span class="line"><span class="cl">description = &#34;Welcome to my blog&#34;
+</span></span><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># So, this is how it begins
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl">I&#39;ve been looking for a way to share thoughts about projects I had in mind,
+</span></span><span class="line"><span class="cl">communicating how I&#39;ve lived some experiences, or simply write down about
+</span></span><span class="line"><span class="cl">anything. I first thought about [wordpress][] since I&#39;ve already used it, but I
+</span></span><span class="line"><span class="cl">soon realised it wasn&#39;t fit for what I wanted. I didn&#39;t want to spend too much
+</span></span><span class="line"><span class="cl">time thinking about how I should deploy or update my blog. I just wanted a quick
+</span></span><span class="line"><span class="cl">and simple way to write a blog.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">## Hugo
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl">I first saw [<span class="nt">jekyll</span>](<span class="na">http://jekyllrb.com/</span>), and I saw how easy it was to setup
+</span></span><span class="line"><span class="cl">and maintain. I thought: &#34;This is just the thing I wanted!&#34; But then, I found
+</span></span><span class="line"><span class="cl"><span class="gs">**Hugo**</span>. Like jekyll, Hugo is a static site generator where you write your
+</span></span><span class="line"><span class="cl">pages like the following:
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>except that jekyll is written in ruby while Hugo is written in <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go</a>. That&rsquo;s
 what bought me after all since it had all the features jekyll could offer me,
@@ -1804,123 +1802,123 @@ website. Here&rsquo;s my config file so far:</p>
 </span><span class="lnt">116
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">baseurl</span> <span class="p">=</span> <span class="s2">&#34;http://sim590.github.io&#34;</span>
-<span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;en-us&#34;</span>
-<span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Simon Désaulniers&#34;</span>
-<span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;imperfect&#34;</span>
-<span class="nx">preserveTaxonomyNames</span> <span class="p">=</span> <span class="kc">true</span>
-<span class="nx">paginate</span> <span class="p">=</span> <span class="mi">3</span>
-<span class="nx">disqusShortname</span> <span class="p">=</span> <span class="s2">&#34;shortname&#34;</span>
-<span class="nx">googleAnalytics</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-
-<span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-    <span class="c"># Sets the meta tag description, usually reserved for the main page</span>
-    <span class="nx">description</span>          <span class="p">=</span> <span class="s2">&#34;HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo&#34;</span>
-    <span class="c"># This will appear on the top left of the navigation bar</span>
-    <span class="nx">navbarTitle</span>          <span class="p">=</span> <span class="s2">&#34;Simon Désaulniers&#34;</span>
-    <span class="c"># Social media buttons that appear on the sidebar</span>
-    <span class="nx">socialAppearAtTop</span>    <span class="p">=</span> <span class="kc">true</span>
-    <span class="nx">socialAppearAtBottom</span> <span class="p">=</span> <span class="kc">true</span>
-    <span class="c"># set this to the section name if section is not post</span>
-    <span class="c">#viewMorePostLink     = &#34;/blog/&#34;</span>
-
-<span class="c"># Optional Params</span>
-    <span class="nx">categoriesByCount</span>    <span class="p">=</span> <span class="kc">true</span>
-    <span class="nx">includeReadingTime</span>   <span class="p">=</span> <span class="kc">true</span>
-    <span class="c"># The set of favicons used are based on the write-up from this link:</span>
-    <span class="c"># https://github.com/audreyr/favicon-cheat-sheet</span>
-    <span class="c"># Please see the favicon partial template for more information</span>
-    <span class="nx">loadFavicon</span>          <span class="p">=</span> <span class="kc">false</span>
-    <span class="nx">faviconVersion</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-
-    <span class="c"># Load custom CSS or JavaScript files. This replaces the deprecated params</span>
-    <span class="c"># minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you</span>
-    <span class="c"># can load multiple files if necessary. You can also load the standard theme</span>
-    <span class="c"># files by adding the value, &#34;default&#34;.</span>
-    <span class="c"># customCSS            = [&#34;default&#34;, &#34;/path/to/file&#34;]</span>
-    <span class="c"># customJS             = [&#34;default&#34;, &#34;/path/to/file&#34;]</span>
-
-    <span class="c"># Loading min files for exampleSite</span>
-    <span class="nx">customCSS</span>            <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;/css/main.min.css&#34;</span><span class="p">]</span>
-    <span class="nx">customJS</span>             <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;/js/main.min.js&#34;</span><span class="p">]</span>
-
-<span class="c"># parms.intro will appear on the sidebar</span>
-<span class="c"># This is optional, but it&#39;s suggested to use</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">intro</span><span class="p">]</span>
-    <span class="nx">header</span>    <span class="p">=</span> <span class="s2">&#34;Simon Désaulniers&#34;</span>
-
-    <span class="nx">paragraph</span> <span class="p">=</span> <span class="s2">&#34;There are 10 types of people. Those who understand binary and the others.&#34;</span>
-
-    <span class="nx">about</span>     <span class="p">=</span> <span class="s2">&#34;I like programming and new technologies. I like new ideas intending to bring power to the people like free distributed and secured software.&#34;</span>
-
-<span class="c"># This will also appear on the sidebar.</span>
-<span class="c"># A width of less than 100px is recommended</span>
-<span class="c"># This is optional</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">intro</span><span class="p">.</span><span class="nx">pic</span><span class="p">]</span>
-    <span class="nx">src</span>       <span class="p">=</span> <span class="s2">&#34;/img/main/logo.png&#34;</span>
-    <span class="c"># modify your picture in the shape of a circle or</span>
-    <span class="c"># future imperfect&#39;s hexagonal shape</span>
-    <span class="nx">circle</span>    <span class="p">=</span> <span class="kc">false</span>
-    <span class="nx">imperfect</span> <span class="p">=</span> <span class="kc">true</span>
-    <span class="nx">width</span>     <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">alt</span>       <span class="p">=</span> <span class="s2">&#34;Hugo Future Imperfect&#34;</span>
-
-<span class="c"># Adjust the amount of recent posts on the sidebar.</span>
-<span class="c"># This is optional. The default value 5 will be used</span>
-<span class="c">#[params.postAmount]</span>
-<span class="c">#    sidebar = 2</span>
-
-<span class="c"># Set up your menu items in the navigation bar</span>
-<span class="c"># You can use identifier to prepend a font awesome icon to your text</span>
-<span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Blog&#34;</span>
-    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/post&#34;</span>
-    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;fa fa-newspaper-o&#34;</span>
-    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
-
-<span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Categories&#34;</span>
-    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/categories&#34;</span>
-    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
-
-<span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;About&#34;</span>
-    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/about&#34;</span>
-    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
-
-<span class="c"># Insert your username and the icon will apear on the page as long as</span>
-<span class="c"># socialAppearAtTop or socialAppearAtBottom is set to true in the params area</span>
-<span class="c"># The social media icons will appear on the sidebar</span>
-<span class="p">[</span><span class="nx">social</span><span class="p">]</span>
-    <span class="nx">github</span>          <span class="p">=</span> <span class="s2">&#34;sim590&#34;</span>
-    <span class="nx">bitbucket</span>       <span class="p">=</span> <span class="s2">&#34;sim590&#34;</span>
-    <span class="nx">jsfiddle</span>        <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">codepen</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">foursquare</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">dribbble</span>        <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">deviantart</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">behance</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">flickr</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">instagram</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">youtube</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">vimeo</span>           <span class="p">=</span> <span class="s2">&#34;user51921435&#34;</span>
-    <span class="nx">vine</span>            <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">medium</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">wordpress</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">tumblr</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">xing</span>            <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">linkedin</span>        <span class="p">=</span> <span class="s2">&#34;simon-désaulniers-86648097&#34;</span>
-    <span class="nx">slideshare</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">stackoverflow</span>   <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">reddit</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">pinterest</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">googleplus</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">facebook</span>        <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">facebook_admin</span>  <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">twitter_domain</span>  <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">twitter</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="nx">email</span>           <span class="p">=</span> <span class="s2">&#34;sim.desaulniers@gmail.com&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">baseurl</span> <span class="p">=</span> <span class="s2">&#34;http://sim590.github.io&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;en-us&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Simon Désaulniers&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;imperfect&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">preserveTaxonomyNames</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">paginate</span> <span class="p">=</span> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl"><span class="nx">disqusShortname</span> <span class="p">=</span> <span class="s2">&#34;shortname&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">googleAnalytics</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Sets the meta tag description, usually reserved for the main page</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">description</span>          <span class="p">=</span> <span class="s2">&#34;HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># This will appear on the top left of the navigation bar</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">navbarTitle</span>          <span class="p">=</span> <span class="s2">&#34;Simon Désaulniers&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Social media buttons that appear on the sidebar</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">socialAppearAtTop</span>    <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">socialAppearAtBottom</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># set this to the section name if section is not post</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#viewMorePostLink     = &#34;/blog/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Optional Params</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">categoriesByCount</span>    <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">includeReadingTime</span>   <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># The set of favicons used are based on the write-up from this link:</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># https://github.com/audreyr/favicon-cheat-sheet</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Please see the favicon partial template for more information</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">loadFavicon</span>          <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">faviconVersion</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Load custom CSS or JavaScript files. This replaces the deprecated params</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># can load multiple files if necessary. You can also load the standard theme</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># files by adding the value, &#34;default&#34;.</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># customCSS            = [&#34;default&#34;, &#34;/path/to/file&#34;]</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># customJS             = [&#34;default&#34;, &#34;/path/to/file&#34;]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Loading min files for exampleSite</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">customCSS</span>            <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;/css/main.min.css&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">customJS</span>             <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;/js/main.min.js&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># parms.intro will appear on the sidebar</span>
+</span></span><span class="line"><span class="cl"><span class="c"># This is optional, but it&#39;s suggested to use</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">intro</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">header</span>    <span class="p">=</span> <span class="s2">&#34;Simon Désaulniers&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">paragraph</span> <span class="p">=</span> <span class="s2">&#34;There are 10 types of people. Those who understand binary and the others.&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">about</span>     <span class="p">=</span> <span class="s2">&#34;I like programming and new technologies. I like new ideas intending to bring power to the people like free distributed and secured software.&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># This will also appear on the sidebar.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># A width of less than 100px is recommended</span>
+</span></span><span class="line"><span class="cl"><span class="c"># This is optional</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">intro</span><span class="p">.</span><span class="nx">pic</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">src</span>       <span class="p">=</span> <span class="s2">&#34;/img/main/logo.png&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># modify your picture in the shape of a circle or</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># future imperfect&#39;s hexagonal shape</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">circle</span>    <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">imperfect</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">width</span>     <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">alt</span>       <span class="p">=</span> <span class="s2">&#34;Hugo Future Imperfect&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Adjust the amount of recent posts on the sidebar.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># This is optional. The default value 5 will be used</span>
+</span></span><span class="line"><span class="cl"><span class="c">#[params.postAmount]</span>
+</span></span><span class="line"><span class="cl"><span class="c">#    sidebar = 2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Set up your menu items in the navigation bar</span>
+</span></span><span class="line"><span class="cl"><span class="c"># You can use identifier to prepend a font awesome icon to your text</span>
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Blog&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/post&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;fa fa-newspaper-o&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Categories&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/categories&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;About&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/about&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Insert your username and the icon will apear on the page as long as</span>
+</span></span><span class="line"><span class="cl"><span class="c"># socialAppearAtTop or socialAppearAtBottom is set to true in the params area</span>
+</span></span><span class="line"><span class="cl"><span class="c"># The social media icons will appear on the sidebar</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">social</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">github</span>          <span class="p">=</span> <span class="s2">&#34;sim590&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">bitbucket</span>       <span class="p">=</span> <span class="s2">&#34;sim590&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">jsfiddle</span>        <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">codepen</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">foursquare</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">dribbble</span>        <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">deviantart</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">behance</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">flickr</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">instagram</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">youtube</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">vimeo</span>           <span class="p">=</span> <span class="s2">&#34;user51921435&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">vine</span>            <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">medium</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">wordpress</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">tumblr</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">xing</span>            <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">linkedin</span>        <span class="p">=</span> <span class="s2">&#34;simon-désaulniers-86648097&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">slideshare</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">stackoverflow</span>   <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">reddit</span>          <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">pinterest</span>       <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">googleplus</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">facebook</span>        <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">facebook_admin</span>  <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">twitter_domain</span>  <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">twitter</span>         <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">email</span>           <span class="p">=</span> <span class="s2">&#34;sim.desaulniers@gmail.com&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="exhausted">Exhausted</h2>
 <p>I&rsquo;m not much of a writer yet and this is my first post.</p>
@@ -2218,7 +2216,7 @@ website. Here&rsquo;s my config file so far:</p>
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.7bbf2dacea5b173fe9aa699f17efbf82aeddd807831946756705aec0fc91567f.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

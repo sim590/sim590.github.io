@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="Simon Désaulniers">
   
 
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.102.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1740,7 +1740,7 @@
           
             I have finally made a version of the queries code that can viably be integrated into the master branch of OpenDHT. I am awaiting my mentor&rsquo;s approval and/or comments.
 What&rsquo;s done Queries. The library will provide the additional following functions in its API:
-1 2  void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {});   The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &ldquo;where&rdquo; statement.
+1 2 void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {}); The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &ldquo;where&rdquo; statement.
           
         </div>
       </div>
@@ -1773,7 +1773,7 @@ What&rsquo;s done Queries. The library will provide the additional following fun
         <div class="summary-classic__text p2">
           
             I&rsquo;ve been reworking the code for the queries I introduced in the first week.
-What&rsquo;s done  I have worked on value pagination and optimization of announce operations; Fixed bugs like #72, #73; I&rsquo;ve split the Query into Select and Where strcutures. This change was explained here.  What&rsquo;s still work in progress  Value pagination; Optimizing announce operations;  
+What&rsquo;s done I have worked on value pagination and optimization of announce operations; Fixed bugs like #72, #73; I&rsquo;ve split the Query into Select and Where strcutures. This change was explained here. What&rsquo;s still work in progress Value pagination; Optimizing announce operations; 
           
         </div>
       </div>
@@ -1808,7 +1808,7 @@ What&rsquo;s done  I have worked on value pagination and optimization of announc
             I have been working on writing serializable structure for remote filtering of values on the distributed hash table OpenDHT. This structure is called Query.
 What&rsquo;s done The implementation of the base design with other changes have been made. You can see evolution on the matter here;
 Changes allow to create a Query with a SQL-ish statement like the following
-1  Query q(&#34;SELECT * WHERE id=5&#34;);   You can then use this query like so
+1 Query q(&#34;SELECT * WHERE id=5&#34;); You can then use this query like so
           
         </div>
       </div>
