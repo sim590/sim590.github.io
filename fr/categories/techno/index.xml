@@ -14,13 +14,48 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 09 May 2020 20:36:40 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/categories/techno/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Transformer sa Steam Deck en Chromecast?</title>
+        <link>https://sim590.github.io/fr/steamdeck/serveur-mpv/</link>
+        <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sun, 09 Oct 2022 00:00:00 +0000</atom:modified>
+        <guid>https://sim590.github.io/fr/steamdeck/serveur-mpv/</guid>
+        <description>J&amp;rsquo;avais commandé une Steam Deck, un terminal mobile (selon la traduction de l&amp;rsquo;OQLF) basé sur Archlinux, dès le moment que j&amp;rsquo;ai appris l&amp;rsquo;existence de ce projet par Valve. Ce terminal mobile est en fait un ordinateur complet ayant comme principale fonction de fournir une plateforme de jeu portable, mais en réalité il permet des
+Pour plusieurs raisons, mais principalement parce que je crois que c&amp;rsquo;est un appareil qui jouera un rôle central dans le cheminement de GNU/Linux vers un statut de système plus populaire chez les gens moins techniques et non initiés.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/steamdeck/mpv/mpv.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Steam Deck</category>
+            
+          
+            
+              <category>mpv</category>
+            
+          
+        
+        
+          
+            
+              <category>Techno</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Debian: passer à «testing»</title>

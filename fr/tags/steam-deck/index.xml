@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Steam Deck on Simon Désaulniers</title>
+    <link>https://sim590.github.io/fr/tags/steam-deck/</link>
+    <description>Recent content in Steam Deck on Simon Désaulniers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
+    <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
+    <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://sim590.github.io/fr/tags/steam-deck/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Transformer sa Steam Deck en Chromecast?</title>
+        <link>https://sim590.github.io/fr/steamdeck/serveur-mpv/</link>
+        <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Sun, 09 Oct 2022 00:00:00 +0000</atom:modified>
+        <guid>https://sim590.github.io/fr/steamdeck/serveur-mpv/</guid>
+        <description>J&amp;rsquo;avais commandé une Steam Deck, un terminal mobile (selon la traduction de l&amp;rsquo;OQLF) basé sur Archlinux, dès le moment que j&amp;rsquo;ai appris l&amp;rsquo;existence de ce projet par Valve. Ce terminal mobile est en fait un ordinateur complet ayant comme principale fonction de fournir une plateforme de jeu portable, mais en réalité il permet des
+Pour plusieurs raisons, mais principalement parce que je crois que c&amp;rsquo;est un appareil qui jouera un rôle central dans le cheminement de GNU/Linux vers un statut de système plus populaire chez les gens moins techniques et non initiés.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/steamdeck/mpv/mpv.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Steam Deck</category>
+            
+          
+            
+              <category>mpv</category>
+            
+          
+        
+        
+          
+            
+              <category>Techno</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

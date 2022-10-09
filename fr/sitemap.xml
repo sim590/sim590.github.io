@@ -37,7 +37,7 @@
                 />
   </url><url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -54,35 +54,11 @@
                 href="https://sim590.github.io/fr/categories/"
                 />
   </url><url>
-    <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/categories/haskell/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/haskell/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/haskell/monademaybe/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/tags/maybe/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/tags/monad/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/categories/monade/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    <loc>https://sim590.github.io/fr/tags/mpv/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -99,8 +75,14 @@
                 href="https://sim590.github.io/fr/"
                 />
   </url><url>
+    <loc>https://sim590.github.io/fr/tags/steam-deck/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/steamdeck/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -116,6 +98,51 @@
                 hreflang="fr"
                 href="https://sim590.github.io/fr/tags/"
                 />
+  </url><url>
+    <loc>https://sim590.github.io/fr/categories/techno/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/steamdeck/serveur-mpv/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/composition/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/categories/haskell/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/haskell/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/monade/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/categories/programmation/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/transformateur/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/haskell/transformateurs/</loc>
+    <lastmod>2021-07-23T04:03:00-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/g%C3%A9n%C3%A9r%C3%A9cit%C3%A9/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/gestion-derreurs/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/haskell/monademaybe/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/maybe/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/monad/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/categories/monade/</loc>
+    <lastmod>2020-10-16T01:17:31-04:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/maths/calculs-hypothecaires/</loc>
     <lastmod>2020-07-31T21:18:20-04:00</lastmod>
@@ -166,9 +193,6 @@
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/tags/paquet-debian/</loc>
-    <lastmod>2020-05-09T20:36:40-04:00</lastmod>
-  </url><url>
-    <loc>https://sim590.github.io/fr/categories/techno/</loc>
     <lastmod>2020-05-09T20:36:40-04:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/outils/fzf/</loc>
@@ -303,6 +327,9 @@
   </url><url>
     <loc>https://sim590.github.io/fr/a-propos/</loc>
     <lastmod>2020-02-29T03:00:12-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/resume/</loc>
+    <lastmod>2020-02-28T10:36:33-05:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/archive/</loc>
     <lastmod>2020-02-28T00:50:16-05:00</lastmod>

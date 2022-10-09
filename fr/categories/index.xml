@@ -14,7 +14,7 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 16 Oct 2020 01:17:31 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,48 @@
 
       
       <item>
+        <title>Techno</title>
+        <link>https://sim590.github.io/fr/categories/techno/</link>
+        <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/techno/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Haskell</title>
         <link>https://sim590.github.io/fr/categories/haskell/</link>
-        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
+        <pubDate>Fri, 23 Jul 2021 04:03:00 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/categories/haskell/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Programmation</title>
+        <link>https://sim590.github.io/fr/categories/programmation/</link>
+        <pubDate>Fri, 23 Jul 2021 04:03:00 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/categories/programmation/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -47,24 +83,6 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/categories/monade/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Programmation</title>
-        <link>https://sim590.github.io/fr/categories/programmation/</link>
-        <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/categories/programmation/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -119,24 +137,6 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/categories/debian/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Techno</title>
-        <link>https://sim590.github.io/fr/categories/techno/</link>
-        <pubDate>Sat, 09 May 2020 20:36:40 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/categories/techno/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
