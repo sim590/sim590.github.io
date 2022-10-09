@@ -1686,7 +1686,7 @@ alors vous devriez ajuster ces étapes pour faire une installation locale sous <
 <p>Une fois ceci fait, écrivons le script suivant sous <code>~/bin/mpv-server.sh</code>:</p>
 <pre tabindex="0"><code>#!/usr/bin/env bash
 
-flatpak run io.mpv.Mpv --keep-open --force-window --input-ipc-server=~/mpv.socket ~/Images/Icônes/mpv.png
+flatpak run io.mpv.Mpv --keep-open --force-window --input-ipc-server=/tmp/mpv.socket ~/Images/Icônes/mpv.png
 </code></pre><p>Il est nécessaire d&rsquo;utiliser un fichier multimédia pour ouvrir <code>mpv</code> et le garder ouvert en
 attendant les commandes du client. Ce faisant, on utilise une image nommée <code>mpv.png</code> (l&rsquo;image que
 j&rsquo;ai inclus dans cet article un peu plus haut). Il faut donc enregistrer cette image à l&rsquo;endroit
@@ -1794,7 +1794,7 @@ tout temps. Pour ce faire, rouler:</p>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">send_mpv_command<span class="o">()</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">  ssh deck@steamdeck.local <span class="s2">&#34;echo &#39;{ \&#34;command\&#34;: </span><span class="nv">$@</span><span class="s2"> }&#39; | socat - ~/mpv.socket&#34;</span>
+</span></span><span class="line"><span class="cl">  ssh deck@steamdeck.local <span class="s2">&#34;echo &#39;{ \&#34;command\&#34;: </span><span class="nv">$@</span><span class="s2"> }&#39; | socat - /tmp/mpv.socket&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nv">toggle</span><span class="o">=</span><span class="nb">false</span>
