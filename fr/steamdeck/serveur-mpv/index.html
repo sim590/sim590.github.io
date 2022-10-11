@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.104.3" />
+<meta name="generator" content="Hugo 0.104.2" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1822,10 +1822,10 @@ tout temps. Pour ce faire, rouler:</p>
 </span></span><span class="line"><span class="cl"><span class="nv">input_command_value</span><span class="o">=</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$toggle</span><span class="s2">&#34;</span> <span class="o">==</span> <span class="s2">&#34;true&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
-</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;keypress\&#34;, \&#34;space\&#34;]&#34;</span>
+</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;cycle\&#34;, \&#34;pause\&#34;]&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="k">else</span>
 </span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;loadfile\&#34;, \&#34;</span><span class="nv">$URL</span><span class="s2">\&#34;]&#34;</span>
-</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;playlist-play-index\&#34;, \&#34;current\&#34;]&#34;</span>
+</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;set_property\&#34;, \&#34;pause\&#34;, \&#34;no\&#34;]&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="k">fi</span>
 </span></span></code></pre></td></tr></table>
 </div>
