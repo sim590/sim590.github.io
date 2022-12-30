@@ -1230,7 +1230,7 @@
     <meta property="twitter:description" content="">
   
 
-<meta name="generator" content="Hugo 0.104.2" />
+<meta name="generator" content="Hugo 0.104.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1822,10 +1822,10 @@ tout temps. Pour ce faire, rouler:</p>
 </span></span><span class="line"><span class="cl"><span class="nv">input_command_value</span><span class="o">=</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$toggle</span><span class="s2">&#34;</span> <span class="o">==</span> <span class="s2">&#34;true&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
-</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;cycle\&#34;, \&#34;pause\&#34;]&#34;</span>
+</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;keypress\&#34;, \&#34;space\&#34;]&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="k">else</span>
 </span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;loadfile\&#34;, \&#34;</span><span class="nv">$URL</span><span class="s2">\&#34;]&#34;</span>
-</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;set_property\&#34;, \&#34;pause\&#34;, \&#34;no\&#34;]&#34;</span>
+</span></span><span class="line"><span class="cl">  send_mpv_command <span class="s2">&#34;[\&#34;playlist-play-index\&#34;, \&#34;current\&#34;]&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="k">fi</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -2076,6 +2076,13 @@ adeptes des jeux vidéo et des technologies.</p>
   
     
     <div class="grow"></div>
+    
+      <a href="https://sim590.github.io/fr/steamdeck/mpd-music-control/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">Contrôle intégré de MPD sur la Steam Deck</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>

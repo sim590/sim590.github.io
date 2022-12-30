@@ -6,21 +6,67 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>greffon on Simon Désaulniers</title>
+    <title>Greffon on Simon Désaulniers</title>
     <link>https://sim590.github.io/fr/tags/greffon/</link>
-    <description>Recent content in greffon on Simon Désaulniers</description>
+    <description>Recent content in Greffon on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 22 Mar 2020 11:11:56 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/tags/greffon/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Contrôle intégré de MPD sur la Steam Deck</title>
+        <link>https://sim590.github.io/fr/steamdeck/mpd-music-control/</link>
+        <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        <atom:modified>Thu, 29 Dec 2022 00:00:00 +0000</atom:modified>
+        <guid>https://sim590.github.io/fr/steamdeck/mpd-music-control/</guid>
+        <description>En tant que vétéran (GNU)Linux aguerri et de fan de technos libres, je me suis donné l&amp;rsquo;occasion de me prêter à l&amp;rsquo;exercice de plusieurs programmes dont j&amp;rsquo;ai développé une dépendance avec certains d&amp;rsquo;eux, et avec raison. C&amp;rsquo;est le cas du programme MPD (Music Player Daemon) qui est un programme de lecture de musique roulant en mode serveur. On l&amp;rsquo;utilise donc normalement en pair avec un client comme mpdevil. Personnellement, j&amp;rsquo;utilise ncmpcpp et il y a une longue liste de clients pour MPD avec des fonctionnalités variées.</description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        <media:content url="https://sim590.github.ioimages/steamdeck/mpd/mpd.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Steam Deck</category>
+            
+          
+            
+              <category>mpd</category>
+            
+          
+            
+              <category>MusicControl</category>
+            
+          
+            
+              <category>Decky</category>
+            
+          
+            
+              <category>Greffon</category>
+            
+          
+        
+        
+          
+            
+              <category>Techno</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Vim peut tout faire</title>

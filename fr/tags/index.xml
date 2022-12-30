@@ -14,7 +14,7 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,66 @@
 
       
       <item>
-        <title>mpv</title>
-        <link>https://sim590.github.io/fr/tags/mpv/</link>
-        <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+        <title>Decky</title>
+        <link>https://sim590.github.io/fr/tags/decky/</link>
+        <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
-        <guid>https://sim590.github.io/fr/tags/mpv/</guid>
+        <guid>https://sim590.github.io/fr/tags/decky/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Greffon</title>
+        <link>https://sim590.github.io/fr/tags/greffon/</link>
+        <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/greffon/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>mpd</title>
+        <link>https://sim590.github.io/fr/tags/mpd/</link>
+        <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/mpd/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>MusicControl</title>
+        <link>https://sim590.github.io/fr/tags/musiccontrol/</link>
+        <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/musiccontrol/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -43,10 +97,28 @@
       <item>
         <title>Steam Deck</title>
         <link>https://sim590.github.io/fr/tags/steam-deck/</link>
-        <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/steam-deck/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>mpv</title>
+        <link>https://sim590.github.io/fr/tags/mpv/</link>
+        <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/mpv/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
@@ -443,24 +515,6 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/zsh/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>greffon</title>
-        <link>https://sim590.github.io/fr/tags/greffon/</link>
-        <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/tags/greffon/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

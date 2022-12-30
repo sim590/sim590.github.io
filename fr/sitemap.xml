@@ -37,7 +37,7 @@
                 />
   </url><url>
     <loc>https://sim590.github.io/fr/categories/</loc>
-    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -54,11 +54,23 @@
                 href="https://sim590.github.io/fr/categories/"
                 />
   </url><url>
-    <loc>https://sim590.github.io/fr/tags/mpv/</loc>
-    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+    <loc>https://sim590.github.io/fr/steamdeck/mpd-music-control/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/decky/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/greffon/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/mpd/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/musiccontrol/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/</loc>
-    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -76,13 +88,13 @@
                 />
   </url><url>
     <loc>https://sim590.github.io/fr/tags/steam-deck/</loc>
-    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/steamdeck/</loc>
-    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/tags/</loc>
-    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -100,6 +112,9 @@
                 />
   </url><url>
     <loc>https://sim590.github.io/fr/categories/techno/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/tags/mpv/</loc>
     <lastmod>2022-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/steamdeck/serveur-mpv/</loc>
@@ -222,9 +237,6 @@
     <loc>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
   </url><url>
-    <loc>https://sim590.github.io/fr/tags/greffon/</loc>
-    <lastmod>2020-03-22T11:11:56-04:00</lastmod>
-  </url><url>
     <loc>https://sim590.github.io/fr/tags/hjkl/</loc>
     <lastmod>2020-03-22T11:11:56-04:00</lastmod>
   </url><url>
@@ -327,6 +339,9 @@
   </url><url>
     <loc>https://sim590.github.io/fr/a-propos/</loc>
     <lastmod>2020-02-29T03:00:12-05:00</lastmod>
+  </url><url>
+    <loc>https://sim590.github.io/fr/resume/</loc>
+    <lastmod>2020-02-28T10:36:33-05:00</lastmod>
   </url><url>
     <loc>https://sim590.github.io/fr/archive/</loc>
     <lastmod>2020-02-28T00:50:16-05:00</lastmod>
