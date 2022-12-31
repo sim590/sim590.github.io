@@ -52,7 +52,7 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Thu, 29 Dec 2022 00:00:00 +0000</atom:modified>
         <guid>https://sim590.github.io/fr/steamdeck/mpd-music-control/</guid>
-        <description>En tant que vétéran (GNU)Linux aguerri et de fan de technos libres, je me suis donné l&amp;rsquo;occasion de me prêter à l&amp;rsquo;exercice de plusieurs programmes dont j&amp;rsquo;ai développé une dépendance avec certains d&amp;rsquo;eux, et avec raison. C&amp;rsquo;est le cas du programme MPD (Music Player Daemon) qui est un programme de lecture de musique roulant en mode serveur. On l&amp;rsquo;utilise donc normalement en pair avec un client comme mpdevil. Personnellement, j&amp;rsquo;utilise ncmpcpp et il y a une longue liste de clients pour MPD avec des fonctionnalités variées.</description>
+        <description>En tant que vétéran (GNU)Linux aguerri et de fan de technos libres, je me suis donné l&amp;rsquo;occasion d&amp;rsquo;expérimenter plusieurs programmes dont j&amp;rsquo;ai développé une dépendance avec certains d&amp;rsquo;eux, et avec raison. C&amp;rsquo;est le cas du programme MPD (Music Player Daemon) qui est un programme de lecture de musique roulant en mode serveur. On l&amp;rsquo;utilise donc normalement en pair avec un client comme mpdevil. Personnellement, j&amp;rsquo;utilise ncmpcpp et il y a une longue liste de clients pour MPD avec des fonctionnalités variées.</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
