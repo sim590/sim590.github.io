@@ -14,10 +14,9 @@
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
     <webMaster>sim.desaulniers@gmail.com (Simon Désaulniers)</webMaster>
     <copyright>©2020 Simon Désaulniers, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 09 May 2020 20:36:40 -0400</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/tags/gnu/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     
 
       
@@ -28,12 +27,27 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 09 May 2020 20:36:40 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/debian/passer-%C3%A0-testing/</guid>
-        <description>Debian est une des distributions de GNU/Linux les plus communes et robustes grâce à son système de publication de version structuré et méticuleux. Les versions passent par différents stades de développement appelés «branches». On peut voir ces branches comme des «versions» de Debian qui ne sont pas figées dans le temps contrairement aux publications de Debian. Par exemple, Buster est le nom de la dernière version publiée par Debian à ce jour et la branche correspondant à Debian est appelée stable.</description>
+        <description>&lt;p&gt;Debian est une des distributions de GNU/Linux les plus communes et robustes
+grâce à son système de publication de version structuré et méticuleux. Les
+versions passent par différents stades de développement appelés «branches». On
+peut voir ces branches comme des «versions» de Debian qui ne sont pas figées
+dans le temps contrairement aux publications de Debian. Par exemple, Buster est
+le nom de la dernière version publiée par Debian à ce jour et la branche
+correspondant à Debian est appelée &lt;code&gt;stable&lt;/code&gt;. Par défaut, il s&amp;rsquo;agit de la branche
+avec laquelle Debian s&amp;rsquo;installe. Comme le système de paquetage inclut d&amp;rsquo;abord
+les paquets dans la branche &lt;code&gt;unstable&lt;/code&gt;, puis &lt;code&gt;testing&lt;/code&gt; et finalement &lt;code&gt;stable&lt;/code&gt;,
+les versions prennent un certains temps à aboutir. Ce faisant, ceci garantie une
+stabilité aux utilisateurs (d&amp;rsquo;où le nom de la branche). Ceci dit, certains
+utilisateurs plus avancés ayant le désir d&amp;rsquo;un système plus à jour peuvent
+configurer leur système afin que celui-ci passe à &lt;code&gt;testing&lt;/code&gt;. Ce processus est
+très commun parmi les utilisateurs avancés et comporte pratiquement très peu
+d&amp;rsquo;inconvénients. Pour plus d&amp;rsquo;information par rapport aux branches, voyez les
+différents liens ci-après:&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/debian/Debian_logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/debian/Debian_logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             
@@ -74,13 +88,32 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 11 Apr 2020 00:42:27 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/outils/fzf/</guid>
-        <description>fzf est un programme filtrant le flux de son entrée standard par mots clefs fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type fuzzy (d&amp;rsquo;où le nom fzf pour fuzzy finder), c&amp;rsquo;est-à-dire que les termes fournis au programme sont décomposés en sous-mots afin de permettre des recherches approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:
-1 2 3 toto titi tutu Si l&amp;rsquo;utilisateur fournissait le terme tt, toutes les lignes seraient sélectionnées, puisque les sous-mots t et t se trouvent tous deux dans toutes les lignes.</description>
+        <description>&lt;p&gt;&lt;code&gt;fzf&lt;/code&gt; est un programme filtrant le flux de son entrée standard par mots clefs
+fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type &lt;em&gt;fuzzy&lt;/em&gt;
+(d&amp;rsquo;où le nom &lt;em&gt;fzf&lt;/em&gt; pour &lt;em&gt;fuzzy finder&lt;/em&gt;), c&amp;rsquo;est-à-dire que les termes fournis au
+programme sont décomposés en sous-mots afin de permettre des recherches
+approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plain&#34; data-lang=&#34;plain&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;toto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;titi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tutu
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Si l&amp;rsquo;utilisateur fournissait le terme &lt;code&gt;tt&lt;/code&gt;, toutes les lignes seraient
+sélectionnées, puisque les sous-mots &lt;code&gt;t&lt;/code&gt; et &lt;code&gt;t&lt;/code&gt; se trouvent tous deux dans
+toutes les lignes. Cependant, avec le terme de recherche &lt;code&gt;oo&lt;/code&gt;, seul la première
+ligne correspondrait avec le mot &lt;code&gt;toto&lt;/code&gt; selon le même raisonnement.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/fzf/fzf-logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/fzf/fzf-logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

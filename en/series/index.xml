@@ -18,12 +18,10 @@
     
         <atom:link href="https://sim590.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
-        <title>Google Summer Of Code</title>
+        <title>Google Summer of Code</title>
         <link>https://sim590.github.io/en/series/google-summer-of-code/</link>
         <pubDate>Fri, 19 Aug 2016 12:04:13 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>

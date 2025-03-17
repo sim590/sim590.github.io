@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/categories/outil/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,13 +27,32 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 11 Apr 2020 00:42:27 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/outils/fzf/</guid>
-        <description>fzf est un programme filtrant le flux de son entrée standard par mots clefs fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type fuzzy (d&amp;rsquo;où le nom fzf pour fuzzy finder), c&amp;rsquo;est-à-dire que les termes fournis au programme sont décomposés en sous-mots afin de permettre des recherches approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:
-1 2 3 toto titi tutu Si l&amp;rsquo;utilisateur fournissait le terme tt, toutes les lignes seraient sélectionnées, puisque les sous-mots t et t se trouvent tous deux dans toutes les lignes.</description>
+        <description>&lt;p&gt;&lt;code&gt;fzf&lt;/code&gt; est un programme filtrant le flux de son entrée standard par mots clefs
+fournis par l&amp;rsquo;utilisateur de manière interactive. Le filtre est du type &lt;em&gt;fuzzy&lt;/em&gt;
+(d&amp;rsquo;où le nom &lt;em&gt;fzf&lt;/em&gt; pour &lt;em&gt;fuzzy finder&lt;/em&gt;), c&amp;rsquo;est-à-dire que les termes fournis au
+programme sont décomposés en sous-mots afin de permettre des recherches
+approximatives par l&amp;rsquo;utilisateur. Par exemple, prenons l&amp;rsquo;entrée suivante:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plain&#34; data-lang=&#34;plain&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;toto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;titi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tutu
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Si l&amp;rsquo;utilisateur fournissait le terme &lt;code&gt;tt&lt;/code&gt;, toutes les lignes seraient
+sélectionnées, puisque les sous-mots &lt;code&gt;t&lt;/code&gt; et &lt;code&gt;t&lt;/code&gt; se trouvent tous deux dans
+toutes les lignes. Cependant, avec le terme de recherche &lt;code&gt;oo&lt;/code&gt;, seul la première
+ligne correspondrait avec le mot &lt;code&gt;toto&lt;/code&gt; selon le même raisonnement.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/fzf/fzf-logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/fzf/fzf-logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             
@@ -84,13 +101,48 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sun, 22 Mar 2020 11:11:56 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/vim/vim-peut-tout-faire/</guid>
-        <description>Vim est un éditeur de texte et clairement le meilleur qui soit. Je ne dis pas ça sans peser mes mots. Ceci dit, il ne faut pas lui prêter une identité qu&amp;rsquo;il n&amp;rsquo;a pas. Vim n&amp;rsquo;est pas un environnement de développement intégré (EDI ou IDE en anglais) complet. Cependant, plusieurs aspects à son utilisation font sa grande force pour fournir un EDI complet à son usager:
-un langage de touches permettant aux doigts de faire tout le travail d&amp;rsquo;édition de texte (couper, effacer, coller, réordonner, formater, etc.</description>
+        <description>&lt;p&gt;Vim est un &lt;a href=&#34;https://fr.wikipedia.org/wiki/%C3%89diteur_de_texte&#34;&gt;éditeur de texte&lt;/a&gt; et clairement le meilleur qui soit. Je ne
+dis pas ça sans peser mes mots. Ceci dit, il ne faut pas lui prêter une identité
+qu&amp;rsquo;il n&amp;rsquo;a pas. Vim n&amp;rsquo;est pas un environnement de développement intégré (EDI ou
+IDE en anglais) complet.  Cependant, plusieurs aspects à son utilisation font sa
+grande force pour fournir un EDI complet à son usager:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;un &lt;strong&gt;langage de touches&lt;/strong&gt; permettant aux doigts de faire tout le travail
+d&amp;rsquo;édition de texte (couper, effacer, coller, réordonner, formater, etc.). En
+effet, dans une boîte de texte régulière (comme ce qu&amp;rsquo;on trouve dans les EDIs
+populaires) la modification de texte, et non la simple écriture, n&amp;rsquo;est pas
+chose facile. Elle demande souvent l&amp;rsquo;utilisation de la souris, donc la perte
+de la position des mains déjà en place pour écrire. De plus, cette approche
+est normalement très lente. Avec Vim, les doigts font le travail. La meilleure
+comparaison pour comprendre le sentiment est justement celle de l&amp;rsquo;écriture. On
+ne pense pas à trouver les touches pour écrire et cela se fait
+automatiquement. Pour la modification de texte avec Vim, c&amp;rsquo;est la même chose.&lt;/li&gt;
+&lt;li&gt;un &lt;strong&gt;langage de script&lt;/strong&gt; (&lt;em&gt;VimScript&lt;/em&gt;) qui lui permet une haute extensibilité;&lt;/li&gt;
+&lt;li&gt;une &lt;strong&gt;intégration de l&amp;rsquo;interface système&lt;/strong&gt; (IS ou le &lt;em&gt;shell&lt;/em&gt; en anglais).
+L&amp;rsquo;utilisation de l&amp;rsquo;IS est entièrement intégrée à travers VimScript ainsi que
+les différents modes de Vim (Normal, Visual, CMD, etc.). Je ne peux mettre
+assez l&amp;rsquo;accent sur comment ce trait de Vim est &lt;strong&gt;si significatif&lt;/strong&gt;. Ce
+faisant, de manière totalement gratuite, un utilisateur de Vim bénéficie déjà
+des fonctionnalités de l&amp;rsquo;IS dans son éditeur de texte sans avoir recours à
+l&amp;rsquo;installation très particulière d&amp;rsquo;extension par son EDI. On dit souvent que
+l&amp;rsquo;IS constitue en réalité l&amp;rsquo;environnement de développement d&amp;rsquo;un utilisateur de
+Vim.&lt;/li&gt;
+&lt;li&gt;une capacité d&amp;rsquo;intégrer des &lt;strong&gt;greffons&lt;/strong&gt; (&lt;em&gt;plugins&lt;/em&gt; en anglais);&lt;/li&gt;
+&lt;li&gt;et une &lt;strong&gt;communauté de développeurs&lt;/strong&gt; très investie dans le partage de code et
+d&amp;rsquo;outils qui rendent l&amp;rsquo;intégration d&amp;rsquo;outils de développement aisée et
+facilement personnalisable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le tout fait de Vim le choix idéal. Dans ce qui suit, je prends le temps de
+développer concrètement mon point de vue en m&amp;rsquo;attardant à des préoccupations
+très importantes de tout développeur, mais selon ma perspective, bien entendu.
+Je compte donc explorer le mode Normal de Vim, l&amp;rsquo;intégration avec l&amp;rsquo;IS plus en
+détail, l&amp;rsquo;intégration de &lt;a href=&#34;https://fr.wikipedia.org/wiki/GNU_Debugger&#34;&gt;GDB&lt;/a&gt; (depuis Vim 8) et les différents greffons
+permettant une sensation d&amp;rsquo;EDI complet.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/vim/vim-peut-tout-faire/vim-all-the-things.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/vim/vim-peut-tout-faire/vim-all-the-things.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

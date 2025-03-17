@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/tags/maybe/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,13 +27,23 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 16 Oct 2020 01:17:31 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/monademaybe/</guid>
-        <description>Dans cet article, je souhaite introduire le programmeur à la monade Maybe. Je compte le faire en utilisant le langage Haskell puisqu&amp;rsquo;il s&amp;rsquo;agit du langage fonctionnel que je maîtrise le mieux et que je le considère très expressif et accessible. Afin de démontrer les bénéfices de la monade et des concepts d&amp;rsquo;Haskell, je vais comparer ceux-ci aux méthodes usuelles du langage C++.
-En une phrase, la monade Maybe peut être vue comme un design pattern de gestion des cas d&amp;rsquo;erreur ou d&amp;rsquo;exception.</description>
+        <description>&lt;p&gt;Dans cet article, je souhaite introduire le programmeur à la monade &lt;code&gt;Maybe&lt;/code&gt;. Je
+compte le faire en utilisant le langage Haskell puisqu&amp;rsquo;il s&amp;rsquo;agit du langage
+fonctionnel que je maîtrise le mieux et que je le considère très expressif et
+accessible. Afin de démontrer les bénéfices de la monade et des concepts
+d&amp;rsquo;Haskell, je vais comparer ceux-ci aux méthodes usuelles du langage C++.&lt;/p&gt;
+&lt;p&gt;En une phrase, la monade &lt;code&gt;Maybe&lt;/code&gt; peut être vue comme un &lt;em&gt;design pattern&lt;/em&gt; de
+gestion des cas d&amp;rsquo;erreur ou d&amp;rsquo;exception. Je vais donc utiliser un exemple fictif
+et peu réaliste, mais simple, qui permet de capturer l&amp;rsquo;idée générale. Disons
+qu&amp;rsquo;on a une liste de contacts pour lesquels on souhaite exécuter un traitement.
+Cependant, on décide que, dans la région du programme où on implémente le code
+associé à cette liste de contact, une opération qui échoue sur un contact
+devrait arrêter le fil d&amp;rsquo;exécution du programme.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

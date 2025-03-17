@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Séquence de Collatz on Simon Désaulniers</title>
+    <title>Séquence De Collatz on Simon Désaulniers</title>
     <link>https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</link>
-    <description>Recent content in Séquence de Collatz on Simon Désaulniers</description>
+    <description>Recent content in Séquence De Collatz on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
@@ -17,8 +17,6 @@
     <lastBuildDate>Mon, 02 Mar 2020 04:06:13 -0500</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     
 
       
@@ -29,13 +27,23 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 02 Mar 2020 04:06:13 -0500</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/programmation-dynamique/</guid>
-        <description>L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un tableau à deux dimensions et à l&amp;rsquo;écriture explicite de ce procédé sous forme itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas autrement.
-Dans cet article, je commence par explorer deux exemples triviaux de programmation dynamique. Ensuite, je passe sur un problème tout aussi accessible, mais dont l&amp;rsquo;achèvement optimal demandera l&amp;rsquo;utilisation d&amp;rsquo;une structure Data.</description>
+        <description>&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+&lt;p&gt;L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un
+tableau à deux dimensions et à l&amp;rsquo;écriture explicite de ce procédé sous forme
+itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques
+avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas
+autrement.&lt;/p&gt;
+&lt;p&gt;Dans cet article, je commence par explorer deux exemples triviaux de
+programmation dynamique. Ensuite, je passe sur un problème tout aussi
+accessible, mais dont l&amp;rsquo;achèvement optimal demandera l&amp;rsquo;utilisation d&amp;rsquo;une
+structure &lt;code&gt;Data.Array&lt;/code&gt; plutôt que la liste conventionnelle.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

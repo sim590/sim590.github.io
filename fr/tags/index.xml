@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -59,7 +57,7 @@
       </item>
       
       <item>
-        <title>mpd</title>
+        <title>Mpd</title>
         <link>https://sim590.github.io/fr/tags/mpd/</link>
         <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -113,7 +111,7 @@
       </item>
       
       <item>
-        <title>mpv</title>
+        <title>Mpv</title>
         <link>https://sim590.github.io/fr/tags/mpv/</link>
         <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -203,7 +201,7 @@
       </item>
       
       <item>
-        <title>Gestion d&#39;erreurs</title>
+        <title>Gestion D&#39;erreurs</title>
         <link>https://sim590.github.io/fr/tags/gestion-derreurs/</link>
         <pubDate>Fri, 16 Oct 2020 01:17:31 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -329,7 +327,7 @@
       </item>
       
       <item>
-        <title>Paiement bancaire</title>
+        <title>Paiement Bancaire</title>
         <link>https://sim590.github.io/fr/tags/paiement-bancaire/</link>
         <pubDate>Fri, 31 Jul 2020 21:18:20 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -419,6 +417,24 @@
       </item>
       
       <item>
+        <title>GNU/Linux</title>
+        <link>https://sim590.github.io/fr/tags/gnu/linux/</link>
+        <pubDate>Sat, 09 May 2020 20:36:40 -0400</pubDate>
+        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
+        
+        <guid>https://sim590.github.io/fr/tags/gnu/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Simon Désaulniers</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Paquet Debian</title>
         <link>https://sim590.github.io/fr/tags/paquet-debian/</link>
         <pubDate>Sat, 09 May 2020 20:36:40 -0400</pubDate>
@@ -437,7 +453,7 @@
       </item>
       
       <item>
-        <title>pass</title>
+        <title>Pass</title>
         <link>https://sim590.github.io/fr/tags/pass/</link>
         <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -473,7 +489,7 @@
       </item>
       
       <item>
-        <title>ranger</title>
+        <title>Ranger</title>
         <link>https://sim590.github.io/fr/tags/ranger/</link>
         <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -509,7 +525,7 @@
       </item>
       
       <item>
-        <title>zsh</title>
+        <title>Zsh</title>
         <link>https://sim590.github.io/fr/tags/zsh/</link>
         <pubDate>Sat, 11 Apr 2020 00:42:27 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -527,7 +543,7 @@
       </item>
       
       <item>
-        <title>hjkl</title>
+        <title>Hjkl</title>
         <link>https://sim590.github.io/fr/tags/hjkl/</link>
         <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -563,7 +579,7 @@
       </item>
       
       <item>
-        <title>Chiffrement de bout en bout</title>
+        <title>Chiffrement De Bout en Bout</title>
         <link>https://sim590.github.io/fr/tags/chiffrement-de-bout-en-bout/</link>
         <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -635,7 +651,7 @@
       </item>
       
       <item>
-        <title>Protocole de communication</title>
+        <title>Protocole De Communication</title>
         <link>https://sim590.github.io/fr/tags/protocole-de-communication/</link>
         <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -707,7 +723,7 @@
       </item>
       
       <item>
-        <title>nombre triangulaire</title>
+        <title>Nombre Triangulaire</title>
         <link>https://sim590.github.io/fr/tags/nombre-triangulaire/</link>
         <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -725,30 +741,12 @@
       </item>
       
       <item>
-        <title>Séquence de Collatz</title>
+        <title>Séquence De Collatz</title>
         <link>https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</link>
         <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         
         <guid>https://sim590.github.io/fr/tags/s%C3%A9quence-de-collatz/</guid>
-        <description></description>
-        
-        <dc:creator>Simon Désaulniers</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>GNU/Linux</title>
-        <link>https://sim590.github.io/fr/tags/gnu/linux/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
-        
-        <guid>https://sim590.github.io/fr/tags/gnu/linux/</guid>
         <description></description>
         
         <dc:creator>Simon Désaulniers</dc:creator>

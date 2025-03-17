@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/eo/gramatiko/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,14 +27,19 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 18 Apr 2020 11:19:48 -0400</atom:modified>
         <guid>https://sim590.github.io/eo/gramatiko/uzado-de-evortoj-kiel-priskribo/</guid>
-        <description>Freŝdate, mi komencis pli ofte rimarki iun uztipon de E-vortoj en variaj specoj de komunikado, ĉu estu retfilmaj, ĉu estu tekstaj. La uzo ĉiam ŝajnis erara laŭ mi. Do mi ĉiam estis surprizita kaj konfuza.
-Unue mi difinu la fakvorton «E-vorto». Laŭ la PMEG, «vorton kun la finaĵo E oni nomas E-vorto. E-vortoj montras manierojn, lokojn, tempojn, kvantojn k.s.» (PMEG, versio 14, paĝo 51).
-Do, kio estas tiu tipo de uzado de la E-vortoj kiujn mi ne tute komprenas.</description>
+        <description>&lt;p&gt;Freŝdate, mi komencis pli ofte rimarki iun uztipon de E-vortoj en variaj specoj
+de komunikado, ĉu estu retfilmaj, ĉu estu tekstaj. La uzo ĉiam ŝajnis erara laŭ
+mi. Do mi ĉiam estis surprizita kaj konfuza.&lt;/p&gt;
+&lt;p&gt;Unue mi difinu la fakvorton «E-vorto». Laŭ la &lt;a href=&#34;https://bertilow.com/pmeg/&#34;&gt;PMEG&lt;/a&gt;, «vorton kun la finaĵo E
+oni nomas E-vorto. E-vortoj montras manierojn, lokojn, tempojn, kvantojn k.s.»
+(PMEG, versio 14, paĝo 51).&lt;/p&gt;
+&lt;p&gt;Do, kio estas tiu tipo de uzado de la E-vortoj kiujn mi ne tute komprenas. Jen,
+mi precizigu kion mi volas diri per unu ekzemplo:&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/pmeg-kovrilo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/pmeg-kovrilo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

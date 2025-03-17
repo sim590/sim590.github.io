@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/categories/haskell/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,13 +27,27 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 23 Jul 2021 04:03:00 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/transformateurs/</guid>
-        <description>Dès lors qu&amp;rsquo;on découvre les monades et leur utilité, on ne peut faire autrement que de les étudier davantage et trouver les occasions pour les utiliser. Après tout, ils sont des concepts clefs dans l&amp;rsquo;utilisation sérieuse d&amp;rsquo;un langage fonctionnel comme Haskell. Par exemple, on ne peut pas faire d&amp;rsquo;opérations d&amp;rsquo;entrée/sortie si on ne fonctionne pas dans la monade IO.
-Une limitation importante prend forme très rapidement sous nos yeux: il devient difficile d&amp;rsquo;utiliser plusieurs monades ensembles car on doit forcément les développer pour passer d&amp;rsquo;une monade à l&amp;rsquo;autre.</description>
+        <description>&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+&lt;p&gt;Dès lors qu&amp;rsquo;on découvre les monades et leur utilité, on ne peut faire autrement
+que de les étudier davantage et trouver les occasions pour les utiliser. Après
+tout, ils sont des concepts clefs dans l&amp;rsquo;utilisation sérieuse d&amp;rsquo;un langage
+fonctionnel comme Haskell. Par exemple, on ne peut pas faire d&amp;rsquo;opérations
+d&amp;rsquo;entrée/sortie si on ne fonctionne pas dans la monade &lt;code&gt;IO&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Une limitation importante prend forme très rapidement sous nos yeux: il devient
+difficile d&amp;rsquo;utiliser plusieurs monades ensembles car on doit forcément les
+développer pour passer d&amp;rsquo;une monade à l&amp;rsquo;autre. Ce faisant, on doit choisir entre
+les propriétés d&amp;rsquo;une monade ou l&amp;rsquo;autre et on ne peut donc pas bénéficier des
+différents monades en même temps. Les transformateurs de monades visent
+justement à régler ce problème de manière à fournir une écriture finale
+satisfaisante autant au niveau sémantique que pour l&amp;rsquo;organisation logique du
+code.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             
@@ -72,13 +84,23 @@ Une limitation importante prend forme très rapidement sous nos yeux: il devient
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 16 Oct 2020 01:17:31 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/monademaybe/</guid>
-        <description>Dans cet article, je souhaite introduire le programmeur à la monade Maybe. Je compte le faire en utilisant le langage Haskell puisqu&amp;rsquo;il s&amp;rsquo;agit du langage fonctionnel que je maîtrise le mieux et que je le considère très expressif et accessible. Afin de démontrer les bénéfices de la monade et des concepts d&amp;rsquo;Haskell, je vais comparer ceux-ci aux méthodes usuelles du langage C++.
-En une phrase, la monade Maybe peut être vue comme un design pattern de gestion des cas d&amp;rsquo;erreur ou d&amp;rsquo;exception.</description>
+        <description>&lt;p&gt;Dans cet article, je souhaite introduire le programmeur à la monade &lt;code&gt;Maybe&lt;/code&gt;. Je
+compte le faire en utilisant le langage Haskell puisqu&amp;rsquo;il s&amp;rsquo;agit du langage
+fonctionnel que je maîtrise le mieux et que je le considère très expressif et
+accessible. Afin de démontrer les bénéfices de la monade et des concepts
+d&amp;rsquo;Haskell, je vais comparer ceux-ci aux méthodes usuelles du langage C++.&lt;/p&gt;
+&lt;p&gt;En une phrase, la monade &lt;code&gt;Maybe&lt;/code&gt; peut être vue comme un &lt;em&gt;design pattern&lt;/em&gt; de
+gestion des cas d&amp;rsquo;erreur ou d&amp;rsquo;exception. Je vais donc utiliser un exemple fictif
+et peu réaliste, mais simple, qui permet de capturer l&amp;rsquo;idée générale. Disons
+qu&amp;rsquo;on a une liste de contacts pour lesquels on souhaite exécuter un traitement.
+Cependant, on décide que, dans la région du programme où on implémente le code
+associé à cette liste de contact, une opération qui échoue sur un contact
+devrait arrêter le fil d&amp;rsquo;exécution du programme.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             
@@ -123,13 +145,23 @@ En une phrase, la monade Maybe peut être vue comme un design pattern de gestion
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 02 Mar 2020 04:06:13 -0500</atom:modified>
         <guid>https://sim590.github.io/fr/haskell/programmation-dynamique/</guid>
-        <description>L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un tableau à deux dimensions et à l&amp;rsquo;écriture explicite de ce procédé sous forme itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas autrement.
-Dans cet article, je commence par explorer deux exemples triviaux de programmation dynamique. Ensuite, je passe sur un problème tout aussi accessible, mais dont l&amp;rsquo;achèvement optimal demandera l&amp;rsquo;utilisation d&amp;rsquo;une structure Data.</description>
+        <description>&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+&lt;p&gt;L&amp;rsquo;approche de programmation dynamique est souvent associée au remplissage d&amp;rsquo;un
+tableau à deux dimensions et à l&amp;rsquo;écriture explicite de ce procédé sous forme
+itérative. Dans un langage fonctionnel comme Haskell, on bénéficie de quelques
+avantages d&amp;rsquo;expressivité de haut niveau et de lisibilité qu&amp;rsquo;on ne retrouve pas
+autrement.&lt;/p&gt;
+&lt;p&gt;Dans cet article, je commence par explorer deux exemples triviaux de
+programmation dynamique. Ensuite, je passe sur un problème tout aussi
+accessible, mais dont l&amp;rsquo;achèvement optimal demandera l&amp;rsquo;utilisation d&amp;rsquo;une
+structure &lt;code&gt;Data.Array&lt;/code&gt; plutôt que la liste conventionnelle.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/haskell.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

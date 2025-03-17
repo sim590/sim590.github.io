@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/tags/musiccontrol/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,12 +27,27 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Thu, 29 Dec 2022 00:00:00 +0000</atom:modified>
         <guid>https://sim590.github.io/fr/steamdeck/mpd-music-control/</guid>
-        <description>En tant que vétéran (GNU)Linux aguerri et de fan de technos libres, je me suis donné l&amp;rsquo;occasion d&amp;rsquo;expérimenter plusieurs programmes dont j&amp;rsquo;ai développé une dépendance avec certains d&amp;rsquo;eux, et avec raison. C&amp;rsquo;est le cas du programme MPD (Music Player Daemon) qui est un programme de lecture de musique roulant en mode serveur. On l&amp;rsquo;utilise donc normalement en pair avec un client comme mpdevil. Personnellement, j&amp;rsquo;utilise ncmpcpp et il y a une longue liste de clients pour MPD avec des fonctionnalités variées.</description>
+        <description>&lt;p&gt;En tant que vétéran (GNU)Linux aguerri et de fan de technos libres, je me suis
+donné l&amp;rsquo;occasion d&amp;rsquo;expérimenter plusieurs programmes dont j&amp;rsquo;ai développé une
+dépendance avec certains d&amp;rsquo;eux, et avec raison. C&amp;rsquo;est le cas du programme MPD
+(Music Player Daemon) qui est un programme de lecture de musique roulant en mode
+serveur. On l&amp;rsquo;utilise donc normalement en pair avec un client comme &lt;a href=&#34;https://github.com/SoongNoonien/mpdevil&#34;&gt;mpdevil&lt;/a&gt;.
+Personnellement, j&amp;rsquo;utilise &lt;a href=&#34;https://github.com/arybczak/ncmpcpp&#34;&gt;ncmpcpp&lt;/a&gt; et il y a une &lt;a href=&#34;https://www.musicpd.org/clients/&#34;&gt;longue liste de
+clients&lt;/a&gt; pour MPD avec des fonctionnalités variées. Depuis que j&amp;rsquo;ai
+reçu ma Steam Deck, j&amp;rsquo;ai donc bien sûr installé MPD sur celle-ci afin de pouvoir
+contrôler avec mon téléphone (via &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.namelessdev.mpdroid&amp;amp;gl=US&amp;amp;pli=1&#34;&gt;MPDroid&lt;/a&gt;) la musique qui joue sur ma Steam
+Deck connectée à ma télé ou à mes écouteurs Bluetooth. Par contre, je n&amp;rsquo;avais
+pas encore de moyen de contrôler MPD par la Steam Deck directement autrement
+qu&amp;rsquo;en utilisant une app graphique comme mpdevil, mais c&amp;rsquo;était handicapant
+considérant le type de contrôle (joystick ou trackpad) à notre disposition.
+Parfois, on peut se trouver à utiliser la Steam Deck avec une manette bluetooth,
+donc on n&amp;rsquo;a pas envie d&amp;rsquo;une interface qui est prévue pour la souris, quand on
+n&amp;rsquo;a qu&amp;rsquo;un joystick à portée de main.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/steamdeck/mpd/mpd.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/steamdeck/mpd/mpd.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>mpv on Simon Désaulniers</title>
+    <title>Mpv on Simon Désaulniers</title>
     <link>https://sim590.github.io/fr/tags/mpv/</link>
-    <description>Recent content in mpv on Simon Désaulniers</description>
+    <description>Recent content in Mpv on Simon Désaulniers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <managingEditor>sim.desaulniers@gmail.com (Simon Désaulniers)</managingEditor>
@@ -17,8 +17,6 @@
     <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://sim590.github.io/fr/tags/mpv/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     
 
       
@@ -29,13 +27,20 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sun, 09 Oct 2022 00:00:00 +0000</atom:modified>
         <guid>https://sim590.github.io/fr/steamdeck/serveur-mpv/</guid>
-        <description>J&amp;rsquo;avais commandé une Steam Deck, un terminal mobile (selon la traduction de l&amp;rsquo;OQLF) basé sur Archlinux, dès le moment que j&amp;rsquo;ai appris l&amp;rsquo;existence de ce projet par Valve. Ce terminal mobile est en fait un ordinateur complet ayant comme principale fonction de fournir une plateforme de jeu portable, mais en réalité il permet une panoplie de choses qui la rend capable de surpasser la compétition.
-Pourquoi ? Pour plusieurs raisons, mais principalement parce que je crois que c&amp;rsquo;est un appareil qui jouera un rôle central dans le cheminement de GNU/Linux vers un statut de système plus populaire chez les gens moins techniques et non initiés.</description>
+        <description>&lt;p&gt;J&amp;rsquo;avais commandé une &lt;a href=&#34;https://www.steamdeck.com/fr/&#34;&gt;Steam Deck&lt;/a&gt;, un terminal mobile (selon &lt;a href=&#34;https://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=8360495&#34;&gt;la traduction de
+l&amp;rsquo;OQLF&lt;/a&gt;) basé sur &lt;a href=&#34;https://www.archlinux.org/&#34;&gt;Archlinux&lt;/a&gt;, dès le moment que j&amp;rsquo;ai appris l&amp;rsquo;existence de ce
+projet par &lt;a href=&#34;https://www.valvesoftware.com/&#34;&gt;Valve&lt;/a&gt;. Ce terminal mobile est en fait un ordinateur complet ayant comme principale
+fonction de fournir une plateforme de jeu portable, mais en réalité il permet une panoplie de choses
+qui la rend capable de surpasser la compétition.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sim590.github.io/images/steamdeck/steamdeck.png&#34; alt=&#34;steamdeck&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pourquoi ? Pour plusieurs raisons, mais principalement parce que je crois que c&amp;rsquo;est un appareil qui
+jouera un rôle central dans le cheminement de GNU/Linux vers un statut de système plus populaire
+chez les gens moins techniques et non initiés.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/steamdeck/mpv/mpv.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/steamdeck/mpv/mpv.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

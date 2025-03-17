@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/tags/int%C3%A9r%C3%AAt/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,12 +27,25 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 31 Jul 2020 21:18:20 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/maths/calculs-hypothecaires/</guid>
-        <description>Je regarde les maisons et condos depuis un certain temps déjà, histoire de sentir un peu ce que l&amp;rsquo;achat implique pour un emprunteur. J&amp;rsquo;ai pris la peine de rechercher différentes informations comme les conditions et les options pour une assurance hypothèque, les frais associés à l&amp;rsquo;habitation (charge de copropriété, taxe scolaire, etc.) ainsi que les taux d&amp;rsquo;intérêt associés à un prêt. J&amp;rsquo;ai donc voulu mettre tout cela en commun afin d&amp;rsquo;avoir un aperçu de mes paiements par mois ainsi que ce que cela engendre sur une période plus longue comme 5, 10 ou même 25 ans.</description>
+        <description>&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+&lt;p&gt;Je regarde les maisons et condos depuis un certain temps déjà, histoire de
+sentir un peu ce que l&amp;rsquo;achat implique pour un emprunteur. J&amp;rsquo;ai pris la peine de
+rechercher différentes informations comme les conditions et les options pour une
+assurance hypothèque, les frais associés à l&amp;rsquo;habitation (charge de copropriété,
+taxe scolaire, etc.) ainsi que les taux d&amp;rsquo;intérêt associés à un prêt. J&amp;rsquo;ai donc
+voulu mettre tout cela en commun afin d&amp;rsquo;avoir un aperçu de mes paiements par
+mois ainsi que ce que cela engendre sur une période plus longue comme 5, 10 ou
+même 25 ans. J&amp;rsquo;ai ainsi eu l&amp;rsquo;occasion de faire certains calculs qui seront
+utiles à plusieurs pour comprendre comment les paiements hypothécaires sont
+calculés. En particulier, je veux exposer trois calculs clefs dans la prévision
+des avantages et inconvénients d&amp;rsquo;acheter une propriété versus louer un logement:&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/maths/newton.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/maths/newton.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

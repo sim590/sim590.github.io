@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -167,7 +165,7 @@
       </item>
       
       <item>
-        <title>Éditeur de texte</title>
+        <title>Éditeur De Texte</title>
         <link>https://sim590.github.io/fr/categories/%C3%A9diteur-de-texte/</link>
         <pubDate>Sun, 22 Mar 2020 11:11:56 -0400</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -221,7 +219,7 @@
       </item>
       
       <item>
-        <title>Vie privée</title>
+        <title>Vie Privée</title>
         <link>https://sim590.github.io/fr/categories/vie-priv%C3%A9e/</link>
         <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
@@ -275,7 +273,7 @@
       </item>
       
       <item>
-        <title>Programmation dynamique</title>
+        <title>Programmation Dynamique</title>
         <link>https://sim590.github.io/fr/categories/programmation-dynamique/</link>
         <pubDate>Mon, 02 Mar 2020 04:06:13 -0500</pubDate>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>

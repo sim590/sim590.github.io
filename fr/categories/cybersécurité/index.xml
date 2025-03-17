@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/categories/cybers%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,13 +27,22 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 09 Mar 2020 00:00:00 +0000</atom:modified>
         <guid>https://sim590.github.io/fr/cybers%C3%A9curit%C3%A9/comment-bien-assurer-la-confidentialit%C3%A9-du-clavardage/</guid>
-        <description>Lorsqu&amp;rsquo;on utilise les différents outils de communications habituels de nos jours, il est commun de supposer la garantie de sa vie privée. L&amp;rsquo;utilisateur moyen ne se pose aucune question lorsqu&amp;rsquo;il se connecte à des services comme Facebook, Twitter ou Skype. Ou encore, on se rassure tout de suite à l&amp;rsquo;idée de voir des symboles de &amp;ldquo;sécurité&amp;rdquo; comme le suivant.
-Tous les services susmentionnés sont effectivement munis de protections, mais contre et pour qui?</description>
+        <description>&lt;p&gt;Lorsqu&amp;rsquo;on utilise les différents outils de communications habituels de nos
+jours, il est commun de supposer la garantie de sa vie privée. L&amp;rsquo;utilisateur
+moyen ne se pose aucune question lorsqu&amp;rsquo;il se connecte à des services comme
+Facebook, Twitter ou Skype. Ou encore, on se rassure tout de suite à l&amp;rsquo;idée de
+voir des symboles de &amp;ldquo;sécurité&amp;rdquo; comme le suivant.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sim590.github.io/images/chrome-s%C3%A9cu.png&#34; alt=&#34;https&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Tous les services susmentionnés sont effectivement munis de protections, mais
+contre et pour qui? Et sous quelle(s) hypothèse(s)? Il s&amp;rsquo;avère que les mesures
+de sécurité des logiciels communiquant sur les réseaux ne protègent réellement
+que les entreprises derrière les services associés. La vie privée des individus
+n&amp;rsquo;est, en majeure partie des cas, pas préservée d&amp;rsquo;aucune manière.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/chiffrement-de-bout-en-bout.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/chiffrement-de-bout-en-bout.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             

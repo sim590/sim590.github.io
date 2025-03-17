@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
       
       
       
@@ -52,13 +50,19 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 12 Feb 2022 09:57:51 -0500</atom:modified>
         <guid>https://sim590.github.io/en/gaming-on-linux/tarkov/</guid>
-        <description>Escape from Tarkov is hyper-realistic first person shooter game including survival, weapon personalization, looting and questing mechanics. It is a well-known game which has been available to play since 2016. However this game has stayed in Beta state since then, it is perfectly correct to call this game full featured.
-Yes, the title says that GNU/Linux runs EFT (Escape from Tarkov), but does that mean that BSG (BattleStateGames), the game studio, has made a fully supported Linux port?</description>
+        <description>&lt;p&gt;Escape from Tarkov is hyper-realistic first person shooter game including survival, weapon
+personalization, looting and questing mechanics. It is a well-known game which has been available to
+play since 2016. However this game has stayed in Beta state since then, it is perfectly correct to
+call this game full featured.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sim590.github.io/images/Escape-from-Tarkov-header.jpg&#34; alt=&#34;EFT_splash&#34; title=&#34;Escape from Tarkov Splash Screen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Yes, the title says that GNU/Linux runs EFT (Escape from Tarkov), but does that mean that &lt;a href=&#34;https://www.battlestategames.com/&#34;&gt;BSG&lt;/a&gt;
+(BattleStateGames), the game studio, has made a fully supported Linux port? Well, no. But that is
+not surprising at all!&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/Escape-from-Tarkov-header.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/Escape-from-Tarkov-header.jpg" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             
@@ -103,7 +107,20 @@ Yes, the title says that GNU/Linux runs EFT (Escape from Tarkov), but does that 
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 19 Aug 2016 12:04:13 -0400</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/final/</guid>
-        <description>The Google Summer of Code is now over. It has been a great experience and I&amp;rsquo;m very glad I&amp;rsquo;ve been able to make it. I&amp;rsquo;ve had the pleasure to contribute to a project showing very good promise for the future of communication: Ring. The words &amp;ldquo;privacy&amp;rdquo; and &amp;ldquo;freedom&amp;rdquo; in terms of technologies are being more and more present in the mind of people. All sorts of projects wanting to achieve these goals are coming to life each days like decentralized web networks (ZeroNet for e.</description>
+        <description>&lt;div style=&#34;float:right&#34;&gt;
+    &lt;img width=&#34;250&#34; src=&#34;https://sim590.github.io/images/gsoc.png&#34;/&gt;&lt;br&gt;
+    &lt;div style=&#34;text-align:center&#34;&gt;
+        &lt;img width=&#34;150&#34; src=&#34;https://sim590.github.io/images/debianlogo.svg&#34;/&gt;&lt;br&gt;&lt;br&gt;
+        &lt;img width=&#34;250&#34; src=&#34;https://sim590.github.io/images/ring.svg&#34;/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The Google Summer of Code is now over. It has been a great experience and I&amp;rsquo;m
+very glad I&amp;rsquo;ve been able to make it. I&amp;rsquo;ve had the pleasure to contribute to a
+project showing very good promise for the future of communication: &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt;. The
+words &amp;ldquo;privacy&amp;rdquo; and &amp;ldquo;freedom&amp;rdquo; in terms of technologies are being more and more
+present in the mind of people. All sorts of projects wanting to achieve these
+goals are coming to life each days like decentralized web networks (&lt;a href=&#34;https://zeronet.io/&#34;&gt;ZeroNet&lt;/a&gt;
+for e.g.), blockchain based applications, etc.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -127,8 +144,17 @@ Yes, the title says that GNU/Linux runs EFT (Escape from Tarkov), but does that 
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Thu, 18 Aug 2016 11:09:30 -0400</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/week10-11-12/</guid>
-        <description>Week 10 &amp;amp; 11 During these two weeks, I&amp;rsquo;ve worked hard on paginating values on the DHT.
-Value pagination As explained on my post on data persistence, we&amp;rsquo;ve had network traffic issues. The solution we have found for this is to use the queries (see also this) to filter data on the remote peer we&amp;rsquo;re communicating with. The queries let us select fields of a value instead of fetching whole values.</description>
+        <description>&lt;h2 id=&#34;week-10--11&#34;&gt;Week 10 &amp;amp; 11&lt;/h2&gt;
+&lt;p&gt;During these two weeks, I&amp;rsquo;ve worked hard on paginating values on the DHT.&lt;/p&gt;
+&lt;h3 id=&#34;value-pagination&#34;&gt;Value pagination&lt;/h3&gt;
+&lt;p&gt;As explained on my post on data persistence, we&amp;rsquo;ve had network traffic issues.
+The solution we have found for this is to use the &lt;a href=&#34;http://sim590.github.io/post/gsoc/week34/&#34;&gt;queries&lt;/a&gt; (see also
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43&#34;&gt;this&lt;/a&gt;) to filter data on
+the remote peer we&amp;rsquo;re communicating with. The queries let us select fields of a
+value instead of fetching whole values. This way, we can fetch values with
+unique ids. The &lt;strong&gt;pagination&lt;/strong&gt; is the process of first selecting all value ids
+for a given hash, then making a separate &amp;ldquo;get&amp;rdquo; request packet for each of the
+values.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -152,8 +178,14 @@ Value pagination As explained on my post on data persistence, we&amp;rsquo;ve ha
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 25 Jul 2016 19:41:44 -0400</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/week89/</guid>
-        <description>Week 8 This particular week has been tiresome as I did catch a cold ;). I did come back from Cape Town where debconf taking place. My arrival at Montreal was in the middle of the week, so this week is not plenty of news&amp;hellip;
-What I&amp;rsquo;ve done I have synced myself with my coworker Nicolas Reynaud, who&amp;rsquo;s working on building the indexation system over the DHT. We have worked together on critical algorithms: concurrent maintenance of data in the trie (PHT).</description>
+        <description>&lt;h2 id=&#34;week-8&#34;&gt;Week 8&lt;/h2&gt;
+&lt;p&gt;This particular week has been tiresome as I did catch a cold ;). I did come back
+from Cape Town where &lt;a href=&#34;https://sim590.github.io/en/gsoc/week567/&#34;&gt;debconf&lt;/a&gt; taking place. My arrival at Montreal was in the
+middle of the week, so this week is not plenty of news&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;what-ive-done&#34;&gt;What I&amp;rsquo;ve done&lt;/h3&gt;
+&lt;p&gt;I have synced myself with my coworker Nicolas Reynaud, who&amp;rsquo;s working on building
+the indexation system over the DHT. We have worked together on critical
+algorithms: concurrent maintenance of data in the trie (PHT).&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -177,9 +209,21 @@ What I&amp;rsquo;ve done I have synced myself with my coworker Nicolas Reynaud, 
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sun, 10 Jul 2016 20:06:24 +0200</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/week567/</guid>
-        <description>During week 5, 6 and 7, I have been to the debian conference 2016. It was really interesting meeting with a lot of people all so involved in Debian.
-Key signing party Each year, this is a really important tradition: people gather together and exchange GPG public key fingerprint and sign each other&amp;rsquo;s keys. This contributes greatly to the growth of the web of trust.
-I did exchange public key fingerprint with others.</description>
+        <description>&lt;p&gt;During week 5, 6 and 7, &lt;a href=&#34;https://sim590.github.io/fr/adieu/&#34;&gt;I have been to the debian conference 2016&lt;/a&gt;. It was really interesting meeting with a
+lot of people all so involved in Debian.&lt;/p&gt;
+&lt;h2 id=&#34;key-signing-party&#34;&gt;Key signing party&lt;/h2&gt;
+&lt;p&gt;Each year, this is a really important tradition: people gather together and
+exchange GPG public key fingerprint and sign each other&amp;rsquo;s keys. This contributes
+greatly to the growth of the web of trust.&lt;/p&gt;
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/responsible_behavior.png&#34;/&gt;&lt;/div&gt;
+&lt;p&gt;I did exchange public key fingerprint with others. It was the first opportunity
+become more connected in the PGP web of trust. I think this is something that
+needs to make its way to the less technical people so that everyone can benefit
+from the network privacy features. There is support for some mail clients like
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Mozilla_Thunderbird&#34;&gt;Thunderbird&lt;/a&gt;, but I think there is still work to do there and mostly there is
+work to do about the opinion or point of view people have about encryption ;
+people don&amp;rsquo;t care enough and they don&amp;rsquo;t really know what encryption can do for
+them (digital signature, trust and privacy).&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -203,9 +247,26 @@ I did exchange public key fingerprint with others.</description>
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sun, 10 Jul 2016 19:12:18 +0200</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/week34/</guid>
-        <description>I have finally made a version of the queries code that can viably be integrated into the master branch of OpenDHT. I am awaiting my mentor&amp;rsquo;s approval and/or comments.
-What&amp;rsquo;s done Queries. The library will provide the additional following functions in its API:
-1 2 void get(InfoHash id, GetCallbackSimple cb, DoneCallback donecb={}, Value::Filter f = Value::AllFilter(), Where w = {}) { void query(const InfoHash&amp;amp; hash, QueryCallback cb, DoneCallback done_cb = {}, Query q = {}); The structure Where in the first signature will allow the user to narrow the set of values received through the network those that verify the &amp;ldquo;where&amp;rdquo; statement.</description>
+        <description>&lt;p&gt;I have finally made a version of the &lt;a href=&#34;https://sim590.github.io/en/gsoc/week1/&#34;&gt;queries&lt;/a&gt; code that can viably be
+integrated into the master branch of OpenDHT. I am awaiting my mentor&amp;rsquo;s
+approval and/or comments.&lt;/p&gt;
+&lt;h2 id=&#34;whats-done&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Queries&lt;/strong&gt;. The library will provide the additional following functions in its
+API:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;InfoHash&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GetCallbackSimple&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cb&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;DoneCallback&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;donecb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{},&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Filter&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AllFilter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Where&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;w&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{})&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;InfoHash&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hash&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;QueryCallback&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cb&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;DoneCallback&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;done_cb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{},&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;q&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The structure &lt;code&gt;Where&lt;/code&gt; in the first signature will allow the user to narrow the
+set of values received through the network those that verify the &amp;ldquo;where&amp;rdquo;
+statement. The &lt;code&gt;Where&lt;/code&gt; actually encapsulates a statement of the following
+SQL-ish form: &lt;code&gt;SELECT * WHERE &amp;lt;some_field&amp;gt;=&amp;lt;some_field_value&amp;gt;&lt;/code&gt;.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -229,8 +290,20 @@ What&amp;rsquo;s done Queries. The library will provide the additional following
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Mon, 13 Jun 2016 00:22:58 -0400</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/week2/</guid>
-        <description>I&amp;rsquo;ve been reworking the code for the queries I introduced in the first week.
-What&amp;rsquo;s done I have worked on value pagination and optimization of announce operations; Fixed bugs like #72, #73; I&amp;rsquo;ve split the Query into Select and Where strcutures. This change was explained here. What&amp;rsquo;s still work in progress Value pagination; Optimizing announce operations; </description>
+        <description>&lt;p&gt;I&amp;rsquo;ve been reworking the code for the queries I introduced in the &lt;a href=&#34;https://sim590.github.io/en/gsoc/week1/&#34;&gt;first week&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;whats-done&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I have worked on &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/71&#34;&gt;value pagination&lt;/a&gt; and optimization of announce operations;&lt;/li&gt;
+&lt;li&gt;Fixed bugs like &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/72&#34;&gt;#72&lt;/a&gt;, &lt;a href=&#34;https://github.com/savoirfairelinux/opendht/pull/73&#34;&gt;#73&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ve split the &lt;code&gt;Query&lt;/code&gt; into &lt;code&gt;Select&lt;/code&gt; and &lt;code&gt;Where&lt;/code&gt; strcutures. This change was
+explained
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43#issuecomment-222795776&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;whats-still-work-in-progress&#34;&gt;What&amp;rsquo;s still work in progress&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Value pagination;&lt;/li&gt;
+&lt;li&gt;Optimizing announce operations;&lt;/li&gt;
+&lt;/ul&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -254,10 +327,23 @@ What&amp;rsquo;s done I have worked on value pagination and optimization of anno
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 11 Jun 2016 13:06:11 -0400</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/week1/</guid>
-        <description>I have been working on writing serializable structure for remote filtering of values on the distributed hash table OpenDHT. This structure is called Query.
-What&amp;rsquo;s done The implementation of the base design with other changes have been made. You can see evolution on the matter here;
-Changes allow to create a Query with a SQL-ish statement like the following
-1 Query q(&amp;#34;SELECT * WHERE id=5&amp;#34;); You can then use this query like so</description>
+        <description>&lt;p&gt;I have been working on writing serializable structure for remote filtering of
+values on the distributed hash table &lt;a href=&#34;http://opendht.net&#34;&gt;OpenDHT&lt;/a&gt;. This structure is called
+&lt;code&gt;Query&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;whats-done&#34;&gt;What&amp;rsquo;s done&lt;/h2&gt;
+&lt;p&gt;The implementation of the base design with other changes have been made. You can
+see evolution on the matter
+&lt;a href=&#34;https://github.com/savoirfairelinux/opendht/issues/43&#34;&gt;here&lt;/a&gt;;&lt;/p&gt;
+&lt;p&gt;Changes allow to create a Query with a SQL-ish statement like the following&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;SELECT * WHERE id=5&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;You can then use this query like so&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -281,8 +367,14 @@ Changes allow to create a Query with a SQL-ish statement like the following
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Fri, 03 Jun 2016 00:02:37 -0400</atom:modified>
         <guid>https://sim590.github.io/en/gsoc/intro/</guid>
-        <description>I am part of the group of students working with the Debian organization. You can see my profile on the Debian wiki here.
-Improving distributed and secure communication using free software This the title of my project for this summer. It sounds good, but what am I going to really do? Well, since I&amp;rsquo;m a student at Université du Québec à Montréal, I have had the opportunity to meet with the company Savoir-Faire Linux in Montreal last year and that&amp;rsquo;s when I found out about their exciting project: Ring.</description>
+        <description>&lt;p&gt;I am part of the group of students working with the Debian organization. You can
+see my profile on the Debian wiki &lt;a href=&#34;https://wiki.debian.org/SummerOfCode2016/StudentApplications/SimonD%C3%A9saulniers&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;improving-distributed-and-secure-communication-using-free-software&#34;&gt;Improving distributed and secure communication using free software&lt;/h2&gt;
+&lt;p&gt;This the title of my project for this summer. It sounds good, but what am I
+going to really do? Well, since I&amp;rsquo;m a student at Université du Québec à
+Montréal, I have had the opportunity to meet with the company
+&lt;a href=&#34;https://savoirfairelinux.com&#34;&gt;Savoir-Faire Linux&lt;/a&gt; in Montreal last year and that&amp;rsquo;s when I found out about
+their exciting project: &lt;a href=&#34;https://ring.cx&#34;&gt;Ring&lt;/a&gt;.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
@@ -306,7 +398,13 @@ Improving distributed and secure communication using free software This the titl
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Tue, 17 May 2016 23:59:14 -0400</atom:modified>
         <guid>https://sim590.github.io/en/welcome/</guid>
-        <description>So, this is how it begins I&amp;rsquo;ve been looking for a way to share thoughts about projects I had in mind, communicating how I&amp;rsquo;ve lived some experiences, or simply write down about anything. I first thought about wordpress since I&amp;rsquo;ve already used it, but I soon realised it wasn&amp;rsquo;t fit for what I wanted. I didn&amp;rsquo;t want to spend too much time thinking about how I should deploy or update my blog.</description>
+        <description>&lt;h1 id=&#34;so-this-is-how-it-begins&#34;&gt;So, this is how it begins&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve been looking for a way to share thoughts about projects I had in mind,
+communicating how I&amp;rsquo;ve lived some experiences, or simply write down about
+anything. I first thought about &lt;a href=&#34;https://en.wikipedia.org/wiki/WordPress&#34;&gt;wordpress&lt;/a&gt; since I&amp;rsquo;ve already used it, but I
+soon realised it wasn&amp;rsquo;t fit for what I wanted. I didn&amp;rsquo;t want to spend too much
+time thinking about how I should deploy or update my blog. I just wanted a quick
+and simple way to write a blog.&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         

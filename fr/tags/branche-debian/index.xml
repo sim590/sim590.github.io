@@ -18,8 +18,6 @@
     
         <atom:link href="https://sim590.github.io/fr/tags/branche-debian/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
 
       
       <item>
@@ -29,12 +27,27 @@
         <author>sim.desaulniers@gmail.com (Simon Désaulniers)</author>
         <atom:modified>Sat, 09 May 2020 20:36:40 -0400</atom:modified>
         <guid>https://sim590.github.io/fr/debian/passer-%C3%A0-testing/</guid>
-        <description>Debian est une des distributions de GNU/Linux les plus communes et robustes grâce à son système de publication de version structuré et méticuleux. Les versions passent par différents stades de développement appelés «branches». On peut voir ces branches comme des «versions» de Debian qui ne sont pas figées dans le temps contrairement aux publications de Debian. Par exemple, Buster est le nom de la dernière version publiée par Debian à ce jour et la branche correspondant à Debian est appelée stable.</description>
+        <description>&lt;p&gt;Debian est une des distributions de GNU/Linux les plus communes et robustes
+grâce à son système de publication de version structuré et méticuleux. Les
+versions passent par différents stades de développement appelés «branches». On
+peut voir ces branches comme des «versions» de Debian qui ne sont pas figées
+dans le temps contrairement aux publications de Debian. Par exemple, Buster est
+le nom de la dernière version publiée par Debian à ce jour et la branche
+correspondant à Debian est appelée &lt;code&gt;stable&lt;/code&gt;. Par défaut, il s&amp;rsquo;agit de la branche
+avec laquelle Debian s&amp;rsquo;installe. Comme le système de paquetage inclut d&amp;rsquo;abord
+les paquets dans la branche &lt;code&gt;unstable&lt;/code&gt;, puis &lt;code&gt;testing&lt;/code&gt; et finalement &lt;code&gt;stable&lt;/code&gt;,
+les versions prennent un certains temps à aboutir. Ce faisant, ceci garantie une
+stabilité aux utilisateurs (d&amp;rsquo;où le nom de la branche). Ceci dit, certains
+utilisateurs plus avancés ayant le désir d&amp;rsquo;un système plus à jour peuvent
+configurer leur système afin que celui-ci passe à &lt;code&gt;testing&lt;/code&gt;. Ce processus est
+très commun parmi les utilisateurs avancés et comporte pratiquement très peu
+d&amp;rsquo;inconvénients. Pour plus d&amp;rsquo;information par rapport aux branches, voyez les
+différents liens ci-après:&lt;/p&gt;</description>
         
         <dc:creator>Simon Désaulniers</dc:creator>
         
         
-        <media:content url="https://sim590.github.ioimages/debian/Debian_logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        <media:content url="https://sim590.github.io/images/debian/Debian_logo.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
           
             
